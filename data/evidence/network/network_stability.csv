@@ -1,0 +1,4 @@
+run_id,transport,resolution,frames_received,frames_processed,dropped,reconnects,duration_s,avg_fps,decode_ms_median,detect_ms_median,detect_ms_p95,notes
+
+dual_pc_lan_20261022,jpeg_tcp_length_prefix,640x480,3062,3017,45,0,310.7,9.86,1.167,37.151,47.993,pc1=10.68.164.113;pc2=10.68.164.209;monitor_window_10.2_to_320.9_s
+

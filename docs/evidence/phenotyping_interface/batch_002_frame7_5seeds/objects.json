@@ -1,0 +1,111 @@
+{
+  "exported_at": "2026-10-15 21:50:52",
+  "frame_id": 7,
+  "images": {
+    "annotated": "annotated.png",
+    "fpga": "fpga.png",
+    "original": "original.png",
+    "phenotyping": "phenotyping.png"
+  },
+  "objects": [
+    {
+      "area_px": 14407,
+      "aspect_ratio": 1.694,
+      "bbox": [
+        200.4,
+        93.7,
+        380.5,
+        202.5
+      ],
+      "circularity": 0.738,
+      "confidence": 0.9099,
+      "id": 1,
+      "length_px": 183,
+      "perimeter_px": 495.3,
+      "seed_id": "Seed #001",
+      "status": "OK",
+      "width_px": 108
+    },
+    {
+      "area_px": 14697,
+      "aspect_ratio": 1.7,
+      "bbox": [
+        432.4,
+        114.5,
+        555.5,
+        272.3
+      ],
+      "circularity": 0.744,
+      "confidence": 0.9,
+      "id": 2,
+      "length_px": 184.62,
+      "perimeter_px": 498.13,
+      "seed_id": "Seed #002",
+      "status": "OK",
+      "width_px": 108.59
+    },
+    {
+      "area_px": 11378.5,
+      "aspect_ratio": 1.23,
+      "bbox": [
+        98.2,
+        142.7,
+        207.8,
+        279.3
+      ],
+      "circularity": 0.763,
+      "confidence": 0.9085,
+      "id": 3,
+      "length_px": 139,
+      "perimeter_px": 432.78,
+      "seed_id": "Seed #003",
+      "status": "OK",
+      "width_px": 113
+    },
+    {
+      "area_px": 14730.5,
+      "aspect_ratio": 1.636,
+      "bbox": [
+        331.7,
+        271.7,
+        503.7,
+        387.8
+      ],
+      "circularity": 0.745,
+      "confidence": 0.9048,
+      "id": 4,
+      "length_px": 182.53,
+      "perimeter_px": 498.52,
+      "seed_id": "Seed #004",
+      "status": "OK",
+      "width_px": 111.55
+    },
+    {
+      "area_px": 14500,
+      "aspect_ratio": 1.405,
+      "bbox": [
+        121.1,
+        307.5,
+        281.3,
+        421.4
+      ],
+      "circularity": 0.8,
+      "confidence": 0.9107,
+      "id": 5,
+      "length_px": 163,
+      "perimeter_px": 477.16,
+      "seed_id": "Seed #005",
+      "status": "OK",
+      "width_px": 116
+    }
+  ],
+  "schema_version": 1,
+  "seed_count": 5,
+  "source_json": "./qt/agri_morph_gui_5/../../data/evidence/phenotyping/objects.json",
+  "unit": {
+    "area": "px^2",
+    "length": "px",
+    "perimeter": "px",
+    "width": "px"
+  }
+}

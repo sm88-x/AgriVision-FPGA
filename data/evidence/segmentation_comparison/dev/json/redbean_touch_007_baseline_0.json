@@ -1,0 +1,1876 @@
+{
+  "schema": "agrivision.segmentation.separation.v5",
+  "evaluation_scope": "same working ROI for all three methods",
+  "yolo_raw_count": 39,
+  "effective_detector_parameters": {
+    "iou": 0.55,
+    "conf": 0.25,
+    "device": "cpu",
+    "imgsz": 960
+  },
+  "session_id": "segmentation_dev",
+  "frame_id": 62,
+  "image_id": "redbean_touch_007",
+  "mode": "baseline_0",
+  "species": "redbean",
+  "image_size": [
+    640,
+    480
+  ],
+  "coordinate_system": "original_image_pixels",
+  "input_format": "BGR_uint8",
+  "gt_count": 40,
+  "yolo_count": 39,
+  "final_count": 39,
+  "absolute_error": 1,
+  "status": "OK",
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        435.6,
+        119.4,
+        448.9,
+        135.0
+      ],
+      "confidence": 0.8512,
+      "class_name": "seed"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        317.6,
+        130.4,
+        328.4,
+        146.3
+      ],
+      "confidence": 0.7771,
+      "class_name": "seed"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        458.6,
+        133.9,
+        476.8,
+        153.2
+      ],
+      "confidence": 0.3868,
+      "class_name": "seed"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        458.7,
+        134.2,
+        469.6,
+        151.4
+      ],
+      "confidence": 0.7768,
+      "class_name": "seed"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        323.4,
+        139.2,
+        336.3,
+        156.0
+      ],
+      "confidence": 0.8195,
+      "class_name": "seed"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        465.2,
+        139.8,
+        479.5,
+        155.7
+      ],
+      "confidence": 0.7477,
+      "class_name": "seed"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        275.6,
+        148.3,
+        290.7,
+        163.1
+      ],
+      "confidence": 0.8454,
+      "class_name": "seed"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        435.6,
+        148.4,
+        447.4,
+        165.2
+      ],
+      "confidence": 0.819,
+      "class_name": "seed"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        288.6,
+        156.6,
+        300.3,
+        171.7
+      ],
+      "confidence": 0.802,
+      "class_name": "seed"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        294.1,
+        169.8,
+        306.9,
+        189.0
+      ],
+      "confidence": 0.8204,
+      "class_name": "seed"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        366.4,
+        170.9,
+        380.4,
+        196.7
+      ],
+      "confidence": 0.8279,
+      "class_name": "seed"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        367.4,
+        170.7,
+        380.8,
+        184.7
+      ],
+      "confidence": 0.7706,
+      "class_name": "seed"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        273.4,
+        171.8,
+        284.2,
+        188.6
+      ],
+      "confidence": 0.7181,
+      "class_name": "seed"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        307.7,
+        174.0,
+        319.1,
+        189.8
+      ],
+      "confidence": 0.7901,
+      "class_name": "seed"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        259.6,
+        178.3,
+        275.7,
+        197.3
+      ],
+      "confidence": 0.806,
+      "class_name": "seed"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        323.9,
+        185.1,
+        337.9,
+        202.5
+      ],
+      "confidence": 0.8275,
+      "class_name": "seed"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        349.4,
+        192.9,
+        360.7,
+        204.8
+      ],
+      "confidence": 0.6751,
+      "class_name": "seed"
+    },
+    {
+      "id": 17,
+      "bbox_xyxy": [
+        343.8,
+        193.6,
+        383.7,
+        226.5
+      ],
+      "confidence": 0.6982,
+      "class_name": "seed"
+    },
+    {
+      "id": 18,
+      "bbox_xyxy": [
+        240.5,
+        195.2,
+        251.9,
+        208.1
+      ],
+      "confidence": 0.7942,
+      "class_name": "seed"
+    },
+    {
+      "id": 19,
+      "bbox_xyxy": [
+        334.5,
+        196.3,
+        350.0,
+        208.6
+      ],
+      "confidence": 0.8312,
+      "class_name": "seed"
+    },
+    {
+      "id": 20,
+      "bbox_xyxy": [
+        325.0,
+        196.7,
+        349.2,
+        217.0
+      ],
+      "confidence": 0.4655,
+      "class_name": "seed"
+    },
+    {
+      "id": 21,
+      "bbox_xyxy": [
+        252.2,
+        197.5,
+        266.0,
+        216.0
+      ],
+      "confidence": 0.8638,
+      "class_name": "seed"
+    },
+    {
+      "id": 22,
+      "bbox_xyxy": [
+        197.0,
+        198.7,
+        213.3,
+        214.9
+      ],
+      "confidence": 0.8913,
+      "class_name": "seed"
+    },
+    {
+      "id": 23,
+      "bbox_xyxy": [
+        474.0,
+        200.2,
+        491.6,
+        220.0
+      ],
+      "confidence": 0.8926,
+      "class_name": "seed"
+    },
+    {
+      "id": 24,
+      "bbox_xyxy": [
+        325.0,
+        205.0,
+        343.3,
+        220.1
+      ],
+      "confidence": 0.8446,
+      "class_name": "seed"
+    },
+    {
+      "id": 25,
+      "bbox_xyxy": [
+        271.5,
+        206.0,
+        286.6,
+        222.7
+      ],
+      "confidence": 0.8192,
+      "class_name": "seed"
+    },
+    {
+      "id": 26,
+      "bbox_xyxy": [
+        294.6,
+        208.5,
+        308.8,
+        226.9
+      ],
+      "confidence": 0.8589,
+      "class_name": "seed"
+    },
+    {
+      "id": 27,
+      "bbox_xyxy": [
+        313.3,
+        209.2,
+        325.3,
+        226.0
+      ],
+      "confidence": 0.8137,
+      "class_name": "seed"
+    },
+    {
+      "id": 28,
+      "bbox_xyxy": [
+        339.4,
+        217.0,
+        354.0,
+        230.9
+      ],
+      "confidence": 0.3202,
+      "class_name": "seed"
+    },
+    {
+      "id": 29,
+      "bbox_xyxy": [
+        339.0,
+        224.0,
+        353.1,
+        237.3
+      ],
+      "confidence": 0.8065,
+      "class_name": "seed"
+    },
+    {
+      "id": 30,
+      "bbox_xyxy": [
+        371.8,
+        224.5,
+        389.3,
+        243.0
+      ],
+      "confidence": 0.8661,
+      "class_name": "seed"
+    },
+    {
+      "id": 31,
+      "bbox_xyxy": [
+        323.4,
+        227.9,
+        339.4,
+        243.0
+      ],
+      "confidence": 0.7891,
+      "class_name": "seed"
+    },
+    {
+      "id": 32,
+      "bbox_xyxy": [
+        461.9,
+        231.6,
+        478.6,
+        249.0
+      ],
+      "confidence": 0.8463,
+      "class_name": "seed"
+    },
+    {
+      "id": 33,
+      "bbox_xyxy": [
+        292.9,
+        235.2,
+        309.5,
+        255.5
+      ],
+      "confidence": 0.886,
+      "class_name": "seed"
+    },
+    {
+      "id": 34,
+      "bbox_xyxy": [
+        315.4,
+        247.2,
+        333.4,
+        268.4
+      ],
+      "confidence": 0.868,
+      "class_name": "seed"
+    },
+    {
+      "id": 35,
+      "bbox_xyxy": [
+        392.7,
+        248.6,
+        408.2,
+        266.7
+      ],
+      "confidence": 0.839,
+      "class_name": "seed"
+    },
+    {
+      "id": 36,
+      "bbox_xyxy": [
+        294.0,
+        262.2,
+        310.9,
+        279.2
+      ],
+      "confidence": 0.8864,
+      "class_name": "seed"
+    },
+    {
+      "id": 37,
+      "bbox_xyxy": [
+        320.0,
+        296.6,
+        335.7,
+        316.7
+      ],
+      "confidence": 0.8874,
+      "class_name": "seed"
+    },
+    {
+      "id": 38,
+      "bbox_xyxy": [
+        434.2,
+        334.3,
+        450.6,
+        356.3
+      ],
+      "confidence": 0.8679,
+      "class_name": "seed"
+    }
+  ],
+  "raw_detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        435.6,
+        119.4,
+        448.9,
+        135.0
+      ],
+      "confidence": 0.8512,
+      "class_name": "seed"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        317.6,
+        130.4,
+        328.4,
+        146.3
+      ],
+      "confidence": 0.7771,
+      "class_name": "seed"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        458.6,
+        133.9,
+        476.8,
+        153.2
+      ],
+      "confidence": 0.3868,
+      "class_name": "seed"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        458.7,
+        134.2,
+        469.6,
+        151.4
+      ],
+      "confidence": 0.7768,
+      "class_name": "seed"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        323.4,
+        139.2,
+        336.3,
+        156.0
+      ],
+      "confidence": 0.8195,
+      "class_name": "seed"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        465.2,
+        139.8,
+        479.5,
+        155.7
+      ],
+      "confidence": 0.7477,
+      "class_name": "seed"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        275.6,
+        148.3,
+        290.7,
+        163.1
+      ],
+      "confidence": 0.8454,
+      "class_name": "seed"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        435.6,
+        148.4,
+        447.4,
+        165.2
+      ],
+      "confidence": 0.819,
+      "class_name": "seed"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        288.6,
+        156.6,
+        300.3,
+        171.7
+      ],
+      "confidence": 0.802,
+      "class_name": "seed"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        294.1,
+        169.8,
+        306.9,
+        189.0
+      ],
+      "confidence": 0.8204,
+      "class_name": "seed"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        366.4,
+        170.9,
+        380.4,
+        196.7
+      ],
+      "confidence": 0.8279,
+      "class_name": "seed"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        367.4,
+        170.7,
+        380.8,
+        184.7
+      ],
+      "confidence": 0.7706,
+      "class_name": "seed"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        273.4,
+        171.8,
+        284.2,
+        188.6
+      ],
+      "confidence": 0.7181,
+      "class_name": "seed"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        307.7,
+        174.0,
+        319.1,
+        189.8
+      ],
+      "confidence": 0.7901,
+      "class_name": "seed"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        259.6,
+        178.3,
+        275.7,
+        197.3
+      ],
+      "confidence": 0.806,
+      "class_name": "seed"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        323.9,
+        185.1,
+        337.9,
+        202.5
+      ],
+      "confidence": 0.8275,
+      "class_name": "seed"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        349.4,
+        192.9,
+        360.7,
+        204.8
+      ],
+      "confidence": 0.6751,
+      "class_name": "seed"
+    },
+    {
+      "id": 17,
+      "bbox_xyxy": [
+        343.8,
+        193.6,
+        383.7,
+        226.5
+      ],
+      "confidence": 0.6982,
+      "class_name": "seed"
+    },
+    {
+      "id": 18,
+      "bbox_xyxy": [
+        240.5,
+        195.2,
+        251.9,
+        208.1
+      ],
+      "confidence": 0.7942,
+      "class_name": "seed"
+    },
+    {
+      "id": 19,
+      "bbox_xyxy": [
+        334.5,
+        196.3,
+        350.0,
+        208.6
+      ],
+      "confidence": 0.8312,
+      "class_name": "seed"
+    },
+    {
+      "id": 20,
+      "bbox_xyxy": [
+        325.0,
+        196.7,
+        349.2,
+        217.0
+      ],
+      "confidence": 0.4655,
+      "class_name": "seed"
+    },
+    {
+      "id": 21,
+      "bbox_xyxy": [
+        252.2,
+        197.5,
+        266.0,
+        216.0
+      ],
+      "confidence": 0.8638,
+      "class_name": "seed"
+    },
+    {
+      "id": 22,
+      "bbox_xyxy": [
+        197.0,
+        198.7,
+        213.3,
+        214.9
+      ],
+      "confidence": 0.8913,
+      "class_name": "seed"
+    },
+    {
+      "id": 23,
+      "bbox_xyxy": [
+        474.0,
+        200.2,
+        491.6,
+        220.0
+      ],
+      "confidence": 0.8926,
+      "class_name": "seed"
+    },
+    {
+      "id": 24,
+      "bbox_xyxy": [
+        325.0,
+        205.0,
+        343.3,
+        220.1
+      ],
+      "confidence": 0.8446,
+      "class_name": "seed"
+    },
+    {
+      "id": 25,
+      "bbox_xyxy": [
+        271.5,
+        206.0,
+        286.6,
+        222.7
+      ],
+      "confidence": 0.8192,
+      "class_name": "seed"
+    },
+    {
+      "id": 26,
+      "bbox_xyxy": [
+        294.6,
+        208.5,
+        308.8,
+        226.9
+      ],
+      "confidence": 0.8589,
+      "class_name": "seed"
+    },
+    {
+      "id": 27,
+      "bbox_xyxy": [
+        313.3,
+        209.2,
+        325.3,
+        226.0
+      ],
+      "confidence": 0.8137,
+      "class_name": "seed"
+    },
+    {
+      "id": 28,
+      "bbox_xyxy": [
+        339.4,
+        217.0,
+        354.0,
+        230.9
+      ],
+      "confidence": 0.3202,
+      "class_name": "seed"
+    },
+    {
+      "id": 29,
+      "bbox_xyxy": [
+        339.0,
+        224.0,
+        353.1,
+        237.3
+      ],
+      "confidence": 0.8065,
+      "class_name": "seed"
+    },
+    {
+      "id": 30,
+      "bbox_xyxy": [
+        371.8,
+        224.5,
+        389.3,
+        243.0
+      ],
+      "confidence": 0.8661,
+      "class_name": "seed"
+    },
+    {
+      "id": 31,
+      "bbox_xyxy": [
+        323.4,
+        227.9,
+        339.4,
+        243.0
+      ],
+      "confidence": 0.7891,
+      "class_name": "seed"
+    },
+    {
+      "id": 32,
+      "bbox_xyxy": [
+        461.9,
+        231.6,
+        478.6,
+        249.0
+      ],
+      "confidence": 0.8463,
+      "class_name": "seed"
+    },
+    {
+      "id": 33,
+      "bbox_xyxy": [
+        292.9,
+        235.2,
+        309.5,
+        255.5
+      ],
+      "confidence": 0.886,
+      "class_name": "seed"
+    },
+    {
+      "id": 34,
+      "bbox_xyxy": [
+        315.4,
+        247.2,
+        333.4,
+        268.4
+      ],
+      "confidence": 0.868,
+      "class_name": "seed"
+    },
+    {
+      "id": 35,
+      "bbox_xyxy": [
+        392.7,
+        248.6,
+        408.2,
+        266.7
+      ],
+      "confidence": 0.839,
+      "class_name": "seed"
+    },
+    {
+      "id": 36,
+      "bbox_xyxy": [
+        294.0,
+        262.2,
+        310.9,
+        279.2
+      ],
+      "confidence": 0.8864,
+      "class_name": "seed"
+    },
+    {
+      "id": 37,
+      "bbox_xyxy": [
+        320.0,
+        296.6,
+        335.7,
+        316.7
+      ],
+      "confidence": 0.8874,
+      "class_name": "seed"
+    },
+    {
+      "id": 38,
+      "bbox_xyxy": [
+        434.2,
+        334.3,
+        450.6,
+        356.3
+      ],
+      "confidence": 0.8679,
+      "class_name": "seed"
+    }
+  ],
+  "objects": [
+    {
+      "bbox_xyxy_src": [
+        435.6,
+        119.4,
+        448.9,
+        135.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8512,
+      "source_detection_ids": [
+        0
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 1,
+      "seed_id": "Seed #001"
+    },
+    {
+      "bbox_xyxy_src": [
+        317.6,
+        130.4,
+        328.4,
+        146.3
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7771,
+      "source_detection_ids": [
+        1
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 2,
+      "seed_id": "Seed #002"
+    },
+    {
+      "bbox_xyxy_src": [
+        458.6,
+        133.9,
+        476.8,
+        153.2
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.3868,
+      "source_detection_ids": [
+        2
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 3,
+      "seed_id": "Seed #003"
+    },
+    {
+      "bbox_xyxy_src": [
+        458.7,
+        134.2,
+        469.6,
+        151.4
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7768,
+      "source_detection_ids": [
+        3
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 4,
+      "seed_id": "Seed #004"
+    },
+    {
+      "bbox_xyxy_src": [
+        323.4,
+        139.2,
+        336.3,
+        156.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8195,
+      "source_detection_ids": [
+        4
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 5,
+      "seed_id": "Seed #005"
+    },
+    {
+      "bbox_xyxy_src": [
+        465.2,
+        139.8,
+        479.5,
+        155.7
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7477,
+      "source_detection_ids": [
+        5
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 6,
+      "seed_id": "Seed #006"
+    },
+    {
+      "bbox_xyxy_src": [
+        275.6,
+        148.3,
+        290.7,
+        163.1
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8454,
+      "source_detection_ids": [
+        6
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 7,
+      "seed_id": "Seed #007"
+    },
+    {
+      "bbox_xyxy_src": [
+        435.6,
+        148.4,
+        447.4,
+        165.2
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.819,
+      "source_detection_ids": [
+        7
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 8,
+      "seed_id": "Seed #008"
+    },
+    {
+      "bbox_xyxy_src": [
+        288.6,
+        156.6,
+        300.3,
+        171.7
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.802,
+      "source_detection_ids": [
+        8
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 9,
+      "seed_id": "Seed #009"
+    },
+    {
+      "bbox_xyxy_src": [
+        294.1,
+        169.8,
+        306.9,
+        189.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8204,
+      "source_detection_ids": [
+        9
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 10,
+      "seed_id": "Seed #010"
+    },
+    {
+      "bbox_xyxy_src": [
+        367.4,
+        170.7,
+        380.8,
+        184.7
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7706,
+      "source_detection_ids": [
+        11
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 11,
+      "seed_id": "Seed #011"
+    },
+    {
+      "bbox_xyxy_src": [
+        366.4,
+        170.9,
+        380.4,
+        196.7
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8279,
+      "source_detection_ids": [
+        10
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 12,
+      "seed_id": "Seed #012"
+    },
+    {
+      "bbox_xyxy_src": [
+        273.4,
+        171.8,
+        284.2,
+        188.6
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7181,
+      "source_detection_ids": [
+        12
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 13,
+      "seed_id": "Seed #013"
+    },
+    {
+      "bbox_xyxy_src": [
+        307.7,
+        174.0,
+        319.1,
+        189.8
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7901,
+      "source_detection_ids": [
+        13
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 14,
+      "seed_id": "Seed #014"
+    },
+    {
+      "bbox_xyxy_src": [
+        259.6,
+        178.3,
+        275.7,
+        197.3
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.806,
+      "source_detection_ids": [
+        14
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 15,
+      "seed_id": "Seed #015"
+    },
+    {
+      "bbox_xyxy_src": [
+        323.9,
+        185.1,
+        337.9,
+        202.5
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8275,
+      "source_detection_ids": [
+        15
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 16,
+      "seed_id": "Seed #016"
+    },
+    {
+      "bbox_xyxy_src": [
+        349.4,
+        192.9,
+        360.7,
+        204.8
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.6751,
+      "source_detection_ids": [
+        16
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 17,
+      "seed_id": "Seed #017"
+    },
+    {
+      "bbox_xyxy_src": [
+        343.8,
+        193.6,
+        383.7,
+        226.5
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.6982,
+      "source_detection_ids": [
+        17
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 18,
+      "seed_id": "Seed #018"
+    },
+    {
+      "bbox_xyxy_src": [
+        240.5,
+        195.2,
+        251.9,
+        208.1
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7942,
+      "source_detection_ids": [
+        18
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 19,
+      "seed_id": "Seed #019"
+    },
+    {
+      "bbox_xyxy_src": [
+        334.5,
+        196.3,
+        350.0,
+        208.6
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8312,
+      "source_detection_ids": [
+        19
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 20,
+      "seed_id": "Seed #020"
+    },
+    {
+      "bbox_xyxy_src": [
+        325.0,
+        196.7,
+        349.2,
+        217.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.4655,
+      "source_detection_ids": [
+        20
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 21,
+      "seed_id": "Seed #021"
+    },
+    {
+      "bbox_xyxy_src": [
+        252.2,
+        197.5,
+        266.0,
+        216.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8638,
+      "source_detection_ids": [
+        21
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 22,
+      "seed_id": "Seed #022"
+    },
+    {
+      "bbox_xyxy_src": [
+        197.0,
+        198.7,
+        213.3,
+        214.9
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8913,
+      "source_detection_ids": [
+        22
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 23,
+      "seed_id": "Seed #023"
+    },
+    {
+      "bbox_xyxy_src": [
+        474.0,
+        200.2,
+        491.6,
+        220.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8926,
+      "source_detection_ids": [
+        23
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 24,
+      "seed_id": "Seed #024"
+    },
+    {
+      "bbox_xyxy_src": [
+        325.0,
+        205.0,
+        343.3,
+        220.1
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8446,
+      "source_detection_ids": [
+        24
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 25,
+      "seed_id": "Seed #025"
+    },
+    {
+      "bbox_xyxy_src": [
+        271.5,
+        206.0,
+        286.6,
+        222.7
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8192,
+      "source_detection_ids": [
+        25
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 26,
+      "seed_id": "Seed #026"
+    },
+    {
+      "bbox_xyxy_src": [
+        294.6,
+        208.5,
+        308.8,
+        226.9
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8589,
+      "source_detection_ids": [
+        26
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 27,
+      "seed_id": "Seed #027"
+    },
+    {
+      "bbox_xyxy_src": [
+        313.3,
+        209.2,
+        325.3,
+        226.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8137,
+      "source_detection_ids": [
+        27
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 28,
+      "seed_id": "Seed #028"
+    },
+    {
+      "bbox_xyxy_src": [
+        339.4,
+        217.0,
+        354.0,
+        230.9
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.3202,
+      "source_detection_ids": [
+        28
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 29,
+      "seed_id": "Seed #029"
+    },
+    {
+      "bbox_xyxy_src": [
+        339.0,
+        224.0,
+        353.1,
+        237.3
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8065,
+      "source_detection_ids": [
+        29
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 30,
+      "seed_id": "Seed #030"
+    },
+    {
+      "bbox_xyxy_src": [
+        371.8,
+        224.5,
+        389.3,
+        243.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8661,
+      "source_detection_ids": [
+        30
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 31,
+      "seed_id": "Seed #031"
+    },
+    {
+      "bbox_xyxy_src": [
+        323.4,
+        227.9,
+        339.4,
+        243.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7891,
+      "source_detection_ids": [
+        31
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 32,
+      "seed_id": "Seed #032"
+    },
+    {
+      "bbox_xyxy_src": [
+        461.9,
+        231.6,
+        478.6,
+        249.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8463,
+      "source_detection_ids": [
+        32
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 33,
+      "seed_id": "Seed #033"
+    },
+    {
+      "bbox_xyxy_src": [
+        292.9,
+        235.2,
+        309.5,
+        255.5
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.886,
+      "source_detection_ids": [
+        33
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 34,
+      "seed_id": "Seed #034"
+    },
+    {
+      "bbox_xyxy_src": [
+        315.4,
+        247.2,
+        333.4,
+        268.4
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.868,
+      "source_detection_ids": [
+        34
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 35,
+      "seed_id": "Seed #035"
+    },
+    {
+      "bbox_xyxy_src": [
+        392.7,
+        248.6,
+        408.2,
+        266.7
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.839,
+      "source_detection_ids": [
+        35
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 36,
+      "seed_id": "Seed #036"
+    },
+    {
+      "bbox_xyxy_src": [
+        294.0,
+        262.2,
+        310.9,
+        279.2
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8864,
+      "source_detection_ids": [
+        36
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 37,
+      "seed_id": "Seed #037"
+    },
+    {
+      "bbox_xyxy_src": [
+        320.0,
+        296.6,
+        335.7,
+        316.7
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8874,
+      "source_detection_ids": [
+        37
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 38,
+      "seed_id": "Seed #038"
+    },
+    {
+      "bbox_xyxy_src": [
+        434.2,
+        334.3,
+        450.6,
+        356.3
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8679,
+      "source_detection_ids": [
+        38
+      ],
+      "status": "OK",
+      "status_reason": "Original YOLO detection",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 39,
+      "seed_id": "Seed #039"
+    }
+  ],
+  "diagnostics": [],
+  "timings_ms": {
+    "yolo_infer_ms": 29.49300000909716,
+    "detector_wall_ms": 33.13200001139194,
+    "separation_ms": 0.04199997056275606,
+    "total_ms": 33.173999981954694,
+    "fpga_dma_ms": null
+  },
+  "source_image": "data/datasets/seeds/raw/redbean_touch_007.png",
+  "split": "dev"
+}

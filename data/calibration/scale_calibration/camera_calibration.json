@@ -1,0 +1,32 @@
+{
+  "calibration_id": "a3441d94-7296-4416-8051-498e1b44395c",
+  "method": "manual_ruler_center_roi",
+  "px_per_mm": 3.480229877464993,
+  "reference": {
+    "known_length_mm": 50,
+    "measured_px": 174.01149387324966,
+    "p1": [
+      239,
+      122
+    ],
+    "p2": [
+      413,
+      124
+    ]
+  },
+  "schema": "agrivision.calibration.v1",
+  "scope": {
+    "image_size": [
+      640,
+      480
+    ],
+    "working_roi_normalized": [
+      0.25,
+      0.25,
+      0.75,
+      0.75
+    ]
+  },
+  "setup_id": "camera_fixed",
+  "valid": true
+}

@@ -1,0 +1,726 @@
+{
+  "calibration_snapshot": {
+    "calibration_id": "191730c0-6231-46f4-8894-3dfa75de8738",
+    "method": "manual_ruler_center_roi",
+    "px_per_mm": 3.480229877464993,
+    "reference": {
+      "known_length_mm": 50,
+      "measured_px": 174.01149387324966,
+      "p1": [
+        239,
+        122
+      ],
+      "p2": [
+        413,
+        124
+      ]
+    },
+    "schema": "agrivision.calibration.v1",
+    "scope": {
+      "image_size": [
+        640,
+        480
+      ],
+      "working_roi_normalized": [
+        0.25,
+        0.25,
+        0.75,
+        0.75
+      ]
+    },
+    "setup_id": "camera0_fixed_640x480_v1",
+    "valid": true
+  },
+  "exported_at": "2026-10-21T16:38:07",
+  "frames": [
+    {
+      "scene": {
+        "actual_registers": null,
+        "applied_frame": null,
+        "config_id": 0,
+        "control_revision": "5be32a75-a619-4bb8-91f5-52417d6ddf60",
+        "fpga_dma_ms": null,
+        "frame_id": 0,
+        "hardware": false,
+        "mode": "manual",
+        "ps_decision_ms": 0.004299916326999664,
+        "receipt_note": "本机算法路径，FPGA 未参与",
+        "register_verified": false,
+        "requested_config": {
+          "config_id": 0,
+          "edge_mode": 0,
+          "enable_gauss": 1,
+          "enable_gray": 1,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual",
+          "threshold": 40
+        },
+        "requested_registers": [
+          {
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "scene": "manual",
+        "setup_id": "camera0_fixed_640x480_v1",
+        "transport_rtt_ms": null
+      },
+      "fpga_file": "",
+      "frame_id": 0,
+      "height": 480,
+      "image_file": ".\\demo\\scene_4482b5eb65cf_00000000_raw.png",
+      "image_format": "BGR8",
+      "objects": [
+        {
+          "area_mm2": null,
+          "area_px": 399.5,
+          "aspect_ratio": 1.1263158670264664,
+          "bbox_xyxy_src": [
+            375,
+            112,
+            400,
+            139
+          ],
+          "calibration_id": null,
+          "circularity": 0.621986806057751,
+          "concavity": 0.16684045881126175,
+          "confidence": 0.8691,
+          "contour_xy_src": [
+            [
+              379,
+              112
+            ],
+            [
+              376,
+              115
+            ],
+            [
+              376,
+              116
+            ],
+            [
+              375,
+              117
+            ],
+            [
+              375,
+              123
+            ],
+            [
+              377,
+              125
+            ],
+            [
+              378,
+              125
+            ],
+            [
+              380,
+              127
+            ],
+            [
+              381,
+              127
+            ],
+            [
+              383,
+              129
+            ],
+            [
+              383,
+              130
+            ],
+            [
+              384,
+              131
+            ],
+            [
+              382,
+              133
+            ],
+            [
+              382,
+              135
+            ],
+            [
+              381,
+              136
+            ],
+            [
+              385,
+              136
+            ],
+            [
+              386,
+              137
+            ],
+            [
+              388,
+              137
+            ],
+            [
+              389,
+              138
+            ],
+            [
+              392,
+              138
+            ],
+            [
+              393,
+              137
+            ],
+            [
+              394,
+              137
+            ],
+            [
+              397,
+              134
+            ],
+            [
+              397,
+              133
+            ],
+            [
+              398,
+              132
+            ],
+            [
+              398,
+              127
+            ],
+            [
+              399,
+              126
+            ],
+            [
+              399,
+              119
+            ],
+            [
+              397,
+              117
+            ],
+            [
+              394,
+              117
+            ],
+            [
+              393,
+              118
+            ],
+            [
+              389,
+              118
+            ],
+            [
+              388,
+              117
+            ],
+            [
+              386,
+              117
+            ],
+            [
+              385,
+              116
+            ],
+            [
+              384,
+              116
+            ],
+            [
+              380,
+              112
+            ]
+          ],
+          "id": 1,
+          "length_mm": null,
+          "length_px": 25.951311111450195,
+          "mask_area_px": 439,
+          "mm_valid": false,
+          "perimeter_mm": null,
+          "perimeter_px": 89.8406194448471,
+          "seed_id": "Seed #001",
+          "source_detection_ids": [
+            0,
+            1
+          ],
+          "status": "OK",
+          "status_reason": "v1: Adaptive surface-chroma; prominence=1; score=0.120; candidates=17",
+          "width_mm": null,
+          "width_px": 23.040882110595703
+        },
+        {
+          "area_mm2": null,
+          "area_px": null,
+          "aspect_ratio": null,
+          "bbox_xyxy_src": [
+            463,
+            127.8,
+            490.8,
+            163
+          ],
+          "calibration_id": null,
+          "circularity": null,
+          "concavity": null,
+          "confidence": 0.8673,
+          "contour_xy_src": [],
+          "id": 2,
+          "length_mm": null,
+          "length_px": null,
+          "mask_area_px": null,
+          "mm_valid": false,
+          "perimeter_mm": null,
+          "perimeter_px": null,
+          "seed_id": "Seed #002",
+          "source_detection_ids": [
+            2
+          ],
+          "status": "UNRESOLVED",
+          "status_reason": "UNRESOLVED: no candidate passes child geometry/area checks（V2 未找到能通过严格子块门槛的候选）",
+          "width_mm": null,
+          "width_px": null
+        },
+        {
+          "area_mm2": null,
+          "area_px": 390,
+          "aspect_ratio": 1.3137829156744443,
+          "bbox_xyxy_src": [
+            363,
+            135,
+            390,
+            157
+          ],
+          "calibration_id": null,
+          "circularity": 0.7012662104777997,
+          "concavity": 0.0866510538641686,
+          "confidence": 0.8691,
+          "contour_xy_src": [
+            [
+              365,
+              135
+            ],
+            [
+              364,
+              136
+            ],
+            [
+              364,
+              138
+            ],
+            [
+              363,
+              139
+            ],
+            [
+              363,
+              142
+            ],
+            [
+              364,
+              143
+            ],
+            [
+              364,
+              146
+            ],
+            [
+              365,
+              147
+            ],
+            [
+              365,
+              148
+            ],
+            [
+              370,
+              153
+            ],
+            [
+              371,
+              153
+            ],
+            [
+              373,
+              155
+            ],
+            [
+              375,
+              155
+            ],
+            [
+              376,
+              156
+            ],
+            [
+              380,
+              156
+            ],
+            [
+              381,
+              155
+            ],
+            [
+              383,
+              155
+            ],
+            [
+              387,
+              151
+            ],
+            [
+              387,
+              148
+            ],
+            [
+              388,
+              147
+            ],
+            [
+              388,
+              143
+            ],
+            [
+              389,
+              142
+            ],
+            [
+              389,
+              139
+            ],
+            [
+              388,
+              138
+            ],
+            [
+              386,
+              138
+            ],
+            [
+              385,
+              137
+            ],
+            [
+              380,
+              137
+            ],
+            [
+              379,
+              138
+            ],
+            [
+              379,
+              139
+            ],
+            [
+              378,
+              140
+            ],
+            [
+              376,
+              140
+            ],
+            [
+              373,
+              137
+            ],
+            [
+              372,
+              137
+            ],
+            [
+              371,
+              136
+            ],
+            [
+              369,
+              136
+            ],
+            [
+              368,
+              135
+            ]
+          ],
+          "id": 3,
+          "length_mm": null,
+          "length_px": 26.17243766784668,
+          "mask_area_px": 427,
+          "mm_valid": false,
+          "perimeter_mm": null,
+          "perimeter_px": 83.5979790687561,
+          "seed_id": "Seed #003",
+          "source_detection_ids": [
+            0,
+            1
+          ],
+          "status": "OK",
+          "status_reason": "v1: Adaptive surface-chroma; prominence=1; score=0.120; candidates=17",
+          "width_mm": null,
+          "width_px": 19.921432495117188
+        },
+        {
+          "area_mm2": null,
+          "area_px": 455,
+          "aspect_ratio": 1.478468837148902,
+          "bbox_xyxy_src": [
+            422,
+            160,
+            450,
+            192
+          ],
+          "calibration_id": null,
+          "circularity": 0.5669247510496727,
+          "concavity": 0.18604651162790697,
+          "confidence": 0.8718,
+          "contour_xy_src": [
+            [
+              448,
+              160
+            ],
+            [
+              447,
+              161
+            ],
+            [
+              447,
+              162
+            ],
+            [
+              446,
+              163
+            ],
+            [
+              446,
+              164
+            ],
+            [
+              445,
+              165
+            ],
+            [
+              445,
+              167
+            ],
+            [
+              443,
+              169
+            ],
+            [
+              442,
+              169
+            ],
+            [
+              440,
+              171
+            ],
+            [
+              438,
+              171
+            ],
+            [
+              437,
+              172
+            ],
+            [
+              436,
+              172
+            ],
+            [
+              435,
+              173
+            ],
+            [
+              431,
+              173
+            ],
+            [
+              430,
+              172
+            ],
+            [
+              426,
+              172
+            ],
+            [
+              425,
+              173
+            ],
+            [
+              424,
+              173
+            ],
+            [
+              423,
+              174
+            ],
+            [
+              423,
+              177
+            ],
+            [
+              422,
+              178
+            ],
+            [
+              422,
+              180
+            ],
+            [
+              423,
+              181
+            ],
+            [
+              423,
+              184
+            ],
+            [
+              424,
+              185
+            ],
+            [
+              424,
+              186
+            ],
+            [
+              425,
+              187
+            ],
+            [
+              425,
+              188
+            ],
+            [
+              427,
+              190
+            ],
+            [
+              428,
+              190
+            ],
+            [
+              429,
+              191
+            ],
+            [
+              439,
+              191
+            ],
+            [
+              443,
+              187
+            ],
+            [
+              443,
+              186
+            ],
+            [
+              444,
+              185
+            ],
+            [
+              444,
+              184
+            ],
+            [
+              445,
+              183
+            ],
+            [
+              445,
+              182
+            ],
+            [
+              447,
+              180
+            ],
+            [
+              447,
+              176
+            ],
+            [
+              448,
+              175
+            ],
+            [
+              448,
+              173
+            ],
+            [
+              449,
+              172
+            ],
+            [
+              449,
+              161
+            ]
+          ],
+          "id": 4,
+          "length_mm": null,
+          "length_px": 33.962650299072266,
+          "mask_area_px": 500,
+          "mm_valid": false,
+          "perimeter_mm": null,
+          "perimeter_px": 100.42640614509583,
+          "seed_id": "Seed #004",
+          "source_detection_ids": [
+            3
+          ],
+          "status": "OK",
+          "status_reason": "v1: Accepted by single-seed geometry",
+          "width_mm": null,
+          "width_px": 22.97150230407715
+        }
+      ],
+      "seed_count": 4,
+      "session_id": "4482b5eb65cf",
+      "setup_id": "camera0_fixed_640x480_v1",
+      "species": "soybean",
+      "width": 640
+    }
+  ],
+  "schema": "agrivision.scene.export.v1",
+  "setup_confirmed": false,
+  "units": {
+    "area_mm2": "mm^2",
+    "area_px": "px^2",
+    "aspect_ratio": "dimensionless",
+    "circularity": "dimensionless",
+    "length_mm": "mm",
+    "length_px": "px",
+    "perimeter_mm": "mm",
+    "perimeter_px": "px",
+    "width_mm": "mm",
+    "width_px": "px"
+  }
+}

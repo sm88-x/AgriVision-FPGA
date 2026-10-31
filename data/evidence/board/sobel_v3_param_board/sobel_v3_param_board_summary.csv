@@ -1,0 +1,14 @@
+case,size,mode,image,runs,mean_ms,median_ms,min_ms,max_ms,stdev_ms,fps_median,correct,different_pixels
+
+T1,256x256,Sobel,plant_a_256x256,20,1.2283,1.2244,1.2063,1.2532,0.0114,816.73,PASS,0
+
+T2,256x256,Prewitt,plant_a_256x256,20,1.232,1.23,1.2144,1.2672,0.0103,812.98,PASS,0
+
+T3,320x240,Sobel,plant_b_320x240,20,1.4671,1.4707,1.3111,1.5268,0.0394,679.95,PASS,0
+
+T4,320x240,Prewitt,plant_b_320x240,20,1.4482,1.4671,1.2607,1.4959,0.0641,681.62,PASS,0
+
+T5,640x480,Sobel,plant_a_640x480,20,3.6628,3.6574,3.6027,3.7441,0.0509,273.42,PASS,0
+
+T6,640x480,Prewitt,plant_a_640x480,20,3.6095,3.6033,3.587,3.6429,0.0148,277.52,PASS,0
+

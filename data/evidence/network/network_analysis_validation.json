@@ -1,0 +1,22 @@
+{
+  "schema": "agrivision.network.agf1_compare_validation.v1",
+  "frames_received": 5,
+  "sender_frame_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "capture_age_ms_median": 3.492,
+  "decode_ms_median": 1.392,
+  "detect_ms_median": 41.751,
+  "comparison_counts": {
+    "yolo": 39,
+    "fixed": 39,
+    "adaptive": 39
+  },
+  "comparison_image": "live_000004",
+  "note": "real soybean frame sent through AGF1; live comparison produced by C backend",
+  "source_csv": "data/evidence/network/network_analysis_validation.csv"
+}

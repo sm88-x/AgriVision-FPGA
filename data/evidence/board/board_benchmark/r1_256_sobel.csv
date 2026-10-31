@@ -1,0 +1,162 @@
+backend,label,image,resolution,algorithm,threshold,run_id,ms,fps,correct,different_pixels,source,kernel
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,1,39.3984,25.38,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,2,39.4835,25.33,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,3,44.3661,22.54,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,4,39.6462,25.22,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,5,39.5542,25.28,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,6,39.5761,25.27,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,7,39.4351,25.36,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,8,39.4694,25.34,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,9,39.618,25.24,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,10,39.5105,25.31,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,11,39.7872,25.13,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,12,39.4473,25.35,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,13,39.484,25.33,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,14,39.7046,25.19,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,15,39.5532,25.28,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,16,47.0925,21.23,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,17,42.4121,23.58,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,18,39.8548,25.09,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,19,39.6158,25.24,PASS,0,-,-
+
+ps,PS 软件,plant_a_256x256,256x256,sobel,0,20,39.518,25.3,PASS,0,-,-
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,1,6.3432,157.65,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,2,6.2858,159.09,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,3,6.2878,159.04,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,4,6.394,156.4,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,5,6.3866,156.58,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,6,6.2915,158.95,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,7,6.2925,158.92,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,8,6.3021,158.68,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,9,6.3255,158.09,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,10,6.2947,158.86,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,11,6.3122,158.42,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,12,6.3055,158.59,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,13,6.295,158.86,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,14,6.3209,158.21,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,15,6.2692,159.51,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,16,6.291,158.96,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,17,6.2882,159.03,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,18,6.2969,158.81,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,19,6.2745,159.38,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v0,PL V0 流式,plant_a_256x256,256x256,sobel,0,20,6.294,158.88,PASS,0,sobel_axis_wrapper.bit,sobel_axis_1
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,1,1.0869,920.01,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,2,1.0832,923.16,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,3,1.0827,923.58,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,4,1.0841,922.41,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,5,1.0806,925.39,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,6,1.0791,926.74,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,7,1.0762,929.17,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,8,1.0749,930.33,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,9,1.0766,928.86,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,10,1.0743,930.85,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,11,1.0737,931.37,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,12,1.1182,894.26,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,13,1.083,923.32,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,14,1.0794,926.4,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,15,1.0797,926.15,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,16,1.0754,929.87,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,17,1.079,926.79,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,18,1.0772,928.36,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,19,1.0769,928.59,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3,PL V3 流式,plant_a_256x256,256x256,sobel,0,20,1.0779,927.69,PASS,0,sobel_v3_wrapper.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,1,1.2129,824.45,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,2,1.2083,827.61,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,3,1.2069,828.57,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,4,1.2094,826.82,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,5,1.2534,797.85,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,6,1.2137,823.94,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,7,1.2063,829.0,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,8,1.2125,824.76,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,9,1.2075,828.14,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,10,1.2142,823.57,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,11,1.2024,831.67,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,12,1.2061,829.15,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,13,2.4734,404.3,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,14,1.2141,823.63,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,15,1.209,827.15,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,16,1.2066,828.8,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,17,1.2056,829.43,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,18,1.2041,830.46,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,19,1.2095,826.8,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_a_256x256,256x256,sobel,0,20,1.2043,830.37,PASS,0,parameterized_edge.bit,sobel_v3_0
+

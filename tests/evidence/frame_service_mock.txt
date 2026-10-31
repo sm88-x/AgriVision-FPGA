@@ -1,0 +1,19 @@
+==============================================================================
+Overlay : mock-golden | 核: mock | **软件 Golden 模拟**
+寄存器 : enable_gray, enable_gauss, out_sel, morph_mode
+==============================================================================
+  random-640x480 第  1/2 帧  Golden PASS  不同像素=0  pl=1.1322 ms
+  random-640x480 第  2/2 帧  Golden PASS  不同像素=0  pl=1.1352 ms
+  random-320x240 第  1/2 帧  Golden PASS  不同像素=0  pl=0.3308 ms
+  random-320x240 第  2/2 帧  Golden PASS  不同像素=0  pl=0.3468 ms
+  random-256x256 第  1/2 帧  Golden PASS  不同像素=0  pl=0.2844 ms
+  random-256x256 第  2/2 帧  Golden PASS  不同像素=0  pl=0.2594 ms
+------------------------------------------------------------------------------
+连续 6 帧：mean=0.5815 median=0.3388 max=1.1352 ms
+  坏长度被拒            PASS   BAD_LENGTH
+  坏通道数被拒           PASS   BAD_CHANNELS
+  坏尺寸被拒            PASS   BAD_SIZE
+  DMA 错误分类         PASS   DMA（mock 注入）
+==============================================================================
+自测全部通过（6 帧）
+

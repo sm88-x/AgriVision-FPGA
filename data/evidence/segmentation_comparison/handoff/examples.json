@@ -1,0 +1,170 @@
+{
+  "schema": "agrivision.segmentation.handoff.v1",
+  "examples": [
+    {
+      "image_id": "soybean_sparse_003",
+      "species": "soybean",
+      "frame_id": 3,
+      "image": "data/samples/soybean_sparse_003/original.png",
+      "modes": {
+        "baseline_0": "data/samples/soybean_sparse_003/baseline_0.json",
+        "baseline_1": "data/samples/soybean_sparse_003/baseline_1.json",
+        "proposed_v1": "data/samples/soybean_sparse_003/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "soybean_sparse_005",
+      "species": "soybean",
+      "frame_id": 5,
+      "image": "data/samples/soybean_sparse_005/original.png",
+      "modes": {
+        "baseline_0": "data/samples/soybean_sparse_005/baseline_0.json",
+        "baseline_1": "data/samples/soybean_sparse_005/baseline_1.json",
+        "proposed_v1": "data/samples/soybean_sparse_005/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "soybean_pair_003",
+      "species": "soybean",
+      "frame_id": 13,
+      "image": "data/samples/soybean_pair_003/original.png",
+      "modes": {
+        "baseline_0": "data/samples/soybean_pair_003/baseline_0.json",
+        "baseline_1": "data/samples/soybean_pair_003/baseline_1.json",
+        "proposed_v1": "data/samples/soybean_pair_003/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "soybean_multi_001",
+      "species": "soybean",
+      "frame_id": 21,
+      "image": "data/samples/soybean_multi_001/original.png",
+      "modes": {
+        "baseline_0": "data/samples/soybean_multi_001/baseline_0.json",
+        "baseline_1": "data/samples/soybean_multi_001/baseline_1.json",
+        "proposed_v1": "data/samples/soybean_multi_001/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "soybean_multi_004",
+      "species": "soybean",
+      "frame_id": 24,
+      "image": "data/samples/soybean_multi_004/original.png",
+      "modes": {
+        "baseline_0": "data/samples/soybean_multi_004/baseline_0.json",
+        "baseline_1": "data/samples/soybean_multi_004/baseline_1.json",
+        "proposed_v1": "data/samples/soybean_multi_004/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "mungbean_sparse_001",
+      "species": "mungbean",
+      "frame_id": 31,
+      "image": "data/samples/mungbean_sparse_001/original.png",
+      "modes": {
+        "baseline_0": "data/samples/mungbean_sparse_001/baseline_0.json",
+        "baseline_1": "data/samples/mungbean_sparse_001/baseline_1.json",
+        "proposed_v1": "data/samples/mungbean_sparse_001/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "mungbean_sparse_002",
+      "species": "mungbean",
+      "frame_id": 32,
+      "image": "data/samples/mungbean_sparse_002/original.png",
+      "modes": {
+        "baseline_0": "data/samples/mungbean_sparse_002/baseline_0.json",
+        "baseline_1": "data/samples/mungbean_sparse_002/baseline_1.json",
+        "proposed_v1": "data/samples/mungbean_sparse_002/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "mungbean_touch_001",
+      "species": "mungbean",
+      "frame_id": 36,
+      "image": "data/samples/mungbean_touch_001/original.png",
+      "modes": {
+        "baseline_0": "data/samples/mungbean_touch_001/baseline_0.json",
+        "baseline_1": "data/samples/mungbean_touch_001/baseline_1.json",
+        "proposed_v1": "data/samples/mungbean_touch_001/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "mungbean_touch_004",
+      "species": "mungbean",
+      "frame_id": 39,
+      "image": "data/samples/mungbean_touch_004/original.png",
+      "modes": {
+        "baseline_0": "data/samples/mungbean_touch_004/baseline_0.json",
+        "baseline_1": "data/samples/mungbean_touch_004/baseline_1.json",
+        "proposed_v1": "data/samples/mungbean_touch_004/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "mungbean_touch_006",
+      "species": "mungbean",
+      "frame_id": 41,
+      "image": "data/samples/mungbean_touch_006/original.png",
+      "modes": {
+        "baseline_0": "data/samples/mungbean_touch_006/baseline_0.json",
+        "baseline_1": "data/samples/mungbean_touch_006/baseline_1.json",
+        "proposed_v1": "data/samples/mungbean_touch_006/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "redbean_sparse_001",
+      "species": "redbean",
+      "frame_id": 51,
+      "image": "data/samples/redbean_sparse_001/original.png",
+      "modes": {
+        "baseline_0": "data/samples/redbean_sparse_001/baseline_0.json",
+        "baseline_1": "data/samples/redbean_sparse_001/baseline_1.json",
+        "proposed_v1": "data/samples/redbean_sparse_001/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "redbean_sparse_002",
+      "species": "redbean",
+      "frame_id": 52,
+      "image": "data/samples/redbean_sparse_002/original.png",
+      "modes": {
+        "baseline_0": "data/samples/redbean_sparse_002/baseline_0.json",
+        "baseline_1": "data/samples/redbean_sparse_002/baseline_1.json",
+        "proposed_v1": "data/samples/redbean_sparse_002/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "redbean_touch_001",
+      "species": "redbean",
+      "frame_id": 56,
+      "image": "data/samples/redbean_touch_001/original.png",
+      "modes": {
+        "baseline_0": "data/samples/redbean_touch_001/baseline_0.json",
+        "baseline_1": "data/samples/redbean_touch_001/baseline_1.json",
+        "proposed_v1": "data/samples/redbean_touch_001/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "redbean_touch_005",
+      "species": "redbean",
+      "frame_id": 60,
+      "image": "data/samples/redbean_touch_005/original.png",
+      "modes": {
+        "baseline_0": "data/samples/redbean_touch_005/baseline_0.json",
+        "baseline_1": "data/samples/redbean_touch_005/baseline_1.json",
+        "proposed_v1": "data/samples/redbean_touch_005/proposed_v1.json"
+      }
+    },
+    {
+      "image_id": "redbean_touch_006",
+      "species": "redbean",
+      "frame_id": 61,
+      "image": "data/samples/redbean_touch_006/original.png",
+      "modes": {
+        "baseline_0": "data/samples/redbean_touch_006/baseline_0.json",
+        "baseline_1": "data/samples/redbean_touch_006/baseline_1.json",
+        "proposed_v1": "data/samples/redbean_touch_006/proposed_v1.json"
+      }
+    }
+  ]
+}

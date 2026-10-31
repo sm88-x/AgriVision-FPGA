@@ -1,0 +1,21 @@
+{
+  "schema": "agrivision.segmentation.batch_report.v1",
+  "rules": "./data/config/grading_rules_v1.json",
+  "rule_status": "provisional_data_driven",
+  "requires_task_owner_review": true,
+  "input": "./results/segmentation/handoff/samples",
+  "objects": 629,
+  "species": {
+    "mungbean": 234,
+    "redbean": 196,
+    "soybean": 199
+  },
+  "grades": {
+    "C": 248,
+    "B": 198,
+    "A": 183
+  },
+  "uncertain": 56,
+  "elapsed_ms": 16.331,
+  "objects_per_second": 38515.2
+}

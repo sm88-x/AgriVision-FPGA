@@ -1,0 +1,10 @@
+source: hardware/firmware/integrated_pipeline_validated.bit
+
+sha256: C7E8D00464A5082EF45B7D701D990487E6C1C2E8E254EA9B7F66C7F60EEC6C12
+
+source: hardware/firmware/integrated_pipeline_validated.hwh
+
+windows_worktree_sha256: 456D5585E9E779A4F3B2188076F783DBED4BE838B037EB458A4292CA1BEA98D6
+
+note: 板上/git 版 HWH 曾记录为 b10bef4b...bb5a；Windows 检出的差异来自换行规范化，使用前仍需与板上文件核对。
+

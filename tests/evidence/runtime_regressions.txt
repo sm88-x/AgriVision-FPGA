@@ -1,0 +1,19 @@
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+
+test_board_refusal_is_terminal_and_invalidates_preview (__main__.RuntimeTests.test_board_refusal_is_terminal_and_invalidates_preview) ... ok
+test_mock_server_real_tcp_protocol (__main__.RuntimeTests.test_mock_server_real_tcp_protocol) ... ok
+test_model_repeated_input_same_result (__main__.RuntimeTests.test_model_repeated_input_same_result) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 8.134s
+
+OK

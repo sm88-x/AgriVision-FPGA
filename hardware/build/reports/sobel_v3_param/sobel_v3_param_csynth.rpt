@@ -1,0 +1,186 @@
+
+
+================================================================
+== Vitis HLS Report for 'sobel_v3'
+================================================================
+* Date:           Sun Oct  4 15:01:20 2026
+
+* Version:        2026.1 (Build 6493734 on Jun 16 2026)
+* Project:        sobel_v3
+* Solution:       hls
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.920 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+-----------+-------+---------+---------+
+    |  Latency (cycles) |  Latency (absolute)  |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max    |  min  |   max   |   Type  |
+    +---------+---------+----------+-----------+-------+---------+---------+
+    |    65805|  2073613|  0.658 ms|  20.736 ms|  65806|  2073614|       no|
+    +---------+---------+----------+-----------+-------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------------------------+---------------------------------+---------+---------+----------+-----------+-----+-----+-------------------+
+        |                                           |                                 |  Latency (cycles) |  Latency (absolute)  |  Interval |      Pipeline     |
+        |                  Instance                 |              Module             |   min   |   max   |    min   |    max    | min | max |        Type       |
+        +-------------------------------------------+---------------------------------+---------+---------+----------+-----------+-----+-----+-------------------+
+        |grp_sobel_v3_Pipeline_STREAM_PIXELS_fu_94  |sobel_v3_Pipeline_STREAM_PIXELS  |    65799|  2073607|  0.658 ms|  20.736 ms|    0|    0|  loop pipeline stp|
+        +-------------------------------------------+---------------------------------+---------+---------+----------+-----------+-----+-----+-------------------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|    197|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        3|    3|    1123|   1874|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     87|    -|
+|Register         |        -|    -|     292|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        3|    3|    1415|   2158|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        1|    1|       1|      4|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------------------------+---------------------------------+---------+----+-----+------+-----+
+    |                  Instance                 |              Module             | BRAM_18K| DSP|  FF |  LUT | URAM|
+    +-------------------------------------------+---------------------------------+---------+----+-----+------+-----+
+    |control_s_axi_U                            |control_s_axi                    |        0|   0|  188|   296|    0|
+    |mul_32s_32s_32_2_1_U20                     |mul_32s_32s_32_2_1               |        0|   3|  165|    50|    0|
+    |grp_sobel_v3_Pipeline_STREAM_PIXELS_fu_94  |sobel_v3_Pipeline_STREAM_PIXELS  |        3|   0|  770|  1528|    0|
+    +-------------------------------------------+---------------------------------+---------+----+-----+------+-----+
+    |Total                                      |                                 |        3|   3| 1123|  1874|    0|
+    +-------------------------------------------+---------------------------------+---------+----+-----+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------------------------------------+----------+----+---+----+------------+------------+
+    |                     Variable Name                    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------------------------------------+----------+----+---+----+------------+------------+
+    |add_ln307_fu_151_p2                                   |         +|   0|  0|  39|          32|           2|
+    |add_ln327_fu_146_p2                                   |         +|   0|  0|  39|          32|           2|
+    |output_delay_fu_136_p2                                |         +|   0|  0|  39|          32|           1|
+    |total_steps_fu_141_p2                                 |         +|   0|  0|  39|          32|          32|
+    |grp_sobel_v3_Pipeline_STREAM_PIXELS_fu_94_dst_TREADY  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln140_fu_126_p2                                  |      icmp|   0|  0|  39|          32|           1|
+    +------------------------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                                 |          |   0|  0| 197|         161|          39|
+    +------------------------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                |  42|          8|    1|          8|
+    |dst_TDATA_int_regslice   |   9|          2|    8|         16|
+    |dst_TKEEP_int_regslice   |   9|          2|    1|          2|
+    |dst_TLAST_int_regslice   |   9|          2|    1|          2|
+    |dst_TSTRB_int_regslice   |   9|          2|    1|          2|
+    |src_TREADY_int_regslice  |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  87|         18|   13|         32|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------------------------+----+----+-----+-----------+
+    |                          Name                          | FF | LUT| Bits| Const Bits|
+    +--------------------------------------------------------+----+----+-----+-----------+
+    |add_ln307_reg_205                                       |  32|   0|   32|          0|
+    |add_ln327_reg_200                                       |  32|   0|   32|          0|
+    |ap_CS_fsm                                               |   7|   0|    7|          0|
+    |dst_TDATA_reg                                           |   8|   0|    8|          0|
+    |dst_TKEEP_reg                                           |   1|   0|    1|          0|
+    |dst_TLAST_reg                                           |   1|   0|    1|          0|
+    |dst_TSTRB_reg                                           |   1|   0|    1|          0|
+    |grp_sobel_v3_Pipeline_STREAM_PIXELS_fu_94_ap_start_reg  |   1|   0|    1|          0|
+    |height_read_reg_161                                     |  32|   0|   32|          0|
+    |icmp_ln140_reg_173                                      |   1|   0|    1|          0|
+    |mode_read_reg_156                                       |  32|   0|   32|          0|
+    |output_delay_reg_190                                    |  32|   0|   32|          0|
+    |pixels_reg_183                                          |  32|   0|   32|          0|
+    |total_steps_reg_195                                     |  32|   0|   32|          0|
+    |trunc_ln142_reg_178                                     |  16|   0|   16|          0|
+    |width_read_reg_166                                      |  32|   0|   32|          0|
+    +--------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                   | 292|   0|  292|          0|
+    +--------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+--------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  | Source Object|    C Type    |
++-----------------------+-----+-----+------------+--------------+--------------+
+|s_axi_control_AWVALID  |   in|    1|       s_axi|       control|        scalar|
+|s_axi_control_AWREADY  |  out|    1|       s_axi|       control|        scalar|
+|s_axi_control_AWADDR   |   in|    6|       s_axi|       control|        scalar|
+|s_axi_control_WVALID   |   in|    1|       s_axi|       control|        scalar|
+|s_axi_control_WREADY   |  out|    1|       s_axi|       control|        scalar|
+|s_axi_control_WDATA    |   in|   32|       s_axi|       control|        scalar|
+|s_axi_control_WSTRB    |   in|    4|       s_axi|       control|        scalar|
+|s_axi_control_ARVALID  |   in|    1|       s_axi|       control|        scalar|
+|s_axi_control_ARREADY  |  out|    1|       s_axi|       control|        scalar|
+|s_axi_control_ARADDR   |   in|    6|       s_axi|       control|        scalar|
+|s_axi_control_RVALID   |  out|    1|       s_axi|       control|        scalar|
+|s_axi_control_RREADY   |   in|    1|       s_axi|       control|        scalar|
+|s_axi_control_RDATA    |  out|   32|       s_axi|       control|        scalar|
+|s_axi_control_RRESP    |  out|    2|       s_axi|       control|        scalar|
+|s_axi_control_BVALID   |  out|    1|       s_axi|       control|        scalar|
+|s_axi_control_BREADY   |   in|    1|       s_axi|       control|        scalar|
+|s_axi_control_BRESP    |  out|    2|       s_axi|       control|        scalar|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|      sobel_v3|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|      sobel_v3|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|      sobel_v3|  return value|
+|src_TDATA              |   in|    8|        axis|  src_V_data_V|       pointer|
+|src_TVALID             |   in|    1|        axis|  src_V_last_V|       pointer|
+|src_TREADY             |  out|    1|        axis|  src_V_last_V|       pointer|
+|src_TLAST              |   in|    1|        axis|  src_V_last_V|       pointer|
+|src_TKEEP              |   in|    1|        axis|  src_V_keep_V|       pointer|
+|src_TSTRB              |   in|    1|        axis|  src_V_strb_V|       pointer|
+|dst_TDATA              |  out|    8|        axis|  dst_V_data_V|       pointer|
+|dst_TVALID             |  out|    1|        axis|  dst_V_last_V|       pointer|
+|dst_TREADY             |   in|    1|        axis|  dst_V_last_V|       pointer|
+|dst_TLAST              |  out|    1|        axis|  dst_V_last_V|       pointer|
+|dst_TKEEP              |  out|    1|        axis|  dst_V_keep_V|       pointer|
+|dst_TSTRB              |  out|    1|        axis|  dst_V_strb_V|       pointer|
++-----------------------+-----+-----+------------+--------------+--------------+
+

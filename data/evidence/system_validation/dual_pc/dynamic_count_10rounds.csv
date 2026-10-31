@@ -1,0 +1,24 @@
+round,expected_remaining,operator_observed_count,result,evidence_source,note
+
+0,18,18,PASS,operator_visual,baseline before removal
+
+1,17,17,PASS,operator_visual,one seed removed
+
+2,16,16,PASS,operator_visual,one seed removed
+
+3,15,15,PASS,operator_visual,one seed removed
+
+4,14,14,PASS,operator_visual,one seed removed
+
+5,13,13,PASS,operator_visual,one seed removed
+
+6,12,12,PASS,operator_visual,one seed removed
+
+7,11,11,PASS,operator_visual,one seed removed
+
+8,10,10,PASS,operator_visual,one seed removed
+
+9,9,9,PASS,operator_visual,one seed removed
+
+10,8,8,PASS,operator_visual,one seed removed; final count
+

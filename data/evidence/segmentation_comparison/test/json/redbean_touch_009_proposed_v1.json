@@ -1,0 +1,4591 @@
+{
+  "schema": "agrivision.segmentation.separation.v5",
+  "evaluation_scope": "same working ROI for all three methods",
+  "yolo_raw_count": 41,
+  "effective_detector_parameters": {
+    "iou": 0.55,
+    "conf": 0.25,
+    "device": "cpu",
+    "imgsz": 960
+  },
+  "session_id": "segmentation_test",
+  "frame_id": 64,
+  "image_id": "redbean_touch_009",
+  "mode": "proposed_v1",
+  "species": "redbean",
+  "image_size": [
+    640,
+    480
+  ],
+  "coordinate_system": "original_image_pixels",
+  "input_format": "BGR_uint8",
+  "gt_count": 40,
+  "yolo_count": 41,
+  "final_count": 40,
+  "absolute_error": 0,
+  "status": "UNRESOLVED",
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        381.7,
+        124.7,
+        397.2,
+        138.6
+      ],
+      "confidence": 0.7996,
+      "class_name": "seed"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        393.9,
+        134.9,
+        406.0,
+        150.0
+      ],
+      "confidence": 0.8259,
+      "class_name": "seed"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        461.1,
+        136.1,
+        473.5,
+        153.0
+      ],
+      "confidence": 0.7879,
+      "class_name": "seed"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        315.0,
+        140.3,
+        333.4,
+        166.9
+      ],
+      "confidence": 0.8587,
+      "class_name": "seed"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        317.6,
+        140.5,
+        333.7,
+        154.7
+      ],
+      "confidence": 0.2702,
+      "class_name": "seed"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        467.0,
+        140.8,
+        481.9,
+        156.5
+      ],
+      "confidence": 0.81,
+      "class_name": "seed"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        434.5,
+        150.3,
+        448.5,
+        166.9
+      ],
+      "confidence": 0.8577,
+      "class_name": "seed"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        407.2,
+        159.9,
+        422.8,
+        172.8
+      ],
+      "confidence": 0.8446,
+      "class_name": "seed"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        294.4,
+        161.0,
+        307.9,
+        176.3
+      ],
+      "confidence": 0.8261,
+      "class_name": "seed"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        478.5,
+        161.2,
+        491.8,
+        177.5
+      ],
+      "confidence": 0.8508,
+      "class_name": "seed"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        340.7,
+        162.9,
+        356.0,
+        176.6
+      ],
+      "confidence": 0.8402,
+      "class_name": "seed"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        307.8,
+        164.7,
+        319.3,
+        181.6
+      ],
+      "confidence": 0.777,
+      "class_name": "seed"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        361.3,
+        174.4,
+        377.9,
+        189.5
+      ],
+      "confidence": 0.8244,
+      "class_name": "seed"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        239.4,
+        177.7,
+        252.3,
+        194.6
+      ],
+      "confidence": 0.8265,
+      "class_name": "seed"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        290.1,
+        180.4,
+        306.8,
+        195.1
+      ],
+      "confidence": 0.8531,
+      "class_name": "seed"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        316.5,
+        181.4,
+        328.2,
+        197.2
+      ],
+      "confidence": 0.7101,
+      "class_name": "seed"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        263.5,
+        181.9,
+        279.2,
+        195.9
+      ],
+      "confidence": 0.8475,
+      "class_name": "seed"
+    },
+    {
+      "id": 17,
+      "bbox_xyxy": [
+        409.6,
+        183.5,
+        421.4,
+        200.8
+      ],
+      "confidence": 0.7822,
+      "class_name": "seed"
+    },
+    {
+      "id": 18,
+      "bbox_xyxy": [
+        231.7,
+        188.7,
+        242.8,
+        201.0
+      ],
+      "confidence": 0.7745,
+      "class_name": "seed"
+    },
+    {
+      "id": 19,
+      "bbox_xyxy": [
+        329.3,
+        188.8,
+        345.3,
+        202.9
+      ],
+      "confidence": 0.8189,
+      "class_name": "seed"
+    },
+    {
+      "id": 20,
+      "bbox_xyxy": [
+        303.8,
+        190.1,
+        315.9,
+        205.6
+      ],
+      "confidence": 0.7515,
+      "class_name": "seed"
+    },
+    {
+      "id": 21,
+      "bbox_xyxy": [
+        281.1,
+        192.9,
+        293.8,
+        210.6
+      ],
+      "confidence": 0.7798,
+      "class_name": "seed"
+    },
+    {
+      "id": 22,
+      "bbox_xyxy": [
+        197.1,
+        198.7,
+        213.3,
+        214.8
+      ],
+      "confidence": 0.8843,
+      "class_name": "seed"
+    },
+    {
+      "id": 23,
+      "bbox_xyxy": [
+        363.8,
+        200.7,
+        379.2,
+        215.2
+      ],
+      "confidence": 0.8433,
+      "class_name": "seed"
+    },
+    {
+      "id": 24,
+      "bbox_xyxy": [
+        294.1,
+        202.4,
+        311.8,
+        220.6
+      ],
+      "confidence": 0.8597,
+      "class_name": "seed"
+    },
+    {
+      "id": 25,
+      "bbox_xyxy": [
+        312.8,
+        202.6,
+        328.3,
+        217.2
+      ],
+      "confidence": 0.7929,
+      "class_name": "seed"
+    },
+    {
+      "id": 26,
+      "bbox_xyxy": [
+        402.6,
+        215.3,
+        416.0,
+        230.8
+      ],
+      "confidence": 0.8182,
+      "class_name": "seed"
+    },
+    {
+      "id": 27,
+      "bbox_xyxy": [
+        339.4,
+        215.8,
+        357.2,
+        232.5
+      ],
+      "confidence": 0.8445,
+      "class_name": "seed"
+    },
+    {
+      "id": 28,
+      "bbox_xyxy": [
+        252.2,
+        218.3,
+        266.5,
+        235.4
+      ],
+      "confidence": 0.857,
+      "class_name": "seed"
+    },
+    {
+      "id": 29,
+      "bbox_xyxy": [
+        391.5,
+        228.0,
+        408.1,
+        247.1
+      ],
+      "confidence": 0.8361,
+      "class_name": "seed"
+    },
+    {
+      "id": 30,
+      "bbox_xyxy": [
+        352.5,
+        246.1,
+        366.6,
+        269.2
+      ],
+      "confidence": 0.8196,
+      "class_name": "seed"
+    },
+    {
+      "id": 31,
+      "bbox_xyxy": [
+        377.9,
+        246.1,
+        390.6,
+        264.6
+      ],
+      "confidence": 0.8166,
+      "class_name": "seed"
+    },
+    {
+      "id": 32,
+      "bbox_xyxy": [
+        324.6,
+        247.4,
+        337.4,
+        266.1
+      ],
+      "confidence": 0.8381,
+      "class_name": "seed"
+    },
+    {
+      "id": 33,
+      "bbox_xyxy": [
+        412.9,
+        261.4,
+        438.6,
+        284.9
+      ],
+      "confidence": 0.7763,
+      "class_name": "seed"
+    },
+    {
+      "id": 34,
+      "bbox_xyxy": [
+        423.4,
+        261.6,
+        438.6,
+        283.4
+      ],
+      "confidence": 0.391,
+      "class_name": "seed"
+    },
+    {
+      "id": 35,
+      "bbox_xyxy": [
+        473.8,
+        263.4,
+        492.1,
+        287.0
+      ],
+      "confidence": 0.8874,
+      "class_name": "seed"
+    },
+    {
+      "id": 36,
+      "bbox_xyxy": [
+        411.2,
+        267.3,
+        426.5,
+        288.6
+      ],
+      "confidence": 0.6412,
+      "class_name": "seed"
+    },
+    {
+      "id": 37,
+      "bbox_xyxy": [
+        356.9,
+        279.2,
+        371.6,
+        302.2
+      ],
+      "confidence": 0.8373,
+      "class_name": "seed"
+    },
+    {
+      "id": 38,
+      "bbox_xyxy": [
+        300.4,
+        313.0,
+        313.8,
+        334.6
+      ],
+      "confidence": 0.8499,
+      "class_name": "seed"
+    },
+    {
+      "id": 39,
+      "bbox_xyxy": [
+        434.2,
+        334.3,
+        450.8,
+        356.0
+      ],
+      "confidence": 0.8658,
+      "class_name": "seed"
+    },
+    {
+      "id": 40,
+      "bbox_xyxy": [
+        147.6,
+        337.8,
+        166.0,
+        360.0
+      ],
+      "confidence": 0.9037,
+      "class_name": "seed"
+    }
+  ],
+  "raw_detections": null,
+  "objects": [
+    {
+      "mask_area_px": 152,
+      "area_px": 132.0,
+      "length_px": 14.0,
+      "width_px": 11.0,
+      "perimeter_px": 42.97056233882904,
+      "aspect_ratio": 1.2727272727272727,
+      "circularity": 0.8983420336487,
+      "concavity": 0.011235955056179803,
+      "bbox_xyxy_src": [
+        382,
+        126,
+        397,
+        138
+      ],
+      "contour_xy_src": [
+        [
+          385,
+          126
+        ],
+        [
+          382,
+          129
+        ],
+        [
+          382,
+          134
+        ],
+        [
+          384,
+          136
+        ],
+        [
+          385,
+          136
+        ],
+        [
+          386,
+          137
+        ],
+        [
+          394,
+          137
+        ],
+        [
+          395,
+          136
+        ],
+        [
+          395,
+          134
+        ],
+        [
+          396,
+          133
+        ],
+        [
+          396,
+          130
+        ],
+        [
+          392,
+          126
+        ]
+      ],
+      "confidence": 0.8259,
+      "source_detection_ids": [
+        0,
+        1
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.019; candidates=18",
+      "id": 1,
+      "seed_id": "Seed #001"
+    },
+    {
+      "mask_area_px": 137,
+      "area_px": 118.0,
+      "length_px": 14.0,
+      "width_px": 11.0,
+      "perimeter_px": 41.79898941516876,
+      "aspect_ratio": 1.2727272727272727,
+      "circularity": 0.848711931367973,
+      "concavity": 0.04065040650406504,
+      "bbox_xyxy_src": [
+        394,
+        135,
+        406,
+        150
+      ],
+      "contour_xy_src": [
+        [
+          399,
+          135
+        ],
+        [
+          398,
+          136
+        ],
+        [
+          396,
+          136
+        ],
+        [
+          395,
+          137
+        ],
+        [
+          395,
+          139
+        ],
+        [
+          394,
+          140
+        ],
+        [
+          394,
+          146
+        ],
+        [
+          396,
+          148
+        ],
+        [
+          397,
+          148
+        ],
+        [
+          398,
+          149
+        ],
+        [
+          399,
+          148
+        ],
+        [
+          401,
+          148
+        ],
+        [
+          404,
+          145
+        ],
+        [
+          404,
+          144
+        ],
+        [
+          405,
+          143
+        ],
+        [
+          405,
+          139
+        ],
+        [
+          404,
+          138
+        ],
+        [
+          404,
+          137
+        ],
+        [
+          403,
+          136
+        ],
+        [
+          402,
+          136
+        ],
+        [
+          401,
+          135
+        ]
+      ],
+      "confidence": 0.8259,
+      "source_detection_ids": [
+        0,
+        1
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.019; candidates=18",
+      "id": 2,
+      "seed_id": "Seed #002"
+    },
+    {
+      "mask_area_px": 126,
+      "area_px": 106.5,
+      "length_px": 15.0,
+      "width_px": 9.0,
+      "perimeter_px": 41.55634880065918,
+      "aspect_ratio": 1.6666666666666667,
+      "circularity": 0.7749696704906832,
+      "concavity": 0.03619909502262442,
+      "bbox_xyxy_src": [
+        461,
+        137,
+        471,
+        153
+      ],
+      "contour_xy_src": [
+        [
+          466,
+          137
+        ],
+        [
+          463,
+          140
+        ],
+        [
+          463,
+          141
+        ],
+        [
+          462,
+          142
+        ],
+        [
+          462,
+          143
+        ],
+        [
+          461,
+          144
+        ],
+        [
+          461,
+          148
+        ],
+        [
+          462,
+          149
+        ],
+        [
+          462,
+          150
+        ],
+        [
+          464,
+          152
+        ],
+        [
+          469,
+          152
+        ],
+        [
+          469,
+          148
+        ],
+        [
+          470,
+          147
+        ],
+        [
+          470,
+          139
+        ],
+        [
+          469,
+          138
+        ],
+        [
+          468,
+          138
+        ],
+        [
+          467,
+          137
+        ]
+      ],
+      "confidence": 0.81,
+      "source_detection_ids": [
+        2,
+        5
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive distance; prominence=0.02; score=0.069; candidates=11",
+      "id": 3,
+      "seed_id": "Seed #003"
+    },
+    {
+      "mask_area_px": 133,
+      "area_px": 112.5,
+      "length_px": 13.0,
+      "width_px": 9.0,
+      "perimeter_px": 41.071067690849304,
+      "aspect_ratio": 1.4444444444444444,
+      "circularity": 0.8380895016222195,
+      "concavity": 0.0,
+      "bbox_xyxy_src": [
+        319,
+        142,
+        333,
+        152
+      ],
+      "contour_xy_src": [
+        [
+          321,
+          142
+        ],
+        [
+          319,
+          144
+        ],
+        [
+          319,
+          151
+        ],
+        [
+          331,
+          151
+        ],
+        [
+          332,
+          150
+        ],
+        [
+          332,
+          144
+        ],
+        [
+          330,
+          142
+        ]
+      ],
+      "confidence": 0.8587,
+      "source_detection_ids": [
+        3,
+        4,
+        8,
+        11
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.021; candidates=18",
+      "id": 4,
+      "seed_id": "Seed #004"
+    },
+    {
+      "mask_area_px": 141,
+      "area_px": 121.0,
+      "length_px": 14.0,
+      "width_px": 11.0,
+      "perimeter_px": 42.97056221961975,
+      "aspect_ratio": 1.2727272727272727,
+      "circularity": 0.8234802020803196,
+      "concavity": 0.0546875,
+      "bbox_xyxy_src": [
+        470,
+        142,
+        482,
+        157
+      ],
+      "contour_xy_src": [
+        [
+          476,
+          142
+        ],
+        [
+          475,
+          143
+        ],
+        [
+          471,
+          143
+        ],
+        [
+          471,
+          147
+        ],
+        [
+          470,
+          148
+        ],
+        [
+          470,
+          153
+        ],
+        [
+          471,
+          153
+        ],
+        [
+          474,
+          156
+        ],
+        [
+          477,
+          156
+        ],
+        [
+          480,
+          153
+        ],
+        [
+          480,
+          151
+        ],
+        [
+          481,
+          150
+        ],
+        [
+          481,
+          146
+        ],
+        [
+          480,
+          145
+        ],
+        [
+          480,
+          144
+        ],
+        [
+          478,
+          142
+        ]
+      ],
+      "confidence": 0.81,
+      "source_detection_ids": [
+        2,
+        5
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive distance; prominence=0.02; score=0.069; candidates=11",
+      "id": 5,
+      "seed_id": "Seed #005"
+    },
+    {
+      "mask_area_px": 198,
+      "area_px": 173.0,
+      "length_px": 16.0,
+      "width_px": 14.0,
+      "perimeter_px": 53.79898941516876,
+      "aspect_ratio": 1.1428571428571428,
+      "circularity": 0.7511172424374525,
+      "concavity": 0.05722070844686644,
+      "bbox_xyxy_src": [
+        315,
+        152,
+        332,
+        167
+      ],
+      "contour_xy_src": [
+        [
+          319,
+          152
+        ],
+        [
+          319,
+          153
+        ],
+        [
+          316,
+          156
+        ],
+        [
+          316,
+          158
+        ],
+        [
+          315,
+          159
+        ],
+        [
+          315,
+          162
+        ],
+        [
+          316,
+          163
+        ],
+        [
+          316,
+          165
+        ],
+        [
+          317,
+          166
+        ],
+        [
+          324,
+          166
+        ],
+        [
+          326,
+          164
+        ],
+        [
+          327,
+          164
+        ],
+        [
+          328,
+          163
+        ],
+        [
+          328,
+          162
+        ],
+        [
+          329,
+          161
+        ],
+        [
+          329,
+          160
+        ],
+        [
+          330,
+          159
+        ],
+        [
+          330,
+          156
+        ],
+        [
+          329,
+          155
+        ],
+        [
+          329,
+          154
+        ],
+        [
+          331,
+          152
+        ]
+      ],
+      "confidence": 0.8587,
+      "source_detection_ids": [
+        3,
+        4,
+        8,
+        11
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.021; candidates=18",
+      "id": 6,
+      "seed_id": "Seed #006"
+    },
+    {
+      "mask_area_px": 151,
+      "area_px": 132.0,
+      "length_px": 14.142135620117188,
+      "width_px": 11.31370735168457,
+      "perimeter_px": 42.62741684913635,
+      "aspect_ratio": 1.2500001264405582,
+      "circularity": 0.9128633335858853,
+      "concavity": 0.0037735849056603765,
+      "bbox_xyxy_src": [
+        435,
+        152,
+        448,
+        167
+      ],
+      "contour_xy_src": [
+        [
+          440,
+          152
+        ],
+        [
+          435,
+          157
+        ],
+        [
+          435,
+          162
+        ],
+        [
+          439,
+          166
+        ],
+        [
+          442,
+          166
+        ],
+        [
+          447,
+          161
+        ],
+        [
+          447,
+          155
+        ],
+        [
+          446,
+          154
+        ],
+        [
+          446,
+          153
+        ],
+        [
+          445,
+          152
+        ]
+      ],
+      "confidence": 0.8577,
+      "source_detection_ids": [
+        6
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 7,
+      "seed_id": "Seed #007"
+    },
+    {
+      "mask_area_px": 149,
+      "area_px": 129.0,
+      "length_px": 14.0,
+      "width_px": 11.0,
+      "perimeter_px": 42.97056221961975,
+      "aspect_ratio": 1.2727272727272727,
+      "circularity": 0.8779251741186878,
+      "concavity": 0.022727272727272707,
+      "bbox_xyxy_src": [
+        408,
+        161,
+        423,
+        173
+      ],
+      "contour_xy_src": [
+        [
+          411,
+          161
+        ],
+        [
+          408,
+          164
+        ],
+        [
+          408,
+          169
+        ],
+        [
+          411,
+          172
+        ],
+        [
+          417,
+          172
+        ],
+        [
+          418,
+          171
+        ],
+        [
+          419,
+          171
+        ],
+        [
+          421,
+          169
+        ],
+        [
+          421,
+          167
+        ],
+        [
+          422,
+          166
+        ],
+        [
+          421,
+          165
+        ],
+        [
+          421,
+          162
+        ],
+        [
+          420,
+          161
+        ]
+      ],
+      "confidence": 0.8446,
+      "source_detection_ids": [
+        7
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 8,
+      "seed_id": "Seed #008"
+    },
+    {
+      "mask_area_px": 153,
+      "area_px": 133.0,
+      "length_px": 14.0,
+      "width_px": 12.0,
+      "perimeter_px": 43.79898929595947,
+      "aspect_ratio": 1.1666666666666667,
+      "circularity": 0.8712310145677169,
+      "concavity": 0.029197080291970767,
+      "bbox_xyxy_src": [
+        295,
+        162,
+        308,
+        177
+      ],
+      "contour_xy_src": [
+        [
+          299,
+          162
+        ],
+        [
+          298,
+          163
+        ],
+        [
+          297,
+          163
+        ],
+        [
+          295,
+          165
+        ],
+        [
+          295,
+          170
+        ],
+        [
+          296,
+          171
+        ],
+        [
+          296,
+          173
+        ],
+        [
+          299,
+          176
+        ],
+        [
+          305,
+          176
+        ],
+        [
+          306,
+          175
+        ],
+        [
+          306,
+          172
+        ],
+        [
+          307,
+          171
+        ],
+        [
+          307,
+          168
+        ],
+        [
+          305,
+          166
+        ],
+        [
+          305,
+          165
+        ],
+        [
+          302,
+          162
+        ]
+      ],
+      "confidence": 0.8587,
+      "source_detection_ids": [
+        3,
+        4,
+        8,
+        11
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.021; candidates=18",
+      "id": 9,
+      "seed_id": "Seed #009"
+    },
+    {
+      "mask_area_px": 152,
+      "area_px": 132.5,
+      "length_px": 14.0,
+      "width_px": 12.0,
+      "perimeter_px": 43.213202714920044,
+      "aspect_ratio": 1.1666666666666667,
+      "circularity": 0.8916467531166314,
+      "concavity": 0.022140221402214055,
+      "bbox_xyxy_src": [
+        479,
+        162,
+        492,
+        177
+      ],
+      "contour_xy_src": [
+        [
+          482,
+          162
+        ],
+        [
+          479,
+          165
+        ],
+        [
+          479,
+          171
+        ],
+        [
+          480,
+          172
+        ],
+        [
+          480,
+          173
+        ],
+        [
+          483,
+          176
+        ],
+        [
+          488,
+          176
+        ],
+        [
+          490,
+          174
+        ],
+        [
+          490,
+          172
+        ],
+        [
+          491,
+          171
+        ],
+        [
+          491,
+          169
+        ],
+        [
+          490,
+          168
+        ],
+        [
+          490,
+          166
+        ],
+        [
+          487,
+          163
+        ],
+        [
+          486,
+          163
+        ],
+        [
+          485,
+          162
+        ]
+      ],
+      "confidence": 0.8508,
+      "source_detection_ids": [
+        9
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 10,
+      "seed_id": "Seed #010"
+    },
+    {
+      "mask_area_px": 147,
+      "area_px": 127.0,
+      "length_px": 14.512594223022461,
+      "width_px": 11.374736785888672,
+      "perimeter_px": 43.79898941516876,
+      "aspect_ratio": 1.2758619822329926,
+      "circularity": 0.831927355246615,
+      "concavity": 0.048689138576779034,
+      "bbox_xyxy_src": [
+        341,
+        164,
+        356,
+        177
+      ],
+      "contour_xy_src": [
+        [
+          348,
+          164
+        ],
+        [
+          347,
+          165
+        ],
+        [
+          345,
+          165
+        ],
+        [
+          344,
+          166
+        ],
+        [
+          343,
+          166
+        ],
+        [
+          341,
+          168
+        ],
+        [
+          341,
+          172
+        ],
+        [
+          342,
+          173
+        ],
+        [
+          342,
+          174
+        ],
+        [
+          343,
+          175
+        ],
+        [
+          344,
+          175
+        ],
+        [
+          345,
+          176
+        ],
+        [
+          346,
+          176
+        ],
+        [
+          347,
+          175
+        ],
+        [
+          351,
+          175
+        ],
+        [
+          354,
+          172
+        ],
+        [
+          354,
+          170
+        ],
+        [
+          355,
+          169
+        ],
+        [
+          355,
+          168
+        ],
+        [
+          354,
+          167
+        ],
+        [
+          354,
+          165
+        ],
+        [
+          353,
+          164
+        ]
+      ],
+      "confidence": 0.8402,
+      "source_detection_ids": [
+        10
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 11,
+      "seed_id": "Seed #011"
+    },
+    {
+      "mask_area_px": 163,
+      "area_px": 142.0,
+      "length_px": 16.0,
+      "width_px": 11.0,
+      "perimeter_px": 45.79898941516876,
+      "aspect_ratio": 1.4545454545454546,
+      "circularity": 0.8507195596548819,
+      "concavity": 0.030716723549488067,
+      "bbox_xyxy_src": [
+        307,
+        165,
+        319,
+        182
+      ],
+      "contour_xy_src": [
+        [
+          312,
+          165
+        ],
+        [
+          311,
+          166
+        ],
+        [
+          310,
+          166
+        ],
+        [
+          308,
+          168
+        ],
+        [
+          308,
+          171
+        ],
+        [
+          307,
+          172
+        ],
+        [
+          307,
+          176
+        ],
+        [
+          309,
+          178
+        ],
+        [
+          309,
+          179
+        ],
+        [
+          311,
+          181
+        ],
+        [
+          315,
+          181
+        ],
+        [
+          318,
+          178
+        ],
+        [
+          318,
+          171
+        ],
+        [
+          317,
+          170
+        ],
+        [
+          317,
+          167
+        ],
+        [
+          315,
+          165
+        ]
+      ],
+      "confidence": 0.8587,
+      "source_detection_ids": [
+        3,
+        4,
+        8,
+        11
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.021; candidates=18",
+      "id": 12,
+      "seed_id": "Seed #012"
+    },
+    {
+      "mask_area_px": 199,
+      "area_px": 176.0,
+      "length_px": 15.0,
+      "width_px": 14.0,
+      "perimeter_px": 49.79898941516876,
+      "aspect_ratio": 1.0714285714285714,
+      "circularity": 0.8918287582339288,
+      "concavity": 0.024930747922437657,
+      "bbox_xyxy_src": [
+        362,
+        175,
+        378,
+        190
+      ],
+      "contour_xy_src": [
+        [
+          366,
+          175
+        ],
+        [
+          365,
+          176
+        ],
+        [
+          364,
+          176
+        ],
+        [
+          362,
+          178
+        ],
+        [
+          362,
+          185
+        ],
+        [
+          365,
+          188
+        ],
+        [
+          367,
+          188
+        ],
+        [
+          368,
+          189
+        ],
+        [
+          374,
+          189
+        ],
+        [
+          376,
+          187
+        ],
+        [
+          376,
+          185
+        ],
+        [
+          377,
+          184
+        ],
+        [
+          377,
+          180
+        ],
+        [
+          376,
+          179
+        ],
+        [
+          376,
+          178
+        ],
+        [
+          374,
+          176
+        ],
+        [
+          371,
+          176
+        ],
+        [
+          370,
+          175
+        ]
+      ],
+      "confidence": 0.8244,
+      "source_detection_ids": [
+        12
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 13,
+      "seed_id": "Seed #013"
+    },
+    {
+      "mask_area_px": 165,
+      "area_px": 144.0,
+      "length_px": 15.0,
+      "width_px": 12.0,
+      "perimeter_px": 45.79898953437805,
+      "aspect_ratio": 1.25,
+      "circularity": 0.8627015207928063,
+      "concavity": 0.027027027027026973,
+      "bbox_xyxy_src": [
+        239,
+        179,
+        252,
+        195
+      ],
+      "contour_xy_src": [
+        [
+          242,
+          179
+        ],
+        [
+          240,
+          181
+        ],
+        [
+          240,
+          182
+        ],
+        [
+          239,
+          183
+        ],
+        [
+          239,
+          186
+        ],
+        [
+          240,
+          187
+        ],
+        [
+          240,
+          190
+        ],
+        [
+          241,
+          191
+        ],
+        [
+          241,
+          193
+        ],
+        [
+          242,
+          194
+        ],
+        [
+          248,
+          194
+        ],
+        [
+          250,
+          192
+        ],
+        [
+          250,
+          191
+        ],
+        [
+          251,
+          190
+        ],
+        [
+          251,
+          185
+        ],
+        [
+          250,
+          184
+        ],
+        [
+          250,
+          183
+        ],
+        [
+          246,
+          179
+        ]
+      ],
+      "confidence": 0.8265,
+      "source_detection_ids": [
+        13,
+        18
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.167; candidates=18",
+      "id": 14,
+      "seed_id": "Seed #014"
+    },
+    {
+      "mask_area_px": 220,
+      "area_px": 195.0,
+      "length_px": 16.0,
+      "width_px": 14.0,
+      "perimeter_px": 52.97056245803833,
+      "aspect_ratio": 1.1428571428571428,
+      "circularity": 0.8733238215410916,
+      "concavity": 0.027431421446383997,
+      "bbox_xyxy_src": [
+        290,
+        181,
+        307,
+        196
+      ],
+      "contour_xy_src": [
+        [
+          295,
+          181
+        ],
+        [
+          294,
+          182
+        ],
+        [
+          292,
+          182
+        ],
+        [
+          291,
+          183
+        ],
+        [
+          291,
+          185
+        ],
+        [
+          290,
+          186
+        ],
+        [
+          290,
+          189
+        ],
+        [
+          291,
+          190
+        ],
+        [
+          291,
+          193
+        ],
+        [
+          293,
+          195
+        ],
+        [
+          303,
+          195
+        ],
+        [
+          305,
+          193
+        ],
+        [
+          305,
+          192
+        ],
+        [
+          306,
+          191
+        ],
+        [
+          306,
+          187
+        ],
+        [
+          305,
+          186
+        ],
+        [
+          305,
+          183
+        ],
+        [
+          303,
+          181
+        ]
+      ],
+      "confidence": 0.8597,
+      "source_detection_ids": [
+        14,
+        20,
+        21,
+        24,
+        25
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.277; candidates=5",
+      "id": 15,
+      "seed_id": "Seed #015"
+    },
+    {
+      "mask_area_px": 134,
+      "area_px": 115.5,
+      "length_px": 14.0,
+      "width_px": 10.0,
+      "perimeter_px": 40.38477563858032,
+      "aspect_ratio": 1.4,
+      "circularity": 0.8899313360835499,
+      "concavity": 0.008583690987124415,
+      "bbox_xyxy_src": [
+        317,
+        182,
+        328,
+        197
+      ],
+      "contour_xy_src": [
+        [
+          321,
+          182
+        ],
+        [
+          318,
+          185
+        ],
+        [
+          318,
+          186
+        ],
+        [
+          317,
+          187
+        ],
+        [
+          317,
+          194
+        ],
+        [
+          319,
+          196
+        ],
+        [
+          323,
+          196
+        ],
+        [
+          326,
+          193
+        ],
+        [
+          326,
+          192
+        ],
+        [
+          327,
+          191
+        ],
+        [
+          327,
+          185
+        ],
+        [
+          324,
+          182
+        ]
+      ],
+      "confidence": 0.7101,
+      "source_detection_ids": [
+        15
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 16,
+      "seed_id": "Seed #016"
+    },
+    {
+      "mask_area_px": 161,
+      "area_px": 140.5,
+      "length_px": 14.0,
+      "width_px": 12.0,
+      "perimeter_px": 44.3847758769989,
+      "aspect_ratio": 1.1666666666666667,
+      "circularity": 0.8962272111965472,
+      "concavity": 0.0174825174825175,
+      "bbox_xyxy_src": [
+        264,
+        183,
+        279,
+        196
+      ],
+      "contour_xy_src": [
+        [
+          266,
+          183
+        ],
+        [
+          264,
+          185
+        ],
+        [
+          264,
+          189
+        ],
+        [
+          265,
+          190
+        ],
+        [
+          265,
+          192
+        ],
+        [
+          267,
+          194
+        ],
+        [
+          268,
+          194
+        ],
+        [
+          269,
+          195
+        ],
+        [
+          275,
+          195
+        ],
+        [
+          277,
+          193
+        ],
+        [
+          277,
+          192
+        ],
+        [
+          278,
+          191
+        ],
+        [
+          278,
+          187
+        ],
+        [
+          275,
+          184
+        ],
+        [
+          274,
+          184
+        ],
+        [
+          273,
+          183
+        ]
+      ],
+      "confidence": 0.8475,
+      "source_detection_ids": [
+        16
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 17,
+      "seed_id": "Seed #017"
+    },
+    {
+      "mask_area_px": 150,
+      "area_px": 129.5,
+      "length_px": 16.0,
+      "width_px": 10.0,
+      "perimeter_px": 44.3847758769989,
+      "aspect_ratio": 1.6,
+      "circularity": 0.8260599562274226,
+      "concavity": 0.029962546816479363,
+      "bbox_xyxy_src": [
+        410,
+        184,
+        421,
+        201
+      ],
+      "contour_xy_src": [
+        [
+          414,
+          184
+        ],
+        [
+          413,
+          185
+        ],
+        [
+          413,
+          186
+        ],
+        [
+          412,
+          187
+        ],
+        [
+          412,
+          188
+        ],
+        [
+          410,
+          190
+        ],
+        [
+          410,
+          197
+        ],
+        [
+          413,
+          200
+        ],
+        [
+          417,
+          200
+        ],
+        [
+          419,
+          198
+        ],
+        [
+          419,
+          196
+        ],
+        [
+          420,
+          195
+        ],
+        [
+          420,
+          188
+        ],
+        [
+          419,
+          187
+        ],
+        [
+          419,
+          186
+        ],
+        [
+          418,
+          185
+        ],
+        [
+          417,
+          185
+        ],
+        [
+          416,
+          184
+        ]
+      ],
+      "confidence": 0.7822,
+      "source_detection_ids": [
+        17
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 18,
+      "seed_id": "Seed #018"
+    },
+    {
+      "mask_area_px": 92,
+      "area_px": 76.0,
+      "length_px": 11.374736785888672,
+      "width_px": 8.629109382629395,
+      "perimeter_px": 34.14213538169861,
+      "aspect_ratio": 1.318182014100585,
+      "circularity": 0.8192983799839758,
+      "concavity": 0.06172839506172845,
+      "bbox_xyxy_src": [
+        232,
+        189,
+        242,
+        201
+      ],
+      "contour_xy_src": [
+        [
+          236,
+          189
+        ],
+        [
+          235,
+          190
+        ],
+        [
+          233,
+          190
+        ],
+        [
+          232,
+          191
+        ],
+        [
+          232,
+          193
+        ],
+        [
+          233,
+          194
+        ],
+        [
+          233,
+          198
+        ],
+        [
+          235,
+          200
+        ],
+        [
+          239,
+          200
+        ],
+        [
+          241,
+          198
+        ],
+        [
+          241,
+          194
+        ],
+        [
+          240,
+          193
+        ],
+        [
+          240,
+          191
+        ],
+        [
+          239,
+          190
+        ],
+        [
+          237,
+          190
+        ]
+      ],
+      "confidence": 0.8265,
+      "source_detection_ids": [
+        13,
+        18
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.167; candidates=18",
+      "id": 19,
+      "seed_id": "Seed #019"
+    },
+    {
+      "mask_area_px": 176,
+      "area_px": 154.0,
+      "length_px": 15.0,
+      "width_px": 12.0,
+      "perimeter_px": 46.97056233882904,
+      "aspect_ratio": 1.25,
+      "circularity": 0.8771604981972775,
+      "concavity": 0.019108280254777066,
+      "bbox_xyxy_src": [
+        329,
+        190,
+        345,
+        203
+      ],
+      "contour_xy_src": [
+        [
+          333,
+          190
+        ],
+        [
+          332,
+          191
+        ],
+        [
+          330,
+          191
+        ],
+        [
+          329,
+          192
+        ],
+        [
+          329,
+          197
+        ],
+        [
+          330,
+          198
+        ],
+        [
+          330,
+          199
+        ],
+        [
+          331,
+          200
+        ],
+        [
+          331,
+          201
+        ],
+        [
+          332,
+          202
+        ],
+        [
+          339,
+          202
+        ],
+        [
+          340,
+          201
+        ],
+        [
+          341,
+          201
+        ],
+        [
+          343,
+          199
+        ],
+        [
+          343,
+          198
+        ],
+        [
+          344,
+          197
+        ],
+        [
+          344,
+          193
+        ],
+        [
+          341,
+          190
+        ]
+      ],
+      "confidence": 0.8189,
+      "source_detection_ids": [
+        19
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 20,
+      "seed_id": "Seed #020"
+    },
+    {
+      "mask_area_px": 76,
+      "area_px": 60.5,
+      "length_px": 11.0,
+      "width_px": 7.0,
+      "perimeter_px": 31.899494767189026,
+      "aspect_ratio": 1.5714285714285714,
+      "circularity": 0.7471325015845939,
+      "concavity": 0.03200000000000003,
+      "bbox_xyxy_src": [
+        304,
+        191,
+        316,
+        199
+      ],
+      "contour_xy_src": [
+        [
+          307,
+          191
+        ],
+        [
+          306,
+          192
+        ],
+        [
+          306,
+          193
+        ],
+        [
+          304,
+          195
+        ],
+        [
+          304,
+          198
+        ],
+        [
+          315,
+          198
+        ],
+        [
+          315,
+          196
+        ],
+        [
+          313,
+          194
+        ],
+        [
+          313,
+          193
+        ],
+        [
+          311,
+          191
+        ]
+      ],
+      "confidence": 0.8597,
+      "source_detection_ids": [
+        14,
+        20,
+        21,
+        24,
+        25
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.277; candidates=5",
+      "id": 21,
+      "seed_id": "Seed #021"
+    },
+    {
+      "mask_area_px": 180,
+      "area_px": 158.0,
+      "length_px": 17.0,
+      "width_px": 12.0,
+      "perimeter_px": 48.627416372299194,
+      "aspect_ratio": 1.4166666666666667,
+      "circularity": 0.8396621172158402,
+      "concavity": 0.027692307692307683,
+      "bbox_xyxy_src": [
+        281,
+        193,
+        294,
+        211
+      ],
+      "contour_xy_src": [
+        [
+          287,
+          193
+        ],
+        [
+          286,
+          194
+        ],
+        [
+          285,
+          194
+        ],
+        [
+          284,
+          195
+        ],
+        [
+          284,
+          196
+        ],
+        [
+          283,
+          197
+        ],
+        [
+          283,
+          198
+        ],
+        [
+          282,
+          199
+        ],
+        [
+          282,
+          200
+        ],
+        [
+          281,
+          201
+        ],
+        [
+          281,
+          204
+        ],
+        [
+          282,
+          205
+        ],
+        [
+          282,
+          207
+        ],
+        [
+          285,
+          210
+        ],
+        [
+          289,
+          210
+        ],
+        [
+          291,
+          208
+        ],
+        [
+          291,
+          207
+        ],
+        [
+          292,
+          206
+        ],
+        [
+          292,
+          204
+        ],
+        [
+          293,
+          203
+        ],
+        [
+          293,
+          196
+        ],
+        [
+          290,
+          193
+        ]
+      ],
+      "confidence": 0.8597,
+      "source_detection_ids": [
+        14,
+        20,
+        21,
+        24,
+        25
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.277; candidates=5",
+      "id": 22,
+      "seed_id": "Seed #022"
+    },
+    {
+      "mask_area_px": 370,
+      "area_px": 335.5,
+      "length_px": 21.0,
+      "width_px": 21.0,
+      "perimeter_px": 74.87005710601807,
+      "aspect_ratio": 1.0,
+      "circularity": 0.752118133781991,
+      "concavity": 0.0706371191135734,
+      "bbox_xyxy_src": [
+        295,
+        199,
+        317,
+        221
+      ],
+      "contour_xy_src": [
+        [
+          304,
+          199
+        ],
+        [
+          305,
+          200
+        ],
+        [
+          305,
+          201
+        ],
+        [
+          303,
+          203
+        ],
+        [
+          298,
+          203
+        ],
+        [
+          295,
+          206
+        ],
+        [
+          295,
+          211
+        ],
+        [
+          296,
+          212
+        ],
+        [
+          296,
+          215
+        ],
+        [
+          301,
+          220
+        ],
+        [
+          308,
+          220
+        ],
+        [
+          310,
+          218
+        ],
+        [
+          310,
+          217
+        ],
+        [
+          313,
+          214
+        ],
+        [
+          315,
+          214
+        ],
+        [
+          315,
+          209
+        ],
+        [
+          316,
+          208
+        ],
+        [
+          316,
+          203
+        ],
+        [
+          315,
+          202
+        ],
+        [
+          315,
+          199
+        ]
+      ],
+      "confidence": 0.8597,
+      "source_detection_ids": [
+        14,
+        20,
+        21,
+        24,
+        25
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.277; candidates=5",
+      "id": 23,
+      "seed_id": "Seed #023"
+    },
+    {
+      "mask_area_px": 198,
+      "area_px": 175.0,
+      "length_px": 15.0,
+      "width_px": 14.0,
+      "perimeter_px": 49.79898953437805,
+      "aspect_ratio": 1.0714285714285714,
+      "circularity": 0.8867615451348507,
+      "concavity": 0.02506963788300831,
+      "bbox_xyxy_src": [
+        197,
+        200,
+        213,
+        215
+      ],
+      "contour_xy_src": [
+        [
+          200,
+          200
+        ],
+        [
+          198,
+          202
+        ],
+        [
+          198,
+          204
+        ],
+        [
+          197,
+          205
+        ],
+        [
+          197,
+          207
+        ],
+        [
+          199,
+          209
+        ],
+        [
+          199,
+          211
+        ],
+        [
+          201,
+          213
+        ],
+        [
+          202,
+          213
+        ],
+        [
+          203,
+          214
+        ],
+        [
+          209,
+          214
+        ],
+        [
+          211,
+          212
+        ],
+        [
+          211,
+          211
+        ],
+        [
+          212,
+          210
+        ],
+        [
+          212,
+          203
+        ],
+        [
+          210,
+          201
+        ],
+        [
+          209,
+          201
+        ],
+        [
+          208,
+          200
+        ]
+      ],
+      "confidence": 0.8843,
+      "source_detection_ids": [
+        22
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 24,
+      "seed_id": "Seed #024"
+    },
+    {
+      "mask_area_px": 147,
+      "area_px": 127.5,
+      "length_px": 13.0,
+      "width_px": 12.0,
+      "perimeter_px": 42.38477575778961,
+      "aspect_ratio": 1.0833333333333333,
+      "circularity": 0.8918673579413038,
+      "concavity": 0.02298850574712641,
+      "bbox_xyxy_src": [
+        365,
+        202,
+        379,
+        215
+      ],
+      "contour_xy_src": [
+        [
+          367,
+          202
+        ],
+        [
+          366,
+          203
+        ],
+        [
+          366,
+          204
+        ],
+        [
+          365,
+          205
+        ],
+        [
+          365,
+          210
+        ],
+        [
+          368,
+          213
+        ],
+        [
+          369,
+          213
+        ],
+        [
+          370,
+          214
+        ],
+        [
+          375,
+          214
+        ],
+        [
+          377,
+          212
+        ],
+        [
+          377,
+          209
+        ],
+        [
+          378,
+          208
+        ],
+        [
+          378,
+          206
+        ],
+        [
+          375,
+          203
+        ],
+        [
+          374,
+          203
+        ],
+        [
+          373,
+          202
+        ]
+      ],
+      "confidence": 0.8433,
+      "source_detection_ids": [
+        23
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 25,
+      "seed_id": "Seed #025"
+    },
+    {
+      "mask_area_px": 135,
+      "area_px": 115.0,
+      "length_px": 13.480716705322266,
+      "width_px": 11.179131507873535,
+      "perimeter_px": 42.97056221961975,
+      "aspect_ratio": 1.2058822902143793,
+      "circularity": 0.7826464730515434,
+      "concavity": 0.05737704918032782,
+      "bbox_xyxy_src": [
+        316,
+        203,
+        328,
+        218
+      ],
+      "contour_xy_src": [
+        [
+          317,
+          203
+        ],
+        [
+          317,
+          208
+        ],
+        [
+          316,
+          209
+        ],
+        [
+          316,
+          215
+        ],
+        [
+          318,
+          215
+        ],
+        [
+          319,
+          216
+        ],
+        [
+          321,
+          216
+        ],
+        [
+          322,
+          217
+        ],
+        [
+          323,
+          217
+        ],
+        [
+          326,
+          214
+        ],
+        [
+          326,
+          212
+        ],
+        [
+          327,
+          211
+        ],
+        [
+          327,
+          209
+        ],
+        [
+          326,
+          208
+        ],
+        [
+          326,
+          207
+        ],
+        [
+          323,
+          204
+        ],
+        [
+          321,
+          204
+        ],
+        [
+          320,
+          203
+        ]
+      ],
+      "confidence": 0.8597,
+      "source_detection_ids": [
+        14,
+        20,
+        21,
+        24,
+        25
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.277; candidates=5",
+      "id": 26,
+      "seed_id": "Seed #026"
+    },
+    {
+      "mask_area_px": 157,
+      "area_px": 136.0,
+      "length_px": 14.0,
+      "width_px": 12.0,
+      "perimeter_px": 44.97056245803833,
+      "aspect_ratio": 1.1666666666666667,
+      "circularity": 0.8450689278640103,
+      "concavity": 0.03886925795053009,
+      "bbox_xyxy_src": [
+        403,
+        216,
+        416,
+        231
+      ],
+      "contour_xy_src": [
+        [
+          405,
+          216
+        ],
+        [
+          404,
+          217
+        ],
+        [
+          404,
+          218
+        ],
+        [
+          403,
+          219
+        ],
+        [
+          403,
+          226
+        ],
+        [
+          404,
+          227
+        ],
+        [
+          404,
+          228
+        ],
+        [
+          405,
+          229
+        ],
+        [
+          406,
+          229
+        ],
+        [
+          407,
+          230
+        ],
+        [
+          412,
+          230
+        ],
+        [
+          413,
+          229
+        ],
+        [
+          413,
+          227
+        ],
+        [
+          414,
+          226
+        ],
+        [
+          414,
+          224
+        ],
+        [
+          415,
+          223
+        ],
+        [
+          415,
+          222
+        ],
+        [
+          414,
+          221
+        ],
+        [
+          414,
+          219
+        ],
+        [
+          412,
+          217
+        ],
+        [
+          410,
+          217
+        ],
+        [
+          409,
+          216
+        ]
+      ],
+      "confidence": 0.8182,
+      "source_detection_ids": [
+        26
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 27,
+      "seed_id": "Seed #027"
+    },
+    {
+      "mask_area_px": 223,
+      "area_px": 198.5,
+      "length_px": 16.0,
+      "width_px": 15.0,
+      "perimeter_px": 53.21320295333862,
+      "aspect_ratio": 1.0666666666666667,
+      "circularity": 0.8809100698188131,
+      "concavity": 0.026960784313725505,
+      "bbox_xyxy_src": [
+        340,
+        217,
+        357,
+        233
+      ],
+      "contour_xy_src": [
+        [
+          343,
+          217
+        ],
+        [
+          340,
+          220
+        ],
+        [
+          340,
+          226
+        ],
+        [
+          341,
+          227
+        ],
+        [
+          341,
+          229
+        ],
+        [
+          343,
+          231
+        ],
+        [
+          346,
+          231
+        ],
+        [
+          347,
+          232
+        ],
+        [
+          350,
+          232
+        ],
+        [
+          351,
+          231
+        ],
+        [
+          352,
+          231
+        ],
+        [
+          353,
+          230
+        ],
+        [
+          354,
+          230
+        ],
+        [
+          355,
+          229
+        ],
+        [
+          355,
+          227
+        ],
+        [
+          356,
+          226
+        ],
+        [
+          356,
+          221
+        ],
+        [
+          354,
+          219
+        ],
+        [
+          353,
+          219
+        ],
+        [
+          352,
+          218
+        ],
+        [
+          351,
+          218
+        ],
+        [
+          350,
+          217
+        ]
+      ],
+      "confidence": 0.8445,
+      "source_detection_ids": [
+        27
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 28,
+      "seed_id": "Seed #028"
+    },
+    {
+      "mask_area_px": 170,
+      "area_px": 149.0,
+      "length_px": 15.0,
+      "width_px": 12.0,
+      "perimeter_px": 45.79898917675018,
+      "aspect_ratio": 1.25,
+      "circularity": 0.8926564486500905,
+      "concavity": 0.013245033112582738,
+      "bbox_xyxy_src": [
+        253,
+        219,
+        266,
+        235
+      ],
+      "contour_xy_src": [
+        [
+          256,
+          219
+        ],
+        [
+          253,
+          222
+        ],
+        [
+          253,
+          229
+        ],
+        [
+          254,
+          230
+        ],
+        [
+          254,
+          231
+        ],
+        [
+          257,
+          234
+        ],
+        [
+          263,
+          234
+        ],
+        [
+          264,
+          233
+        ],
+        [
+          264,
+          232
+        ],
+        [
+          265,
+          231
+        ],
+        [
+          265,
+          224
+        ],
+        [
+          262,
+          221
+        ],
+        [
+          261,
+          221
+        ],
+        [
+          259,
+          219
+        ]
+      ],
+      "confidence": 0.857,
+      "source_detection_ids": [
+        28
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 29,
+      "seed_id": "Seed #029"
+    },
+    {
+      "mask_area_px": 224,
+      "area_px": 199.5,
+      "length_px": 17.0,
+      "width_px": 15.0,
+      "perimeter_px": 54.041630029678345,
+      "aspect_ratio": 1.1333333333333333,
+      "circularity": 0.8584122055970678,
+      "concavity": 0.03155339805825241,
+      "bbox_xyxy_src": [
+        392,
+        229,
+        408,
+        247
+      ],
+      "contour_xy_src": [
+        [
+          395,
+          229
+        ],
+        [
+          393,
+          231
+        ],
+        [
+          393,
+          232
+        ],
+        [
+          392,
+          233
+        ],
+        [
+          392,
+          240
+        ],
+        [
+          393,
+          241
+        ],
+        [
+          393,
+          242
+        ],
+        [
+          394,
+          243
+        ],
+        [
+          395,
+          243
+        ],
+        [
+          397,
+          245
+        ],
+        [
+          398,
+          245
+        ],
+        [
+          399,
+          246
+        ],
+        [
+          404,
+          246
+        ],
+        [
+          405,
+          245
+        ],
+        [
+          405,
+          244
+        ],
+        [
+          406,
+          243
+        ],
+        [
+          406,
+          241
+        ],
+        [
+          407,
+          240
+        ],
+        [
+          407,
+          238
+        ],
+        [
+          406,
+          237
+        ],
+        [
+          406,
+          235
+        ],
+        [
+          405,
+          234
+        ],
+        [
+          405,
+          233
+        ],
+        [
+          402,
+          230
+        ],
+        [
+          400,
+          230
+        ],
+        [
+          399,
+          229
+        ]
+      ],
+      "confidence": 0.8361,
+      "source_detection_ids": [
+        29
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 30,
+      "seed_id": "Seed #030"
+    },
+    {
+      "mask_area_px": 234,
+      "area_px": 207.0,
+      "length_px": 21.0,
+      "width_px": 12.0,
+      "perimeter_px": 57.79898953437805,
+      "aspect_ratio": 1.75,
+      "circularity": 0.7786453915212759,
+      "concavity": 0.037209302325581395,
+      "bbox_xyxy_src": [
+        353,
+        247,
+        366,
+        269
+      ],
+      "contour_xy_src": [
+        [
+          357,
+          247
+        ],
+        [
+          356,
+          248
+        ],
+        [
+          355,
+          248
+        ],
+        [
+          354,
+          249
+        ],
+        [
+          354,
+          255
+        ],
+        [
+          353,
+          256
+        ],
+        [
+          353,
+          260
+        ],
+        [
+          354,
+          261
+        ],
+        [
+          354,
+          263
+        ],
+        [
+          355,
+          264
+        ],
+        [
+          355,
+          266
+        ],
+        [
+          357,
+          268
+        ],
+        [
+          362,
+          268
+        ],
+        [
+          363,
+          267
+        ],
+        [
+          363,
+          266
+        ],
+        [
+          364,
+          265
+        ],
+        [
+          364,
+          264
+        ],
+        [
+          365,
+          263
+        ],
+        [
+          365,
+          253
+        ],
+        [
+          364,
+          252
+        ],
+        [
+          364,
+          251
+        ],
+        [
+          363,
+          250
+        ],
+        [
+          363,
+          249
+        ],
+        [
+          362,
+          248
+        ],
+        [
+          361,
+          248
+        ],
+        [
+          360,
+          247
+        ]
+      ],
+      "confidence": 0.8196,
+      "source_detection_ids": [
+        30
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 31,
+      "seed_id": "Seed #031"
+    },
+    {
+      "mask_area_px": 152,
+      "area_px": 132.0,
+      "length_px": 15.652474403381348,
+      "width_px": 11.180339813232422,
+      "perimeter_px": 44.627416491508484,
+      "aspect_ratio": 1.3999998805810856,
+      "circularity": 0.8328759147032119,
+      "concavity": 0.02941176470588236,
+      "bbox_xyxy_src": [
+        378,
+        247,
+        390,
+        264
+      ],
+      "contour_xy_src": [
+        [
+          383,
+          247
+        ],
+        [
+          382,
+          248
+        ],
+        [
+          381,
+          248
+        ],
+        [
+          379,
+          250
+        ],
+        [
+          379,
+          251
+        ],
+        [
+          378,
+          252
+        ],
+        [
+          378,
+          256
+        ],
+        [
+          379,
+          257
+        ],
+        [
+          379,
+          258
+        ],
+        [
+          380,
+          259
+        ],
+        [
+          380,
+          260
+        ],
+        [
+          381,
+          261
+        ],
+        [
+          381,
+          262
+        ],
+        [
+          382,
+          263
+        ],
+        [
+          386,
+          263
+        ],
+        [
+          388,
+          261
+        ],
+        [
+          388,
+          260
+        ],
+        [
+          389,
+          259
+        ],
+        [
+          389,
+          253
+        ],
+        [
+          388,
+          252
+        ],
+        [
+          388,
+          251
+        ],
+        [
+          385,
+          248
+        ],
+        [
+          384,
+          248
+        ]
+      ],
+      "confidence": 0.8166,
+      "source_detection_ids": [
+        31
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 32,
+      "seed_id": "Seed #032"
+    },
+    {
+      "mask_area_px": 158,
+      "area_px": 137.5,
+      "length_px": 16.0,
+      "width_px": 11.0,
+      "perimeter_px": 45.21320283412933,
+      "aspect_ratio": 1.4545454545454546,
+      "circularity": 0.8452438439804211,
+      "concavity": 0.02135231316725983,
+      "bbox_xyxy_src": [
+        325,
+        249,
+        337,
+        266
+      ],
+      "contour_xy_src": [
+        [
+          327,
+          249
+        ],
+        [
+          325,
+          251
+        ],
+        [
+          325,
+          258
+        ],
+        [
+          326,
+          259
+        ],
+        [
+          326,
+          261
+        ],
+        [
+          329,
+          264
+        ],
+        [
+          330,
+          264
+        ],
+        [
+          331,
+          265
+        ],
+        [
+          333,
+          265
+        ],
+        [
+          335,
+          263
+        ],
+        [
+          335,
+          262
+        ],
+        [
+          336,
+          261
+        ],
+        [
+          336,
+          256
+        ],
+        [
+          335,
+          255
+        ],
+        [
+          335,
+          254
+        ],
+        [
+          334,
+          253
+        ],
+        [
+          334,
+          252
+        ],
+        [
+          331,
+          249
+        ]
+      ],
+      "confidence": 0.8381,
+      "source_detection_ids": [
+        32
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 33,
+      "seed_id": "Seed #033"
+    },
+    {
+      "mask_area_px": 224,
+      "area_px": 198.5,
+      "length_px": 20.0,
+      "width_px": 13.0,
+      "perimeter_px": 56.041629791259766,
+      "aspect_ratio": 1.5384615384615385,
+      "circularity": 0.7942347073028114,
+      "concavity": 0.03170731707317076,
+      "bbox_xyxy_src": [
+        424,
+        262,
+        438,
+        283
+      ],
+      "contour_xy_src": [
+        [
+          431,
+          262
+        ],
+        [
+          430,
+          263
+        ],
+        [
+          429,
+          263
+        ],
+        [
+          426,
+          266
+        ],
+        [
+          426,
+          267
+        ],
+        [
+          425,
+          268
+        ],
+        [
+          425,
+          269
+        ],
+        [
+          424,
+          270
+        ],
+        [
+          424,
+          276
+        ],
+        [
+          425,
+          277
+        ],
+        [
+          425,
+          282
+        ],
+        [
+          431,
+          282
+        ],
+        [
+          434,
+          279
+        ],
+        [
+          434,
+          278
+        ],
+        [
+          435,
+          277
+        ],
+        [
+          435,
+          276
+        ],
+        [
+          436,
+          275
+        ],
+        [
+          436,
+          273
+        ],
+        [
+          437,
+          272
+        ],
+        [
+          437,
+          266
+        ],
+        [
+          434,
+          263
+        ],
+        [
+          433,
+          263
+        ],
+        [
+          432,
+          262
+        ]
+      ],
+      "confidence": 0.7763,
+      "source_detection_ids": [
+        33,
+        34,
+        36
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.090; candidates=16",
+      "id": 34,
+      "seed_id": "Seed #034"
+    },
+    {
+      "bbox_xyxy_src": [
+        473.8,
+        263.4,
+        492.1,
+        287.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8874,
+      "source_detection_ids": [
+        35
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "UNRESOLVED: no candidate passes child geometry/area checks",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 35,
+      "seed_id": "Seed #035"
+    },
+    {
+      "mask_area_px": 196,
+      "area_px": 172.5,
+      "length_px": 18.0,
+      "width_px": 12.0,
+      "perimeter_px": 51.21320283412933,
+      "aspect_ratio": 1.5,
+      "circularity": 0.826485215573831,
+      "concavity": 0.03631284916201116,
+      "bbox_xyxy_src": [
+        412,
+        269,
+        425,
+        288
+      ],
+      "contour_xy_src": [
+        [
+          416,
+          269
+        ],
+        [
+          415,
+          270
+        ],
+        [
+          414,
+          270
+        ],
+        [
+          412,
+          272
+        ],
+        [
+          412,
+          280
+        ],
+        [
+          413,
+          281
+        ],
+        [
+          413,
+          282
+        ],
+        [
+          414,
+          283
+        ],
+        [
+          414,
+          284
+        ],
+        [
+          417,
+          287
+        ],
+        [
+          420,
+          287
+        ],
+        [
+          421,
+          286
+        ],
+        [
+          421,
+          285
+        ],
+        [
+          424,
+          282
+        ],
+        [
+          424,
+          277
+        ],
+        [
+          423,
+          276
+        ],
+        [
+          423,
+          271
+        ],
+        [
+          422,
+          271
+        ],
+        [
+          420,
+          269
+        ]
+      ],
+      "confidence": 0.7763,
+      "source_detection_ids": [
+        33,
+        34,
+        36
+      ],
+      "status": "OK",
+      "status_reason": "Adaptive detector+distance; prominence=0.02; score=0.090; candidates=16",
+      "id": 36,
+      "seed_id": "Seed #036"
+    },
+    {
+      "mask_area_px": 250,
+      "area_px": 222.5,
+      "length_px": 21.0,
+      "width_px": 13.0,
+      "perimeter_px": 59.21320307254791,
+      "aspect_ratio": 1.6153846153846154,
+      "circularity": 0.797448729657978,
+      "concavity": 0.04094827586206895,
+      "bbox_xyxy_src": [
+        357,
+        280,
+        371,
+        302
+      ],
+      "contour_xy_src": [
+        [
+          362,
+          280
+        ],
+        [
+          361,
+          281
+        ],
+        [
+          360,
+          281
+        ],
+        [
+          359,
+          282
+        ],
+        [
+          359,
+          287
+        ],
+        [
+          358,
+          288
+        ],
+        [
+          358,
+          289
+        ],
+        [
+          357,
+          290
+        ],
+        [
+          357,
+          293
+        ],
+        [
+          358,
+          294
+        ],
+        [
+          358,
+          298
+        ],
+        [
+          359,
+          299
+        ],
+        [
+          359,
+          300
+        ],
+        [
+          360,
+          301
+        ],
+        [
+          366,
+          301
+        ],
+        [
+          368,
+          299
+        ],
+        [
+          368,
+          298
+        ],
+        [
+          369,
+          297
+        ],
+        [
+          369,
+          295
+        ],
+        [
+          370,
+          294
+        ],
+        [
+          370,
+          284
+        ],
+        [
+          366,
+          280
+        ]
+      ],
+      "confidence": 0.8373,
+      "source_detection_ids": [
+        37
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 37,
+      "seed_id": "Seed #037"
+    },
+    {
+      "mask_area_px": 203,
+      "area_px": 179.0,
+      "length_px": 20.0,
+      "width_px": 11.0,
+      "perimeter_px": 52.627416372299194,
+      "aspect_ratio": 1.8181818181818181,
+      "circularity": 0.8121547625455432,
+      "concavity": 0.021857923497267784,
+      "bbox_xyxy_src": [
+        301,
+        314,
+        313,
+        335
+      ],
+      "contour_xy_src": [
+        [
+          306,
+          314
+        ],
+        [
+          305,
+          315
+        ],
+        [
+          304,
+          315
+        ],
+        [
+          301,
+          318
+        ],
+        [
+          301,
+          328
+        ],
+        [
+          302,
+          329
+        ],
+        [
+          302,
+          331
+        ],
+        [
+          304,
+          333
+        ],
+        [
+          305,
+          333
+        ],
+        [
+          306,
+          334
+        ],
+        [
+          308,
+          334
+        ],
+        [
+          311,
+          331
+        ],
+        [
+          311,
+          330
+        ],
+        [
+          312,
+          329
+        ],
+        [
+          312,
+          321
+        ],
+        [
+          311,
+          320
+        ],
+        [
+          311,
+          318
+        ],
+        [
+          310,
+          317
+        ],
+        [
+          310,
+          316
+        ],
+        [
+          308,
+          314
+        ]
+      ],
+      "confidence": 0.8499,
+      "source_detection_ids": [
+        38
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 38,
+      "seed_id": "Seed #038"
+    },
+    {
+      "mask_area_px": 242,
+      "area_px": 216.0,
+      "length_px": 20.57182502746582,
+      "width_px": 13.416407585144043,
+      "perimeter_px": 57.455843567848206,
+      "aspect_ratio": 1.5333333380721792,
+      "circularity": 0.8222335706977033,
+      "concavity": 0.027027027027026973,
+      "bbox_xyxy_src": [
+        435,
+        335,
+        450,
+        356
+      ],
+      "contour_xy_src": [
+        [
+          441,
+          335
+        ],
+        [
+          440,
+          336
+        ],
+        [
+          438,
+          336
+        ],
+        [
+          437,
+          337
+        ],
+        [
+          436,
+          337
+        ],
+        [
+          435,
+          338
+        ],
+        [
+          435,
+          346
+        ],
+        [
+          436,
+          347
+        ],
+        [
+          436,
+          348
+        ],
+        [
+          437,
+          349
+        ],
+        [
+          437,
+          350
+        ],
+        [
+          438,
+          351
+        ],
+        [
+          438,
+          352
+        ],
+        [
+          441,
+          355
+        ],
+        [
+          446,
+          355
+        ],
+        [
+          448,
+          353
+        ],
+        [
+          448,
+          352
+        ],
+        [
+          449,
+          351
+        ],
+        [
+          449,
+          344
+        ],
+        [
+          448,
+          343
+        ],
+        [
+          448,
+          342
+        ],
+        [
+          447,
+          341
+        ],
+        [
+          447,
+          340
+        ],
+        [
+          445,
+          338
+        ],
+        [
+          445,
+          337
+        ],
+        [
+          444,
+          336
+        ],
+        [
+          443,
+          336
+        ],
+        [
+          442,
+          335
+        ]
+      ],
+      "confidence": 0.8658,
+      "source_detection_ids": [
+        39
+      ],
+      "status": "OK",
+      "status_reason": "Calibrated single-seed size, convexity and circularity",
+      "id": 39,
+      "seed_id": "Seed #039"
+    },
+    {
+      "bbox_xyxy_src": [
+        147.6,
+        337.8,
+        166.0,
+        360.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.9037,
+      "source_detection_ids": [
+        40
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "UNRESOLVED: no candidate passes child geometry/area checks",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 40,
+      "seed_id": "Seed #040"
+    }
+  ],
+  "diagnostics": [
+    {
+      "component_id": 1,
+      "source_detection_ids": [
+        0,
+        1
+      ],
+      "mask_area_px": 289,
+      "output_instances": 2,
+      "reason": "Adaptive detector+distance; prominence=0.02; score=0.019; candidates=18"
+    },
+    {
+      "component_id": 2,
+      "source_detection_ids": [
+        2,
+        5
+      ],
+      "mask_area_px": 267,
+      "output_instances": 2,
+      "reason": "Adaptive distance; prominence=0.02; score=0.069; candidates=11"
+    },
+    {
+      "component_id": 3,
+      "source_detection_ids": [
+        3,
+        4,
+        8,
+        11
+      ],
+      "mask_area_px": 647,
+      "output_instances": 4,
+      "reason": "Adaptive detector+distance; prominence=0.02; score=0.021; candidates=18"
+    },
+    {
+      "component_id": 4,
+      "source_detection_ids": [
+        6
+      ],
+      "mask_area_px": 151,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 5,
+      "source_detection_ids": [
+        7
+      ],
+      "mask_area_px": 149,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 6,
+      "source_detection_ids": [
+        9
+      ],
+      "mask_area_px": 152,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 7,
+      "source_detection_ids": [
+        10
+      ],
+      "mask_area_px": 147,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 8,
+      "source_detection_ids": [
+        12
+      ],
+      "mask_area_px": 199,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 9,
+      "source_detection_ids": [
+        13,
+        18
+      ],
+      "mask_area_px": 257,
+      "output_instances": 2,
+      "reason": "Adaptive detector+distance; prominence=0.02; score=0.167; candidates=18"
+    },
+    {
+      "component_id": 10,
+      "source_detection_ids": [
+        14,
+        20,
+        21,
+        24,
+        25
+      ],
+      "mask_area_px": 981,
+      "output_instances": 5,
+      "reason": "Adaptive detector+distance; prominence=0.02; score=0.277; candidates=5"
+    },
+    {
+      "component_id": 11,
+      "source_detection_ids": [
+        15
+      ],
+      "mask_area_px": 134,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 12,
+      "source_detection_ids": [
+        16
+      ],
+      "mask_area_px": 161,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 13,
+      "source_detection_ids": [
+        17
+      ],
+      "mask_area_px": 150,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 14,
+      "source_detection_ids": [
+        19
+      ],
+      "mask_area_px": 176,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 15,
+      "source_detection_ids": [
+        22
+      ],
+      "mask_area_px": 198,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 16,
+      "source_detection_ids": [
+        23
+      ],
+      "mask_area_px": 147,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 17,
+      "source_detection_ids": [
+        26
+      ],
+      "mask_area_px": 157,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 18,
+      "source_detection_ids": [
+        27
+      ],
+      "mask_area_px": 223,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 19,
+      "source_detection_ids": [
+        28
+      ],
+      "mask_area_px": 170,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 20,
+      "source_detection_ids": [
+        29
+      ],
+      "mask_area_px": 224,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 21,
+      "source_detection_ids": [
+        30
+      ],
+      "mask_area_px": 234,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 22,
+      "source_detection_ids": [
+        31
+      ],
+      "mask_area_px": 152,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 23,
+      "source_detection_ids": [
+        32
+      ],
+      "mask_area_px": 158,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 24,
+      "source_detection_ids": [
+        33,
+        34,
+        36
+      ],
+      "mask_area_px": 420,
+      "output_instances": 2,
+      "reason": "Adaptive detector+distance; prominence=0.02; score=0.090; candidates=16"
+    },
+    {
+      "source_detection_ids": [
+        35
+      ],
+      "outcome": "original_detections_retained",
+      "reason": "UNRESOLVED: no candidate passes child geometry/area checks"
+    },
+    {
+      "component_id": 26,
+      "source_detection_ids": [
+        37
+      ],
+      "mask_area_px": 250,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 27,
+      "source_detection_ids": [
+        38
+      ],
+      "mask_area_px": 203,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "component_id": 28,
+      "source_detection_ids": [
+        39
+      ],
+      "mask_area_px": 242,
+      "output_instances": 1,
+      "reason": "Calibrated single-seed size, convexity and circularity"
+    },
+    {
+      "source_detection_ids": [
+        40
+      ],
+      "outcome": "original_detections_retained",
+      "reason": "UNRESOLVED: no candidate passes child geometry/area checks"
+    }
+  ],
+  "timings_ms": {
+    "yolo_infer_ms": 35.82769999047741,
+    "detector_wall_ms": 40.2668000315316,
+    "separation_ms": 122.32289998792112,
+    "total_ms": 162.58970001945272,
+    "fpga_dma_ms": null
+  },
+  "source_image": "data/datasets/seeds/raw/redbean_touch_009.png",
+  "split": "test"
+}

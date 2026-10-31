@@ -1,0 +1,82 @@
+backend,label,image,resolution,algorithm,threshold,run_id,ms,fps,correct,different_pixels,source,kernel
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,1,46.9582,21.3,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,2,51.5974,19.38,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,3,47.3813,21.11,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,4,47.0247,21.27,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,5,47.1286,21.22,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,6,46.8713,21.33,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,7,47.1134,21.23,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,8,47.0643,21.25,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,9,46.8937,21.32,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,10,47.158,21.21,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,11,46.9678,21.29,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,12,46.9067,21.32,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,13,46.8389,21.35,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,14,47.1361,21.22,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,15,47.0649,21.25,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,16,46.879,21.33,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,17,47.0569,21.25,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,18,49.3864,20.25,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,19,47.4888,21.06,PASS,0,-,-
+
+ps,PS 软件,plant_b_320x240,320x240,sobel,0,20,47.0149,21.27,PASS,0,-,-
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,1,1.2592,794.14,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,2,1.4841,673.8,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,3,1.4549,687.33,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,4,1.4491,690.08,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,5,1.4458,691.66,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,6,1.4495,689.92,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,7,1.4847,673.53,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,8,1.5726,635.9,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,9,1.4543,687.61,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,10,1.4562,686.7,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,11,1.4474,690.88,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,12,1.4477,690.77,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,13,1.4477,690.73,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,14,1.4496,689.85,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,15,1.5136,660.7,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,16,1.4486,690.32,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,17,1.4433,692.85,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,18,1.4476,690.78,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,19,1.4473,690.94,PASS,0,parameterized_edge.bit,sobel_v3_0
+
+v3p,PL V3 参数化,plant_b_320x240,320x240,sobel,0,20,1.4446,692.23,PASS,0,parameterized_edge.bit,sobel_v3_0
+

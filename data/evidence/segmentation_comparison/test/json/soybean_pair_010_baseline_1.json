@@ -1,0 +1,5107 @@
+{
+  "schema": "agrivision.segmentation.separation.v5",
+  "evaluation_scope": "same working ROI for all three methods",
+  "yolo_raw_count": 40,
+  "effective_detector_parameters": {
+    "iou": 0.55,
+    "conf": 0.25,
+    "device": "cpu",
+    "imgsz": 960
+  },
+  "session_id": "segmentation_test",
+  "frame_id": 20,
+  "image_id": "soybean_pair_010",
+  "mode": "baseline_1",
+  "species": "soybean",
+  "image_size": [
+    640,
+    480
+  ],
+  "coordinate_system": "original_image_pixels",
+  "input_format": "BGR_uint8",
+  "gt_count": 40,
+  "yolo_count": 40,
+  "final_count": 40,
+  "absolute_error": 0,
+  "status": "UNRESOLVED",
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        229.9,
+        46.0,
+        250.4,
+        64.5
+      ],
+      "confidence": 0.8532,
+      "class_name": "seed"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        340.0,
+        49.9,
+        362.0,
+        68.8
+      ],
+      "confidence": 0.8679,
+      "class_name": "seed"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        420.5,
+        71.4,
+        439.7,
+        89.4
+      ],
+      "confidence": 0.8799,
+      "class_name": "seed"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        221.5,
+        74.5,
+        242.9,
+        92.2
+      ],
+      "confidence": 0.8859,
+      "class_name": "seed"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        277.2,
+        74.5,
+        298.1,
+        90.3
+      ],
+      "confidence": 0.84,
+      "class_name": "seed"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        325.0,
+        87.2,
+        344.9,
+        105.0
+      ],
+      "confidence": 0.8442,
+      "class_name": "seed"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        182.1,
+        90.0,
+        202.4,
+        105.1
+      ],
+      "confidence": 0.8391,
+      "class_name": "seed"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        388.2,
+        106.1,
+        410.3,
+        124.7
+      ],
+      "confidence": 0.886,
+      "class_name": "seed"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        266.6,
+        115.1,
+        287.9,
+        131.6
+      ],
+      "confidence": 0.8457,
+      "class_name": "seed"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        216.4,
+        121.8,
+        236.2,
+        140.1
+      ],
+      "confidence": 0.9048,
+      "class_name": "seed"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        423.2,
+        127.3,
+        446.9,
+        158.4
+      ],
+      "confidence": 0.8614,
+      "class_name": "seed"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        471.6,
+        129.4,
+        493.7,
+        152.2
+      ],
+      "confidence": 0.8763,
+      "class_name": "seed"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        196.2,
+        131.4,
+        218.0,
+        145.3
+      ],
+      "confidence": 0.7382,
+      "class_name": "seed"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        228.7,
+        135.5,
+        250.3,
+        152.6
+      ],
+      "confidence": 0.8567,
+      "class_name": "seed"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        199.2,
+        135.7,
+        230.6,
+        158.1
+      ],
+      "confidence": 0.2577,
+      "class_name": "seed"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        212.5,
+        138.8,
+        231.3,
+        160.2
+      ],
+      "confidence": 0.8192,
+      "class_name": "seed"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        196.6,
+        144.0,
+        215.3,
+        166.6
+      ],
+      "confidence": 0.8397,
+      "class_name": "seed"
+    },
+    {
+      "id": 17,
+      "bbox_xyxy": [
+        378.6,
+        143.5,
+        401.0,
+        165.5
+      ],
+      "confidence": 0.855,
+      "class_name": "seed"
+    },
+    {
+      "id": 18,
+      "bbox_xyxy": [
+        517.9,
+        155.6,
+        540.5,
+        178.0
+      ],
+      "confidence": 0.7083,
+      "class_name": "seed"
+    },
+    {
+      "id": 19,
+      "bbox_xyxy": [
+        491.5,
+        158.7,
+        539.0,
+        194.4
+      ],
+      "confidence": 0.2841,
+      "class_name": "seed"
+    },
+    {
+      "id": 20,
+      "bbox_xyxy": [
+        316.1,
+        167.3,
+        338.3,
+        188.5
+      ],
+      "confidence": 0.8847,
+      "class_name": "seed"
+    },
+    {
+      "id": 21,
+      "bbox_xyxy": [
+        491.8,
+        172.1,
+        516.7,
+        194.4
+      ],
+      "confidence": 0.6073,
+      "class_name": "seed"
+    },
+    {
+      "id": 22,
+      "bbox_xyxy": [
+        305.0,
+        181.3,
+        325.0,
+        203.2
+      ],
+      "confidence": 0.8373,
+      "class_name": "seed"
+    },
+    {
+      "id": 23,
+      "bbox_xyxy": [
+        361.0,
+        201.3,
+        383.7,
+        217.0
+      ],
+      "confidence": 0.825,
+      "class_name": "seed"
+    },
+    {
+      "id": 24,
+      "bbox_xyxy": [
+        342.4,
+        202.6,
+        364.1,
+        226.8
+      ],
+      "confidence": 0.8721,
+      "class_name": "seed"
+    },
+    {
+      "id": 25,
+      "bbox_xyxy": [
+        160.6,
+        203.5,
+        181.5,
+        224.1
+      ],
+      "confidence": 0.816,
+      "class_name": "seed"
+    },
+    {
+      "id": 26,
+      "bbox_xyxy": [
+        360.8,
+        215.4,
+        382.7,
+        236.5
+      ],
+      "confidence": 0.8899,
+      "class_name": "seed"
+    },
+    {
+      "id": 27,
+      "bbox_xyxy": [
+        257.6,
+        220.9,
+        279.8,
+        245.2
+      ],
+      "confidence": 0.8636,
+      "class_name": "seed"
+    },
+    {
+      "id": 28,
+      "bbox_xyxy": [
+        410.8,
+        221.4,
+        435.2,
+        244.2
+      ],
+      "confidence": 0.8753,
+      "class_name": "seed"
+    },
+    {
+      "id": 29,
+      "bbox_xyxy": [
+        213.0,
+        237.2,
+        237.4,
+        261.1
+      ],
+      "confidence": 0.8702,
+      "class_name": "seed"
+    },
+    {
+      "id": 30,
+      "bbox_xyxy": [
+        306.2,
+        238.1,
+        332.4,
+        259.1
+      ],
+      "confidence": 0.8671,
+      "class_name": "seed"
+    },
+    {
+      "id": 31,
+      "bbox_xyxy": [
+        278.5,
+        253.5,
+        297.6,
+        279.4
+      ],
+      "confidence": 0.8139,
+      "class_name": "seed"
+    },
+    {
+      "id": 32,
+      "bbox_xyxy": [
+        147.0,
+        256.1,
+        169.5,
+        281.0
+      ],
+      "confidence": 0.8513,
+      "class_name": "seed"
+    },
+    {
+      "id": 33,
+      "bbox_xyxy": [
+        290.9,
+        266.4,
+        311.0,
+        292.5
+      ],
+      "confidence": 0.8414,
+      "class_name": "seed"
+    },
+    {
+      "id": 34,
+      "bbox_xyxy": [
+        227.0,
+        267.3,
+        252.6,
+        290.9
+      ],
+      "confidence": 0.8317,
+      "class_name": "seed"
+    },
+    {
+      "id": 35,
+      "bbox_xyxy": [
+        436.6,
+        277.0,
+        461.5,
+        303.3
+      ],
+      "confidence": 0.8572,
+      "class_name": "seed"
+    },
+    {
+      "id": 36,
+      "bbox_xyxy": [
+        191.0,
+        287.9,
+        214.8,
+        315.4
+      ],
+      "confidence": 0.8611,
+      "class_name": "seed"
+    },
+    {
+      "id": 37,
+      "bbox_xyxy": [
+        341.5,
+        298.8,
+        363.9,
+        326.6
+      ],
+      "confidence": 0.8844,
+      "class_name": "seed"
+    },
+    {
+      "id": 38,
+      "bbox_xyxy": [
+        389.8,
+        306.7,
+        413.6,
+        332.1
+      ],
+      "confidence": 0.8499,
+      "class_name": "seed"
+    },
+    {
+      "id": 39,
+      "bbox_xyxy": [
+        222.5,
+        314.2,
+        248.1,
+        336.2
+      ],
+      "confidence": 0.8616,
+      "class_name": "seed"
+    }
+  ],
+  "raw_detections": null,
+  "objects": [
+    {
+      "mask_area_px": 198,
+      "area_px": 175.0,
+      "length_px": 16.0,
+      "width_px": 13.0,
+      "perimeter_px": 49.79898941516876,
+      "aspect_ratio": 1.2307692307692308,
+      "circularity": 0.8867615493803269,
+      "concavity": 0.016853932584269704,
+      "bbox_xyxy_src": [
+        233,
+        50,
+        250,
+        64
+      ],
+      "contour_xy_src": [
+        [
+          235,
+          50
+        ],
+        [
+          234,
+          51
+        ],
+        [
+          234,
+          52
+        ],
+        [
+          233,
+          53
+        ],
+        [
+          233,
+          59
+        ],
+        [
+          237,
+          63
+        ],
+        [
+          245,
+          63
+        ],
+        [
+          246,
+          62
+        ],
+        [
+          247,
+          62
+        ],
+        [
+          248,
+          61
+        ],
+        [
+          248,
+          60
+        ],
+        [
+          249,
+          59
+        ],
+        [
+          249,
+          56
+        ],
+        [
+          248,
+          55
+        ],
+        [
+          248,
+          54
+        ],
+        [
+          245,
+          51
+        ],
+        [
+          243,
+          51
+        ],
+        [
+          242,
+          50
+        ]
+      ],
+      "confidence": 0.8532,
+      "source_detection_ids": [
+        0
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 1,
+      "seed_id": "Seed #001"
+    },
+    {
+      "mask_area_px": 214,
+      "area_px": 190.5,
+      "length_px": 17.0,
+      "width_px": 14.0,
+      "perimeter_px": 52.87005686759949,
+      "aspect_ratio": 1.2142857142857142,
+      "circularity": 0.8564170186229978,
+      "concavity": 0.028061224489795866,
+      "bbox_xyxy_src": [
+        344,
+        54,
+        362,
+        69
+      ],
+      "contour_xy_src": [
+        [
+          347,
+          54
+        ],
+        [
+          344,
+          57
+        ],
+        [
+          344,
+          61
+        ],
+        [
+          345,
+          62
+        ],
+        [
+          345,
+          63
+        ],
+        [
+          344,
+          64
+        ],
+        [
+          347,
+          67
+        ],
+        [
+          349,
+          67
+        ],
+        [
+          350,
+          68
+        ],
+        [
+          356,
+          68
+        ],
+        [
+          357,
+          67
+        ],
+        [
+          358,
+          67
+        ],
+        [
+          361,
+          64
+        ],
+        [
+          361,
+          62
+        ],
+        [
+          360,
+          61
+        ],
+        [
+          360,
+          59
+        ],
+        [
+          356,
+          55
+        ],
+        [
+          354,
+          55
+        ],
+        [
+          353,
+          54
+        ]
+      ],
+      "confidence": 0.8679,
+      "source_detection_ids": [
+        1
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 2,
+      "seed_id": "Seed #002"
+    },
+    {
+      "mask_area_px": 166,
+      "area_px": 145.0,
+      "length_px": 14.0,
+      "width_px": 13.0,
+      "perimeter_px": 45.79898941516876,
+      "aspect_ratio": 1.0769230769230769,
+      "circularity": 0.8686925080982948,
+      "concavity": 0.039735099337748325,
+      "bbox_xyxy_src": [
+        424,
+        76,
+        439,
+        90
+      ],
+      "contour_xy_src": [
+        [
+          427,
+          76
+        ],
+        [
+          425,
+          78
+        ],
+        [
+          425,
+          83
+        ],
+        [
+          424,
+          84
+        ],
+        [
+          424,
+          86
+        ],
+        [
+          426,
+          88
+        ],
+        [
+          428,
+          88
+        ],
+        [
+          429,
+          89
+        ],
+        [
+          431,
+          89
+        ],
+        [
+          432,
+          88
+        ],
+        [
+          435,
+          88
+        ],
+        [
+          437,
+          86
+        ],
+        [
+          437,
+          85
+        ],
+        [
+          438,
+          84
+        ],
+        [
+          438,
+          81
+        ],
+        [
+          437,
+          80
+        ],
+        [
+          437,
+          79
+        ],
+        [
+          434,
+          76
+        ]
+      ],
+      "confidence": 0.8799,
+      "source_detection_ids": [
+        2
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 3,
+      "seed_id": "Seed #003"
+    },
+    {
+      "mask_area_px": 229,
+      "area_px": 204.5,
+      "length_px": 17.0,
+      "width_px": 15.0,
+      "perimeter_px": 54.041629910469055,
+      "aspect_ratio": 1.1333333333333333,
+      "circularity": 0.8799262998449309,
+      "concavity": 0.028503562945368155,
+      "bbox_xyxy_src": [
+        224,
+        77,
+        242,
+        93
+      ],
+      "contour_xy_src": [
+        [
+          230,
+          77
+        ],
+        [
+          229,
+          78
+        ],
+        [
+          227,
+          78
+        ],
+        [
+          224,
+          81
+        ],
+        [
+          224,
+          89
+        ],
+        [
+          226,
+          91
+        ],
+        [
+          228,
+          91
+        ],
+        [
+          229,
+          92
+        ],
+        [
+          232,
+          92
+        ],
+        [
+          233,
+          91
+        ],
+        [
+          236,
+          91
+        ],
+        [
+          237,
+          90
+        ],
+        [
+          238,
+          90
+        ],
+        [
+          241,
+          87
+        ],
+        [
+          241,
+          83
+        ],
+        [
+          239,
+          81
+        ],
+        [
+          239,
+          80
+        ],
+        [
+          237,
+          78
+        ],
+        [
+          235,
+          78
+        ],
+        [
+          234,
+          77
+        ]
+      ],
+      "confidence": 0.8859,
+      "source_detection_ids": [
+        3
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 4,
+      "seed_id": "Seed #004"
+    },
+    {
+      "mask_area_px": 183,
+      "area_px": 161.0,
+      "length_px": 16.0,
+      "width_px": 12.0,
+      "perimeter_px": 47.79898941516876,
+      "aspect_ratio": 1.3333333333333333,
+      "circularity": 0.8855198700011059,
+      "concavity": 0.018292682926829285,
+      "bbox_xyxy_src": [
+        280,
+        77,
+        297,
+        90
+      ],
+      "contour_xy_src": [
+        [
+          284,
+          77
+        ],
+        [
+          283,
+          78
+        ],
+        [
+          282,
+          78
+        ],
+        [
+          280,
+          80
+        ],
+        [
+          280,
+          85
+        ],
+        [
+          281,
+          86
+        ],
+        [
+          281,
+          87
+        ],
+        [
+          282,
+          88
+        ],
+        [
+          283,
+          88
+        ],
+        [
+          284,
+          89
+        ],
+        [
+          291,
+          89
+        ],
+        [
+          292,
+          88
+        ],
+        [
+          293,
+          88
+        ],
+        [
+          296,
+          85
+        ],
+        [
+          296,
+          82
+        ],
+        [
+          295,
+          81
+        ],
+        [
+          295,
+          80
+        ],
+        [
+          293,
+          78
+        ],
+        [
+          292,
+          78
+        ],
+        [
+          291,
+          77
+        ]
+      ],
+      "confidence": 0.84,
+      "source_detection_ids": [
+        4
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 5,
+      "seed_id": "Seed #005"
+    },
+    {
+      "mask_area_px": 207,
+      "area_px": 184.0,
+      "length_px": 16.0,
+      "width_px": 14.0,
+      "perimeter_px": 50.627416372299194,
+      "aspect_ratio": 1.1428571428571428,
+      "circularity": 0.9021030623648574,
+      "concavity": 0.01866666666666672,
+      "bbox_xyxy_src": [
+        327,
+        90,
+        344,
+        105
+      ],
+      "contour_xy_src": [
+        [
+          333,
+          90
+        ],
+        [
+          332,
+          91
+        ],
+        [
+          331,
+          91
+        ],
+        [
+          328,
+          94
+        ],
+        [
+          328,
+          95
+        ],
+        [
+          327,
+          96
+        ],
+        [
+          327,
+          101
+        ],
+        [
+          330,
+          104
+        ],
+        [
+          338,
+          104
+        ],
+        [
+          340,
+          102
+        ],
+        [
+          341,
+          102
+        ],
+        [
+          342,
+          101
+        ],
+        [
+          342,
+          100
+        ],
+        [
+          343,
+          99
+        ],
+        [
+          343,
+          95
+        ],
+        [
+          342,
+          94
+        ],
+        [
+          342,
+          93
+        ],
+        [
+          340,
+          91
+        ],
+        [
+          339,
+          91
+        ],
+        [
+          338,
+          90
+        ]
+      ],
+      "confidence": 0.8442,
+      "source_detection_ids": [
+        5
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 6,
+      "seed_id": "Seed #006"
+    },
+    {
+      "mask_area_px": 180,
+      "area_px": 158.5,
+      "length_px": 15.495159149169922,
+      "width_px": 13.28156566619873,
+      "perimeter_px": 48.041629910469055,
+      "aspect_ratio": 1.1666666068297005,
+      "circularity": 0.8629858283822666,
+      "concavity": 0.03647416413373861,
+      "bbox_xyxy_src": [
+        184,
+        92,
+        201,
+        106
+      ],
+      "contour_xy_src": [
+        [
+          191,
+          92
+        ],
+        [
+          190,
+          93
+        ],
+        [
+          187,
+          93
+        ],
+        [
+          184,
+          96
+        ],
+        [
+          184,
+          99
+        ],
+        [
+          185,
+          100
+        ],
+        [
+          185,
+          102
+        ],
+        [
+          187,
+          104
+        ],
+        [
+          189,
+          104
+        ],
+        [
+          190,
+          105
+        ],
+        [
+          193,
+          105
+        ],
+        [
+          194,
+          104
+        ],
+        [
+          196,
+          104
+        ],
+        [
+          197,
+          103
+        ],
+        [
+          198,
+          103
+        ],
+        [
+          200,
+          101
+        ],
+        [
+          200,
+          98
+        ],
+        [
+          199,
+          97
+        ],
+        [
+          199,
+          96
+        ],
+        [
+          196,
+          93
+        ],
+        [
+          195,
+          93
+        ],
+        [
+          194,
+          92
+        ]
+      ],
+      "confidence": 0.8391,
+      "source_detection_ids": [
+        6
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 7,
+      "seed_id": "Seed #007"
+    },
+    {
+      "mask_area_px": 259,
+      "area_px": 233.0,
+      "length_px": 18.0,
+      "width_px": 16.0,
+      "perimeter_px": 57.45584332942963,
+      "aspect_ratio": 1.125,
+      "circularity": 0.8869464053820735,
+      "concavity": 0.029166666666666674,
+      "bbox_xyxy_src": [
+        390,
+        108,
+        409,
+        125
+      ],
+      "contour_xy_src": [
+        [
+          396,
+          108
+        ],
+        [
+          395,
+          109
+        ],
+        [
+          394,
+          109
+        ],
+        [
+          391,
+          112
+        ],
+        [
+          391,
+          115
+        ],
+        [
+          390,
+          116
+        ],
+        [
+          390,
+          117
+        ],
+        [
+          391,
+          118
+        ],
+        [
+          391,
+          121
+        ],
+        [
+          393,
+          123
+        ],
+        [
+          395,
+          123
+        ],
+        [
+          396,
+          124
+        ],
+        [
+          402,
+          124
+        ],
+        [
+          403,
+          123
+        ],
+        [
+          405,
+          123
+        ],
+        [
+          408,
+          120
+        ],
+        [
+          408,
+          114
+        ],
+        [
+          407,
+          113
+        ],
+        [
+          407,
+          112
+        ],
+        [
+          404,
+          109
+        ],
+        [
+          402,
+          109
+        ],
+        [
+          401,
+          108
+        ]
+      ],
+      "confidence": 0.886,
+      "source_detection_ids": [
+        7
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 8,
+      "seed_id": "Seed #008"
+    },
+    {
+      "mask_area_px": 211,
+      "area_px": 186.5,
+      "length_px": 18.0,
+      "width_px": 13.0,
+      "perimeter_px": 53.21320295333862,
+      "aspect_ratio": 1.3846153846153846,
+      "circularity": 0.8276560605602451,
+      "concavity": 0.041131105398457546,
+      "bbox_xyxy_src": [
+        268,
+        118,
+        287,
+        132
+      ],
+      "contour_xy_src": [
+        [
+          278,
+          118
+        ],
+        [
+          277,
+          119
+        ],
+        [
+          272,
+          119
+        ],
+        [
+          271,
+          120
+        ],
+        [
+          270,
+          120
+        ],
+        [
+          269,
+          121
+        ],
+        [
+          269,
+          124
+        ],
+        [
+          268,
+          125
+        ],
+        [
+          268,
+          128
+        ],
+        [
+          271,
+          131
+        ],
+        [
+          280,
+          131
+        ],
+        [
+          281,
+          130
+        ],
+        [
+          282,
+          130
+        ],
+        [
+          283,
+          129
+        ],
+        [
+          284,
+          129
+        ],
+        [
+          285,
+          128
+        ],
+        [
+          285,
+          127
+        ],
+        [
+          286,
+          126
+        ],
+        [
+          286,
+          124
+        ],
+        [
+          285,
+          123
+        ],
+        [
+          285,
+          122
+        ],
+        [
+          284,
+          121
+        ],
+        [
+          284,
+          120
+        ],
+        [
+          283,
+          119
+        ],
+        [
+          281,
+          119
+        ],
+        [
+          280,
+          118
+        ]
+      ],
+      "confidence": 0.8457,
+      "source_detection_ids": [
+        8
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 9,
+      "seed_id": "Seed #009"
+    },
+    {
+      "bbox_xyxy_src": [
+        216.4,
+        121.8,
+        236.2,
+        140.1
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.9048,
+      "source_detection_ids": [
+        9
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "Fixed watershed unresolved",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 10,
+      "seed_id": "Seed #010"
+    },
+    {
+      "mask_area_px": 487,
+      "area_px": 448.0,
+      "length_px": 28.0,
+      "width_px": 20.0,
+      "perimeter_px": 86.7695517539978,
+      "aspect_ratio": 1.4,
+      "circularity": 0.7477444016855371,
+      "concavity": 0.0598111227701994,
+      "bbox_xyxy_src": [
+        425,
+        130,
+        446,
+        159
+      ],
+      "contour_xy_src": [
+        [
+          435,
+          130
+        ],
+        [
+          434,
+          131
+        ],
+        [
+          431,
+          131
+        ],
+        [
+          429,
+          133
+        ],
+        [
+          429,
+          135
+        ],
+        [
+          428,
+          136
+        ],
+        [
+          428,
+          140
+        ],
+        [
+          429,
+          141
+        ],
+        [
+          426,
+          144
+        ],
+        [
+          426,
+          147
+        ],
+        [
+          425,
+          148
+        ],
+        [
+          425,
+          154
+        ],
+        [
+          427,
+          156
+        ],
+        [
+          428,
+          156
+        ],
+        [
+          429,
+          157
+        ],
+        [
+          430,
+          157
+        ],
+        [
+          431,
+          158
+        ],
+        [
+          441,
+          158
+        ],
+        [
+          442,
+          157
+        ],
+        [
+          443,
+          157
+        ],
+        [
+          445,
+          155
+        ],
+        [
+          445,
+          150
+        ],
+        [
+          444,
+          149
+        ],
+        [
+          444,
+          147
+        ],
+        [
+          443,
+          146
+        ],
+        [
+          443,
+          143
+        ],
+        [
+          444,
+          142
+        ],
+        [
+          444,
+          141
+        ],
+        [
+          445,
+          140
+        ],
+        [
+          444,
+          139
+        ],
+        [
+          444,
+          136
+        ],
+        [
+          443,
+          135
+        ],
+        [
+          443,
+          134
+        ],
+        [
+          440,
+          131
+        ],
+        [
+          438,
+          131
+        ],
+        [
+          437,
+          130
+        ]
+      ],
+      "confidence": 0.8614,
+      "source_detection_ids": [
+        10
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 11,
+      "seed_id": "Seed #011"
+    },
+    {
+      "bbox_xyxy_src": [
+        196.2,
+        131.4,
+        218.0,
+        145.3
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.7382,
+      "source_detection_ids": [
+        12
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "Fixed watershed unresolved",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 12,
+      "seed_id": "Seed #012"
+    },
+    {
+      "mask_area_px": 309,
+      "area_px": 280.5,
+      "length_px": 20.0,
+      "width_px": 18.0,
+      "perimeter_px": 63.69848394393921,
+      "aspect_ratio": 1.1111111111111112,
+      "circularity": 0.8687294363416124,
+      "concavity": 0.03442340791738385,
+      "bbox_xyxy_src": [
+        474,
+        132,
+        493,
+        153
+      ],
+      "contour_xy_src": [
+        [
+          481,
+          132
+        ],
+        [
+          480,
+          133
+        ],
+        [
+          479,
+          133
+        ],
+        [
+          478,
+          134
+        ],
+        [
+          477,
+          134
+        ],
+        [
+          475,
+          136
+        ],
+        [
+          475,
+          144
+        ],
+        [
+          474,
+          145
+        ],
+        [
+          475,
+          146
+        ],
+        [
+          475,
+          147
+        ],
+        [
+          478,
+          150
+        ],
+        [
+          479,
+          150
+        ],
+        [
+          480,
+          151
+        ],
+        [
+          481,
+          151
+        ],
+        [
+          482,
+          152
+        ],
+        [
+          486,
+          152
+        ],
+        [
+          487,
+          151
+        ],
+        [
+          489,
+          151
+        ],
+        [
+          492,
+          148
+        ],
+        [
+          492,
+          141
+        ],
+        [
+          491,
+          140
+        ],
+        [
+          491,
+          138
+        ],
+        [
+          490,
+          137
+        ],
+        [
+          490,
+          136
+        ],
+        [
+          487,
+          133
+        ],
+        [
+          485,
+          133
+        ],
+        [
+          484,
+          132
+        ]
+      ],
+      "confidence": 0.8763,
+      "source_detection_ids": [
+        11
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 13,
+      "seed_id": "Seed #013"
+    },
+    {
+      "bbox_xyxy_src": [
+        228.7,
+        135.5,
+        250.3,
+        152.6
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8567,
+      "source_detection_ids": [
+        13
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "Fixed watershed unresolved",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 14,
+      "seed_id": "Seed #014"
+    },
+    {
+      "bbox_xyxy_src": [
+        199.2,
+        135.7,
+        230.6,
+        158.1
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.2577,
+      "source_detection_ids": [
+        14
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "Fixed watershed unresolved",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 15,
+      "seed_id": "Seed #015"
+    },
+    {
+      "bbox_xyxy_src": [
+        212.5,
+        138.8,
+        231.3,
+        160.2
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8192,
+      "source_detection_ids": [
+        15
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "Fixed watershed unresolved",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 16,
+      "seed_id": "Seed #016"
+    },
+    {
+      "bbox_xyxy_src": [
+        196.6,
+        144.0,
+        215.3,
+        166.6
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8397,
+      "source_detection_ids": [
+        16
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "Fixed watershed unresolved",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 17,
+      "seed_id": "Seed #017"
+    },
+    {
+      "mask_area_px": 308,
+      "area_px": 280.5,
+      "length_px": 21.21320343017578,
+      "width_px": 16.26345443725586,
+      "perimeter_px": 62.52691090106964,
+      "aspect_ratio": 1.3043479484642069,
+      "circularity": 0.9015893712903078,
+      "concavity": 0.01232394366197187,
+      "bbox_xyxy_src": [
+        380,
+        146,
+        400,
+        166
+      ],
+      "contour_xy_src": [
+        [
+          385,
+          146
+        ],
+        [
+          381,
+          150
+        ],
+        [
+          381,
+          151
+        ],
+        [
+          380,
+          152
+        ],
+        [
+          380,
+          158
+        ],
+        [
+          386,
+          164
+        ],
+        [
+          387,
+          164
+        ],
+        [
+          388,
+          165
+        ],
+        [
+          395,
+          165
+        ],
+        [
+          396,
+          164
+        ],
+        [
+          397,
+          164
+        ],
+        [
+          399,
+          162
+        ],
+        [
+          399,
+          156
+        ],
+        [
+          398,
+          155
+        ],
+        [
+          398,
+          153
+        ],
+        [
+          392,
+          147
+        ],
+        [
+          390,
+          147
+        ],
+        [
+          389,
+          146
+        ]
+      ],
+      "confidence": 0.855,
+      "source_detection_ids": [
+        17
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 18,
+      "seed_id": "Seed #018"
+    },
+    {
+      "mask_area_px": 315,
+      "area_px": 286.5,
+      "length_px": 22.001506805419922,
+      "width_px": 16.798446655273438,
+      "perimeter_px": 67.01219308376312,
+      "aspect_ratio": 1.309734599687711,
+      "circularity": 0.8017275875655054,
+      "concavity": 0.04975124378109452,
+      "bbox_xyxy_src": [
+        517,
+        159,
+        540,
+        180
+      ],
+      "contour_xy_src": [
+        [
+          524,
+          159
+        ],
+        [
+          523,
+          160
+        ],
+        [
+          522,
+          160
+        ],
+        [
+          521,
+          161
+        ],
+        [
+          521,
+          162
+        ],
+        [
+          520,
+          163
+        ],
+        [
+          520,
+          164
+        ],
+        [
+          519,
+          165
+        ],
+        [
+          519,
+          166
+        ],
+        [
+          517,
+          168
+        ],
+        [
+          519,
+          170
+        ],
+        [
+          520,
+          170
+        ],
+        [
+          529,
+          179
+        ],
+        [
+          530,
+          179
+        ],
+        [
+          531,
+          178
+        ],
+        [
+          533,
+          178
+        ],
+        [
+          534,
+          177
+        ],
+        [
+          536,
+          177
+        ],
+        [
+          538,
+          175
+        ],
+        [
+          538,
+          174
+        ],
+        [
+          539,
+          173
+        ],
+        [
+          538,
+          172
+        ],
+        [
+          538,
+          167
+        ],
+        [
+          537,
+          166
+        ],
+        [
+          537,
+          165
+        ],
+        [
+          536,
+          164
+        ],
+        [
+          536,
+          163
+        ],
+        [
+          533,
+          160
+        ],
+        [
+          531,
+          160
+        ],
+        [
+          530,
+          159
+        ]
+      ],
+      "confidence": 0.7083,
+      "source_detection_ids": [
+        18,
+        19,
+        21
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=3",
+      "id": 19,
+      "seed_id": "Seed #019"
+    },
+    {
+      "mask_area_px": 343,
+      "area_px": 313.0,
+      "length_px": 21.910655975341797,
+      "width_px": 19.137157440185547,
+      "perimeter_px": 68.76955187320709,
+      "aspect_ratio": 1.1449274033421633,
+      "circularity": 0.8316906381217746,
+      "concavity": 0.04573170731707321,
+      "bbox_xyxy_src": [
+        316,
+        169,
+        339,
+        190
+      ],
+      "contour_xy_src": [
+        [
+          325,
+          169
+        ],
+        [
+          324,
+          170
+        ],
+        [
+          323,
+          170
+        ],
+        [
+          322,
+          171
+        ],
+        [
+          321,
+          171
+        ],
+        [
+          319,
+          173
+        ],
+        [
+          319,
+          174
+        ],
+        [
+          318,
+          175
+        ],
+        [
+          318,
+          176
+        ],
+        [
+          317,
+          177
+        ],
+        [
+          317,
+          181
+        ],
+        [
+          316,
+          182
+        ],
+        [
+          316,
+          183
+        ],
+        [
+          317,
+          183
+        ],
+        [
+          318,
+          184
+        ],
+        [
+          319,
+          184
+        ],
+        [
+          321,
+          186
+        ],
+        [
+          322,
+          186
+        ],
+        [
+          325,
+          189
+        ],
+        [
+          328,
+          189
+        ],
+        [
+          329,
+          188
+        ],
+        [
+          333,
+          188
+        ],
+        [
+          334,
+          187
+        ],
+        [
+          335,
+          187
+        ],
+        [
+          338,
+          184
+        ],
+        [
+          338,
+          179
+        ],
+        [
+          337,
+          178
+        ],
+        [
+          337,
+          177
+        ],
+        [
+          336,
+          176
+        ],
+        [
+          336,
+          175
+        ],
+        [
+          331,
+          170
+        ],
+        [
+          326,
+          170
+        ]
+      ],
+      "confidence": 0.8847,
+      "source_detection_ids": [
+        20,
+        22
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=2",
+      "id": 20,
+      "seed_id": "Seed #020"
+    },
+    {
+      "mask_area_px": 210,
+      "area_px": 184.5,
+      "length_px": 19.582361221313477,
+      "width_px": 13.913783073425293,
+      "perimeter_px": 58.52691125869751,
+      "aspect_ratio": 1.4074073972530818,
+      "circularity": 0.6768540386725205,
+      "concavity": 0.11722488038277512,
+      "bbox_xyxy_src": [
+        512,
+        169,
+        529,
+        190
+      ],
+      "contour_xy_src": [
+        [
+          516,
+          169
+        ],
+        [
+          515,
+          170
+        ],
+        [
+          514,
+          170
+        ],
+        [
+          512,
+          172
+        ],
+        [
+          512,
+          173
+        ],
+        [
+          515,
+          176
+        ],
+        [
+          515,
+          180
+        ],
+        [
+          516,
+          181
+        ],
+        [
+          516,
+          188
+        ],
+        [
+          517,
+          189
+        ],
+        [
+          518,
+          188
+        ],
+        [
+          519,
+          188
+        ],
+        [
+          520,
+          187
+        ],
+        [
+          524,
+          187
+        ],
+        [
+          525,
+          186
+        ],
+        [
+          526,
+          186
+        ],
+        [
+          527,
+          185
+        ],
+        [
+          527,
+          184
+        ],
+        [
+          528,
+          183
+        ],
+        [
+          528,
+          179
+        ],
+        [
+          520,
+          171
+        ],
+        [
+          519,
+          171
+        ],
+        [
+          517,
+          169
+        ]
+      ],
+      "confidence": 0.7083,
+      "source_detection_ids": [
+        18,
+        19,
+        21
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=3",
+      "id": 21,
+      "seed_id": "Seed #021"
+    },
+    {
+      "mask_area_px": 379,
+      "area_px": 346.0,
+      "length_px": 21.582040786743164,
+      "width_px": 20.093626022338867,
+      "perimeter_px": 72.28427064418793,
+      "aspect_ratio": 1.0740739756353368,
+      "circularity": 0.8321437510445467,
+      "concavity": 0.04155124653739617,
+      "bbox_xyxy_src": [
+        494,
+        174,
+        517,
+        195
+      ],
+      "contour_xy_src": [
+        [
+          508,
+          174
+        ],
+        [
+          507,
+          175
+        ],
+        [
+          501,
+          175
+        ],
+        [
+          500,
+          176
+        ],
+        [
+          499,
+          176
+        ],
+        [
+          496,
+          179
+        ],
+        [
+          496,
+          181
+        ],
+        [
+          495,
+          182
+        ],
+        [
+          495,
+          184
+        ],
+        [
+          494,
+          185
+        ],
+        [
+          494,
+          187
+        ],
+        [
+          495,
+          188
+        ],
+        [
+          495,
+          189
+        ],
+        [
+          497,
+          191
+        ],
+        [
+          498,
+          191
+        ],
+        [
+          500,
+          193
+        ],
+        [
+          502,
+          193
+        ],
+        [
+          503,
+          194
+        ],
+        [
+          510,
+          194
+        ],
+        [
+          511,
+          193
+        ],
+        [
+          513,
+          193
+        ],
+        [
+          514,
+          192
+        ],
+        [
+          515,
+          192
+        ],
+        [
+          516,
+          191
+        ],
+        [
+          516,
+          189
+        ],
+        [
+          515,
+          188
+        ],
+        [
+          515,
+          181
+        ],
+        [
+          514,
+          180
+        ],
+        [
+          514,
+          176
+        ],
+        [
+          512,
+          174
+        ]
+      ],
+      "confidence": 0.7083,
+      "source_detection_ids": [
+        18,
+        19,
+        21
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=3",
+      "id": 22,
+      "seed_id": "Seed #022"
+    },
+    {
+      "mask_area_px": 298,
+      "area_px": 270.5,
+      "length_px": 19.798988342285156,
+      "width_px": 17.677669525146484,
+      "perimeter_px": 62.5269113779068,
+      "aspect_ratio": 1.1199999136832541,
+      "circularity": 0.8694471344538951,
+      "concavity": 0.023465703971119134,
+      "bbox_xyxy_src": [
+        307,
+        183,
+        326,
+        204
+      ],
+      "contour_xy_src": [
+        [
+          315,
+          183
+        ],
+        [
+          314,
+          184
+        ],
+        [
+          313,
+          184
+        ],
+        [
+          308,
+          189
+        ],
+        [
+          308,
+          190
+        ],
+        [
+          307,
+          191
+        ],
+        [
+          307,
+          199
+        ],
+        [
+          308,
+          200
+        ],
+        [
+          308,
+          201
+        ],
+        [
+          309,
+          202
+        ],
+        [
+          311,
+          202
+        ],
+        [
+          312,
+          203
+        ],
+        [
+          317,
+          203
+        ],
+        [
+          318,
+          202
+        ],
+        [
+          319,
+          202
+        ],
+        [
+          320,
+          201
+        ],
+        [
+          321,
+          201
+        ],
+        [
+          323,
+          199
+        ],
+        [
+          323,
+          198
+        ],
+        [
+          324,
+          197
+        ],
+        [
+          324,
+          196
+        ],
+        [
+          325,
+          195
+        ],
+        [
+          325,
+          190
+        ],
+        [
+          322,
+          187
+        ],
+        [
+          321,
+          187
+        ],
+        [
+          319,
+          185
+        ],
+        [
+          318,
+          185
+        ],
+        [
+          317,
+          184
+        ],
+        [
+          316,
+          184
+        ]
+      ],
+      "confidence": 0.8847,
+      "source_detection_ids": [
+        20,
+        22
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=2",
+      "id": 23,
+      "seed_id": "Seed #023"
+    },
+    {
+      "bbox_xyxy_src": [
+        361.0,
+        201.3,
+        383.7,
+        217.0
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.825,
+      "source_detection_ids": [
+        23
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "UNRESOLVED: fixed split discards most distinct detector centers",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 24,
+      "seed_id": "Seed #024"
+    },
+    {
+      "bbox_xyxy_src": [
+        342.4,
+        202.6,
+        364.1,
+        226.8
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8721,
+      "source_detection_ids": [
+        24
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "UNRESOLVED: fixed split discards most distinct detector centers",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 25,
+      "seed_id": "Seed #025"
+    },
+    {
+      "mask_area_px": 282,
+      "area_px": 255.0,
+      "length_px": 18.0,
+      "width_px": 18.0,
+      "perimeter_px": 60.28427064418793,
+      "aspect_ratio": 1.0,
+      "circularity": 0.881743004158468,
+      "concavity": 0.03041825095057038,
+      "bbox_xyxy_src": [
+        162,
+        206,
+        181,
+        225
+      ],
+      "contour_xy_src": [
+        [
+          167,
+          206
+        ],
+        [
+          163,
+          210
+        ],
+        [
+          163,
+          211
+        ],
+        [
+          162,
+          212
+        ],
+        [
+          162,
+          215
+        ],
+        [
+          163,
+          216
+        ],
+        [
+          163,
+          219
+        ],
+        [
+          164,
+          220
+        ],
+        [
+          164,
+          221
+        ],
+        [
+          166,
+          223
+        ],
+        [
+          170,
+          223
+        ],
+        [
+          171,
+          224
+        ],
+        [
+          174,
+          224
+        ],
+        [
+          175,
+          223
+        ],
+        [
+          177,
+          223
+        ],
+        [
+          180,
+          220
+        ],
+        [
+          180,
+          215
+        ],
+        [
+          179,
+          214
+        ],
+        [
+          179,
+          212
+        ],
+        [
+          177,
+          210
+        ],
+        [
+          177,
+          209
+        ],
+        [
+          175,
+          207
+        ],
+        [
+          174,
+          207
+        ],
+        [
+          173,
+          206
+        ]
+      ],
+      "confidence": 0.816,
+      "source_detection_ids": [
+        25
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 26,
+      "seed_id": "Seed #026"
+    },
+    {
+      "bbox_xyxy_src": [
+        360.8,
+        215.4,
+        382.7,
+        236.5
+      ],
+      "contour_xy_src": [],
+      "confidence": 0.8899,
+      "source_detection_ids": [
+        26
+      ],
+      "status": "UNRESOLVED",
+      "status_reason": "UNRESOLVED: fixed split discards most distinct detector centers",
+      "mask_area_px": null,
+      "area_px": null,
+      "length_px": null,
+      "width_px": null,
+      "perimeter_px": null,
+      "aspect_ratio": null,
+      "circularity": null,
+      "concavity": null,
+      "id": 27,
+      "seed_id": "Seed #027"
+    },
+    {
+      "mask_area_px": 364,
+      "area_px": 333.0,
+      "length_px": 23.255107879638672,
+      "width_px": 18.782970428466797,
+      "perimeter_px": 69.94112491607666,
+      "aspect_ratio": 1.2380953251352653,
+      "circularity": 0.8554386556255748,
+      "concavity": 0.03338171262699563,
+      "bbox_xyxy_src": [
+        259,
+        223,
+        280,
+        246
+      ],
+      "contour_xy_src": [
+        [
+          268,
+          223
+        ],
+        [
+          267,
+          224
+        ],
+        [
+          265,
+          224
+        ],
+        [
+          264,
+          225
+        ],
+        [
+          264,
+          226
+        ],
+        [
+          262,
+          228
+        ],
+        [
+          262,
+          229
+        ],
+        [
+          261,
+          230
+        ],
+        [
+          261,
+          231
+        ],
+        [
+          260,
+          232
+        ],
+        [
+          260,
+          233
+        ],
+        [
+          259,
+          234
+        ],
+        [
+          259,
+          240
+        ],
+        [
+          260,
+          241
+        ],
+        [
+          260,
+          242
+        ],
+        [
+          262,
+          244
+        ],
+        [
+          264,
+          244
+        ],
+        [
+          265,
+          245
+        ],
+        [
+          268,
+          245
+        ],
+        [
+          269,
+          244
+        ],
+        [
+          272,
+          244
+        ],
+        [
+          274,
+          242
+        ],
+        [
+          275,
+          242
+        ],
+        [
+          277,
+          240
+        ],
+        [
+          277,
+          239
+        ],
+        [
+          278,
+          238
+        ],
+        [
+          278,
+          237
+        ],
+        [
+          279,
+          236
+        ],
+        [
+          279,
+          232
+        ],
+        [
+          278,
+          231
+        ],
+        [
+          278,
+          229
+        ],
+        [
+          276,
+          227
+        ],
+        [
+          276,
+          226
+        ],
+        [
+          274,
+          224
+        ],
+        [
+          272,
+          224
+        ],
+        [
+          271,
+          223
+        ]
+      ],
+      "confidence": 0.8636,
+      "source_detection_ids": [
+        27
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 28,
+      "seed_id": "Seed #028"
+    },
+    {
+      "mask_area_px": 375,
+      "area_px": 343.5,
+      "length_px": 22.0,
+      "width_px": 20.0,
+      "perimeter_px": 70.52691125869751,
+      "aspect_ratio": 1.1,
+      "circularity": 0.8678144492707307,
+      "concavity": 0.031029619181946355,
+      "bbox_xyxy_src": [
+        412,
+        224,
+        435,
+        245
+      ],
+      "contour_xy_src": [
+        [
+          421,
+          224
+        ],
+        [
+          420,
+          225
+        ],
+        [
+          419,
+          225
+        ],
+        [
+          418,
+          226
+        ],
+        [
+          417,
+          226
+        ],
+        [
+          415,
+          228
+        ],
+        [
+          415,
+          229
+        ],
+        [
+          414,
+          230
+        ],
+        [
+          414,
+          233
+        ],
+        [
+          412,
+          235
+        ],
+        [
+          412,
+          238
+        ],
+        [
+          413,
+          239
+        ],
+        [
+          413,
+          240
+        ],
+        [
+          416,
+          243
+        ],
+        [
+          418,
+          243
+        ],
+        [
+          419,
+          244
+        ],
+        [
+          424,
+          244
+        ],
+        [
+          425,
+          243
+        ],
+        [
+          427,
+          243
+        ],
+        [
+          428,
+          242
+        ],
+        [
+          429,
+          242
+        ],
+        [
+          431,
+          240
+        ],
+        [
+          432,
+          240
+        ],
+        [
+          434,
+          238
+        ],
+        [
+          434,
+          231
+        ],
+        [
+          433,
+          230
+        ],
+        [
+          433,
+          229
+        ],
+        [
+          431,
+          227
+        ],
+        [
+          431,
+          226
+        ],
+        [
+          430,
+          225
+        ],
+        [
+          428,
+          225
+        ],
+        [
+          427,
+          224
+        ]
+      ],
+      "confidence": 0.8753,
+      "source_detection_ids": [
+        28
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 29,
+      "seed_id": "Seed #029"
+    },
+    {
+      "mask_area_px": 432,
+      "area_px": 399.0,
+      "length_px": 23.0,
+      "width_px": 22.0,
+      "perimeter_px": 74.76955223083496,
+      "aspect_ratio": 1.0454545454545454,
+      "circularity": 0.8968776468136873,
+      "concavity": 0.019656019656019708,
+      "bbox_xyxy_src": [
+        214,
+        239,
+        238,
+        262
+      ],
+      "contour_xy_src": [
+        [
+          225,
+          239
+        ],
+        [
+          224,
+          240
+        ],
+        [
+          221,
+          240
+        ],
+        [
+          216,
+          245
+        ],
+        [
+          216,
+          246
+        ],
+        [
+          215,
+          247
+        ],
+        [
+          215,
+          249
+        ],
+        [
+          214,
+          250
+        ],
+        [
+          214,
+          254
+        ],
+        [
+          215,
+          255
+        ],
+        [
+          215,
+          258
+        ],
+        [
+          217,
+          260
+        ],
+        [
+          218,
+          260
+        ],
+        [
+          219,
+          261
+        ],
+        [
+          228,
+          261
+        ],
+        [
+          229,
+          260
+        ],
+        [
+          231,
+          260
+        ],
+        [
+          236,
+          255
+        ],
+        [
+          236,
+          254
+        ],
+        [
+          237,
+          253
+        ],
+        [
+          237,
+          248
+        ],
+        [
+          236,
+          247
+        ],
+        [
+          236,
+          246
+        ],
+        [
+          235,
+          245
+        ],
+        [
+          235,
+          244
+        ],
+        [
+          231,
+          240
+        ],
+        [
+          230,
+          240
+        ],
+        [
+          229,
+          239
+        ]
+      ],
+      "confidence": 0.8702,
+      "source_detection_ids": [
+        29
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 30,
+      "seed_id": "Seed #030"
+    },
+    {
+      "mask_area_px": 369,
+      "area_px": 338.0,
+      "length_px": 23.0,
+      "width_px": 18.0,
+      "perimeter_px": 69.11269760131836,
+      "aspect_ratio": 1.2777777777777777,
+      "circularity": 0.8892233842874654,
+      "concavity": 0.01744186046511631,
+      "bbox_xyxy_src": [
+        308,
+        241,
+        332,
+        260
+      ],
+      "contour_xy_src": [
+        [
+          315,
+          241
+        ],
+        [
+          314,
+          242
+        ],
+        [
+          313,
+          242
+        ],
+        [
+          310,
+          245
+        ],
+        [
+          310,
+          246
+        ],
+        [
+          309,
+          247
+        ],
+        [
+          309,
+          248
+        ],
+        [
+          308,
+          249
+        ],
+        [
+          308,
+          254
+        ],
+        [
+          311,
+          257
+        ],
+        [
+          312,
+          257
+        ],
+        [
+          313,
+          258
+        ],
+        [
+          315,
+          258
+        ],
+        [
+          316,
+          259
+        ],
+        [
+          324,
+          259
+        ],
+        [
+          325,
+          258
+        ],
+        [
+          327,
+          258
+        ],
+        [
+          331,
+          254
+        ],
+        [
+          331,
+          250
+        ],
+        [
+          330,
+          249
+        ],
+        [
+          330,
+          248
+        ],
+        [
+          329,
+          247
+        ],
+        [
+          329,
+          245
+        ],
+        [
+          325,
+          241
+        ]
+      ],
+      "confidence": 0.8671,
+      "source_detection_ids": [
+        30
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 31,
+      "seed_id": "Seed #031"
+    },
+    {
+      "mask_area_px": 355,
+      "area_px": 323.5,
+      "length_px": 24.59674835205078,
+      "width_px": 17.441329956054688,
+      "perimeter_px": 70.52691102027893,
+      "aspect_ratio": 1.4102564663374262,
+      "circularity": 0.8172866848243656,
+      "concavity": 0.04852941176470593,
+      "bbox_xyxy_src": [
+        279,
+        256,
+        298,
+        281
+      ],
+      "contour_xy_src": [
+        [
+          285,
+          256
+        ],
+        [
+          282,
+          259
+        ],
+        [
+          282,
+          260
+        ],
+        [
+          281,
+          261
+        ],
+        [
+          281,
+          262
+        ],
+        [
+          280,
+          263
+        ],
+        [
+          280,
+          265
+        ],
+        [
+          279,
+          266
+        ],
+        [
+          279,
+          271
+        ],
+        [
+          280,
+          272
+        ],
+        [
+          280,
+          276
+        ],
+        [
+          283,
+          279
+        ],
+        [
+          286,
+          279
+        ],
+        [
+          287,
+          280
+        ],
+        [
+          290,
+          280
+        ],
+        [
+          292,
+          278
+        ],
+        [
+          292,
+          275
+        ],
+        [
+          294,
+          273
+        ],
+        [
+          294,
+          271
+        ],
+        [
+          297,
+          268
+        ],
+        [
+          297,
+          265
+        ],
+        [
+          296,
+          264
+        ],
+        [
+          296,
+          261
+        ],
+        [
+          294,
+          259
+        ],
+        [
+          294,
+          258
+        ],
+        [
+          292,
+          256
+        ]
+      ],
+      "confidence": 0.8414,
+      "source_detection_ids": [
+        31,
+        33
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=2",
+      "id": 32,
+      "seed_id": "Seed #032"
+    },
+    {
+      "mask_area_px": 378,
+      "area_px": 347.5,
+      "length_px": 22.62741470336914,
+      "width_px": 19.091880798339844,
+      "perimeter_px": 71.0121922492981,
+      "aspect_ratio": 1.185185207385997,
+      "circularity": 0.8659619956913106,
+      "concavity": 0.029329608938547524,
+      "bbox_xyxy_src": [
+        148,
+        258,
+        170,
+        282
+      ],
+      "contour_xy_src": [
+        [
+          159,
+          258
+        ],
+        [
+          158,
+          259
+        ],
+        [
+          156,
+          259
+        ],
+        [
+          155,
+          260
+        ],
+        [
+          154,
+          260
+        ],
+        [
+          150,
+          264
+        ],
+        [
+          150,
+          265
+        ],
+        [
+          149,
+          266
+        ],
+        [
+          149,
+          269
+        ],
+        [
+          148,
+          270
+        ],
+        [
+          148,
+          274
+        ],
+        [
+          149,
+          275
+        ],
+        [
+          149,
+          276
+        ],
+        [
+          150,
+          277
+        ],
+        [
+          150,
+          278
+        ],
+        [
+          152,
+          280
+        ],
+        [
+          153,
+          280
+        ],
+        [
+          154,
+          281
+        ],
+        [
+          158,
+          281
+        ],
+        [
+          159,
+          280
+        ],
+        [
+          161,
+          280
+        ],
+        [
+          167,
+          274
+        ],
+        [
+          167,
+          273
+        ],
+        [
+          168,
+          272
+        ],
+        [
+          168,
+          269
+        ],
+        [
+          169,
+          268
+        ],
+        [
+          168,
+          267
+        ],
+        [
+          168,
+          265
+        ],
+        [
+          166,
+          263
+        ],
+        [
+          166,
+          262
+        ],
+        [
+          163,
+          259
+        ],
+        [
+          162,
+          259
+        ],
+        [
+          161,
+          258
+        ]
+      ],
+      "confidence": 0.8513,
+      "source_detection_ids": [
+        32
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 33,
+      "seed_id": "Seed #033"
+    },
+    {
+      "mask_area_px": 385,
+      "area_px": 353.0,
+      "length_px": 24.149534225463867,
+      "width_px": 19.677400588989258,
+      "perimeter_px": 72.76955151557922,
+      "aspect_ratio": 1.2272725818763404,
+      "circularity": 0.8376935523525866,
+      "concavity": 0.039455782312925125,
+      "bbox_xyxy_src": [
+        290,
+        268,
+        311,
+        293
+      ],
+      "contour_xy_src": [
+        [
+          298,
+          268
+        ],
+        [
+          295,
+          271
+        ],
+        [
+          295,
+          273
+        ],
+        [
+          293,
+          275
+        ],
+        [
+          293,
+          278
+        ],
+        [
+          290,
+          281
+        ],
+        [
+          291,
+          282
+        ],
+        [
+          291,
+          286
+        ],
+        [
+          292,
+          287
+        ],
+        [
+          292,
+          289
+        ],
+        [
+          295,
+          292
+        ],
+        [
+          303,
+          292
+        ],
+        [
+          304,
+          291
+        ],
+        [
+          305,
+          291
+        ],
+        [
+          309,
+          287
+        ],
+        [
+          309,
+          285
+        ],
+        [
+          310,
+          284
+        ],
+        [
+          310,
+          278
+        ],
+        [
+          309,
+          277
+        ],
+        [
+          309,
+          275
+        ],
+        [
+          308,
+          274
+        ],
+        [
+          308,
+          273
+        ],
+        [
+          305,
+          270
+        ],
+        [
+          303,
+          270
+        ],
+        [
+          302,
+          269
+        ],
+        [
+          300,
+          269
+        ],
+        [
+          299,
+          268
+        ]
+      ],
+      "confidence": 0.8414,
+      "source_detection_ids": [
+        31,
+        33
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=2",
+      "id": 34,
+      "seed_id": "Seed #034"
+    },
+    {
+      "mask_area_px": 429,
+      "area_px": 396.0,
+      "length_px": 23.0,
+      "width_px": 22.0,
+      "perimeter_px": 74.76955187320709,
+      "aspect_ratio": 1.0454545454545454,
+      "circularity": 0.8901342143753462,
+      "concavity": 0.023427866831072786,
+      "bbox_xyxy_src": [
+        228,
+        269,
+        252,
+        292
+      ],
+      "contour_xy_src": [
+        [
+          237,
+          269
+        ],
+        [
+          236,
+          270
+        ],
+        [
+          234,
+          270
+        ],
+        [
+          230,
+          274
+        ],
+        [
+          230,
+          275
+        ],
+        [
+          229,
+          276
+        ],
+        [
+          229,
+          278
+        ],
+        [
+          228,
+          279
+        ],
+        [
+          228,
+          282
+        ],
+        [
+          229,
+          283
+        ],
+        [
+          229,
+          285
+        ],
+        [
+          230,
+          286
+        ],
+        [
+          230,
+          287
+        ],
+        [
+          233,
+          290
+        ],
+        [
+          235,
+          290
+        ],
+        [
+          236,
+          291
+        ],
+        [
+          241,
+          291
+        ],
+        [
+          242,
+          290
+        ],
+        [
+          244,
+          290
+        ],
+        [
+          245,
+          289
+        ],
+        [
+          246,
+          289
+        ],
+        [
+          250,
+          285
+        ],
+        [
+          250,
+          284
+        ],
+        [
+          251,
+          283
+        ],
+        [
+          251,
+          278
+        ],
+        [
+          250,
+          277
+        ],
+        [
+          250,
+          276
+        ],
+        [
+          249,
+          275
+        ],
+        [
+          249,
+          274
+        ],
+        [
+          248,
+          273
+        ],
+        [
+          248,
+          272
+        ],
+        [
+          246,
+          270
+        ],
+        [
+          244,
+          270
+        ],
+        [
+          243,
+          269
+        ]
+      ],
+      "confidence": 0.8317,
+      "source_detection_ids": [
+        34
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 35,
+      "seed_id": "Seed #035"
+    },
+    {
+      "mask_area_px": 397,
+      "area_px": 364.5,
+      "length_px": 22.0,
+      "width_px": 21.0,
+      "perimeter_px": 73.35533821582794,
+      "aspect_ratio": 1.0476190476190477,
+      "circularity": 0.8512241746848199,
+      "concavity": 0.036988110964332854,
+      "bbox_xyxy_src": [
+        438,
+        281,
+        460,
+        304
+      ],
+      "contour_xy_src": [
+        [
+          443,
+          281
+        ],
+        [
+          441,
+          283
+        ],
+        [
+          441,
+          284
+        ],
+        [
+          440,
+          285
+        ],
+        [
+          440,
+          286
+        ],
+        [
+          438,
+          288
+        ],
+        [
+          438,
+          293
+        ],
+        [
+          439,
+          294
+        ],
+        [
+          439,
+          296
+        ],
+        [
+          440,
+          297
+        ],
+        [
+          440,
+          298
+        ],
+        [
+          442,
+          300
+        ],
+        [
+          443,
+          300
+        ],
+        [
+          445,
+          302
+        ],
+        [
+          447,
+          302
+        ],
+        [
+          448,
+          303
+        ],
+        [
+          453,
+          303
+        ],
+        [
+          454,
+          302
+        ],
+        [
+          455,
+          302
+        ],
+        [
+          458,
+          299
+        ],
+        [
+          458,
+          298
+        ],
+        [
+          459,
+          297
+        ],
+        [
+          459,
+          288
+        ],
+        [
+          458,
+          287
+        ],
+        [
+          458,
+          286
+        ],
+        [
+          457,
+          285
+        ],
+        [
+          456,
+          285
+        ],
+        [
+          453,
+          282
+        ],
+        [
+          449,
+          282
+        ],
+        [
+          448,
+          283
+        ],
+        [
+          447,
+          283
+        ],
+        [
+          445,
+          281
+        ]
+      ],
+      "confidence": 0.8572,
+      "source_detection_ids": [
+        35
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 36,
+      "seed_id": "Seed #036"
+    },
+    {
+      "mask_area_px": 421,
+      "area_px": 388.5,
+      "length_px": 24.041629791259766,
+      "width_px": 20.50609588623047,
+      "perimeter_px": 75.84061932563782,
+      "aspect_ratio": 1.172413799518189,
+      "circularity": 0.8487839240545414,
+      "concavity": 0.029962546816479363,
+      "bbox_xyxy_src": [
+        192,
+        290,
+        215,
+        316
+      ],
+      "contour_xy_src": [
+        [
+          203,
+          290
+        ],
+        [
+          202,
+          291
+        ],
+        [
+          201,
+          291
+        ],
+        [
+          198,
+          294
+        ],
+        [
+          198,
+          295
+        ],
+        [
+          196,
+          297
+        ],
+        [
+          196,
+          299
+        ],
+        [
+          192,
+          303
+        ],
+        [
+          192,
+          306
+        ],
+        [
+          193,
+          307
+        ],
+        [
+          193,
+          308
+        ],
+        [
+          194,
+          309
+        ],
+        [
+          194,
+          310
+        ],
+        [
+          195,
+          311
+        ],
+        [
+          195,
+          312
+        ],
+        [
+          198,
+          315
+        ],
+        [
+          205,
+          315
+        ],
+        [
+          206,
+          314
+        ],
+        [
+          207,
+          314
+        ],
+        [
+          211,
+          310
+        ],
+        [
+          211,
+          309
+        ],
+        [
+          212,
+          308
+        ],
+        [
+          212,
+          307
+        ],
+        [
+          213,
+          306
+        ],
+        [
+          213,
+          304
+        ],
+        [
+          214,
+          303
+        ],
+        [
+          214,
+          301
+        ],
+        [
+          213,
+          300
+        ],
+        [
+          213,
+          298
+        ],
+        [
+          212,
+          297
+        ],
+        [
+          212,
+          296
+        ],
+        [
+          211,
+          295
+        ],
+        [
+          211,
+          294
+        ],
+        [
+          208,
+          291
+        ],
+        [
+          207,
+          291
+        ],
+        [
+          206,
+          290
+        ]
+      ],
+      "confidence": 0.8611,
+      "source_detection_ids": [
+        36
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 37,
+      "seed_id": "Seed #037"
+    },
+    {
+      "mask_area_px": 421,
+      "area_px": 387.5,
+      "length_px": 25.0,
+      "width_px": 19.0,
+      "perimeter_px": 74.5269113779068,
+      "aspect_ratio": 1.3157894736842106,
+      "circularity": 0.8767087168384937,
+      "concavity": 0.020227560050568916,
+      "bbox_xyxy_src": [
+        343,
+        301,
+        363,
+        327
+      ],
+      "contour_xy_src": [
+        [
+          352,
+          301
+        ],
+        [
+          351,
+          302
+        ],
+        [
+          349,
+          302
+        ],
+        [
+          346,
+          305
+        ],
+        [
+          346,
+          306
+        ],
+        [
+          344,
+          308
+        ],
+        [
+          344,
+          310
+        ],
+        [
+          343,
+          311
+        ],
+        [
+          343,
+          319
+        ],
+        [
+          344,
+          320
+        ],
+        [
+          344,
+          322
+        ],
+        [
+          348,
+          326
+        ],
+        [
+          356,
+          326
+        ],
+        [
+          361,
+          321
+        ],
+        [
+          361,
+          319
+        ],
+        [
+          362,
+          318
+        ],
+        [
+          362,
+          310
+        ],
+        [
+          361,
+          309
+        ],
+        [
+          361,
+          307
+        ],
+        [
+          360,
+          306
+        ],
+        [
+          360,
+          304
+        ],
+        [
+          359,
+          303
+        ],
+        [
+          358,
+          303
+        ],
+        [
+          357,
+          302
+        ],
+        [
+          356,
+          302
+        ],
+        [
+          355,
+          301
+        ]
+      ],
+      "confidence": 0.8844,
+      "source_detection_ids": [
+        37
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 38,
+      "seed_id": "Seed #038"
+    },
+    {
+      "mask_area_px": 439,
+      "area_px": 405.5,
+      "length_px": 24.0,
+      "width_px": 21.0,
+      "perimeter_px": 75.35533821582794,
+      "aspect_ratio": 1.1428571428571428,
+      "circularity": 0.8973723332635531,
+      "concavity": 0.019347037484885088,
+      "bbox_xyxy_src": [
+        391,
+        308,
+        413,
+        333
+      ],
+      "contour_xy_src": [
+        [
+          400,
+          308
+        ],
+        [
+          399,
+          309
+        ],
+        [
+          398,
+          309
+        ],
+        [
+          397,
+          310
+        ],
+        [
+          396,
+          310
+        ],
+        [
+          393,
+          313
+        ],
+        [
+          393,
+          314
+        ],
+        [
+          392,
+          315
+        ],
+        [
+          392,
+          318
+        ],
+        [
+          391,
+          319
+        ],
+        [
+          391,
+          326
+        ],
+        [
+          392,
+          327
+        ],
+        [
+          392,
+          328
+        ],
+        [
+          395,
+          331
+        ],
+        [
+          396,
+          331
+        ],
+        [
+          397,
+          332
+        ],
+        [
+          403,
+          332
+        ],
+        [
+          404,
+          331
+        ],
+        [
+          406,
+          331
+        ],
+        [
+          410,
+          327
+        ],
+        [
+          410,
+          326
+        ],
+        [
+          411,
+          325
+        ],
+        [
+          411,
+          324
+        ],
+        [
+          412,
+          323
+        ],
+        [
+          412,
+          315
+        ],
+        [
+          411,
+          314
+        ],
+        [
+          411,
+          313
+        ],
+        [
+          407,
+          309
+        ],
+        [
+          404,
+          309
+        ],
+        [
+          403,
+          308
+        ]
+      ],
+      "confidence": 0.8499,
+      "source_detection_ids": [
+        38
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 39,
+      "seed_id": "Seed #039"
+    },
+    {
+      "mask_area_px": 409,
+      "area_px": 376.5,
+      "length_px": 23.0,
+      "width_px": 20.0,
+      "perimeter_px": 72.52691102027893,
+      "aspect_ratio": 1.15,
+      "circularity": 0.8994488746390258,
+      "concavity": 0.01953125,
+      "bbox_xyxy_src": [
+        224,
+        316,
+        248,
+        337
+      ],
+      "contour_xy_src": [
+        [
+          233,
+          316
+        ],
+        [
+          232,
+          317
+        ],
+        [
+          230,
+          317
+        ],
+        [
+          229,
+          318
+        ],
+        [
+          228,
+          318
+        ],
+        [
+          225,
+          321
+        ],
+        [
+          225,
+          322
+        ],
+        [
+          224,
+          323
+        ],
+        [
+          224,
+          329
+        ],
+        [
+          225,
+          330
+        ],
+        [
+          225,
+          332
+        ],
+        [
+          228,
+          335
+        ],
+        [
+          230,
+          335
+        ],
+        [
+          231,
+          336
+        ],
+        [
+          238,
+          336
+        ],
+        [
+          239,
+          335
+        ],
+        [
+          241,
+          335
+        ],
+        [
+          242,
+          334
+        ],
+        [
+          243,
+          334
+        ],
+        [
+          246,
+          331
+        ],
+        [
+          246,
+          330
+        ],
+        [
+          247,
+          329
+        ],
+        [
+          247,
+          324
+        ],
+        [
+          246,
+          323
+        ],
+        [
+          246,
+          321
+        ],
+        [
+          242,
+          317
+        ],
+        [
+          241,
+          317
+        ],
+        [
+          240,
+          316
+        ]
+      ],
+      "confidence": 0.8616,
+      "source_detection_ids": [
+        39
+      ],
+      "status": "OK",
+      "status_reason": "Fixed watershed; peaks=1",
+      "id": 40,
+      "seed_id": "Seed #040"
+    }
+  ],
+  "diagnostics": [
+    {
+      "component_id": 1,
+      "source_detection_ids": [
+        0
+      ],
+      "mask_area_px": 198,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 2,
+      "source_detection_ids": [
+        1
+      ],
+      "mask_area_px": 214,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 3,
+      "source_detection_ids": [
+        2
+      ],
+      "mask_area_px": 166,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 4,
+      "source_detection_ids": [
+        3
+      ],
+      "mask_area_px": 229,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 5,
+      "source_detection_ids": [
+        4
+      ],
+      "mask_area_px": 183,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 6,
+      "source_detection_ids": [
+        5
+      ],
+      "mask_area_px": 207,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 7,
+      "source_detection_ids": [
+        6
+      ],
+      "mask_area_px": 180,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 8,
+      "source_detection_ids": [
+        7
+      ],
+      "mask_area_px": 259,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 9,
+      "source_detection_ids": [
+        8
+      ],
+      "mask_area_px": 211,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "source_detection_ids": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "outcome": "original_detections_retained",
+      "reason": "Fixed watershed unresolved"
+    },
+    {
+      "component_id": 11,
+      "source_detection_ids": [
+        10
+      ],
+      "mask_area_px": 487,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 12,
+      "source_detection_ids": [
+        11
+      ],
+      "mask_area_px": 309,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 13,
+      "source_detection_ids": [
+        17
+      ],
+      "mask_area_px": 308,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 14,
+      "source_detection_ids": [
+        18,
+        19,
+        21
+      ],
+      "mask_area_px": 904,
+      "output_instances": 3,
+      "reason": "Fixed watershed; peaks=3"
+    },
+    {
+      "component_id": 15,
+      "source_detection_ids": [
+        20,
+        22
+      ],
+      "mask_area_px": 641,
+      "output_instances": 2,
+      "reason": "Fixed watershed; peaks=2"
+    },
+    {
+      "component_id": 16,
+      "source_detection_ids": [
+        23,
+        24,
+        26
+      ],
+      "mask_area_px": 1023,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "source_detection_ids": [
+        23,
+        24,
+        26
+      ],
+      "outcome": "original_detections_retained",
+      "reason": "UNRESOLVED: fixed split discards most distinct detector centers"
+    },
+    {
+      "component_id": 17,
+      "source_detection_ids": [
+        25
+      ],
+      "mask_area_px": 282,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 18,
+      "source_detection_ids": [
+        27
+      ],
+      "mask_area_px": 364,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 19,
+      "source_detection_ids": [
+        28
+      ],
+      "mask_area_px": 375,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 20,
+      "source_detection_ids": [
+        29
+      ],
+      "mask_area_px": 432,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 21,
+      "source_detection_ids": [
+        30
+      ],
+      "mask_area_px": 369,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 22,
+      "source_detection_ids": [
+        31,
+        33
+      ],
+      "mask_area_px": 740,
+      "output_instances": 2,
+      "reason": "Fixed watershed; peaks=2"
+    },
+    {
+      "component_id": 23,
+      "source_detection_ids": [
+        32
+      ],
+      "mask_area_px": 378,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 24,
+      "source_detection_ids": [
+        34
+      ],
+      "mask_area_px": 429,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 25,
+      "source_detection_ids": [
+        35
+      ],
+      "mask_area_px": 397,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 26,
+      "source_detection_ids": [
+        36
+      ],
+      "mask_area_px": 421,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 27,
+      "source_detection_ids": [
+        37
+      ],
+      "mask_area_px": 421,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 28,
+      "source_detection_ids": [
+        38
+      ],
+      "mask_area_px": 439,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    },
+    {
+      "component_id": 29,
+      "source_detection_ids": [
+        39
+      ],
+      "mask_area_px": 409,
+      "output_instances": 1,
+      "reason": "Fixed watershed; peaks=1"
+    }
+  ],
+  "timings_ms": {
+    "yolo_infer_ms": 34.865699999500066,
+    "detector_wall_ms": 38.5833999607712,
+    "separation_ms": 55.23820000234991,
+    "total_ms": 93.82159996312112,
+    "fpga_dma_ms": null
+  },
+  "source_image": "data/datasets/seeds/raw/soybean_pair_010.png",
+  "split": "test"
+}

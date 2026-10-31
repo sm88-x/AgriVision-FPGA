@@ -1,0 +1,207 @@
+
+
+================================================================
+== Vitis HLS Report for 'sobel_v4_pipeline'
+================================================================
+* Date:           Sat Oct 10 13:37:33 2026
+
+* Version:        2026.1 (Build 6493734 on Jun 16 2026)
+* Project:        sobel_v4_pipeline
+* Solution:       hls
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.920 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+-----------+-------+---------+---------+
+    |  Latency (cycles) |  Latency (absolute)  |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max    |  min  |   max   |   Type  |
+    +---------+---------+----------+-----------+-------+---------+---------+
+    |    66334|  2079390|  0.663 ms|  20.794 ms|  66335|  2079391|       no|
+    +---------+---------+----------+-----------+-------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        +-----------------------------------------------------+------------------------------------------+---------+---------+----------+-----------+-----+-----+-------------------+
+        |                                                     |                                          |  Latency (cycles) |  Latency (absolute)  |  Interval |      Pipeline     |
+        |                       Instance                      |                  Module                  |   min   |   max   |    min   |    max    | min | max |        Type       |
+        +-----------------------------------------------------+------------------------------------------+---------+---------+----------+-----------+-----+-----+-------------------+
+        |grp_sobel_v4_pipeline_Pipeline_STREAM_PIXELS_fu_152  |sobel_v4_pipeline_Pipeline_STREAM_PIXELS  |    66328|  2079384|  0.663 ms|  20.794 ms|    0|    0|  loop pipeline stp|
+        +-----------------------------------------------------+------------------------------------------+---------+---------+----------+-----------+-----+-----+-------------------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|    509|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        9|    5|    3149|   5167|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       0|     87|    -|
+|Register         |        -|    -|     552|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        9|    5|    3701|   5763|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        3|    2|       3|     10|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-----------------------------------------------------+------------------------------------------+---------+----+------+------+-----+
+    |                       Instance                      |                  Module                  | BRAM_18K| DSP|  FF  |  LUT | URAM|
+    +-----------------------------------------------------+------------------------------------------+---------+----+------+------+-----+
+    |control_s_axi_U                                      |control_s_axi                             |        0|   0|   340|   552|    0|
+    |mul_32s_32s_32_2_1_U41                               |mul_32s_32s_32_2_1                        |        0|   3|   165|    50|    0|
+    |grp_sobel_v4_pipeline_Pipeline_STREAM_PIXELS_fu_152  |sobel_v4_pipeline_Pipeline_STREAM_PIXELS  |        9|   2|  2644|  4551|    0|
+    |sparsemux_9_3_32_1_1_U42                             |sparsemux_9_3_32_1_1                      |        0|   0|     0|    14|    0|
+    +-----------------------------------------------------+------------------------------------------+---------+----+------+------+-----+
+    |Total                                                |                                          |        9|   5|  3149|  5167|    0|
+    +-----------------------------------------------------+------------------------------------------+---------+----+------+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |                          Variable Name                         | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |D_fu_229_p2                                                     |         +|   0|  0|  39|          32|           1|
+    |add_ln547_fu_263_p2                                             |         +|   0|  0|  39|          32|           2|
+    |add_ln561_fu_254_p2                                             |         +|   0|  0|  39|          32|          32|
+    |add_ln627_fu_258_p2                                             |         +|   0|  0|  39|          32|          32|
+    |add_ln715_fu_268_p2                                             |         +|   0|  0|  39|          32|           2|
+    |add_ln721_fu_273_p2                                             |         +|   0|  0|  39|          32|           2|
+    |total_steps_fu_244_p2                                           |         +|   0|  0|  39|          32|          32|
+    |total_delay_fu_239_p2                                           |         -|   0|  0|  39|          32|          32|
+    |grp_sobel_v4_pipeline_Pipeline_STREAM_PIXELS_fu_152_dst_TREADY  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln254_fu_219_p2                                            |      icmp|   0|  0|  39|          32|           1|
+    |icmp_ln356_1_fu_201_p2                                          |      icmp|   0|  0|  39|          32|           2|
+    |icmp_ln356_2_fu_207_p2                                          |      icmp|   0|  0|  39|          32|           2|
+    |icmp_ln473_fu_213_p2                                            |      icmp|   0|  0|  39|          32|           1|
+    |ring_zero_fu_195_p2                                             |      icmp|   0|  0|  39|          32|           1|
+    +----------------------------------------------------------------+----------+----+---+----+------------+------------+
+    |Total                                                           |          |   0|  0| 509|         417|         143|
+    +----------------------------------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                |  42|          8|    1|          8|
+    |dst_TDATA_int_regslice   |   9|          2|    8|         16|
+    |dst_TKEEP_int_regslice   |   9|          2|    1|          2|
+    |dst_TLAST_int_regslice   |   9|          2|    1|          2|
+    |dst_TSTRB_int_regslice   |   9|          2|    1|          2|
+    |src_TREADY_int_regslice  |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  87|         18|   13|         32|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +------------------------------------------------------------------+----+----+-----+-----------+
+    |                               Name                               | FF | LUT| Bits| Const Bits|
+    +------------------------------------------------------------------+----+----+-----+-----------+
+    |D_reg_377                                                         |  32|   0|   32|          0|
+    |add_ln547_reg_413                                                 |  32|   0|   32|          0|
+    |add_ln561_reg_403                                                 |  32|   0|   32|          0|
+    |add_ln627_reg_408                                                 |  32|   0|   32|          0|
+    |add_ln715_reg_418                                                 |  32|   0|   32|          0|
+    |add_ln721_reg_423                                                 |  32|   0|   32|          0|
+    |ap_CS_fsm                                                         |   7|   0|    7|          0|
+    |dst_TDATA_reg                                                     |   8|   0|    8|          0|
+    |dst_TKEEP_reg                                                     |   1|   0|    1|          0|
+    |dst_TLAST_reg                                                     |   1|   0|    1|          0|
+    |dst_TSTRB_reg                                                     |   1|   0|    1|          0|
+    |enable_gray_read_reg_307                                          |  32|   0|   32|          0|
+    |grp_sobel_v4_pipeline_Pipeline_STREAM_PIXELS_fu_152_ap_start_reg  |   1|   0|    1|          0|
+    |height_read_reg_322                                               |  32|   0|   32|          0|
+    |icmp_ln254_reg_358                                                |   1|   0|    1|          0|
+    |icmp_ln356_1_reg_341                                              |   1|   0|    1|          0|
+    |icmp_ln356_2_reg_347                                              |   1|   0|    1|          0|
+    |icmp_ln473_reg_353                                                |   1|   0|    1|          0|
+    |mode_read_reg_317                                                 |  32|   0|   32|          0|
+    |morph_mode_read_reg_312                                           |  32|   0|   32|          0|
+    |out_delay_2_reg_428                                               |  32|   0|   32|          0|
+    |out_delay_3_reg_397                                               |  32|   0|   32|          0|
+    |pixels_reg_368                                                    |  32|   0|   32|          0|
+    |ring_zero_reg_335                                                 |   1|   0|    1|          0|
+    |total_delay_reg_387                                               |  32|   0|   32|          0|
+    |total_steps_reg_392                                               |  32|   0|   32|          0|
+    |trunc_ln256_reg_363                                               |  16|   0|   16|          0|
+    |width_read_reg_328                                                |  32|   0|   32|          0|
+    +------------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                             | 552|   0|  552|          0|
+    +------------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+-------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |   Source Object   |    C Type    |
++-----------------------+-----+-----+------------+-------------------+--------------+
+|s_axi_control_AWVALID  |   in|    1|       s_axi|            control|        scalar|
+|s_axi_control_AWREADY  |  out|    1|       s_axi|            control|        scalar|
+|s_axi_control_AWADDR   |   in|    7|       s_axi|            control|        scalar|
+|s_axi_control_WVALID   |   in|    1|       s_axi|            control|        scalar|
+|s_axi_control_WREADY   |  out|    1|       s_axi|            control|        scalar|
+|s_axi_control_WDATA    |   in|   32|       s_axi|            control|        scalar|
+|s_axi_control_WSTRB    |   in|    4|       s_axi|            control|        scalar|
+|s_axi_control_ARVALID  |   in|    1|       s_axi|            control|        scalar|
+|s_axi_control_ARREADY  |  out|    1|       s_axi|            control|        scalar|
+|s_axi_control_ARADDR   |   in|    7|       s_axi|            control|        scalar|
+|s_axi_control_RVALID   |  out|    1|       s_axi|            control|        scalar|
+|s_axi_control_RREADY   |   in|    1|       s_axi|            control|        scalar|
+|s_axi_control_RDATA    |  out|   32|       s_axi|            control|        scalar|
+|s_axi_control_RRESP    |  out|    2|       s_axi|            control|        scalar|
+|s_axi_control_BVALID   |  out|    1|       s_axi|            control|        scalar|
+|s_axi_control_BREADY   |   in|    1|       s_axi|            control|        scalar|
+|s_axi_control_BRESP    |  out|    2|       s_axi|            control|        scalar|
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  sobel_v4_pipeline|  return value|
+|ap_rst_n               |   in|    1|  ap_ctrl_hs|  sobel_v4_pipeline|  return value|
+|interrupt              |  out|    1|  ap_ctrl_hs|  sobel_v4_pipeline|  return value|
+|src_TDATA              |   in|   32|        axis|       src_V_data_V|       pointer|
+|src_TVALID             |   in|    1|        axis|       src_V_last_V|       pointer|
+|src_TREADY             |  out|    1|        axis|       src_V_last_V|       pointer|
+|src_TLAST              |   in|    1|        axis|       src_V_last_V|       pointer|
+|src_TKEEP              |   in|    4|        axis|       src_V_keep_V|       pointer|
+|src_TSTRB              |   in|    4|        axis|       src_V_strb_V|       pointer|
+|dst_TDATA              |  out|    8|        axis|       dst_V_data_V|       pointer|
+|dst_TVALID             |  out|    1|        axis|       dst_V_last_V|       pointer|
+|dst_TREADY             |   in|    1|        axis|       dst_V_last_V|       pointer|
+|dst_TLAST              |  out|    1|        axis|       dst_V_last_V|       pointer|
+|dst_TKEEP              |  out|    1|        axis|       dst_V_keep_V|       pointer|
+|dst_TSTRB              |  out|    1|        axis|       dst_V_strb_V|       pointer|
++-----------------------+-----+-----+------------+-------------------+--------------+
+

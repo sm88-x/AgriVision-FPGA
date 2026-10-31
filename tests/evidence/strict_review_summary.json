@@ -1,0 +1,13 @@
+{
+  "python_syntax_files": 71,
+  "markdown_before": 89,
+  "markdown_after": 68,
+  "markdown_links": "PASS",
+  "filenames": "ASCII lower case except README/LICENSE",
+  "qt_export_frames": 15,
+  "board_and_camera_tests": "NOT_PERFORMED",
+  "parameterized_full_build": "PASS",
+  "parameterized_validate_without_bit": "PASS",
+  "original_source_project": "untouched",
+  "independent_submission_materials_in_code": false
+}

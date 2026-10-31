@@ -1,0 +1,16 @@
+{
+  "fingerprint_updates": [
+    {
+      "path": "skill/skill_validation_results.md",
+      "before": "f8d69d9d20e93aaea726dfb445c45f9f0ac107d0979051ad0a423f247cb6f8b2",
+      "after": "2285c1812d3401d5c6639adf08f6bdb2f9ac2942a1a72df41e4d00b2e1b4caf3",
+      "reason": "Removed blank lines splitting Markdown tables; non-whitespace text unchanged"
+    }
+  ],
+  "ui_route_regression": "PASS",
+  "qt_build": "PASS",
+  "parameterized_full_rebuild": "PASS",
+  "parameterized_validate_stage": "PASS",
+  "physical_hardware_available": false,
+  "original_source_project": "untouched"
+}

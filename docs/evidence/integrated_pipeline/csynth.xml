@@ -1,0 +1,1275 @@
+<profile>
+    <ReportVersion>
+        <Version>2026.1</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>zynq</ProductFamily>
+        <Part>xc7z020-clg400-1</Part>
+        <TopModelName>sobel_v4_pipeline</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>6.920</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>66335</Best-caseLatency>
+            <Average-caseLatency>1072863</Average-caseLatency>
+            <Worst-caseLatency>2079391</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0.663 ms</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>10.729 ms</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>20.794 ms</Worst-caseRealTimeLatency>
+            <Interval-min>66336</Interval-min>
+            <Interval-max>2079392</Interval-max>
+            <PerformancePragma>-</PerformancePragma>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>../sobel_v4_pipeline.cpp:308</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>9</BRAM_18K>
+            <DSP>5</DSP>
+            <FF>4645</FF>
+            <LUT>6718</LUT>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>280</BRAM_18K>
+            <DSP>220</DSP>
+            <FF>106400</FF>
+            <LUT>53200</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>s_axi_control_AWVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_AWADDR</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>8</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WDATA</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_WSTRB</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_ARADDR</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>8</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RDATA</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>32</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_RRESP</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BVALID</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BREADY</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_axi_control_BRESP</name>
+            <Object>control</Object>
+            <Type>pointer</Type>
+            <IOProtocol>s_axi</IOProtocol>
+            <Dir>out</Dir>
+            <Bits>2</Bits>
+            <Attribute>unknown</Attribute>
+            <CType>int</CType>
+            <HasCtrl>1</HasCtrl>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>sobel_v4_pipeline</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst_n</name>
+            <Object>sobel_v4_pipeline</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>interrupt</name>
+            <Object>sobel_v4_pipeline</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>unknown</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>src_TDATA</name>
+            <Object>src_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>32</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>src_TVALID</name>
+            <Object>src_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>src_TREADY</name>
+            <Object>src_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>src_TLAST</name>
+            <Object>src_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>src_TKEEP</name>
+            <Object>src_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>src_TSTRB</name>
+            <Object>src_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>4</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>dst_TDATA</name>
+            <Object>dst_V_data_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>8</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>dst_TVALID</name>
+            <Object>dst_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>dst_TREADY</name>
+            <Object>dst_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>dst_TLAST</name>
+            <Object>dst_V_last_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>dst_TKEEP</name>
+            <Object>dst_V_keep_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>dst_TSTRB</name>
+            <Object>dst_V_strb_V</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>axis</IOProtocol>
+            <IOConfig>register, both mode</IOConfig>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="3">
+            <ModuleName>sobel_v4_pipeline</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>grp_sobel_v4_pipeline_Pipeline_STREAM_PIXELS_fu_226</InstName>
+                    <ModuleName>sobel_v4_pipeline_Pipeline_STREAM_PIXELS</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>226</ID>
+                    <BindInstances>lbuf_m_2_U lbuf_m_1_U lbuf_m_U lbuf_e_2_U lbuf_e_1_U lbuf_e_U lbuf_g_2_U lbuf_g_1_U lbuf_g_U icmp_ln217_fu_868_p2 icmp_ln480_fu_874_p2 icmp_ln465_fu_1057_p2 n_1_fu_1063_p2 icmp_ln477_fu_1069_p2 mac_muladd_8ns_5ns_15s_15_4_1_U6 mac_muladd_8ns_5ns_15s_15_4_1_U6 mul_8ns_8ns_15_1_1_U1 mac_muladd_8ns_8ns_8ns_16_4_1_U7 mac_muladd_8ns_5ns_15s_15_4_1_U6 mac_muladd_8ns_8ns_8ns_16_4_1_U7 add_ln185_2_fu_1212_p2 icmp_ln490_1_fu_1075_p2 and_ln490_fu_1081_p2 or_ln489_fu_1087_p2 icmp_ln516_fu_1337_p2 top_7_fu_1343_p3 grp_fu_853_p2 mid_5_fu_1352_p3 top_6_fu_1361_p3 grp_fu_853_p2 mid_3_fu_1370_p3 top_4_fu_1379_p3 grp_fu_853_p2 top_26_fu_1388_p3 icmp_ln529_fu_1249_p2 select_ln529_fu_1587_p3 select_ln529_1_fu_1452_p3 select_ln529_2_fu_1459_p3 gauss_val_fu_1466_p3 select_ln529_4_fu_1473_p3 select_ln529_5_fu_1480_p3 icmp_ln551_fu_1255_p2 gauss_val_2_fu_1667_p2 icmp_ln543_fu_1271_p2 tmp33_fu_1515_p2 tmp34_fu_1525_p2 tmp23_fu_1535_p2 add_ln198_2_fu_1541_p2 add_ln198_3_fu_1551_p2 xor_ln490_fu_1397_p2 and_ln543_fu_1402_p2 and_ln543_1_fu_1407_p2 sparsemux_7_2_8_1_1_U2 prev2_row_last_1_fu_1688_p3 icmp_ln564_fu_1277_p2 and_ln564_fu_1695_p2 prev_row_last_2_fu_1699_p3 c_g_3_fu_1282_p2 icmp_ln569_fu_1293_p2 add_ln569_fu_1299_p2 bank_g_3_fu_1305_p3 r_g_1_fu_1423_p2 icmp_ln578_fu_1093_p2 xor_ln578_fu_1099_p2 and_ln578_fu_1105_p2 icmp_ln604_fu_1820_p2 top_15_fu_1826_p3 grp_fu_858_p2 mid_12_fu_1835_p3 top_14_fu_1844_p3 grp_fu_858_p2 mid_10_fu_1853_p3 top_11_fu_1862_p3 grp_fu_858_p2 top_29_fu_1871_p3 icmp_ln617_fu_1738_p2 select_ln617_fu_1917_p3 select_ln617_1_fu_1924_p3 select_ln617_2_fu_1931_p3 select_ln617_3_fu_1938_p3 select_ln617_4_fu_1945_p3 select_ln617_5_fu_1952_p3 icmp_ln630_fu_1754_p2 and_ln630_fu_1880_p2 sub_ln220_fu_1967_p2 add_ln221_fu_2013_p2 sub_ln221_fu_2023_p2 add_ln222_fu_2033_p2 gx_fu_2043_p2 add_ln226_fu_2049_p2 tmp47_fu_2075_p2 sub_ln233_fu_2093_p2 tmp75_fu_2119_p2 sub_ln239_fu_2137_p2 add_ln240_fu_2147_p2 gx_2_fu_2192_p3 sub42_i_pn_fu_2205_p3 sub_ln243_fu_2153_p2 gy_fu_2214_p2 sub_ln247_fu_2236_p2 abs_gx_fu_2242_p3 sub_ln250_fu_2258_p2 abs_gy_fu_2264_p3 add_ln252_fu_2278_p2 magnitude_fu_2282_p2 icmp_ln256_fu_2292_p2 xor_ln256_fu_2297_p2 edge_val_fu_2356_p2 icmp_ln262_fu_2321_p2 edge_val_fu_2356_p6 and_ln254_fu_2339_p2 xor_ln630_fu_2343_p2 sparsemux_7_2_8_1_1_U3 icmp_ln634_fu_1760_p2 c_e_3_fu_1765_p2 icmp_ln635_fu_1776_p2 add_ln635_fu_1782_p2 bank_e_3_fu_1788_p3 r_e_1_fu_1888_p2 icmp_ln644_fu_1111_p2 xor_ln644_fu_1117_p2 icmp_ln644_1_fu_1123_p2 and_ln644_fu_1129_p2 icmp_ln670_fu_2565_p2 top_23_fu_2571_p3 grp_fu_863_p2 mid_19_fu_2580_p3 top_22_fu_2589_p3 grp_fu_863_p2 mid_17_fu_2598_p3 top_20_fu_2607_p3 grp_fu_863_p2 top_32_fu_2616_p3 icmp_ln683_fu_2397_p2 select_ln683_fu_2662_p3 select_ln683_1_fu_2669_p3 select_ln683_2_fu_2676_p3 select_ln683_3_fu_2683_p3 select_ln683_4_fu_2690_p3 select_ln683_5_fu_2697_p3 icmp_ln696_fu_2413_p2 and_ln696_fu_2625_p2 icmp_ln279_fu_2790_p2 u0_fu_2794_p3 icmp_ln280_fu_2800_p2 u1_fu_2805_p3 icmp_ln281_fu_2704_p2 u2_fu_2710_p3 icmp_ln282_fu_2718_p2 u3_fu_2724_p3 icmp_ln283_fu_2812_p2 v0_fu_2818_p3 icmp_ln284_fu_2826_p2 v1_fu_2830_p3 icmp_ln285_fu_2836_p2 v2_fu_2842_p3 icmp_ln286_fu_2910_p2 morph_val_fu_2965_p4 icmp_ln291_fu_2850_p2 u0_1_fu_2854_p3 icmp_ln292_fu_2860_p2 u1_1_fu_2865_p3 icmp_ln293_fu_2732_p2 u2_1_fu_2738_p3 icmp_ln294_fu_2746_p2 u3_1_fu_2752_p3 icmp_ln295_fu_2872_p2 v0_1_fu_2878_p3 icmp_ln296_fu_2886_p2 v1_1_fu_2890_p3 icmp_ln297_fu_2896_p2 v2_1_fu_2902_p3 icmp_ln298_fu_2920_p2 morph_val_fu_2965_p6 xor_ln696_fu_2930_p2 icmp_ln277_fu_2935_p2 and_ln277_fu_2940_p2 icmp_ln277_1_fu_2945_p2 and_ln277_1_fu_2950_p2 sparsemux_9_3_8_1_1_U4 icmp_ln700_fu_2419_p2 c_m_3_fu_2424_p2 icmp_ln701_fu_2435_p2 add_ln701_fu_2441_p2 bank_m_3_fu_2447_p3 r_m_1_fu_2633_p2 icmp_ln710_fu_1135_p2 output_index_fu_1141_p2 icmp_ln713_fu_1147_p2 sparsemux_9_3_8_1_1_U5 icmp_ln732_fu_2471_p2 icmp_ln732_1_fu_2477_p2 icmp_ln733_fu_2482_p2 icmp_ln733_1_fu_2488_p2 or_ln732_fu_3019_p2 or_ln732_1_fu_3023_p2 or_ln732_2_fu_3027_p2 xor_ln732_fu_3033_p2 or_ln732_3_fu_3039_p2 final_pixel_fu_3044_p3 icmp_ln741_fu_1153_p2 icmp_ln744_fu_3053_p2 icmp_ln746_fu_2493_p2 xor_ln746_fu_3065_p2 icmp_ln746_1_fu_2498_p2 icmp_ln747_fu_2503_p2 xor_ln747_fu_3070_p2 icmp_ln747_1_fu_2508_p2 and_ln746_fu_3075_p2 and_ln746_1_fu_3080_p2 and_ln746_2_fu_3085_p2 empty_53_fu_3091_p3 empty_54_fu_3099_p3 roi_acc_2_fu_3106_p2 empty_55_fu_3112_p3 fg_acc_2_fu_3119_p2 out_c_1_fu_2513_p2 empty_56_fu_2519_p3 out_r_2_fu_2527_p2 out_c_2_fu_2533_p3</BindInstances>
+                </Instance>
+            </InstancesList>
+            <BindInstances>mul_32s_32s_32_2_1_U47 D_fu_309_p2 total_delay_fu_319_p2 total_steps_fu_324_p2 ring_zero_fu_275_p2 icmp_ln373_1_fu_281_p2 icmp_ln373_2_fu_287_p2 sparsemux_9_3_32_1_1_U48 icmp_ln490_fu_293_p2 add_ln578_fu_334_p2 add_ln644_fu_338_p2 add_ln564_fu_343_p2 add_ln732_fu_348_p2 add_ln741_fu_353_p2 icmp_ln254_fu_299_p2 control_s_axi_U</BindInstances>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>sobel_v4_pipeline_Pipeline_STREAM_PIXELS</Name>
+            <Loops>
+                <STREAM_PIXELS/>
+            </Loops>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>6.920</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>66329</Best-caseLatency>
+                    <Average-caseLatency>1072857</Average-caseLatency>
+                    <Worst-caseLatency>2079385</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.663 ms</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>10.729 ms</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>20.794 ms</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>66308 ~ 2079364</PipelineInitiationInterval>
+                    <PipelineType>loop pipeline stp</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <STREAM_PIXELS>
+                        <Name>STREAM_PIXELS</Name>
+                        <Slack>7.30</Slack>
+                        <TripCount>
+                            <range>
+                                <min>66307</min>
+                                <max>2079363</max>
+                            </range>
+                        </TripCount>
+                        <isPerfectNested>0</isPerfectNested>
+                        <Latency>66327 ~ 2079383</Latency>
+                        <AbsoluteTimeLatency>0.663 ms ~ 20.794 ms</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>22</PipelineDepth>
+                        <PipelineType>yes</PipelineType>
+                        <PerformancePragma>-</PerformancePragma>
+                        <InstanceList/>
+                    </STREAM_PIXELS>
+                </SummaryOfLoopLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>../sobel_v4_pipeline.cpp:465</SourceLocation>
+                    <SummaryOfLoopViolations>
+                        <STREAM_PIXELS>
+                            <Name>STREAM_PIXELS</Name>
+                            <IssueType>-</IssueType>
+                            <ViolationType>-</ViolationType>
+                            <SourceLocation>../sobel_v4_pipeline.cpp:465</SourceLocation>
+                        </STREAM_PIXELS>
+                    </SummaryOfLoopViolations>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>9</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>3</UTIL_BRAM>
+                    <DSP>2</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>3232</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>3</UTIL_FF>
+                    <LUT>5122</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>9</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDID="8589934687" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_m_2_U" SOURCE="../sobel_v4_pipeline.cpp:435" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_m_2" VISIBLE="true"/>
+                <BindNode BINDID="8589934688" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_m_1_U" SOURCE="../sobel_v4_pipeline.cpp:435" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_m_1" VISIBLE="true"/>
+                <BindNode BINDID="8589934689" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_m_U" SOURCE="../sobel_v4_pipeline.cpp:435" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_m" VISIBLE="true"/>
+                <BindNode BINDID="8589934690" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_e_2_U" SOURCE="../sobel_v4_pipeline.cpp:413" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_e_2" VISIBLE="true"/>
+                <BindNode BINDID="8589934691" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_e_1_U" SOURCE="../sobel_v4_pipeline.cpp:413" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_e_1" VISIBLE="true"/>
+                <BindNode BINDID="8589934692" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_e_U" SOURCE="../sobel_v4_pipeline.cpp:413" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_e" VISIBLE="true"/>
+                <BindNode BINDID="8589934693" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_g_2_U" SOURCE="../sobel_v4_pipeline.cpp:385" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_g_2" VISIBLE="true"/>
+                <BindNode BINDID="8589934694" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_g_1_U" SOURCE="../sobel_v4_pipeline.cpp:385" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_g_1" VISIBLE="true"/>
+                <BindNode BINDID="8589934695" BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" CE_REG="N" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="bram" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="yes" RTLNAME="lbuf_g_U" SOURCE="../sobel_v4_pipeline.cpp:385" STORAGESIZE="8 1920 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_s2p array" URAM="0" VARIABLE="lbuf_g" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln217_fu_868_p2" SOURCE="../sobel_v4_pipeline.cpp:217" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln217" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln480_fu_874_p2" SOURCE="../sobel_v4_pipeline.cpp:480" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln480" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln465_fu_1057_p2" SOURCE="../sobel_v4_pipeline.cpp:465" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln465" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="n_1_fu_1063_p2" SOURCE="../sobel_v4_pipeline.cpp:465" STORAGESUBTYPE="" URAM="0" VARIABLE="n_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln477_fu_1069_p2" SOURCE="../sobel_v4_pipeline.cpp:477" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln477" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="STREAM_PIXELS" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8ns_5ns_15s_15_4_1_U6" SOURCE="../sobel_v4_pipeline.cpp:185" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln185" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op zext" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="STREAM_PIXELS" OPTYPE="zext" PRAGMA="" RTLNAME="mac_muladd_8ns_5ns_15s_15_4_1_U6" SOURCE="../sobel_v4_pipeline.cpp:185" STORAGESUBTYPE="" URAM="0" VARIABLE="zext_ln185_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="mul" PRAGMA="" RTLNAME="mul_8ns_8ns_15_1_1_U1" SOURCE="../sobel_v4_pipeline.cpp:185" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln185_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="STREAM_PIXELS" OPTYPE="mul" PRAGMA="" RTLNAME="mac_muladd_8ns_8ns_8ns_16_4_1_U7" SOURCE="../sobel_v4_pipeline.cpp:185" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln185_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8ns_5ns_15s_15_4_1_U6" SOURCE="../sobel_v4_pipeline.cpp:185" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln185" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="1" ID="" IMPL="dsp_slice" LATENCY="3" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="mac_muladd_8ns_8ns_8ns_16_4_1_U7" SOURCE="../sobel_v4_pipeline.cpp:185" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln185_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln185_2_fu_1212_p2" SOURCE="../sobel_v4_pipeline.cpp:185" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln185_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln490_1_fu_1075_p2" SOURCE="../sobel_v4_pipeline.cpp:490" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln490_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln490_fu_1081_p2" SOURCE="../sobel_v4_pipeline.cpp:490" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln490" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="or" PRAGMA="" RTLNAME="or_ln489_fu_1087_p2" SOURCE="../sobel_v4_pipeline.cpp:489" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln489" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln516_fu_1337_p2" SOURCE="../sobel_v4_pipeline.cpp:516" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln516" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_7_fu_1343_p3" SOURCE="../sobel_v4_pipeline.cpp:506" STORAGESUBTYPE="" URAM="0" VARIABLE="top_7" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_853_p2" SOURCE="../sobel_v4_pipeline.cpp:509" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln509" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="mid_5_fu_1352_p3" SOURCE="../sobel_v4_pipeline.cpp:509" STORAGESUBTYPE="" URAM="0" VARIABLE="mid_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_6_fu_1361_p3" SOURCE="../sobel_v4_pipeline.cpp:496" STORAGESUBTYPE="" URAM="0" VARIABLE="top_6" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_853_p2" SOURCE="../sobel_v4_pipeline.cpp:499" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln499" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="mid_3_fu_1370_p3" SOURCE="../sobel_v4_pipeline.cpp:499" STORAGESUBTYPE="" URAM="0" VARIABLE="mid_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_4_fu_1379_p3" SOURCE="../sobel_v4_pipeline.cpp:516" STORAGESUBTYPE="" URAM="0" VARIABLE="top_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_853_p2" SOURCE="../sobel_v4_pipeline.cpp:519" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln519" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_26_fu_1388_p3" SOURCE="../sobel_v4_pipeline.cpp:519" STORAGESUBTYPE="" URAM="0" VARIABLE="top_26" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln529_fu_1249_p2" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln529" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln529_fu_1587_p3" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln529" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln529_1_fu_1452_p3" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln529_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln529_2_fu_1459_p3" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln529_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="gauss_val_fu_1466_p3" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="gauss_val" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln529_4_fu_1473_p3" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln529_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln529_5_fu_1480_p3" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln529_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln551_fu_1255_p2" SOURCE="../sobel_v4_pipeline.cpp:551" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln551" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="gauss_val_2_fu_1667_p2" SOURCE="../sobel_v4_pipeline.cpp:551" STORAGESUBTYPE="" URAM="0" VARIABLE="gauss_val_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln543_fu_1271_p2" SOURCE="../sobel_v4_pipeline.cpp:543" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln543" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="tmp33_fu_1515_p2" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp33" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="tmp34_fu_1525_p2" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp34" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="tmp23_fu_1535_p2" SOURCE="../sobel_v4_pipeline.cpp:529" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp23" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln198_2_fu_1541_p2" SOURCE="../sobel_v4_pipeline.cpp:198" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln198_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln198_3_fu_1551_p2" SOURCE="../sobel_v4_pipeline.cpp:198" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln198_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln490_fu_1397_p2" SOURCE="../sobel_v4_pipeline.cpp:490" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln490" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln543_fu_1402_p2" SOURCE="../sobel_v4_pipeline.cpp:543" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln543" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln543_1_fu_1407_p2" SOURCE="../sobel_v4_pipeline.cpp:543" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln543_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_8_1_1_U2" SOURCE="../sobel_v4_pipeline.cpp:551" STORAGESUBTYPE="" URAM="0" VARIABLE="gauss_val_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="prev2_row_last_1_fu_1688_p3" SOURCE="../sobel_v4_pipeline.cpp:561" STORAGESUBTYPE="" URAM="0" VARIABLE="prev2_row_last_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln564_fu_1277_p2" SOURCE="../sobel_v4_pipeline.cpp:564" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln564" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln564_fu_1695_p2" SOURCE="../sobel_v4_pipeline.cpp:564" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln564" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="prev_row_last_2_fu_1699_p3" SOURCE="../sobel_v4_pipeline.cpp:564" STORAGESUBTYPE="" URAM="0" VARIABLE="prev_row_last_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="c_g_3_fu_1282_p2" SOURCE="../sobel_v4_pipeline.cpp:573" STORAGESUBTYPE="" URAM="0" VARIABLE="c_g_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln569_fu_1293_p2" SOURCE="../sobel_v4_pipeline.cpp:569" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln569" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln569_fu_1299_p2" SOURCE="../sobel_v4_pipeline.cpp:569" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln569" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="bank_g_3_fu_1305_p3" SOURCE="../sobel_v4_pipeline.cpp:569" STORAGESUBTYPE="" URAM="0" VARIABLE="bank_g_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="r_g_1_fu_1423_p2" SOURCE="../sobel_v4_pipeline.cpp:571" STORAGESUBTYPE="" URAM="0" VARIABLE="r_g_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln578_fu_1093_p2" SOURCE="../sobel_v4_pipeline.cpp:578" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln578" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln578_fu_1099_p2" SOURCE="../sobel_v4_pipeline.cpp:578" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln578" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln578_fu_1105_p2" SOURCE="../sobel_v4_pipeline.cpp:578" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln578" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln604_fu_1820_p2" SOURCE="../sobel_v4_pipeline.cpp:604" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln604" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_15_fu_1826_p3" SOURCE="../sobel_v4_pipeline.cpp:594" STORAGESUBTYPE="" URAM="0" VARIABLE="top_15" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_858_p2" SOURCE="../sobel_v4_pipeline.cpp:597" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln597" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="mid_12_fu_1835_p3" SOURCE="../sobel_v4_pipeline.cpp:597" STORAGESUBTYPE="" URAM="0" VARIABLE="mid_12" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_14_fu_1844_p3" SOURCE="../sobel_v4_pipeline.cpp:584" STORAGESUBTYPE="" URAM="0" VARIABLE="top_14" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_858_p2" SOURCE="../sobel_v4_pipeline.cpp:587" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln587" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="mid_10_fu_1853_p3" SOURCE="../sobel_v4_pipeline.cpp:587" STORAGESUBTYPE="" URAM="0" VARIABLE="mid_10" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_11_fu_1862_p3" SOURCE="../sobel_v4_pipeline.cpp:604" STORAGESUBTYPE="" URAM="0" VARIABLE="top_11" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_858_p2" SOURCE="../sobel_v4_pipeline.cpp:607" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln607" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_29_fu_1871_p3" SOURCE="../sobel_v4_pipeline.cpp:607" STORAGESUBTYPE="" URAM="0" VARIABLE="top_29" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln617_fu_1738_p2" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln617" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln617_fu_1917_p3" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln617" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln617_1_fu_1924_p3" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln617_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln617_2_fu_1931_p3" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln617_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln617_3_fu_1938_p3" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln617_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln617_4_fu_1945_p3" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln617_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln617_5_fu_1952_p3" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln617_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln630_fu_1754_p2" SOURCE="../sobel_v4_pipeline.cpp:630" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln630" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln630_fu_1880_p2" SOURCE="../sobel_v4_pipeline.cpp:630" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln630" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln220_fu_1967_p2" SOURCE="../sobel_v4_pipeline.cpp:220" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln220" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln221_fu_2013_p2" SOURCE="../sobel_v4_pipeline.cpp:221" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln221" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln221_fu_2023_p2" SOURCE="../sobel_v4_pipeline.cpp:221" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln221" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln222_fu_2033_p2" SOURCE="../sobel_v4_pipeline.cpp:222" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln222" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="gx_fu_2043_p2" SOURCE="../sobel_v4_pipeline.cpp:222" STORAGESUBTYPE="" URAM="0" VARIABLE="gx" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln226_fu_2049_p2" SOURCE="../sobel_v4_pipeline.cpp:226" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln226" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="tmp47_fu_2075_p2" SOURCE="../sobel_v4_pipeline.cpp:607" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp47" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln233_fu_2093_p2" SOURCE="../sobel_v4_pipeline.cpp:233" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln233" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="tmp75_fu_2119_p2" SOURCE="../sobel_v4_pipeline.cpp:617" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp75" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln239_fu_2137_p2" SOURCE="../sobel_v4_pipeline.cpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln239" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln240_fu_2147_p2" SOURCE="../sobel_v4_pipeline.cpp:240" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln240" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="gx_2_fu_2192_p3" SOURCE="../sobel_v4_pipeline.cpp:217" STORAGESUBTYPE="" URAM="0" VARIABLE="gx_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="sub42_i_pn_fu_2205_p3" SOURCE="../sobel_v4_pipeline.cpp:217" STORAGESUBTYPE="" URAM="0" VARIABLE="sub42_i_pn" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln243_fu_2153_p2" SOURCE="../sobel_v4_pipeline.cpp:243" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln243" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="gy_fu_2214_p2" SOURCE="../sobel_v4_pipeline.cpp:215" STORAGESUBTYPE="" URAM="0" VARIABLE="gy" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln247_fu_2236_p2" SOURCE="../sobel_v4_pipeline.cpp:247" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln247" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="abs_gx_fu_2242_p3" SOURCE="../sobel_v4_pipeline.cpp:247" STORAGESUBTYPE="" URAM="0" VARIABLE="abs_gx" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln250_fu_2258_p2" SOURCE="../sobel_v4_pipeline.cpp:250" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln250" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="abs_gy_fu_2264_p3" SOURCE="../sobel_v4_pipeline.cpp:250" STORAGESUBTYPE="" URAM="0" VARIABLE="abs_gy" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln252_fu_2278_p2" SOURCE="../sobel_v4_pipeline.cpp:252" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln252" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="magnitude_fu_2282_p2" SOURCE="../sobel_v4_pipeline.cpp:252" STORAGESUBTYPE="" URAM="0" VARIABLE="magnitude" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln256_fu_2292_p2" SOURCE="../sobel_v4_pipeline.cpp:256" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln256" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln256_fu_2297_p2" SOURCE="../sobel_v4_pipeline.cpp:256" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln256" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="edge_val_fu_2356_p2" SOURCE="../sobel_v4_pipeline.cpp:256" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln256" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setne" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setne" PRAGMA="" RTLNAME="icmp_ln262_fu_2321_p2" SOURCE="../sobel_v4_pipeline.cpp:262" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln262" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="edge_val_fu_2356_p6" SOURCE="../sobel_v4_pipeline.cpp:262" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln262" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln254_fu_2339_p2" SOURCE="../sobel_v4_pipeline.cpp:254" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln254" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln630_fu_2343_p2" SOURCE="../sobel_v4_pipeline.cpp:630" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln630" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_7_2_8_1_1_U3" SOURCE="../sobel_v4_pipeline.cpp:256" STORAGESUBTYPE="" URAM="0" VARIABLE="edge_val" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln634_fu_1760_p2" SOURCE="../sobel_v4_pipeline.cpp:634" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln634" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="c_e_3_fu_1765_p2" SOURCE="../sobel_v4_pipeline.cpp:639" STORAGESUBTYPE="" URAM="0" VARIABLE="c_e_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln635_fu_1776_p2" SOURCE="../sobel_v4_pipeline.cpp:635" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln635" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln635_fu_1782_p2" SOURCE="../sobel_v4_pipeline.cpp:635" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln635" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="bank_e_3_fu_1788_p3" SOURCE="../sobel_v4_pipeline.cpp:635" STORAGESUBTYPE="" URAM="0" VARIABLE="bank_e_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="r_e_1_fu_1888_p2" SOURCE="../sobel_v4_pipeline.cpp:637" STORAGESUBTYPE="" URAM="0" VARIABLE="r_e_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln644_fu_1111_p2" SOURCE="../sobel_v4_pipeline.cpp:644" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln644" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln644_fu_1117_p2" SOURCE="../sobel_v4_pipeline.cpp:644" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln644" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln644_1_fu_1123_p2" SOURCE="../sobel_v4_pipeline.cpp:644" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln644_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln644_fu_1129_p2" SOURCE="../sobel_v4_pipeline.cpp:644" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln644" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln670_fu_2565_p2" SOURCE="../sobel_v4_pipeline.cpp:670" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln670" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_23_fu_2571_p3" SOURCE="../sobel_v4_pipeline.cpp:660" STORAGESUBTYPE="" URAM="0" VARIABLE="top_23" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_863_p2" SOURCE="../sobel_v4_pipeline.cpp:663" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln663" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="mid_19_fu_2580_p3" SOURCE="../sobel_v4_pipeline.cpp:663" STORAGESUBTYPE="" URAM="0" VARIABLE="mid_19" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_22_fu_2589_p3" SOURCE="../sobel_v4_pipeline.cpp:650" STORAGESUBTYPE="" URAM="0" VARIABLE="top_22" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_863_p2" SOURCE="../sobel_v4_pipeline.cpp:653" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln653" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="mid_17_fu_2598_p3" SOURCE="../sobel_v4_pipeline.cpp:653" STORAGESUBTYPE="" URAM="0" VARIABLE="mid_17" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_20_fu_2607_p3" SOURCE="../sobel_v4_pipeline.cpp:670" STORAGESUBTYPE="" URAM="0" VARIABLE="top_20" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="grp_fu_863_p2" SOURCE="../sobel_v4_pipeline.cpp:673" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln673" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="top_32_fu_2616_p3" SOURCE="../sobel_v4_pipeline.cpp:673" STORAGESUBTYPE="" URAM="0" VARIABLE="top_32" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln683_fu_2397_p2" SOURCE="../sobel_v4_pipeline.cpp:683" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln683" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln683_fu_2662_p3" SOURCE="../sobel_v4_pipeline.cpp:683" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln683" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln683_1_fu_2669_p3" SOURCE="../sobel_v4_pipeline.cpp:683" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln683_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln683_2_fu_2676_p3" SOURCE="../sobel_v4_pipeline.cpp:683" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln683_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln683_3_fu_2683_p3" SOURCE="../sobel_v4_pipeline.cpp:683" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln683_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln683_4_fu_2690_p3" SOURCE="../sobel_v4_pipeline.cpp:683" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln683_4" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="select_ln683_5_fu_2697_p3" SOURCE="../sobel_v4_pipeline.cpp:683" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln683_5" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln696_fu_2413_p2" SOURCE="../sobel_v4_pipeline.cpp:696" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln696" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln696_fu_2625_p2" SOURCE="../sobel_v4_pipeline.cpp:696" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln696" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln279_fu_2790_p2" SOURCE="../sobel_v4_pipeline.cpp:279" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln279" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u0_fu_2794_p3" SOURCE="../sobel_v4_pipeline.cpp:279" STORAGESUBTYPE="" URAM="0" VARIABLE="u0" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln280_fu_2800_p2" SOURCE="../sobel_v4_pipeline.cpp:280" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln280" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u1_fu_2805_p3" SOURCE="../sobel_v4_pipeline.cpp:280" STORAGESUBTYPE="" URAM="0" VARIABLE="u1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln281_fu_2704_p2" SOURCE="../sobel_v4_pipeline.cpp:281" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln281" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u2_fu_2710_p3" SOURCE="../sobel_v4_pipeline.cpp:281" STORAGESUBTYPE="" URAM="0" VARIABLE="u2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln282_fu_2718_p2" SOURCE="../sobel_v4_pipeline.cpp:282" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln282" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u3_fu_2724_p3" SOURCE="../sobel_v4_pipeline.cpp:282" STORAGESUBTYPE="" URAM="0" VARIABLE="u3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln283_fu_2812_p2" SOURCE="../sobel_v4_pipeline.cpp:283" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln283" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="v0_fu_2818_p3" SOURCE="../sobel_v4_pipeline.cpp:283" STORAGESUBTYPE="" URAM="0" VARIABLE="v0" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln284_fu_2826_p2" SOURCE="../sobel_v4_pipeline.cpp:284" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln284" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="v1_fu_2830_p3" SOURCE="../sobel_v4_pipeline.cpp:284" STORAGESUBTYPE="" URAM="0" VARIABLE="v1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln285_fu_2836_p2" SOURCE="../sobel_v4_pipeline.cpp:285" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln285" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="v2_fu_2842_p3" SOURCE="../sobel_v4_pipeline.cpp:285" STORAGESUBTYPE="" URAM="0" VARIABLE="v2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln286_fu_2910_p2" SOURCE="../sobel_v4_pipeline.cpp:286" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln286" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="morph_val_fu_2965_p4" SOURCE="../sobel_v4_pipeline.cpp:286" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln286" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln291_fu_2850_p2" SOURCE="../sobel_v4_pipeline.cpp:291" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln291" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u0_1_fu_2854_p3" SOURCE="../sobel_v4_pipeline.cpp:291" STORAGESUBTYPE="" URAM="0" VARIABLE="u0_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln292_fu_2860_p2" SOURCE="../sobel_v4_pipeline.cpp:292" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln292" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u1_1_fu_2865_p3" SOURCE="../sobel_v4_pipeline.cpp:292" STORAGESUBTYPE="" URAM="0" VARIABLE="u1_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln293_fu_2732_p2" SOURCE="../sobel_v4_pipeline.cpp:293" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln293" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u2_1_fu_2738_p3" SOURCE="../sobel_v4_pipeline.cpp:293" STORAGESUBTYPE="" URAM="0" VARIABLE="u2_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln294_fu_2746_p2" SOURCE="../sobel_v4_pipeline.cpp:294" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln294" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="u3_1_fu_2752_p3" SOURCE="../sobel_v4_pipeline.cpp:294" STORAGESUBTYPE="" URAM="0" VARIABLE="u3_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln295_fu_2872_p2" SOURCE="../sobel_v4_pipeline.cpp:295" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln295" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="v0_1_fu_2878_p3" SOURCE="../sobel_v4_pipeline.cpp:295" STORAGESUBTYPE="" URAM="0" VARIABLE="v0_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln296_fu_2886_p2" SOURCE="../sobel_v4_pipeline.cpp:296" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln296" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="v1_1_fu_2890_p3" SOURCE="../sobel_v4_pipeline.cpp:296" STORAGESUBTYPE="" URAM="0" VARIABLE="v1_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln297_fu_2896_p2" SOURCE="../sobel_v4_pipeline.cpp:297" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln297" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="v2_1_fu_2902_p3" SOURCE="../sobel_v4_pipeline.cpp:297" STORAGESUBTYPE="" URAM="0" VARIABLE="v2_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln298_fu_2920_p2" SOURCE="../sobel_v4_pipeline.cpp:298" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln298" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="morph_val_fu_2965_p6" SOURCE="../sobel_v4_pipeline.cpp:298" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln298" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln696_fu_2930_p2" SOURCE="../sobel_v4_pipeline.cpp:696" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln696" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln277_fu_2935_p2" SOURCE="../sobel_v4_pipeline.cpp:277" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln277" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln277_fu_2940_p2" SOURCE="../sobel_v4_pipeline.cpp:277" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln277" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln277_1_fu_2945_p2" SOURCE="../sobel_v4_pipeline.cpp:277" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln277_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln277_1_fu_2950_p2" SOURCE="../sobel_v4_pipeline.cpp:277" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln277_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_3_8_1_1_U4" SOURCE="../sobel_v4_pipeline.cpp:286" STORAGESUBTYPE="" URAM="0" VARIABLE="morph_val" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln700_fu_2419_p2" SOURCE="../sobel_v4_pipeline.cpp:700" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln700" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="c_m_3_fu_2424_p2" SOURCE="../sobel_v4_pipeline.cpp:705" STORAGESUBTYPE="" URAM="0" VARIABLE="c_m_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln701_fu_2435_p2" SOURCE="../sobel_v4_pipeline.cpp:701" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln701" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="add_ln701_fu_2441_p2" SOURCE="../sobel_v4_pipeline.cpp:701" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln701" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="bank_m_3_fu_2447_p3" SOURCE="../sobel_v4_pipeline.cpp:701" STORAGESUBTYPE="" URAM="0" VARIABLE="bank_m_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="r_m_1_fu_2633_p2" SOURCE="../sobel_v4_pipeline.cpp:703" STORAGESUBTYPE="" URAM="0" VARIABLE="r_m_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln710_fu_1135_p2" SOURCE="../sobel_v4_pipeline.cpp:710" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln710" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sub" PRAGMA="" RTLNAME="output_index_fu_1141_p2" SOURCE="../sobel_v4_pipeline.cpp:711" STORAGESUBTYPE="" URAM="0" VARIABLE="output_index" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln713_fu_1147_p2" SOURCE="../sobel_v4_pipeline.cpp:713" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln713" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_3_8_1_1_U5" SOURCE="../sobel_v4_pipeline.cpp:551" STORAGESUBTYPE="" URAM="0" VARIABLE="out_val_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln732_fu_2471_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln732" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln732_1_fu_2477_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln732_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln733_fu_2482_p2" SOURCE="../sobel_v4_pipeline.cpp:733" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln733" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln733_1_fu_2488_p2" SOURCE="../sobel_v4_pipeline.cpp:733" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln733_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="or" PRAGMA="" RTLNAME="or_ln732_fu_3019_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln732" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="or" PRAGMA="" RTLNAME="or_ln732_1_fu_3023_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln732_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="or" PRAGMA="" RTLNAME="or_ln732_2_fu_3027_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln732_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln732_fu_3033_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln732" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op or" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="or" PRAGMA="" RTLNAME="or_ln732_3_fu_3039_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="or_ln732_3" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="final_pixel_fu_3044_p3" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="final_pixel" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln741_fu_1153_p2" SOURCE="../sobel_v4_pipeline.cpp:741" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln741" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln744_fu_3053_p2" SOURCE="../sobel_v4_pipeline.cpp:744" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln744" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln746_fu_2493_p2" SOURCE="../sobel_v4_pipeline.cpp:746" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln746" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln746_fu_3065_p2" SOURCE="../sobel_v4_pipeline.cpp:746" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln746" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln746_1_fu_2498_p2" SOURCE="../sobel_v4_pipeline.cpp:746" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln746_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln747_fu_2503_p2" SOURCE="../sobel_v4_pipeline.cpp:747" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln747" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op xor" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln747_fu_3070_p2" SOURCE="../sobel_v4_pipeline.cpp:747" STORAGESUBTYPE="" URAM="0" VARIABLE="xor_ln747" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setlt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="setlt" PRAGMA="" RTLNAME="icmp_ln747_1_fu_2508_p2" SOURCE="../sobel_v4_pipeline.cpp:747" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln747_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln746_fu_3075_p2" SOURCE="../sobel_v4_pipeline.cpp:746" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln746" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln746_1_fu_3080_p2" SOURCE="../sobel_v4_pipeline.cpp:746" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln746_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op and" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="and" PRAGMA="" RTLNAME="and_ln746_2_fu_3085_p2" SOURCE="../sobel_v4_pipeline.cpp:746" STORAGESUBTYPE="" URAM="0" VARIABLE="and_ln746_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="empty_53_fu_3091_p3" SOURCE="../sobel_v4_pipeline.cpp:746" STORAGESUBTYPE="" URAM="0" VARIABLE="empty_53" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="empty_54_fu_3099_p3" SOURCE="../sobel_v4_pipeline.cpp:744" STORAGESUBTYPE="" URAM="0" VARIABLE="empty_54" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="roi_acc_2_fu_3106_p2" SOURCE="../sobel_v4_pipeline.cpp:748" STORAGESUBTYPE="" URAM="0" VARIABLE="roi_acc_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="empty_55_fu_3112_p3" SOURCE="../sobel_v4_pipeline.cpp:744" STORAGESUBTYPE="" URAM="0" VARIABLE="empty_55" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="fg_acc_2_fu_3119_p2" SOURCE="../sobel_v4_pipeline.cpp:745" STORAGESUBTYPE="" URAM="0" VARIABLE="fg_acc_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="out_c_1_fu_2513_p2" SOURCE="../sobel_v4_pipeline.cpp:756" STORAGESUBTYPE="" URAM="0" VARIABLE="out_c_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="empty_56_fu_2519_p3" SOURCE="../sobel_v4_pipeline.cpp:733" STORAGESUBTYPE="" URAM="0" VARIABLE="empty_56" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="add" PRAGMA="" RTLNAME="out_r_2_fu_2527_p2" SOURCE="../sobel_v4_pipeline.cpp:754" STORAGESUBTYPE="" URAM="0" VARIABLE="out_r_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="STREAM_PIXELS" OPTYPE="select" PRAGMA="" RTLNAME="out_c_2_fu_2533_p3" SOURCE="../sobel_v4_pipeline.cpp:752" STORAGESUBTYPE="" URAM="0" VARIABLE="out_c_2" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>sobel_v4_pipeline</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>6.920</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>66335</Best-caseLatency>
+                    <Average-caseLatency>1072863</Average-caseLatency>
+                    <Worst-caseLatency>2079391</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.663 ms</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>10.729 ms</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>20.794 ms</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>66336 ~ 2079392</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                    <PerformancePragma>-</PerformancePragma>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>../sobel_v4_pipeline.cpp:308</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>9</BRAM_18K>
+                    <AVAIL_BRAM>280</AVAIL_BRAM>
+                    <UTIL_BRAM>3</UTIL_BRAM>
+                    <DSP>5</DSP>
+                    <AVAIL_DSP>220</AVAIL_DSP>
+                    <UTIL_DSP>2</UTIL_DSP>
+                    <FF>4645</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>4</UTIL_FF>
+                    <LUT>6718</LUT>
+                    <AVAIL_LUT>53200</AVAIL_LUT>
+                    <UTIL_LUT>12</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U47" SOURCE="../sobel_v4_pipeline.cpp:350" STORAGESUBTYPE="" URAM="0" VARIABLE="pixels" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="D_fu_309_p2" SOURCE="../sobel_v4_pipeline.cpp:351" STORAGESUBTYPE="" URAM="0" VARIABLE="D" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="total_delay_fu_319_p2" SOURCE="../sobel_v4_pipeline.cpp:352" STORAGESUBTYPE="" URAM="0" VARIABLE="total_delay" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="total_steps_fu_324_p2" SOURCE="../sobel_v4_pipeline.cpp:353" STORAGESUBTYPE="" URAM="0" VARIABLE="total_steps" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="ring_zero_fu_275_p2" SOURCE="../sobel_v4_pipeline.cpp:373" STORAGESUBTYPE="" URAM="0" VARIABLE="ring_zero" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln373_1_fu_281_p2" SOURCE="../sobel_v4_pipeline.cpp:373" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln373_1" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln373_2_fu_287_p2" SOURCE="../sobel_v4_pipeline.cpp:373" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln373_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op sparsemux" DSP="0" ID="" IMPL="onehotencoding_realdef" LATENCY="0" LOOP="" OPTYPE="sparsemux" PRAGMA="" RTLNAME="sparsemux_9_3_32_1_1_U48" SOURCE="../sobel_v4_pipeline.cpp:351" STORAGESUBTYPE="" URAM="0" VARIABLE="out_delay_2" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op seteq" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln490_fu_293_p2" SOURCE="../sobel_v4_pipeline.cpp:490" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln490" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln578_fu_334_p2" SOURCE="../sobel_v4_pipeline.cpp:578" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln578" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln644_fu_338_p2" SOURCE="../sobel_v4_pipeline.cpp:644" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln644" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln564_fu_343_p2" SOURCE="../sobel_v4_pipeline.cpp:564" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln564" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln732_fu_348_p2" SOURCE="../sobel_v4_pipeline.cpp:732" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln732" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln741_fu_353_p2" SOURCE="../sobel_v4_pipeline.cpp:741" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln741" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" CE_REG="" DISPNAME="bind_op setgt" DSP="0" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="setgt" PRAGMA="" RTLNAME="icmp_ln254_fu_299_p2" SOURCE="../sobel_v4_pipeline.cpp:254" STORAGESUBTYPE="" URAM="0" VARIABLE="icmp_ln254" VISIBLE="false"/>
+                <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="control" CE_REG="" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+            </BindNodes>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands>
+        <config_interface m_axi_alignment_size="1"/>
+        <config_rtl auto_prefix="1"/>
+    </UserConfigCommands>
+    <Args>
+        <Arg ArgName="src" index="0" direction="in" srcType="stream&lt;hls::axis&lt;ap_uint&lt;32&gt;, 0UL, 0UL, 0UL, (unsigned char)'8', false&gt;, 0&gt;&amp;" srcSize="96">
+            <hwRefs>
+                <hwRef type="interface" interface="src" name="" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="dst" index="1" direction="out" srcType="stream&lt;hls::axis&lt;ap_uint&lt;8&gt;, 0UL, 0UL, 0UL, (unsigned char)'8', false&gt;, 0&gt;&amp;" srcSize="56">
+            <hwRefs>
+                <hwRef type="interface" interface="dst" name="" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="width" index="2" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="width" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="height" index="3" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="height" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="mode" index="4" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="mode" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="threshold" index="5" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="threshold" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="morph_mode" index="6" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="morph_mode" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="enable_gray" index="7" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="enable_gray" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="enable_gauss" index="8" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="enable_gauss" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out_sel" index="9" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="out_sel" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="roi_x0" index="10" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="roi_x0" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="roi_y0" index="11" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="roi_y0" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="roi_x1" index="12" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="roi_x1" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="roi_y1" index="13" direction="in" srcType="int" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="roi_y1" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="foreground_count" index="14" direction="out" srcType="unsigned int&amp;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="foreground_count" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="foreground_count_ctrl" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="roi_count" index="15" direction="out" srcType="unsigned int&amp;" srcSize="32">
+            <hwRefs>
+                <hwRef type="register" interface="s_axi_control" name="roi_count" usage="data" direction="out"/>
+                <hwRef type="register" interface="s_axi_control" name="roi_count_ctrl" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="s_axi_control" type="axi4lite" busTypeName="aximm" mode="slave" dataWidth="32" addrWidth="8" portPrefix="s_axi_control_" paramPrefix="C_S_AXI_CONTROL_">
+            <ports>
+                <port>s_axi_control_ARADDR</port>
+                <port>s_axi_control_ARREADY</port>
+                <port>s_axi_control_ARVALID</port>
+                <port>s_axi_control_AWADDR</port>
+                <port>s_axi_control_AWREADY</port>
+                <port>s_axi_control_AWVALID</port>
+                <port>s_axi_control_BREADY</port>
+                <port>s_axi_control_BRESP</port>
+                <port>s_axi_control_BVALID</port>
+                <port>s_axi_control_RDATA</port>
+                <port>s_axi_control_RREADY</port>
+                <port>s_axi_control_RRESP</port>
+                <port>s_axi_control_RVALID</port>
+                <port>s_axi_control_WDATA</port>
+                <port>s_axi_control_WREADY</port>
+                <port>s_axi_control_WSTRB</port>
+                <port>s_axi_control_WVALID</port>
+            </ports>
+            <registers>
+                <register offset="0x00" name="CTRL" access="RW" description="Control signals" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="AP_START" access="RW" description="Control signal Register for 'ap_start'."/>
+                        <field offset="1" width="1" name="AP_DONE" access="R" description="Control signal Register for 'ap_done'."/>
+                        <field offset="2" width="1" name="AP_IDLE" access="R" description="Control signal Register for 'ap_idle'."/>
+                        <field offset="3" width="1" name="AP_READY" access="R" description="Control signal Register for 'ap_ready'."/>
+                        <field offset="4" width="3" name="RESERVED_1" access="R" description="Reserved.  0s on read."/>
+                        <field offset="7" width="1" name="AUTO_RESTART" access="RW" description="Control signal Register for 'auto_restart'."/>
+                        <field offset="8" width="1" name="RESERVED_2" access="R" description="Reserved.  0s on read."/>
+                        <field offset="9" width="1" name="INTERRUPT" access="R" description="Control signal Register for 'interrupt'."/>
+                        <field offset="10" width="22" name="RESERVED_3" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x04" name="GIER" access="RW" description="Global Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="Enable" access="RW" description="Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x08" name="IP_IER" access="RW" description="IP Interrupt Enable Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_EN" access="RW" description="Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="1" width="1" name="CHAN1_INT_EN" access="RW" description="Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x0c" name="IP_ISR" access="RW" description="IP Interrupt Status Register" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="CHAN0_INT_ST" access="RTOW" description="Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 interrupt, 1 = Channel 0 interrupt."/>
+                        <field offset="1" width="1" name="CHAN1_INT_ST" access="RTOW" description="Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 interrupt, 1 = Channel 1 interrupt."/>
+                        <field offset="2" width="30" name="RESERVED_0" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x10" name="width" access="W" description="Data signal of width" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="width" access="W" description="Bit 31 to 0 of width"/>
+                    </fields>
+                </register>
+                <register offset="0x18" name="height" access="W" description="Data signal of height" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="height" access="W" description="Bit 31 to 0 of height"/>
+                    </fields>
+                </register>
+                <register offset="0x20" name="mode" access="W" description="Data signal of mode" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="mode" access="W" description="Bit 31 to 0 of mode"/>
+                    </fields>
+                </register>
+                <register offset="0x28" name="threshold" access="W" description="Data signal of threshold" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="threshold" access="W" description="Bit 31 to 0 of threshold"/>
+                    </fields>
+                </register>
+                <register offset="0x30" name="morph_mode" access="W" description="Data signal of morph_mode" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="morph_mode" access="W" description="Bit 31 to 0 of morph_mode"/>
+                    </fields>
+                </register>
+                <register offset="0x38" name="enable_gray" access="W" description="Data signal of enable_gray" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="enable_gray" access="W" description="Bit 31 to 0 of enable_gray"/>
+                    </fields>
+                </register>
+                <register offset="0x40" name="enable_gauss" access="W" description="Data signal of enable_gauss" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="enable_gauss" access="W" description="Bit 31 to 0 of enable_gauss"/>
+                    </fields>
+                </register>
+                <register offset="0x48" name="out_sel" access="W" description="Data signal of out_sel" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="out_sel" access="W" description="Bit 31 to 0 of out_sel"/>
+                    </fields>
+                </register>
+                <register offset="0x50" name="roi_x0" access="W" description="Data signal of roi_x0" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="roi_x0" access="W" description="Bit 31 to 0 of roi_x0"/>
+                    </fields>
+                </register>
+                <register offset="0x58" name="roi_y0" access="W" description="Data signal of roi_y0" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="roi_y0" access="W" description="Bit 31 to 0 of roi_y0"/>
+                    </fields>
+                </register>
+                <register offset="0x60" name="roi_x1" access="W" description="Data signal of roi_x1" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="roi_x1" access="W" description="Bit 31 to 0 of roi_x1"/>
+                    </fields>
+                </register>
+                <register offset="0x68" name="roi_y1" access="W" description="Data signal of roi_y1" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="roi_y1" access="W" description="Bit 31 to 0 of roi_y1"/>
+                    </fields>
+                </register>
+                <register offset="0x70" name="foreground_count" access="R" description="Data signal of foreground_count" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="foreground_count" access="R" description="Bit 31 to 0 of foreground_count"/>
+                    </fields>
+                </register>
+                <register offset="0x74" name="foreground_count_ctrl" access="R" description="Control signal of foreground_count" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="foreground_count_ap_vld" access="R" description="Control signal foreground_count_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+                <register offset="0x80" name="roi_count" access="R" description="Data signal of roi_count" range="32">
+                    <fields>
+                        <field offset="0" width="32" name="roi_count" access="R" description="Bit 31 to 0 of roi_count"/>
+                    </fields>
+                </register>
+                <register offset="0x84" name="roi_count_ctrl" access="R" description="Control signal of roi_count" range="32">
+                    <fields>
+                        <field offset="0" width="1" name="roi_count_ap_vld" access="R" description="Control signal roi_count_ap_vld"/>
+                        <field offset="1" width="31" name="RESERVED" access="R" description="Reserved.  0s on read."/>
+                    </fields>
+                </register>
+            </registers>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="16" argName="width"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="24" argName="height"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="32" argName="mode"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="40" argName="threshold"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="48" argName="morph_mode"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="56" argName="enable_gray"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="64" argName="enable_gauss"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="72" argName="out_sel"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="80" argName="roi_x0"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="88" argName="roi_y0"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="96" argName="roi_x1"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="104" argName="roi_y1"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="112" argName="foreground_count"/>
+                <constraint constraint_type="pragma interface" mode="s_axilite" register_option="0" offset="128" argName="roi_count"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_BUSIF">s_axi_control:src:dst</busParam>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst_n</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst_n" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_LOW</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst_n">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst_n</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="interrupt" type="interrupt" busTypeName="interrupt" mode="master" dataWidth="1">
+            <busParams>
+                <busParam busParamName="SENSITIVITY">LEVEL_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="interrupt">INTERRUPT</portMap>
+            </portMaps>
+            <ports>
+                <port>interrupt</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="src" type="axi4stream" busTypeName="axis" mode="slave" direction="in" dataWidth="32" portPrefix="src_">
+            <ports>
+                <port>src_TDATA</port>
+                <port>src_TKEEP</port>
+                <port>src_TLAST</port>
+                <port>src_TREADY</port>
+                <port>src_TSTRB</port>
+                <port>src_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="1" register_mode="both" argName="src"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="dst" type="axi4stream" busTypeName="axis" mode="master" direction="out" dataWidth="8" portPrefix="dst_">
+            <ports>
+                <port>dst_TDATA</port>
+                <port>dst_TKEEP</port>
+                <port>dst_TLAST</port>
+                <port>dst_TREADY</port>
+                <port>dst_TSTRB</port>
+                <port>dst_TVALID</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="axis" register_option="1" register_mode="both" argName="dst"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="S_AXILITE Interfaces">
+                <table>
+                    <keys size="5">Interface, Data Width, Address Width, Offset, Register</keys>
+                    <column name="s_axi_control">32, 8, 16, 0</column>
+                </table>
+            </item>
+            <item name="S_AXILITE Registers">
+                <table>
+                    <keys size="7">Interface, Register, Offset, Width, Access, Description, Bit Fields</keys>
+                    <column name="s_axi_control">CTRL, 0x00, 32, RW, Control signals, 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT</column>
+                    <column name="s_axi_control">GIER, 0x04, 32, RW, Global Interrupt Enable Register, 0=Enable</column>
+                    <column name="s_axi_control">IP_IER, 0x08, 32, RW, IP Interrupt Enable Register, 0=CHAN0_INT_EN 1=CHAN1_INT_EN</column>
+                    <column name="s_axi_control">IP_ISR, 0x0c, 32, RW, IP Interrupt Status Register, 0=CHAN0_INT_ST 1=CHAN1_INT_ST</column>
+                    <column name="s_axi_control">width, 0x10, 32, W, Data signal of width, </column>
+                    <column name="s_axi_control">height, 0x18, 32, W, Data signal of height, </column>
+                    <column name="s_axi_control">mode, 0x20, 32, W, Data signal of mode, </column>
+                    <column name="s_axi_control">threshold, 0x28, 32, W, Data signal of threshold, </column>
+                    <column name="s_axi_control">morph_mode, 0x30, 32, W, Data signal of morph_mode, </column>
+                    <column name="s_axi_control">enable_gray, 0x38, 32, W, Data signal of enable_gray, </column>
+                    <column name="s_axi_control">enable_gauss, 0x40, 32, W, Data signal of enable_gauss, </column>
+                    <column name="s_axi_control">out_sel, 0x48, 32, W, Data signal of out_sel, </column>
+                    <column name="s_axi_control">roi_x0, 0x50, 32, W, Data signal of roi_x0, </column>
+                    <column name="s_axi_control">roi_y0, 0x58, 32, W, Data signal of roi_y0, </column>
+                    <column name="s_axi_control">roi_x1, 0x60, 32, W, Data signal of roi_x1, </column>
+                    <column name="s_axi_control">roi_y1, 0x68, 32, W, Data signal of roi_y1, </column>
+                    <column name="s_axi_control">foreground_count, 0x70, 32, R, Data signal of foreground_count, </column>
+                    <column name="s_axi_control">foreground_count_ctrl, 0x74, 32, R, Control signal of foreground_count, 0=foreground_count_ap_vld</column>
+                    <column name="s_axi_control">roi_count, 0x80, 32, R, Data signal of roi_count, </column>
+                    <column name="s_axi_control">roi_count_ctrl, 0x84, 32, R, Control signal of roi_count, 0=roi_count_ap_vld</column>
+                </table>
+            </item>
+            <item name="AXIS">
+                <table>
+                    <keys size="9">Interface, Direction, Register Mode, TDATA, TKEEP, TLAST, TREADY, TSTRB, TVALID</keys>
+                    <column name="dst">out, both, 8, 1, 1, 1, 1, 1</column>
+                    <column name="src">in, both, 32, 4, 1, 1, 4, 1</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="interrupt">interrupt, interrupt</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, </column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="src">in, stream&lt;hls::axis&lt;ap_uint&lt;32&gt; 0UL 0UL 0UL (unsigned char)'8' false&gt; 0&gt;&amp;</column>
+                    <column name="dst">out, stream&lt;hls::axis&lt;ap_uint&lt;8&gt; 0UL 0UL 0UL (unsigned char)'8' false&gt; 0&gt;&amp;</column>
+                    <column name="width">in, int</column>
+                    <column name="height">in, int</column>
+                    <column name="mode">in, int</column>
+                    <column name="threshold">in, int</column>
+                    <column name="morph_mode">in, int</column>
+                    <column name="enable_gray">in, int</column>
+                    <column name="enable_gauss">in, int</column>
+                    <column name="out_sel">in, int</column>
+                    <column name="roi_x0">in, int</column>
+                    <column name="roi_y0">in, int</column>
+                    <column name="roi_x1">in, int</column>
+                    <column name="roi_y1">in, int</column>
+                    <column name="foreground_count">out, unsigned int&amp;</column>
+                    <column name="roi_count">out, unsigned int&amp;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="4">Argument, HW Interface, HW Type, HW Info</keys>
+                    <column name="src">src, interface, </column>
+                    <column name="dst">dst, interface, </column>
+                    <column name="width">s_axi_control, register, name=width offset=0x10 range=32</column>
+                    <column name="height">s_axi_control, register, name=height offset=0x18 range=32</column>
+                    <column name="mode">s_axi_control, register, name=mode offset=0x20 range=32</column>
+                    <column name="threshold">s_axi_control, register, name=threshold offset=0x28 range=32</column>
+                    <column name="morph_mode">s_axi_control, register, name=morph_mode offset=0x30 range=32</column>
+                    <column name="enable_gray">s_axi_control, register, name=enable_gray offset=0x38 range=32</column>
+                    <column name="enable_gauss">s_axi_control, register, name=enable_gauss offset=0x40 range=32</column>
+                    <column name="out_sel">s_axi_control, register, name=out_sel offset=0x48 range=32</column>
+                    <column name="roi_x0">s_axi_control, register, name=roi_x0 offset=0x50 range=32</column>
+                    <column name="roi_y0">s_axi_control, register, name=roi_y0 offset=0x58 range=32</column>
+                    <column name="roi_x1">s_axi_control, register, name=roi_x1 offset=0x60 range=32</column>
+                    <column name="roi_y1">s_axi_control, register, name=roi_y1 offset=0x68 range=32</column>
+                    <column name="foreground_count">s_axi_control, register, name=foreground_count offset=0x70 range=32</column>
+                    <column name="foreground_count">s_axi_control, register, name=foreground_count_ctrl offset=0x74 range=32</column>
+                    <column name="roi_count">s_axi_control, register, name=roi_count offset=0x80 range=32</column>
+                    <column name="roi_count">s_axi_control, register, name=roi_count_ctrl offset=0x84 range=32</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.amd.com/access/sources/dita/topic?Doc_Version=2026.1%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="inline" status="valid" location="../sobel_v4_pipeline.cpp:140" parentFunction="read_pixel" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="valid" location="../sobel_v4_pipeline.cpp:163" parentFunction="write_pixel" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="valid" location="../sobel_v4_pipeline.cpp:179" parentFunction="gray_from_rgb" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="valid" location="../sobel_v4_pipeline.cpp:193" parentFunction="gauss_from_window" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="valid" location="../sobel_v4_pipeline.cpp:212" parentFunction="edge_from_window" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="valid" location="../sobel_v4_pipeline.cpp:275" parentFunction="morph_from_window" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:326" parentFunction="sobel_v4_pipeline" variable="src" isDirective="0" options="mode=axis port=src"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:327" parentFunction="sobel_v4_pipeline" variable="dst" isDirective="0" options="mode=axis port=dst"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:328" parentFunction="sobel_v4_pipeline" variable="return" isDirective="0" options="mode=s_axilite port=return bundle=control"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:329" parentFunction="sobel_v4_pipeline" variable="width" isDirective="0" options="mode=s_axilite port=width bundle=control offset=0x10"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:330" parentFunction="sobel_v4_pipeline" variable="height" isDirective="0" options="mode=s_axilite port=height bundle=control offset=0x18"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:331" parentFunction="sobel_v4_pipeline" variable="mode" isDirective="0" options="mode=s_axilite port=mode bundle=control offset=0x20"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:332" parentFunction="sobel_v4_pipeline" variable="threshold" isDirective="0" options="mode=s_axilite port=threshold bundle=control offset=0x28"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:333" parentFunction="sobel_v4_pipeline" variable="morph_mode" isDirective="0" options="mode=s_axilite port=morph_mode bundle=control offset=0x30"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:334" parentFunction="sobel_v4_pipeline" variable="enable_gray" isDirective="0" options="mode=s_axilite port=enable_gray bundle=control offset=0x38"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:335" parentFunction="sobel_v4_pipeline" variable="enable_gauss" isDirective="0" options="mode=s_axilite port=enable_gauss bundle=control offset=0x40"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:336" parentFunction="sobel_v4_pipeline" variable="out_sel" isDirective="0" options="mode=s_axilite port=out_sel bundle=control offset=0x48"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:337" parentFunction="sobel_v4_pipeline" variable="roi_x0" isDirective="0" options="mode=s_axilite port=roi_x0 bundle=control offset=0x50"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:338" parentFunction="sobel_v4_pipeline" variable="roi_y0" isDirective="0" options="mode=s_axilite port=roi_y0 bundle=control offset=0x58"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:339" parentFunction="sobel_v4_pipeline" variable="roi_x1" isDirective="0" options="mode=s_axilite port=roi_x1 bundle=control offset=0x60"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:340" parentFunction="sobel_v4_pipeline" variable="roi_y1" isDirective="0" options="mode=s_axilite port=roi_y1 bundle=control offset=0x68"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:341" parentFunction="sobel_v4_pipeline" variable="foreground_count" isDirective="0" options="mode=s_axilite port=foreground_count bundle=control offset=0x70"/>
+        <Pragma type="interface" status="valid" location="../sobel_v4_pipeline.cpp:342" parentFunction="sobel_v4_pipeline" variable="roi_count" isDirective="0" options="mode=s_axilite port=roi_count bundle=control offset=0x80"/>
+        <Pragma type="array_partition" status="valid" location="../sobel_v4_pipeline.cpp:386" parentFunction="sobel_v4_pipeline" variable="lbuf_g" isDirective="0" options="variable=lbuf_g complete dim=1"/>
+        <Pragma type="bind_storage" status="valid" location="../sobel_v4_pipeline.cpp:387" parentFunction="sobel_v4_pipeline" variable="lbuf_g" isDirective="0" options="variable=lbuf_g type=ram_s2p impl=bram"/>
+        <Pragma type="array_partition" status="invalid" location="../sobel_v4_pipeline.cpp:390" parentFunction="sobel_v4_pipeline" variable="win_g" isDirective="0" options="variable=win_g complete dim=0">
+            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
+        </Pragma>
+        <Pragma type="unroll" status="valid" location="../sobel_v4_pipeline.cpp:394" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" status="valid" location="../sobel_v4_pipeline.cpp:397" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" status="valid" location="../sobel_v4_pipeline.cpp:414" parentFunction="sobel_v4_pipeline" variable="lbuf_e" isDirective="0" options="variable=lbuf_e complete dim=1"/>
+        <Pragma type="bind_storage" status="valid" location="../sobel_v4_pipeline.cpp:415" parentFunction="sobel_v4_pipeline" variable="lbuf_e" isDirective="0" options="variable=lbuf_e type=ram_s2p impl=bram"/>
+        <Pragma type="array_partition" status="invalid" location="../sobel_v4_pipeline.cpp:418" parentFunction="sobel_v4_pipeline" variable="win_e" isDirective="0" options="variable=win_e complete dim=0">
+            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
+        </Pragma>
+        <Pragma type="unroll" status="valid" location="../sobel_v4_pipeline.cpp:422" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" status="valid" location="../sobel_v4_pipeline.cpp:425" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" status="valid" location="../sobel_v4_pipeline.cpp:436" parentFunction="sobel_v4_pipeline" variable="lbuf_m" isDirective="0" options="variable=lbuf_m complete dim=1"/>
+        <Pragma type="bind_storage" status="valid" location="../sobel_v4_pipeline.cpp:437" parentFunction="sobel_v4_pipeline" variable="lbuf_m" isDirective="0" options="variable=lbuf_m type=ram_s2p impl=bram"/>
+        <Pragma type="array_partition" status="invalid" location="../sobel_v4_pipeline.cpp:440" parentFunction="sobel_v4_pipeline" variable="win_m" isDirective="0" options="variable=win_m complete dim=0">
+            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
+        </Pragma>
+        <Pragma type="unroll" status="valid" location="../sobel_v4_pipeline.cpp:444" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" status="valid" location="../sobel_v4_pipeline.cpp:447" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="pipeline" status="valid" location="../sobel_v4_pipeline.cpp:466" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options="ii=1"/>
+        <Pragma type="loop_tripcount" status="valid" location="../sobel_v4_pipeline.cpp:468" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options="min=66307 max=2079363"/>
+        <Pragma type="unroll" status="invalid" location="../sobel_v4_pipeline.cpp:528" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options="">
+            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
+        </Pragma>
+        <Pragma type="unroll" status="invalid" location="../sobel_v4_pipeline.cpp:616" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options="">
+            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
+        </Pragma>
+        <Pragma type="unroll" status="invalid" location="../sobel_v4_pipeline.cpp:682" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options="">
+            <Msg msg_id="" msg_severity="ERROR" msg_body="Not implemented"/>
+        </Pragma>
+        <Pragma type="inline" status="implemented" location="../sobel_v4_pipeline.cpp:140" parentFunction="_zl10read_pixelrn3hls6streamins_4axisi7ap_uintili32eelm0elm0elm0elh56elb0eeeli0eeeii" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="implemented" location="../sobel_v4_pipeline.cpp:163" parentFunction="_zl11write_pixelrn3hls6streamins_4axisi7ap_uintili8eelm0elm0elm0elh56elb0eeeli0eeehb" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="implemented" location="../sobel_v4_pipeline.cpp:179" parentFunction="_zl13gray_from_rgbj" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="implemented" location="../sobel_v4_pipeline.cpp:193" parentFunction="_zl17gauss_from_windowpa3_kh" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="implemented" location="../sobel_v4_pipeline.cpp:212" parentFunction="_zl16edge_from_windowpa3_khii" variable="" isDirective="0" options=""/>
+        <Pragma type="inline" status="implemented" location="../sobel_v4_pipeline.cpp:275" parentFunction="_zl17morph_from_windowpa3_khi" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" status="implemented" location="../sobel_v4_pipeline.cpp:386" parentFunction="sobel_v4_pipeline" variable="lbuf_g" isDirective="0" options="dim=1 type=complete variable=lbuf_g"/>
+        <Pragma type="unroll" status="implemented" location="../sobel_v4_pipeline.cpp:394" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" status="implemented" location="../sobel_v4_pipeline.cpp:397" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" status="implemented" location="../sobel_v4_pipeline.cpp:414" parentFunction="sobel_v4_pipeline" variable="lbuf_e" isDirective="0" options="dim=1 type=complete variable=lbuf_e"/>
+        <Pragma type="unroll" status="implemented" location="../sobel_v4_pipeline.cpp:422" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" status="implemented" location="../sobel_v4_pipeline.cpp:425" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="array_partition" status="implemented" location="../sobel_v4_pipeline.cpp:436" parentFunction="sobel_v4_pipeline" variable="lbuf_m" isDirective="0" options="dim=1 type=complete variable=lbuf_m"/>
+        <Pragma type="unroll" status="implemented" location="../sobel_v4_pipeline.cpp:444" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" status="implemented" location="../sobel_v4_pipeline.cpp:447" parentFunction="sobel_v4_pipeline" variable="" isDirective="0" options=""/>
+        <Pragma type="loop_tripcount" status="implemented" location="../sobel_v4_pipeline.cpp:468" parentFunction="sobel_v4_pipeline_pipeline_stream_pixels" variable="" isDirective="0" options="max=2079363 min=66307 avg=1072835"/>
+    </PragmaReport>
+</profile>

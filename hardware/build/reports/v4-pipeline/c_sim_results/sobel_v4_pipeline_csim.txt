@@ -1,0 +1,550 @@
+INFO: [SIM 2] *************** CSIM start ***************
+
+   Compiling ../../../../../../../../claude_code/HDMI_FPGA_AMD/pynq_sobel_accelerator/hardware/hls/legacy/configurable_pipeline/src/sobel_v4_pipeline.cpp in debug mode
+
+   Generating csim.exe
+
+[Frame 1] v4regress_synth_320x240_m0_t0 (320x240, mode=0, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_320x240_m0_t0: PASS
+
+[Frame 2] v4regress_synth_320x240_m1_t0 (320x240, mode=1, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_320x240_m1_t0: PASS
+
+[Frame 3] v4regress_synth_320x240_m1_t120 (320x240, mode=1, thr=120, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_320x240_m1_t120: PASS
+
+[Frame 4] v4regress_synth_640x480_m0_t0 (640x480, mode=0, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_640x480_m0_t0: PASS
+
+[Frame 5] v4regress_synth_640x480_m0_t500 (640x480, mode=0, thr=500, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_640x480_m0_t500: PASS
+
+[Frame 6] v4regress_synth_255x255_m0_t0 (255x255, mode=0, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_255x255_m0_t0: PASS
+
+[Frame 7] v4regress_synth_255x255_m1_t0 (255x255, mode=1, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_255x255_m1_t0: PASS
+
+[Frame 8] v4regress_synth_255x255_m0_t255 (255x255, mode=0, thr=255, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_255x255_m0_t255: PASS
+
+[Frame 9] v4regress_morph_all0_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_256x256_m1: PASS
+
+[Frame 10] v4regress_morph_all0_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_256x256_m2: PASS
+
+[Frame 11] v4regress_morph_all0_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_640x480_m1: PASS
+
+[Frame 12] v4regress_morph_all0_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_640x480_m2: PASS
+
+[Frame 13] v4regress_morph_all255_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_256x256_m1: PASS
+
+[Frame 14] v4regress_morph_all255_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_256x256_m2: PASS
+
+[Frame 15] v4regress_morph_all255_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_640x480_m1: PASS
+
+[Frame 16] v4regress_morph_all255_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_640x480_m2: PASS
+
+[Frame 17] v4regress_morph_center_dot_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_256x256_m1: PASS
+
+[Frame 18] v4regress_morph_center_dot_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_256x256_m2: PASS
+
+[Frame 19] v4regress_morph_center_dot_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_640x480_m1: PASS
+
+[Frame 20] v4regress_morph_center_dot_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_640x480_m2: PASS
+
+[Frame 21] v4regress_morph_center_3x3_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_256x256_m1: PASS
+
+[Frame 22] v4regress_morph_center_3x3_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_256x256_m2: PASS
+
+[Frame 23] v4regress_morph_center_3x3_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_640x480_m1: PASS
+
+[Frame 24] v4regress_morph_center_3x3_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_640x480_m2: PASS
+
+[Frame 25] v4regress_morph_border_blob_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_256x256_m1: PASS
+
+[Frame 26] v4regress_morph_border_blob_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_256x256_m2: PASS
+
+[Frame 27] v4regress_morph_border_blob_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_640x480_m1: PASS
+
+[Frame 28] v4regress_morph_border_blob_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_640x480_m2: PASS
+
+[Frame 29] v4regress_morph_rand_bin_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_256x256_m1: PASS
+
+[Frame 30] v4regress_morph_rand_bin_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_256x256_m2: PASS
+
+[Frame 31] v4regress_morph_rand_bin_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_640x480_m1: PASS
+
+[Frame 32] v4regress_morph_rand_bin_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_640x480_m2: PASS
+
+[Frame 33] v4regress_morph_randgray_320x240_m1 (320x240, mode=0, thr=0, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_randgray_320x240_m1: PASS
+
+[Frame 34] v4regress_morph_randgray_320x240_m2 (320x240, mode=0, thr=0, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_randgray_320x240_m2: PASS
+
+[Frame 35] rgb_solid_200_100_50_thr0 (256x256, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_solid_200_100_50_thr0: PASS
+
+[Frame 36] rgb_solid_200_100_50_thr80 (64x64, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_solid_200_100_50_thr80: PASS
+
+[Frame 37] rgb_primary_red_out1 (64x64, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=1)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_primary_red_out1: PASS
+
+[Frame 38] rgb_primary_green_out1 (64x64, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=1)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_primary_green_out1: PASS
+
+[Frame 39] rgb_primary_blue_out1 (64x64, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=1)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_primary_blue_out1: PASS
+
+[Frame 40] rgb_checker_256_thr80 (256x256, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_checker_256_thr80: PASS
+
+[Frame 41] rgb_border_blob_128_thr80 (128x128, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=16384, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_border_blob_128_thr80: PASS
+
+[Frame 42] rgb_center_dot_128_thr0 (128x128, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=16384, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_center_dot_128_thr0: PASS
+
+[Frame 43] rgb_noise_320x240_m1 (320x240, mode=0, thr=0, morph=1, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_noise_320x240_m1: PASS
+
+[Frame 44] rgb_noise_320x240_m2 (320x240, mode=0, thr=0, morph=2, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_noise_320x240_m2: PASS
+
+[Frame 45] rgb_rand_256x256_thr80 (256x256, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_rand_256x256_thr80: PASS
+
+[Frame 46] rgb_rand_320x240_thr80 (320x240, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_rand_320x240_thr80: PASS
+
+[Frame 47] rgb_rand_640x480_thr80 (640x480, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_rand_640x480_thr80: PASS
+
+[Frame 48] combo_g1_s1_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s1_m0_320x240: PASS
+
+[Frame 49] combo_g1_s1_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s1_m1_320x240: PASS
+
+[Frame 50] combo_g1_s1_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s1_m2_320x240: PASS
+
+[Frame 51] combo_g1_s0_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=1, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s0_m0_320x240: PASS
+
+[Frame 52] combo_g1_s0_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=1, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s0_m1_320x240: PASS
+
+[Frame 53] combo_g1_s0_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=1, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s0_m2_320x240: PASS
+
+[Frame 54] combo_g0_s1_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=0, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s1_m0_320x240: PASS
+
+[Frame 55] combo_g0_s1_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=0, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s1_m1_320x240: PASS
+
+[Frame 56] combo_g0_s1_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=0, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s1_m2_320x240: PASS
+
+[Frame 57] combo_g0_s0_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s0_m0_320x240: PASS
+
+[Frame 58] combo_g0_s0_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s0_m1_320x240: PASS
+
+[Frame 59] combo_g0_s0_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s0_m2_320x240: PASS
+
+[Frame 60] export_g1_s1_out0_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s1_out0_256: PASS
+
+[Frame 61] export_g1_s1_out1_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=1, out_sel=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s1_out1_256: PASS
+
+[Frame 62] export_g1_s0_out2_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=0, out_sel=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s0_out2_256: PASS
+
+[Frame 63] export_g1_s0_out3_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=0, out_sel=3)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s0_out3_256: PASS
+
+[Frame 64] export_g0_s1_out0_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s1_out0_256: PASS
+
+[Frame 65] export_g0_s1_out1_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=1, out_sel=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s1_out1_256: PASS
+
+[Frame 66] export_g0_s0_out2_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s0_out2_256: PASS
+
+[Frame 67] export_g0_s0_out3_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=3)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s0_out3_256: PASS
+
+ALL PASS: 67 frames
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 307200
+
+INFO: [SIM 1] CSim done with 0 errors.
+
+INFO: [SIM 3] *************** CSIM finish ***************
+

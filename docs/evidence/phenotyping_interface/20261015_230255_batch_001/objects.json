@@ -1,0 +1,700 @@
+{
+  "exported_at": "2026-10-15 23:02:55",
+  "frame_id": 6,
+  "images": {
+    "annotated": "annotated.png",
+    "fpga": "fpga.png",
+    "original": "original.png",
+    "phenotyping": "phenotyping.png"
+  },
+  "objects": [
+    {
+      "area_px": 1903,
+      "aspect_ratio": 1.044,
+      "bbox": [
+        427.7,
+        56.6,
+        471.7,
+        98.7
+      ],
+      "circularity": 0.817,
+      "confidence": 0.8777,
+      "id": 1,
+      "length_px": 47,
+      "perimeter_px": 171.11,
+      "seed_id": "Seed #001",
+      "status": "OK",
+      "width_px": 45
+    },
+    {
+      "area_px": 1983.5,
+      "aspect_ratio": 1.111,
+      "bbox": [
+        389.7,
+        110.4,
+        431.7,
+        156.8
+      ],
+      "circularity": 0.811,
+      "confidence": 0.8765,
+      "id": 2,
+      "length_px": 50,
+      "perimeter_px": 175.36,
+      "seed_id": "Seed #002",
+      "status": "OK",
+      "width_px": 45
+    },
+    {
+      "area_px": 1813,
+      "aspect_ratio": 1.044,
+      "bbox": [
+        196,
+        113.1,
+        238.3,
+        156.6
+      ],
+      "circularity": 0.834,
+      "confidence": 0.8775,
+      "id": 3,
+      "length_px": 47,
+      "perimeter_px": 165.25,
+      "seed_id": "Seed #003",
+      "status": "OK",
+      "width_px": 45
+    },
+    {
+      "area_px": 2329.5,
+      "aspect_ratio": 1.381,
+      "bbox": [
+        263.7,
+        134.9,
+        302.7,
+        190.1
+      ],
+      "circularity": 0.791,
+      "confidence": 0.9106,
+      "id": 4,
+      "length_px": 58,
+      "perimeter_px": 192.38,
+      "seed_id": "Seed #004",
+      "status": "OK",
+      "width_px": 42
+    },
+    {
+      "area_px": 1849.5,
+      "aspect_ratio": 1.378,
+      "bbox": [
+        304.2,
+        144.4,
+        337.5,
+        191.6
+      ],
+      "circularity": 0.734,
+      "confidence": 0.902,
+      "id": 5,
+      "length_px": 51,
+      "perimeter_px": 177.9,
+      "seed_id": "Seed #005",
+      "status": "OK",
+      "width_px": 37
+    },
+    {
+      "area_px": 1929.5,
+      "aspect_ratio": 1,
+      "bbox": [
+        338.2,
+        149.4,
+        380.1,
+        190.7
+      ],
+      "circularity": 0.794,
+      "confidence": 0.8876,
+      "id": 6,
+      "length_px": 45,
+      "perimeter_px": 174.73,
+      "seed_id": "Seed #006",
+      "status": "OK",
+      "width_px": 45
+    },
+    {
+      "area_px": 2072,
+      "aspect_ratio": 1.526,
+      "bbox": [
+        435.8,
+        166.4,
+        471.3,
+        221.1
+      ],
+      "circularity": 0.764,
+      "confidence": 0.879,
+      "id": 7,
+      "length_px": 58,
+      "perimeter_px": 184.63,
+      "seed_id": "Seed #007",
+      "status": "OK",
+      "width_px": 38
+    },
+    {
+      "area_px": 1785,
+      "aspect_ratio": 1.095,
+      "bbox": [
+        393.1,
+        169.6,
+        436,
+        208.9
+      ],
+      "circularity": 0.699,
+      "confidence": 0.8782,
+      "id": 8,
+      "length_px": 46,
+      "perimeter_px": 179.11,
+      "seed_id": "Seed #008",
+      "status": "OK",
+      "width_px": 42
+    },
+    {
+      "area_px": 1758,
+      "aspect_ratio": 1.231,
+      "bbox": [
+        206.7,
+        175.4,
+        242.7,
+        219.6
+      ],
+      "circularity": 0.724,
+      "confidence": 0.9105,
+      "id": 9,
+      "length_px": 48,
+      "perimeter_px": 174.63,
+      "seed_id": "Seed #009",
+      "status": "OK",
+      "width_px": 39
+    },
+    {
+      "area_px": 1917,
+      "aspect_ratio": 1.047,
+      "bbox": [
+        241.8,
+        178.2,
+        284.4,
+        218.4
+      ],
+      "circularity": 0.746,
+      "confidence": 0.8435,
+      "id": 10,
+      "length_px": 45,
+      "perimeter_px": 179.66,
+      "seed_id": "Seed #010",
+      "status": "OK",
+      "width_px": 43
+    },
+    {
+      "area_px": 1468,
+      "aspect_ratio": 1.081,
+      "bbox": [
+        286.4,
+        183.1,
+        320.3,
+        219.5
+      ],
+      "circularity": 0.742,
+      "confidence": 0.8628,
+      "id": 11,
+      "length_px": 40,
+      "perimeter_px": 157.66,
+      "seed_id": "Seed #011",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 96%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 37
+    },
+    {
+      "area_px": 1800,
+      "aspect_ratio": 1.125,
+      "bbox": [
+        323.6,
+        185.6,
+        361.2,
+        227.8
+      ],
+      "circularity": 0.783,
+      "confidence": 0.8698,
+      "id": 12,
+      "length_px": 45,
+      "perimeter_px": 170,
+      "seed_id": "Seed #012",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 40
+    },
+    {
+      "area_px": 1669,
+      "aspect_ratio": 1.128,
+      "bbox": [
+        381.9,
+        210.6,
+        418.4,
+        252.5
+      ],
+      "circularity": 0.794,
+      "confidence": 0.8471,
+      "id": 13,
+      "length_px": 44,
+      "perimeter_px": 162.49,
+      "seed_id": "Seed #013",
+      "status": "OK",
+      "width_px": 39
+    },
+    {
+      "area_px": 1959.5,
+      "aspect_ratio": 1.045,
+      "bbox": [
+        225.2,
+        211.1,
+        266.4,
+        253.9
+      ],
+      "circularity": 0.747,
+      "confidence": 0.8686,
+      "id": 14,
+      "length_px": 46,
+      "perimeter_px": 181.56,
+      "seed_id": "Seed #014",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 96%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 44
+    },
+    {
+      "area_px": 1599,
+      "aspect_ratio": 1.051,
+      "bbox": [
+        265.8,
+        214.1,
+        301.7,
+        251.7
+      ],
+      "circularity": 0.785,
+      "confidence": 0.8998,
+      "id": 15,
+      "length_px": 41,
+      "perimeter_px": 160,
+      "seed_id": "Seed #015",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 97%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 39
+    },
+    {
+      "area_px": 1440,
+      "aspect_ratio": 1.406,
+      "bbox": [
+        304,
+        215.3,
+        332.7,
+        257.4
+      ],
+      "circularity": 0.763,
+      "confidence": 0.5301,
+      "id": 16,
+      "length_px": 45,
+      "perimeter_px": 154,
+      "seed_id": "Seed #016",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 100%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 32
+    },
+    {
+      "area_px": 1822.5,
+      "aspect_ratio": 1,
+      "bbox": [
+        168.1,
+        217.7,
+        210.4,
+        260.4
+      ],
+      "circularity": 0.826,
+      "confidence": 0.8984,
+      "id": 17,
+      "length_px": 45,
+      "perimeter_px": 166.53,
+      "seed_id": "Seed #017",
+      "status": "OK",
+      "width_px": 45
+    },
+    {
+      "area_px": 2130,
+      "aspect_ratio": 1.214,
+      "bbox": [
+        337.5,
+        219.1,
+        377,
+        267.1
+      ],
+      "circularity": 0.744,
+      "confidence": 0.922,
+      "id": 18,
+      "length_px": 51,
+      "perimeter_px": 189.66,
+      "seed_id": "Seed #018",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 42
+    },
+    {
+      "area_px": 1892.5,
+      "aspect_ratio": 1.143,
+      "bbox": [
+        199.4,
+        240.1,
+        238.1,
+        285.1
+      ],
+      "circularity": 0.8,
+      "confidence": 0.897,
+      "id": 19,
+      "length_px": 48,
+      "perimeter_px": 172.38,
+      "seed_id": "Seed #019",
+      "status": "OK",
+      "width_px": 42
+    },
+    {
+      "area_px": 2112,
+      "aspect_ratio": 1.091,
+      "bbox": [
+        305.4,
+        247.2,
+        349.8,
+        288.5
+      ],
+      "circularity": 0.784,
+      "confidence": 0.7471,
+      "id": 20,
+      "length_px": 48,
+      "perimeter_px": 184,
+      "seed_id": "Seed #020",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 91%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 44
+    },
+    {
+      "area_px": 1729,
+      "aspect_ratio": 1.361,
+      "bbox": [
+        436.2,
+        247.3,
+        469,
+        292.9
+      ],
+      "circularity": 0.784,
+      "confidence": 0.8619,
+      "id": 21,
+      "length_px": 49,
+      "perimeter_px": 166.49,
+      "seed_id": "Seed #021",
+      "status": "OK",
+      "width_px": 36
+    },
+    {
+      "area_px": 1763,
+      "aspect_ratio": 1.049,
+      "bbox": [
+        363.8,
+        248.6,
+        403.8,
+        286.8
+      ],
+      "circularity": 0.785,
+      "confidence": 0.8826,
+      "id": 22,
+      "length_px": 43,
+      "perimeter_px": 168,
+      "seed_id": "Seed #022",
+      "status": "OK",
+      "width_px": 41
+    },
+    {
+      "area_px": 1960,
+      "aspect_ratio": 1.225,
+      "bbox": [
+        239.9,
+        254.2,
+        277.3,
+        300.5
+      ],
+      "circularity": 0.777,
+      "confidence": 0.8891,
+      "id": 23,
+      "length_px": 49,
+      "perimeter_px": 178,
+      "seed_id": "Seed #023",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 40
+    },
+    {
+      "area_px": 3139,
+      "aspect_ratio": 1.698,
+      "bbox": [
+        267.4,
+        254.4,
+        306.6,
+        324
+      ],
+      "circularity": 0.733,
+      "confidence": 0.7101,
+      "id": 24,
+      "length_px": 73,
+      "perimeter_px": 232,
+      "seed_id": "Seed #024",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 43
+    },
+    {
+      "area_px": 1813,
+      "aspect_ratio": 1.324,
+      "bbox": [
+        399.3,
+        270.5,
+        433.2,
+        316.4
+      ],
+      "circularity": 0.77,
+      "confidence": 0.8746,
+      "id": 25,
+      "length_px": 49,
+      "perimeter_px": 172,
+      "seed_id": "Seed #025",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 92%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 37
+    },
+    {
+      "area_px": 1378.5,
+      "aspect_ratio": 1.441,
+      "bbox": [
+        305.4,
+        278.7,
+        351.4,
+        309.9
+      ],
+      "circularity": 0.324,
+      "confidence": 0.522,
+      "id": 26,
+      "length_px": 49,
+      "perimeter_px": 231.36,
+      "seed_id": "Seed #026",
+      "status": "OK",
+      "width_px": 34
+    },
+    {
+      "area_px": 2056.5,
+      "aspect_ratio": 1.021,
+      "bbox": [
+        207,
+        286.2,
+        251.7,
+        330.5
+      ],
+      "circularity": 0.808,
+      "confidence": 0.8734,
+      "id": 27,
+      "length_px": 48,
+      "perimeter_px": 178.87,
+      "seed_id": "Seed #027",
+      "status": "OK",
+      "width_px": 47
+    },
+    {
+      "area_px": 2404,
+      "aspect_ratio": 1.2,
+      "bbox": [
+        349.9,
+        287.3,
+        401.4,
+        329.1
+      ],
+      "circularity": 0.722,
+      "confidence": 0.8692,
+      "id": 28,
+      "length_px": 54,
+      "perimeter_px": 204.49,
+      "seed_id": "Seed #028",
+      "status": "OK",
+      "width_px": 45
+    },
+    {
+      "area_px": 1692,
+      "aspect_ratio": 1.306,
+      "bbox": [
+        259.7,
+        291.5,
+        304.5,
+        324.9
+      ],
+      "circularity": 0.772,
+      "confidence": 0.842,
+      "id": 29,
+      "length_px": 47,
+      "perimeter_px": 166,
+      "seed_id": "Seed #029",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 36
+    },
+    {
+      "area_px": 1924,
+      "aspect_ratio": 1.405,
+      "bbox": [
+        305,
+        309.7,
+        353.5,
+        344.1
+      ],
+      "circularity": 0.763,
+      "confidence": 0.8662,
+      "id": 30,
+      "length_px": 52,
+      "perimeter_px": 178,
+      "seed_id": "Seed #030",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 93%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 37
+    },
+    {
+      "area_px": 1680,
+      "aspect_ratio": 1.15,
+      "bbox": [
+        97.6,
+        314.1,
+        140.9,
+        350.7
+      ],
+      "circularity": 0.822,
+      "confidence": 0.8796,
+      "id": 31,
+      "length_px": 46,
+      "perimeter_px": 160.28,
+      "seed_id": "Seed #031",
+      "status": "OK",
+      "width_px": 40
+    },
+    {
+      "area_px": 1890,
+      "aspect_ratio": 1.071,
+      "bbox": [
+        234.5,
+        324.1,
+        276.3,
+        363.4
+      ],
+      "circularity": 0.784,
+      "confidence": 0.8923,
+      "id": 32,
+      "length_px": 45,
+      "perimeter_px": 174,
+      "seed_id": "Seed #032",
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 93%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "width_px": 42
+    },
+    {
+      "area_px": 1800.5,
+      "aspect_ratio": 1.25,
+      "bbox": [
+        277.1,
+        325,
+        314.3,
+        371.8
+      ],
+      "circularity": 0.39,
+      "confidence": 0.9133,
+      "id": 33,
+      "length_px": 50,
+      "perimeter_px": 240.87,
+      "seed_id": "Seed #033",
+      "status": "OK",
+      "width_px": 40
+    },
+    {
+      "area_px": 1599.5,
+      "aspect_ratio": 1.049,
+      "bbox": [
+        185.5,
+        335.8,
+        224,
+        375.8
+      ],
+      "circularity": 0.842,
+      "confidence": 0.8995,
+      "id": 34,
+      "length_px": 43,
+      "perimeter_px": 154.53,
+      "seed_id": "Seed #034",
+      "status": "OK",
+      "width_px": 41
+    },
+    {
+      "area_px": 1564.5,
+      "aspect_ratio": 1.132,
+      "bbox": [
+        320.1,
+        353.6,
+        360.4,
+        389.3
+      ],
+      "circularity": 0.812,
+      "confidence": 0.844,
+      "id": 35,
+      "length_px": 43,
+      "perimeter_px": 155.56,
+      "seed_id": "Seed #035",
+      "status": "OK",
+      "width_px": 38
+    },
+    {
+      "area_px": 1839,
+      "aspect_ratio": 1.256,
+      "bbox": [
+        234.4,
+        361.6,
+        280.1,
+        398
+      ],
+      "circularity": 0.809,
+      "confidence": 0.9155,
+      "id": 36,
+      "length_px": 49,
+      "perimeter_px": 168.97,
+      "seed_id": "Seed #036",
+      "status": "OK",
+      "width_px": 39
+    },
+    {
+      "area_px": 1863.5,
+      "aspect_ratio": 1.275,
+      "bbox": [
+        115.1,
+        378,
+        162.6,
+        414.7
+      ],
+      "circularity": 0.813,
+      "confidence": 0.8852,
+      "id": 37,
+      "length_px": 51,
+      "perimeter_px": 169.7,
+      "seed_id": "Seed #037",
+      "status": "OK",
+      "width_px": 40
+    }
+  ],
+  "schema_version": 1,
+  "seed_count": 37,
+  "source_json": "./data/evidence/phenotyping/objects.json",
+  "unit": {
+    "area": "px^2",
+    "length": "px",
+    "perimeter": "px",
+    "width": "px"
+  }
+}

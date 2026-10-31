@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-31",
+  "variant": "parameterized",
+  "toolchain": "Vivado/Vitis 2026.1",
+  "csim_frames": 40,
+  "csim": "PASS",
+  "hls": "PASS",
+  "vivado_bit_hwh_xsa": "PASS",
+  "validate_only_stage": "PASS",
+  "register_offsets_equal_archived": true,
+  "registers": {
+    "CTRL": 0,
+    "GIER": 4,
+    "IP_IER": 8,
+    "IP_ISR": 12,
+    "width": 16,
+    "height": 24,
+    "mode": 32,
+    "threshold": 40
+  },
+  "LUT": 3278,
+  "FF": 4184,
+  "BRAM_tile": 3.5,
+  "DSP": 3,
+  "WNS_ns": 1.838,
+  "board_validation": "NOT_PERFORMED",
+  "artifacts": {
+    "hardware/firmware/rebuilt/parameterized_edge.bit": "31354ae484668b4956e9ac257b17fd693480b3f2b5db834388fa265509243efd",
+    "hardware/firmware/rebuilt/parameterized_edge.hwh": "ea8f8683a4e213d6a8909be575f3c146e6a6268eef13b82dcabe0b695cab90c3",
+    "hardware/build/vivado/sobel_v3_param/create_project.tcl": "2cb28b0414d4793f75b32aa3f1f491b1285e1b30616d8416aebdd5426b14f247",
+    "tools/build.py": "6f0f2732fa8f559d94f83adb9423ba7fdbf6c34d3289ca09a2b03eb26052ed59"
+  }
+}

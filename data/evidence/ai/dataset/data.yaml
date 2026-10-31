@@ -1,0 +1,8 @@
+# Day4 单类 seed 检测数据集(由 data/images/seed.yolov8 生成,
+# 处理脚本 ai/dataset/prepare_dataset.py,随机种子 42)
+path: .
+train: train/images
+val: val/images
+test: test/images
+nc: 1
+names: ['seed']

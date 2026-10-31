@@ -1,0 +1,59 @@
+{
+  "schema": "agrivision.calibration.v1",
+  "valid": false,
+  "reason": "相机不是固定机位，单一 px_per_mm 只对拍摄该尺子的同一帧有效；距离更近时会得到 2.24 px/mm，距离更远时为 2.43 px/mm，不能跨帧复用",
+  "created": "2026-10-18",
+  "updated": "2026-10-22",
+  "method": "same_frame_ruler_ticks",
+  "px_per_mm": null,
+  "requires_same_frame_reference": true,
+  "reference": {
+    "type": "mm_ruler",
+    "known_length_mm": null,
+    "measured_px": null
+  },
+  "verified_frames": [
+    {
+      "species": "peanut",
+      "image": "ruler_peanut.png",
+      "tick_span": "0-10 cm",
+      "measured_px": 224,
+      "known_length_mm": 100,
+      "px_per_mm": 2.24
+    },
+    {
+      "species": "pea",
+      "image": "ruler_pea.png",
+      "tick_span": "0-10 cm",
+      "measured_px": 243,
+      "known_length_mm": 100,
+      "px_per_mm": 2.43
+    }
+  ],
+  "scope": {
+    "image_size": [
+      640,
+      480
+    ],
+    "camera_fixed": false,
+    "working_roi_normalized": null,
+    "note": "每次移动相机后都必须让尺子与待测种子同时入镜，并按该帧刻度重新计算 px_per_mm"
+  },
+  "invalidation_rules": [
+    "输入图像尺寸与 scope.image_size 不一致",
+    "相机高度、角度或离桌面距离改变",
+    "待测种子和尺子不在同一帧",
+    "标尺与种子不近似位于同一平面",
+    "使用旧帧的 px_per_mm 换算新帧"
+  ],
+  "fallback": {
+    "length_unit": "px",
+    "area_unit": "px^2",
+    "ui_behavior": "没有同帧尺子时禁用毫米换算，只显示像素口径并提示重新采集"
+  },
+  "derived_units": {
+    "length_mm": "length_px / px_per_mm_of_same_frame",
+    "area_mm2": "area_px / (px_per_mm_of_same_frame^2)",
+    "perimeter_mm": "perimeter_px / px_per_mm_of_same_frame"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "frames": 15,
+  "csv_json_count_match": true,
+  "source": "data/evidence/phenotyping/objects.json",
+  "source_sha256": "34178e27d90a59fa3b6a1469e5d579ab3054036177e4274d4fffd0262c3e4915",
+  "gui_source_sha256": "b498cac302fc67a004bee14f8e845152adf3309aab7aaf79968d755889255d7c",
+  "rows": [
+    {
+      "batch": "20261031_140148_batch_001",
+      "objects": 14,
+      "csv_rows": 14,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140148_batch_002",
+      "objects": 37,
+      "csv_rows": 37,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140148_batch_003",
+      "objects": 5,
+      "csv_rows": 5,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140149_batch_004",
+      "objects": 11,
+      "csv_rows": 11,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140149_batch_005",
+      "objects": 6,
+      "csv_rows": 6,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140540_batch_001",
+      "objects": 14,
+      "csv_rows": 14,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140540_batch_002",
+      "objects": 37,
+      "csv_rows": 37,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140540_batch_003",
+      "objects": 5,
+      "csv_rows": 5,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140540_batch_004",
+      "objects": 11,
+      "csv_rows": 11,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140540_batch_005",
+      "objects": 6,
+      "csv_rows": 6,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140925_batch_001",
+      "objects": 14,
+      "csv_rows": 14,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140925_batch_002",
+      "objects": 37,
+      "csv_rows": 37,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140925_batch_003",
+      "objects": 5,
+      "csv_rows": 5,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140925_batch_004",
+      "objects": 11,
+      "csv_rows": 11,
+      "images_nonempty": true
+    },
+    {
+      "batch": "20261031_140925_batch_005",
+      "objects": 6,
+      "csv_rows": 6,
+      "images_nonempty": true
+    }
+  ]
+}

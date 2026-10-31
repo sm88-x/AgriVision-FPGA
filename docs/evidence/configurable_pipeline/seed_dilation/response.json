@@ -1,0 +1,40 @@
+{
+  "annotation_method": "PS external contours; border 2 excluded",
+  "bit_sha256": "6a25612345246d06298a5903b6b5d5f23cb2087d4930a0b488e14d309008c82a",
+  "candidate_count": 1,
+  "config": {
+    "edge_mode": "Sobel",
+    "enable_gauss": true,
+    "enable_gray": true,
+    "morph_mode": 2,
+    "out_sel": 0,
+    "threshold": 40
+  },
+  "different_pixel_count": 0,
+  "dma_ready": true,
+  "error": null,
+  "fpga_online": true,
+  "fps": 405.41488333702586,
+  "golden_pass": true,
+  "hwh_sha256": "79a6c384a652ef363496f619e71047d8ebf63570744cb938db604861931cdce1",
+  "input_bytes": 262144,
+  "max_abs_diff": 0,
+  "ok": true,
+  "output_bytes": 65536,
+  "overlay_version": "configurable_pipeline.bit",
+  "pl_e2e_ms": 2.4666090000664553,
+  "registers": {
+    "enable_gauss": 1,
+    "enable_gray": 1,
+    "height": 256,
+    "mode": 0,
+    "morph_mode": 2,
+    "out_sel": 0,
+    "threshold": 40,
+    "width": 256
+  },
+  "schema_version": 2,
+  "server_ms": 586.9180660001803,
+  "simulated": false,
+  "timing_scope": "driver parameters + DMA + completion polling"
+}

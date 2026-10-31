@@ -1,0 +1,5 @@
+session_id,frame_id,species,id,status,calibration_id,length_px,width_px,perimeter_px,area_px,length_mm,width_mm,perimeter_mm,area_mm2,aspect_ratio,circularity
+"4482b5eb65cf",0,"soybean",1,"OK","",25.9513111115,23.0408821106,89.8406194448,399.5,,,,,1.12631586703,0.621986806058
+"4482b5eb65cf",0,"soybean",2,"UNRESOLVED","",,,,,,,,,,
+"4482b5eb65cf",0,"soybean",3,"OK","",26.1724376678,19.9214324951,83.5979790688,390,,,,,1.31378291567,0.701266210478
+"4482b5eb65cf",0,"soybean",4,"OK","",33.9626502991,22.9715023041,100.426406145,455,,,,,1.47846883715,0.56692475105

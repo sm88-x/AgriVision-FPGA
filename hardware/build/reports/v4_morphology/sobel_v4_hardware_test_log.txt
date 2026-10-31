@@ -1,0 +1,106 @@
+=== edge_morphology_system 板端验证日志 ===
+
+{"bitfile": "edge_morphology_system.bit", "ip_dict": ["axi_dma_0", "sobel_v4_0"], "kernel_base": "0x40000000", "dma_base": "0x40400000", "morph_mode_offset": "0x30", "说明": "地址均从 hwh 动态读取；每帧先挂 DMA 再拉 ap_start"}
+
+用例汇总：
+
+T1 256x256 Bypass thr=80 PASS mean=1.265ms FPS=790.7
+
+T2 256x256 Erode thr=80 PASS mean=1.259ms FPS=794.4
+
+T3 256x256 Dilate thr=80 PASS mean=1.266ms FPS=790.2
+
+T4 320x240 Bypass thr=80 PASS mean=1.508ms FPS=663.2
+
+T5 320x240 Erode thr=80 PASS mean=1.514ms FPS=660.6
+
+T6 320x240 Dilate thr=80 PASS mean=1.477ms FPS=677.0
+
+T7 640x480 Bypass thr=80 PASS mean=3.644ms FPS=274.4
+
+T8 640x480 Erode thr=80 PASS mean=3.689ms FPS=271.1
+
+T9 640x480 Dilate thr=80 PASS mean=3.656ms FPS=273.5
+
+T10 256x256 Bypass thr=0 PASS mean=1.268ms FPS=788.4
+
+P0_256x256_E 256x256 Erode thr=80 PASS mean=1.262ms FPS=792.1
+
+P0_256x256_D 256x256 Dilate thr=80 PASS mean=1.264ms FPS=790.9
+
+P0_320x240_E 320x240 Erode thr=80 PASS mean=1.509ms FPS=662.5
+
+P0_320x240_D 320x240 Dilate thr=80 PASS mean=1.510ms FPS=662.3
+
+P0_640x480_E 640x480 Erode thr=80 PASS mean=3.782ms FPS=264.4
+
+P0_640x480_D 640x480 Dilate thr=80 PASS mean=3.653ms FPS=273.7
+
+P1_256x256_E 256x256 Erode thr=80 PASS mean=1.272ms FPS=786.1
+
+P1_256x256_D 256x256 Dilate thr=80 PASS mean=1.265ms FPS=790.7
+
+P1_320x240_E 320x240 Erode thr=80 PASS mean=1.504ms FPS=665.1
+
+P1_320x240_D 320x240 Dilate thr=80 PASS mean=1.496ms FPS=668.6
+
+P1_640x480_E 640x480 Erode thr=80 PASS mean=3.648ms FPS=274.1
+
+P1_640x480_D 640x480 Dilate thr=80 PASS mean=3.653ms FPS=273.7
+
+P2_256x256_E 256x256 Erode thr=80 PASS mean=1.257ms FPS=795.7
+
+P2_256x256_D 256x256 Dilate thr=80 PASS mean=1.258ms FPS=795.0
+
+P2_320x240_E 320x240 Erode thr=80 PASS mean=1.497ms FPS=668.1
+
+P2_320x240_D 320x240 Dilate thr=80 PASS mean=1.496ms FPS=668.3
+
+P2_640x480_E 640x480 Erode thr=80 PASS mean=3.647ms FPS=274.2
+
+P2_640x480_D 640x480 Dilate thr=80 PASS mean=3.654ms FPS=273.7
+
+P3_256x256_E 256x256 Erode thr=80 PASS mean=1.273ms FPS=785.6
+
+P3_256x256_D 256x256 Dilate thr=80 PASS mean=1.266ms FPS=789.9
+
+P3_320x240_E 320x240 Erode thr=80 PASS mean=1.481ms FPS=675.1
+
+P3_320x240_D 320x240 Dilate thr=80 PASS mean=1.504ms FPS=664.8
+
+P3_640x480_E 640x480 Erode thr=80 PASS mean=3.650ms FPS=273.9
+
+P3_640x480_D 640x480 Dilate thr=80 PASS mean=3.650ms FPS=274.0
+
+P4_256x256_E 256x256 Erode thr=80 PASS mean=1.265ms FPS=790.7
+
+P4_256x256_D 256x256 Dilate thr=80 PASS mean=1.260ms FPS=793.7
+
+P4_320x240_E 320x240 Erode thr=80 PASS mean=1.506ms FPS=663.8
+
+P4_320x240_D 320x240 Dilate thr=80 PASS mean=1.505ms FPS=664.3
+
+P4_640x480_E 640x480 Erode thr=80 PASS mean=3.823ms FPS=261.6
+
+P4_640x480_D 640x480 Dilate thr=80 PASS mean=3.644ms FPS=274.4
+
+P5_256x256_E 256x256 Erode thr=80 PASS mean=1.267ms FPS=789.5
+
+P5_256x256_D 256x256 Dilate thr=80 PASS mean=1.266ms FPS=790.1
+
+P5_320x240_E 320x240 Erode thr=80 PASS mean=1.501ms FPS=666.3
+
+P5_320x240_D 320x240 Dilate thr=80 PASS mean=1.502ms FPS=665.8
+
+P5_640x480_E 640x480 Erode thr=80 PASS mean=3.651ms FPS=273.9
+
+P5_640x480_D 640x480 Dilate thr=80 PASS mean=3.667ms FPS=272.7
+
+P6_320x240_E 320x240 Erode thr=0 PASS mean=1.505ms FPS=664.4
+
+P6_320x240_D 320x240 Dilate thr=0 PASS mean=1.499ms FPS=667.0
+
+总结论：ALL PASS
+
+拍数/TLAST 证据：每帧 DMA 双通道 IOC 完成 + 内部错误位（bit25-28）未置起 = 传输拍数与 TLAST 相符。
+

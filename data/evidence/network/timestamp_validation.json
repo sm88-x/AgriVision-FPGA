@@ -1,0 +1,23 @@
+{
+  "schema": "agrivision.network.timestamp_validation.v1",
+  "test": "local loopback capture_sender.py -> network_backend.py using AGF1",
+  "protocol": "AGF1",
+  "frames": 12,
+  "capture_age_ms": {
+    "min": 1.951,
+    "median": 5.216,
+    "max": 115.171
+  },
+  "decode_ms": {
+    "min": 0.557,
+    "median": 0.855,
+    "max": 2.31
+  },
+  "detect_ms": {
+    "min": 28.501,
+    "median": 30.321,
+    "max": 46.445
+  },
+  "clock_note": "PC1 and PC2 must use synchronized wall clocks before interpreting capture_age_ms across two machines",
+  "source_csv": "data/evidence/network/timestamp_validation.csv"
+}

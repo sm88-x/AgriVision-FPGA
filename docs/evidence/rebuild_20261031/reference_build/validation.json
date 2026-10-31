@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-31",
+  "tools": {
+    "vivado": "2026.1",
+    "vitis": "2026.1",
+    "qt": "6.12.0",
+    "mingw": "13.1.0"
+  },
+  "hls_csim": "72 frame tests passed",
+  "hls_synthesis": "PASS",
+  "vivado_implementation": "PASS",
+  "lut": 4684,
+  "ff": 5940,
+  "bram_tiles": 6.5,
+  "dsp": 5,
+  "wns_ns": 1.493,
+  "registers_match_frozen": true,
+  "rebuilt_firmware_board_test": "NOT RUN: board unavailable",
+  "registers": {
+    "CTRL": 0,
+    "GIER": 4,
+    "IP_IER": 8,
+    "IP_ISR": 12,
+    "width": 16,
+    "height": 24,
+    "mode": 32,
+    "threshold": 40,
+    "morph_mode": 48,
+    "enable_gray": 56,
+    "enable_gauss": 64,
+    "out_sel": 72,
+    "roi_x0": 80,
+    "roi_y0": 88,
+    "roi_x1": 96,
+    "roi_y1": 104,
+    "foreground_count": 112,
+    "foreground_count_ctrl": 116,
+    "roi_count": 128,
+    "roi_count_ctrl": 132
+  }
+}

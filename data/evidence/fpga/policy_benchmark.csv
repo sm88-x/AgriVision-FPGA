@@ -1,0 +1,78 @@
+version,backend,bit,resolution,algorithm,repeats,mean_ms,median_ms,min_ms,max_ms,fps,golden,source
+
+V0-PS软件,PS 软件,(PS 软件参考),256x256,sobel,20,40.3263,39.5652,39.3984,47.0925,25.27,,tests/evidence/performance_summary.csv
+
+V0,PL,hardware/firmware/configurable_pipeline.bit（V0 基线核 sobel_0）,256x256,sobel,20,6.3076,6.2949,6.2692,6.394,158.86,,tests/evidence/performance_summary.csv
+
+V3,PL,hardware/firmware/parameterized_edge.bit（sobel_v3_0）,256x256,sobel,20,1.081,1.0791,1.0737,1.1182,926.74,,tests/evidence/performance_summary.csv
+
+V3-param,PL,hardware/firmware/parameterized_edge.bit（sobel_v3_0 参数化）,256x256,sobel,20,1.274,1.2087,1.2024,2.4734,827.37,,tests/evidence/performance_summary.csv
+
+V0-PS软件,PS 软件,(PS 软件参考),256x256,prewitt,20,34.1924,33.9318,33.7784,36.7933,29.47,,tests/evidence/performance_summary.csv
+
+V3-param,PL,hardware/firmware/parameterized_edge.bit（sobel_v3_0 参数化）,256x256,prewitt,20,1.2386,1.2144,1.2073,1.495,823.42,,tests/evidence/performance_summary.csv
+
+V0-PS软件,PS 软件,(PS 软件参考),320x240,sobel,20,47.3966,47.0606,46.8389,51.5974,21.25,,tests/evidence/performance_summary.csv
+
+V3-param,PL,hardware/firmware/parameterized_edge.bit（sobel_v3_0 参数化）,320x240,sobel,20,1.4524,1.4489,1.2592,1.5726,690.2,,tests/evidence/performance_summary.csv
+
+V0-PS软件,PS 软件,(PS 软件参考),640x480,sobel,20,216.9397,216.3076,215.8413,227.2196,4.62,,tests/evidence/performance_summary.csv
+
+V3-param,PL,hardware/firmware/parameterized_edge.bit（sobel_v3_0 参数化）,640x480,sobel,20,3.6207,3.6066,3.5862,3.8243,277.27,,tests/evidence/performance_summary.csv
+
+V0-PS软件,PS 软件,(PS 软件参考),320x240,prewitt,20,37.4495,36.9306,36.752,46.3446,27.08,,tests/evidence/performance_summary.csv
+
+V3-param,PL,hardware/firmware/parameterized_edge.bit（sobel_v3_0 参数化）,320x240,prewitt,20,1.4456,1.4476,1.241,1.4892,690.8,,tests/evidence/performance_summary.csv
+
+V0-PS软件,PS 软件,(PS 软件参考),640x480,prewitt,20,182.3077,179.19,178.7613,220.4768,5.58,,tests/evidence/performance_summary.csv
+
+V3-param,PL,hardware/firmware/parameterized_edge.bit（sobel_v3_0 参数化）,640x480,prewitt,20,3.6026,3.5903,3.5771,3.7349,278.53,,tests/evidence/performance_summary.csv
+
+V3,PL,parameterized_edge.bit,256x256,Sobel,30,1.3121,1.3032,1.2979,1.3742,767.3,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V3,PL,parameterized_edge.bit,256x256,Prewitt,30,1.3054,1.3013,1.2971,1.3554,768.5,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V3,PL,parameterized_edge.bit,320x240,Sobel,30,1.535,1.5389,1.3322,1.5881,649.8,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V3,PL,parameterized_edge.bit,320x240,Prewitt,30,1.543,1.5391,1.5331,1.586,649.8,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V3,PL,parameterized_edge.bit,640x480,Sobel,30,3.7008,3.6942,3.6844,3.7363,270.7,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V3,PL,parameterized_edge.bit,640x480,Prewitt,30,3.7079,3.7035,3.6944,3.7388,270.0,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,256x256,Sobel,30,1.4145,1.4094,1.401,1.4562,709.5,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,256x256,Sobel,30,1.5279,1.4424,1.4068,3.1613,693.3,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,256x256,Sobel,30,1.5014,1.4241,1.3605,3.0265,702.2,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,256x256,Prewitt,30,1.4111,1.4084,1.4024,1.4562,710.0,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,256x256,Prewitt,30,1.4147,1.4093,1.3892,1.4765,709.6,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,256x256,Prewitt,30,1.527,1.4223,1.4072,3.2672,703.1,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,320x240,Sobel,30,1.6564,1.6579,1.4966,1.7171,603.2,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,320x240,Sobel,30,1.8464,1.6767,1.4877,7.3048,596.4,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,320x240,Sobel,30,1.6437,1.6514,1.4371,1.7014,605.5,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,320x240,Prewitt,30,1.6981,1.6507,1.4806,3.2988,605.8,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,320x240,Prewitt,30,1.6166,1.653,1.4752,1.6955,605.0,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,320x240,Prewitt,30,1.6487,1.6548,1.4598,1.7065,604.3,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,640x480,Sobel,30,3.8098,3.8042,3.7902,3.8408,262.9,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,640x480,Sobel,30,3.8165,3.8065,3.7956,3.8877,262.7,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,640x480,Sobel,30,3.8092,3.8022,3.7722,3.8472,263.0,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,640x480,Prewitt,30,3.8117,3.8042,3.7937,3.8635,262.9,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,640x480,Prewitt,30,3.8153,3.8056,3.7924,3.9003,262.8,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+
+V4,PL,configurable_pipeline.bit,640x480,Prewitt,30,3.8599,3.8259,3.7822,4.0092,261.4,PASS,data/evidence/board/configurable_pipeline/bench_v3_v4.csv
+

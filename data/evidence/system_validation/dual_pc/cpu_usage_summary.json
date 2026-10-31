@@ -1,0 +1,9 @@
+{
+  "logical_processors": 16,
+  "duration_s": 12.24,
+  "qt_cpu_median_percent": 0.55,
+  "backend_cpu_median_percent": 38.63,
+  "qt_cpu_max_percent": 0.62,
+  "backend_cpu_max_percent": 40.06,
+  "note": "local real seed frames; network backend with YOLO and live comparison; no FPGA"
+}

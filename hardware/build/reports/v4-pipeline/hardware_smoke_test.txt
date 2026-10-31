@@ -1,0 +1,46 @@
+=== configurable_pipeline 板端验证日志 ===
+
+{"bitfile": "configurable_pipeline.bit", "ip_dict": ["axi_dma_0", "sobel_v4_pipeline_0"], "kernel_base": "0x40000000", "dma_base": "0x40400000", "输入协议": "MM2S 32bit RGBX888/拍,keep=0xF,帧=width*height 拍", "说明": "地址均从 hwh 动态读取;每帧先挂 DMA 再拉 ap_start"}
+
+用例汇总:
+
+T01 256x256 rgb thr=0 out_sel=0 PASS mean=1.348ms FPS=741.6
+
+T02 256x256 rgb thr=80 out_sel=0 PASS mean=1.351ms FPS=740.0
+
+T03 256x256 rgb thr=80 out_sel=0 PASS mean=1.333ms FPS=750.3
+
+T04 256x256 rgb thr=0 out_sel=0 PASS mean=1.336ms FPS=748.6
+
+T05 256x256 rgb thr=80 out_sel=0 PASS mean=1.338ms FPS=747.2
+
+T06 256x256 rgb thr=0 out_sel=1 PASS mean=1.341ms FPS=745.9
+
+T07 256x256 rgb thr=0 out_sel=2 PASS mean=1.341ms FPS=745.7
+
+T08 256x256 rgb thr=80 out_sel=3 PASS mean=1.352ms FPS=739.4
+
+T09 256x256 gray thr=0 out_sel=0 PASS mean=2.121ms FPS=471.5
+
+T10 256x256 gray thr=80 out_sel=0 PASS mean=1.351ms FPS=740.0
+
+T11 256x256 gray thr=80 out_sel=0 PASS mean=1.334ms FPS=749.6
+
+T12 320x240 rgb thr=80 out_sel=0 PASS mean=1.564ms FPS=639.4
+
+T13 320x240 gray thr=0 out_sel=0 PASS mean=1.571ms FPS=636.4
+
+T14 320x240 rgb thr=0 out_sel=2 PASS mean=1.572ms FPS=636.3
+
+T15 640x480 rgb thr=0 out_sel=0 PASS mean=3.732ms FPS=267.9
+
+T16 640x480 gray thr=0 out_sel=0 PASS mean=3.727ms FPS=268.3
+
+T17 640x480 rgb thr=80 out_sel=0 PASS mean=3.707ms FPS=269.8
+
+T18 640x480 gray thr=0 out_sel=3 PASS mean=3.715ms FPS=269.2
+
+总结论:ALL PASS
+
+拍数/TLAST 证据:每帧 DMA 双通道 IOC 完成 + 内部错误位(bit25-28)未置起 = 传输拍数与 TLAST 相符。
+

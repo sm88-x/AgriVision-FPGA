@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-31",
+  "scope": "OFFLINE ONLY; no board or camera",
+  "checks": [
+    {
+      "name": "python_syntax",
+      "passed": true,
+      "files": 71,
+      "errors": []
+    },
+    {
+      "name": "markdown_links",
+      "passed": true,
+      "broken": []
+    },
+    {
+      "name": "historical_evidence",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.39
+    },
+    {
+      "name": "golden_invariants",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.98
+    },
+    {
+      "name": "morphology",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 5.21
+    },
+    {
+      "name": "frame_service_mock",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.49
+    },
+    {
+      "name": "dataset_manifest",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 1.46
+    },
+    {
+      "name": "runtime_regressions",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 9.61
+    },
+    {
+      "name": "build_paths",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.27
+    }
+  ],
+  "passed": true
+}

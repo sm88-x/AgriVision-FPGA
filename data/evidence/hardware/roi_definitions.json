@@ -1,0 +1,184 @@
+[
+  {
+    "id": "ROI_001",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      157,
+      131,
+      210,
+      221
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_002",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      243,
+      58,
+      305,
+      133
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_003",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      218,
+      139,
+      315,
+      186
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_004",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      302,
+      116,
+      372,
+      205
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_005",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      384,
+      124,
+      458,
+      199
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_006",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      220,
+      208,
+      310,
+      262
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_007",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      311,
+      206,
+      376,
+      289
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_008",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      384,
+      188,
+      445,
+      275
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_009",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      167,
+      287,
+      255,
+      335
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_010",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      273,
+      288,
+      335,
+      373
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_011",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      330,
+      299,
+      390,
+      382
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_012",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      389,
+      282,
+      470,
+      351
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_013",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      234,
+      352,
+      304,
+      425
+    ],
+    "source": "manual_hardware_validation"
+  },
+  {
+    "id": "ROI_014",
+    "image": "seed_01_dense_640x480.png",
+    "width": 640,
+    "height": 480,
+    "bbox_xyxy": [
+      370,
+      369,
+      420,
+      457
+    ],
+    "source": "manual_hardware_validation"
+  }
+]

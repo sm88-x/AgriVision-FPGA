@@ -1,0 +1,10 @@
+[2019-10-02 02:25:47] 服务启动：{"overlay": "hardware/firmware/integrated_pipeline_validated.bit", "kernel": "sobel_v4_pipeline_0", "simulated": false, "registers": {"CTRL": 0, "GIER": 4, "IP_IER": 8, "IP_ISR": 12, "width": 16, "height": 24, "mode": 32, "threshold": 40, "morph_mode": 48, "enable_gray": 56, "enable_gauss": 64, "out_sel": 72, "roi_x0": 80, "roi_y0": 88, "roi_x1": 96, "roi_y1": 104, "foreground_count": 112, "foreground_count_ctrl": 116, "roi_count": 128, "roi_count_ctrl": 132}, "supported": {"enable_gray": true, "enable_gauss": true, "out_sel": true, "morph_mode": true}, "buffers": [], "frames": 0}
+
+[2019-10-02 02:26:22] 客户端接入 192.168.2.1:60975
+
+[2019-10-02 02:56:49] 已达到目标帧数 8000（含错误帧），停止接收
+
+[2019-10-02 02:56:49] 客户端断开 192.168.2.1:60975（本次 8000 帧）
+
+[2019-10-02 02:56:49] 服务结束：{"frames": 8000, "ok": 8000, "error": 0, "timeout": 0, "dma": 0, "protocol": 0, "bytes_in": 2457600000, "bytes_out": 2457600000, "pl_mean_ms": 4.1018, "pl_median_ms": 4.0697, "pl_min_ms": 3.9676, "pl_max_ms": 14.3036, "fps_from_pl": 243.8}
+

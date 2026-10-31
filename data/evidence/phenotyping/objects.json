@@ -1,0 +1,5669 @@
+{
+  "schema": "agrivision.phenotyping.objects.v1",
+  "units": {
+    "length": "px",
+    "area": "px^2",
+    "note": "未做毫米标定"
+  },
+  "detector": {
+    "weights": "data/models/best.pt",
+    "conf": 0.25
+  },
+  "frames": [
+    {
+      "frame_id": 5,
+      "seed_count": 14,
+      "letterbox": {
+        "src": [
+          640,
+          480
+        ],
+        "dst": [
+          640,
+          480
+        ],
+        "scale": 1.0,
+        "pad": [
+          0,
+          0
+        ]
+      },
+      "objects": [
+        {
+          "frame_id": 5,
+          "id": 1,
+          "seed_id": "Seed #001",
+          "bbox_xyxy_src": [
+            242.1,
+            55.9,
+            304.6,
+            132.8
+          ],
+          "bbox_xyxy_model": [
+            242.1,
+            55.9,
+            304.6,
+            132.8
+          ],
+          "confidence": 0.9095,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3369.5,
+          "area_px_cross": 3478.0,
+          "area_diff_pct": 3.22,
+          "perimeter_px": 246.89,
+          "length_px": 94.75,
+          "width_px": 53.03,
+          "aspect_ratio": 1.787,
+          "circularity": 0.695,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.465,
+          "bbox_white_ratio": 0.592,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 2,
+          "seed_id": "Seed #002",
+          "bbox_xyxy_src": [
+            304.1,
+            116.6,
+            372.8,
+            206.8
+          ],
+          "bbox_xyxy_model": [
+            304.1,
+            116.6,
+            372.8,
+            206.8
+          ],
+          "confidence": 0.8905,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4286.5,
+          "area_px_cross": 4417.0,
+          "area_diff_pct": 3.04,
+          "perimeter_px": 294.21,
+          "length_px": 104.02,
+          "width_px": 61.52,
+          "aspect_ratio": 1.691,
+          "circularity": 0.622,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 3,
+          "region_mode": "external",
+          "border_contact_ratio": 0.552,
+          "bbox_white_ratio": 0.582,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 3,
+          "seed_id": "Seed #003",
+          "bbox_xyxy_src": [
+            379.0,
+            122.5,
+            457.2,
+            199.2
+          ],
+          "bbox_xyxy_model": [
+            379.0,
+            122.5,
+            457.2,
+            199.2
+          ],
+          "confidence": 0.9124,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4337.5,
+          "area_px_cross": 4479.0,
+          "area_diff_pct": 3.26,
+          "perimeter_px": 322.84,
+          "length_px": 81.0,
+          "width_px": 80.0,
+          "aspect_ratio": 1.012,
+          "circularity": 0.523,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.473,
+          "bbox_white_ratio": 0.627,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 4,
+          "seed_id": "Seed #004",
+          "bbox_xyxy_src": [
+            157.8,
+            130.2,
+            209.7,
+            221.6
+          ],
+          "bbox_xyxy_model": [
+            157.8,
+            130.2,
+            209.7,
+            221.6
+          ],
+          "confidence": 0.8432,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3722.0,
+          "area_px_cross": 3849.0,
+          "area_diff_pct": 3.41,
+          "perimeter_px": 279.34,
+          "length_px": 95.0,
+          "width_px": 55.0,
+          "aspect_ratio": 1.727,
+          "circularity": 0.599,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.5,
+          "bbox_white_ratio": 0.664,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 5,
+          "seed_id": "Seed #005",
+          "bbox_xyxy_src": [
+            221.8,
+            138.1,
+            313.7,
+            185.2
+          ],
+          "bbox_xyxy_model": [
+            221.8,
+            138.1,
+            313.7,
+            185.2
+          ],
+          "confidence": 0.8847,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3611.5,
+          "area_px_cross": 3739.0,
+          "area_diff_pct": 3.53,
+          "perimeter_px": 272.47,
+          "length_px": 95.0,
+          "width_px": 50.0,
+          "aspect_ratio": 1.9,
+          "circularity": 0.611,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.684,
+          "bbox_white_ratio": 0.645,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 6,
+          "seed_id": "Seed #006",
+          "bbox_xyxy_src": [
+            381.8,
+            184.0,
+            444.5,
+            273.6
+          ],
+          "bbox_xyxy_model": [
+            381.8,
+            184.0,
+            444.5,
+            273.6
+          ],
+          "confidence": 0.9286,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4599.0,
+          "area_px_cross": 4773.0,
+          "area_diff_pct": 3.78,
+          "perimeter_px": 385.76,
+          "length_px": 93.0,
+          "width_px": 65.0,
+          "aspect_ratio": 1.431,
+          "circularity": 0.388,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.5,
+          "bbox_white_ratio": 0.722,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 7,
+          "seed_id": "Seed #007",
+          "bbox_xyxy_src": [
+            311.3,
+            202.1,
+            374.6,
+            287.8
+          ],
+          "bbox_xyxy_model": [
+            311.3,
+            202.1,
+            374.6,
+            287.8
+          ],
+          "confidence": 0.8924,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3746.5,
+          "area_px_cross": 3872.0,
+          "area_diff_pct": 3.35,
+          "perimeter_px": 282.55,
+          "length_px": 89.0,
+          "width_px": 67.0,
+          "aspect_ratio": 1.328,
+          "circularity": 0.59,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 3,
+          "region_mode": "external",
+          "border_contact_ratio": 0.454,
+          "bbox_white_ratio": 0.645,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 8,
+          "seed_id": "Seed #008",
+          "bbox_xyxy_src": [
+            222.7,
+            207.4,
+            310.3,
+            257.0
+          ],
+          "bbox_xyxy_model": [
+            222.7,
+            207.4,
+            310.3,
+            257.0
+          ],
+          "confidence": 0.9222,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3611.0,
+          "area_px_cross": 3747.0,
+          "area_diff_pct": 3.77,
+          "perimeter_px": 294.02,
+          "length_px": 90.0,
+          "width_px": 53.0,
+          "aspect_ratio": 1.698,
+          "circularity": 0.525,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 2,
+          "region_mode": "external",
+          "border_contact_ratio": 0.648,
+          "bbox_white_ratio": 0.768,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 9,
+          "seed_id": "Seed #009",
+          "bbox_xyxy_src": [
+            390.5,
+            281.1,
+            472.4,
+            350.7
+          ],
+          "bbox_xyxy_model": [
+            390.5,
+            281.1,
+            472.4,
+            350.7
+          ],
+          "confidence": 0.8077,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3593.0,
+          "area_px_cross": 3719.0,
+          "area_diff_pct": 3.51,
+          "perimeter_px": 284.79,
+          "length_px": 95.55,
+          "width_px": 63.94,
+          "aspect_ratio": 1.494,
+          "circularity": 0.557,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.46,
+          "bbox_white_ratio": 0.557,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 10,
+          "seed_id": "Seed #010",
+          "bbox_xyxy_src": [
+            274.5,
+            284.6,
+            329.3,
+            372.9
+          ],
+          "bbox_xyxy_model": [
+            274.5,
+            284.6,
+            329.3,
+            372.9
+          ],
+          "confidence": 0.9043,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4114.0,
+          "area_px_cross": 4261.0,
+          "area_diff_pct": 3.57,
+          "perimeter_px": 327.62,
+          "length_px": 91.0,
+          "width_px": 58.0,
+          "aspect_ratio": 1.569,
+          "circularity": 0.482,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.514,
+          "bbox_white_ratio": 0.754,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 11,
+          "seed_id": "Seed #011",
+          "bbox_xyxy_src": [
+            167.6,
+            287.3,
+            254.8,
+            334.4
+          ],
+          "bbox_xyxy_model": [
+            167.6,
+            287.3,
+            254.8,
+            334.4
+          ],
+          "confidence": 0.9032,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3456.0,
+          "area_px_cross": 3571.0,
+          "area_diff_pct": 3.33,
+          "perimeter_px": 249.54,
+          "length_px": 90.0,
+          "width_px": 50.0,
+          "aspect_ratio": 1.8,
+          "circularity": 0.697,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.601,
+          "bbox_white_ratio": 0.653,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 12,
+          "seed_id": "Seed #012",
+          "bbox_xyxy_src": [
+            334.2,
+            294.2,
+            387.4,
+            381.3
+          ],
+          "bbox_xyxy_model": [
+            334.2,
+            294.2,
+            387.4,
+            381.3
+          ],
+          "confidence": 0.8878,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3447.0,
+          "area_px_cross": 3562.0,
+          "area_diff_pct": 3.34,
+          "perimeter_px": 255.34,
+          "length_px": 90.0,
+          "width_px": 56.0,
+          "aspect_ratio": 1.607,
+          "circularity": 0.664,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 2,
+          "region_mode": "external",
+          "border_contact_ratio": 0.526,
+          "bbox_white_ratio": 0.676,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 13,
+          "seed_id": "Seed #013",
+          "bbox_xyxy_src": [
+            234.2,
+            347.1,
+            301.7,
+            427.0
+          ],
+          "bbox_xyxy_model": [
+            234.2,
+            347.1,
+            301.7,
+            427.0
+          ],
+          "confidence": 0.9152,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3278.5,
+          "area_px_cross": 3388.0,
+          "area_diff_pct": 3.34,
+          "perimeter_px": 254.69,
+          "length_px": 95.67,
+          "width_px": 52.17,
+          "aspect_ratio": 1.834,
+          "circularity": 0.635,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.364,
+          "bbox_white_ratio": 0.547,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 5,
+          "id": 14,
+          "seed_id": "Seed #014",
+          "bbox_xyxy_src": [
+            367.5,
+            364.3,
+            416.0,
+            459.2
+          ],
+          "bbox_xyxy_model": [
+            367.5,
+            364.3,
+            416.0,
+            459.2
+          ],
+          "confidence": 0.9143,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3665.0,
+          "area_px_cross": 3786.0,
+          "area_diff_pct": 3.3,
+          "perimeter_px": 265.68,
+          "length_px": 98.0,
+          "width_px": 51.0,
+          "aspect_ratio": 1.922,
+          "circularity": 0.652,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 2,
+          "region_mode": "external",
+          "border_contact_ratio": 0.487,
+          "bbox_white_ratio": 0.684,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 6,
+      "seed_count": 37,
+      "letterbox": {
+        "src": [
+          640,
+          480
+        ],
+        "dst": [
+          640,
+          480
+        ],
+        "scale": 1.0,
+        "pad": [
+          0,
+          0
+        ]
+      },
+      "objects": [
+        {
+          "frame_id": 6,
+          "id": 1,
+          "seed_id": "Seed #001",
+          "bbox_xyxy_src": [
+            427.7,
+            56.6,
+            471.7,
+            98.7
+          ],
+          "bbox_xyxy_model": [
+            427.7,
+            56.6,
+            471.7,
+            98.7
+          ],
+          "confidence": 0.8777,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1903.0,
+          "area_px_cross": 1985.0,
+          "area_diff_pct": 4.31,
+          "perimeter_px": 171.11,
+          "length_px": 47.0,
+          "width_px": 45.0,
+          "aspect_ratio": 1.044,
+          "circularity": 0.817,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.864,
+          "bbox_white_ratio": 0.771,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 2,
+          "seed_id": "Seed #002",
+          "bbox_xyxy_src": [
+            389.7,
+            110.4,
+            431.7,
+            156.8
+          ],
+          "bbox_xyxy_model": [
+            389.7,
+            110.4,
+            431.7,
+            156.8
+          ],
+          "confidence": 0.8765,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1983.5,
+          "area_px_cross": 2067.0,
+          "area_diff_pct": 4.21,
+          "perimeter_px": 175.36,
+          "length_px": 50.0,
+          "width_px": 45.0,
+          "aspect_ratio": 1.111,
+          "circularity": 0.811,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.848,
+          "bbox_white_ratio": 0.794,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 3,
+          "seed_id": "Seed #003",
+          "bbox_xyxy_src": [
+            196.0,
+            113.1,
+            238.3,
+            156.6
+          ],
+          "bbox_xyxy_model": [
+            196.0,
+            113.1,
+            238.3,
+            156.6
+          ],
+          "confidence": 0.8775,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1813.0,
+          "area_px_cross": 1890.0,
+          "area_diff_pct": 4.25,
+          "perimeter_px": 165.25,
+          "length_px": 47.0,
+          "width_px": 45.0,
+          "aspect_ratio": 1.044,
+          "circularity": 0.834,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.789,
+          "bbox_white_ratio": 0.747,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 4,
+          "seed_id": "Seed #004",
+          "bbox_xyxy_src": [
+            263.7,
+            134.9,
+            302.7,
+            190.1
+          ],
+          "bbox_xyxy_model": [
+            263.7,
+            134.9,
+            302.7,
+            190.1
+          ],
+          "confidence": 0.9106,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 2329.5,
+          "area_px_cross": 2424.0,
+          "area_diff_pct": 4.06,
+          "perimeter_px": 192.38,
+          "length_px": 58.0,
+          "width_px": 42.0,
+          "aspect_ratio": 1.381,
+          "circularity": 0.791,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.914,
+          "bbox_white_ratio": 0.842,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 5,
+          "seed_id": "Seed #005",
+          "bbox_xyxy_src": [
+            304.2,
+            144.4,
+            337.5,
+            191.6
+          ],
+          "bbox_xyxy_model": [
+            304.2,
+            144.4,
+            337.5,
+            191.6
+          ],
+          "confidence": 0.902,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1849.5,
+          "area_px_cross": 1938.0,
+          "area_diff_pct": 4.79,
+          "perimeter_px": 177.9,
+          "length_px": 51.0,
+          "width_px": 37.0,
+          "aspect_ratio": 1.378,
+          "circularity": 0.734,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.971,
+          "bbox_white_ratio": 0.86,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 6,
+          "seed_id": "Seed #006",
+          "bbox_xyxy_src": [
+            338.2,
+            149.4,
+            380.1,
+            190.7
+          ],
+          "bbox_xyxy_model": [
+            338.2,
+            149.4,
+            380.1,
+            190.7
+          ],
+          "confidence": 0.8876,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1929.5,
+          "area_px_cross": 2016.0,
+          "area_diff_pct": 4.48,
+          "perimeter_px": 174.73,
+          "length_px": 45.0,
+          "width_px": 45.0,
+          "aspect_ratio": 1.0,
+          "circularity": 0.794,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.924,
+          "bbox_white_ratio": 0.873,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 7,
+          "seed_id": "Seed #007",
+          "bbox_xyxy_src": [
+            435.8,
+            166.4,
+            471.3,
+            221.1
+          ],
+          "bbox_xyxy_model": [
+            435.8,
+            166.4,
+            471.3,
+            221.1
+          ],
+          "confidence": 0.879,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 2072.0,
+          "area_px_cross": 2162.0,
+          "area_diff_pct": 4.34,
+          "perimeter_px": 184.63,
+          "length_px": 58.0,
+          "width_px": 38.0,
+          "aspect_ratio": 1.526,
+          "circularity": 0.764,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.91,
+          "bbox_white_ratio": 0.85,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 8,
+          "seed_id": "Seed #008",
+          "bbox_xyxy_src": [
+            393.1,
+            169.6,
+            436.0,
+            208.9
+          ],
+          "bbox_xyxy_model": [
+            393.1,
+            169.6,
+            436.0,
+            208.9
+          ],
+          "confidence": 0.8782,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1785.0,
+          "area_px_cross": 1871.0,
+          "area_diff_pct": 4.82,
+          "perimeter_px": 179.11,
+          "length_px": 46.0,
+          "width_px": 42.0,
+          "aspect_ratio": 1.095,
+          "circularity": 0.699,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.876,
+          "bbox_white_ratio": 0.806,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 9,
+          "seed_id": "Seed #009",
+          "bbox_xyxy_src": [
+            206.7,
+            175.4,
+            242.7,
+            219.6
+          ],
+          "bbox_xyxy_model": [
+            206.7,
+            175.4,
+            242.7,
+            219.6
+          ],
+          "confidence": 0.9105,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1758.0,
+          "area_px_cross": 1843.0,
+          "area_diff_pct": 4.84,
+          "perimeter_px": 174.63,
+          "length_px": 48.0,
+          "width_px": 39.0,
+          "aspect_ratio": 1.231,
+          "circularity": 0.724,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.881,
+          "bbox_white_ratio": 0.854,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 10,
+          "seed_id": "Seed #010",
+          "bbox_xyxy_src": [
+            241.8,
+            178.2,
+            284.4,
+            218.4
+          ],
+          "bbox_xyxy_model": [
+            241.8,
+            178.2,
+            284.4,
+            218.4
+          ],
+          "confidence": 0.8435,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1917.0,
+          "area_px_cross": 2007.0,
+          "area_diff_pct": 4.69,
+          "perimeter_px": 179.66,
+          "length_px": 45.0,
+          "width_px": 43.0,
+          "aspect_ratio": 1.047,
+          "circularity": 0.746,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.983,
+          "bbox_white_ratio": 0.882,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 11,
+          "seed_id": "Seed #011",
+          "bbox_xyxy_src": [
+            286.4,
+            183.1,
+            320.3,
+            219.5
+          ],
+          "bbox_xyxy_model": [
+            286.4,
+            183.1,
+            320.3,
+            219.5
+          ],
+          "confidence": 0.8628,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1468.0,
+          "area_px_cross": 1547.0,
+          "area_diff_pct": 5.38,
+          "perimeter_px": 157.66,
+          "length_px": 40.0,
+          "width_px": 37.0,
+          "aspect_ratio": 1.081,
+          "circularity": 0.742,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 96%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.981,
+          "bbox_white_ratio": 0.96,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 12,
+          "seed_id": "Seed #012",
+          "bbox_xyxy_src": [
+            323.6,
+            185.6,
+            361.2,
+            227.8
+          ],
+          "bbox_xyxy_model": [
+            323.6,
+            185.6,
+            361.2,
+            227.8
+          ],
+          "confidence": 0.8698,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1800.0,
+          "area_px_cross": 1886.0,
+          "area_diff_pct": 4.78,
+          "perimeter_px": 170.0,
+          "length_px": 45.0,
+          "width_px": 40.0,
+          "aspect_ratio": 1.125,
+          "circularity": 0.783,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.984,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 13,
+          "seed_id": "Seed #013",
+          "bbox_xyxy_src": [
+            381.9,
+            210.6,
+            418.4,
+            252.5
+          ],
+          "bbox_xyxy_model": [
+            381.9,
+            210.6,
+            418.4,
+            252.5
+          ],
+          "confidence": 0.8471,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1669.0,
+          "area_px_cross": 1750.0,
+          "area_diff_pct": 4.85,
+          "perimeter_px": 162.49,
+          "length_px": 44.0,
+          "width_px": 39.0,
+          "aspect_ratio": 1.128,
+          "circularity": 0.794,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.963,
+          "bbox_white_ratio": 0.899,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 14,
+          "seed_id": "Seed #014",
+          "bbox_xyxy_src": [
+            225.2,
+            211.1,
+            266.4,
+            253.9
+          ],
+          "bbox_xyxy_model": [
+            225.2,
+            211.1,
+            266.4,
+            253.9
+          ],
+          "confidence": 0.8686,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1959.5,
+          "area_px_cross": 2049.0,
+          "area_diff_pct": 4.57,
+          "perimeter_px": 181.56,
+          "length_px": 46.0,
+          "width_px": 44.0,
+          "aspect_ratio": 1.045,
+          "circularity": 0.747,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 96%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.932,
+          "bbox_white_ratio": 0.956,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 15,
+          "seed_id": "Seed #015",
+          "bbox_xyxy_src": [
+            265.8,
+            214.1,
+            301.7,
+            251.7
+          ],
+          "bbox_xyxy_model": [
+            265.8,
+            214.1,
+            301.7,
+            251.7
+          ],
+          "confidence": 0.8998,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1599.0,
+          "area_px_cross": 1680.0,
+          "area_diff_pct": 5.07,
+          "perimeter_px": 160.0,
+          "length_px": 41.0,
+          "width_px": 39.0,
+          "aspect_ratio": 1.051,
+          "circularity": 0.785,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 97%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.969,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 16,
+          "seed_id": "Seed #016",
+          "bbox_xyxy_src": [
+            304.0,
+            215.3,
+            332.7,
+            257.4
+          ],
+          "bbox_xyxy_model": [
+            304.0,
+            215.3,
+            332.7,
+            257.4
+          ],
+          "confidence": 0.5301,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1440.0,
+          "area_px_cross": 1518.0,
+          "area_diff_pct": 5.42,
+          "perimeter_px": 154.0,
+          "length_px": 45.0,
+          "width_px": 32.0,
+          "aspect_ratio": 1.406,
+          "circularity": 0.763,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 100%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 1.0,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 17,
+          "seed_id": "Seed #017",
+          "bbox_xyxy_src": [
+            168.1,
+            217.7,
+            210.4,
+            260.4
+          ],
+          "bbox_xyxy_model": [
+            168.1,
+            217.7,
+            210.4,
+            260.4
+          ],
+          "confidence": 0.8984,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1822.5,
+          "area_px_cross": 1902.0,
+          "area_diff_pct": 4.36,
+          "perimeter_px": 166.53,
+          "length_px": 45.0,
+          "width_px": 45.0,
+          "aspect_ratio": 1.0,
+          "circularity": 0.826,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.879,
+          "bbox_white_ratio": 0.878,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 18,
+          "seed_id": "Seed #018",
+          "bbox_xyxy_src": [
+            337.5,
+            219.1,
+            377.0,
+            267.1
+          ],
+          "bbox_xyxy_model": [
+            337.5,
+            219.1,
+            377.0,
+            267.1
+          ],
+          "confidence": 0.922,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 2130.0,
+          "area_px_cross": 2225.0,
+          "area_diff_pct": 4.46,
+          "perimeter_px": 189.66,
+          "length_px": 51.0,
+          "width_px": 42.0,
+          "aspect_ratio": 1.214,
+          "circularity": 0.744,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.984,
+          "bbox_white_ratio": 0.981,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 19,
+          "seed_id": "Seed #019",
+          "bbox_xyxy_src": [
+            199.4,
+            240.1,
+            238.1,
+            285.1
+          ],
+          "bbox_xyxy_model": [
+            199.4,
+            240.1,
+            238.1,
+            285.1
+          ],
+          "confidence": 0.897,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1892.5,
+          "area_px_cross": 1977.0,
+          "area_diff_pct": 4.46,
+          "perimeter_px": 172.38,
+          "length_px": 48.0,
+          "width_px": 42.0,
+          "aspect_ratio": 1.143,
+          "circularity": 0.8,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.928,
+          "bbox_white_ratio": 0.844,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 20,
+          "seed_id": "Seed #020",
+          "bbox_xyxy_src": [
+            305.4,
+            247.2,
+            349.8,
+            288.5
+          ],
+          "bbox_xyxy_model": [
+            305.4,
+            247.2,
+            349.8,
+            288.5
+          ],
+          "confidence": 0.7471,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 2112.0,
+          "area_px_cross": 2205.0,
+          "area_diff_pct": 4.4,
+          "perimeter_px": 184.0,
+          "length_px": 48.0,
+          "width_px": 44.0,
+          "aspect_ratio": 1.091,
+          "circularity": 0.784,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 91%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.908,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 21,
+          "seed_id": "Seed #021",
+          "bbox_xyxy_src": [
+            436.2,
+            247.3,
+            469.0,
+            292.9
+          ],
+          "bbox_xyxy_model": [
+            436.2,
+            247.3,
+            469.0,
+            292.9
+          ],
+          "confidence": 0.8619,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1729.0,
+          "area_px_cross": 1812.0,
+          "area_diff_pct": 4.8,
+          "perimeter_px": 166.49,
+          "length_px": 49.0,
+          "width_px": 36.0,
+          "aspect_ratio": 1.361,
+          "circularity": 0.784,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.976,
+          "bbox_white_ratio": 0.842,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 22,
+          "seed_id": "Seed #022",
+          "bbox_xyxy_src": [
+            363.8,
+            248.6,
+            403.8,
+            286.8
+          ],
+          "bbox_xyxy_model": [
+            363.8,
+            248.6,
+            403.8,
+            286.8
+          ],
+          "confidence": 0.8826,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1763.0,
+          "area_px_cross": 1848.0,
+          "area_diff_pct": 4.82,
+          "perimeter_px": 168.0,
+          "length_px": 43.0,
+          "width_px": 41.0,
+          "aspect_ratio": 1.049,
+          "circularity": 0.785,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.823,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 23,
+          "seed_id": "Seed #023",
+          "bbox_xyxy_src": [
+            239.9,
+            254.2,
+            277.3,
+            300.5
+          ],
+          "bbox_xyxy_model": [
+            239.9,
+            254.2,
+            277.3,
+            300.5
+          ],
+          "confidence": 0.8891,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1960.0,
+          "area_px_cross": 2050.0,
+          "area_diff_pct": 4.59,
+          "perimeter_px": 178.0,
+          "length_px": 49.0,
+          "width_px": 40.0,
+          "aspect_ratio": 1.225,
+          "circularity": 0.777,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.981,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 24,
+          "seed_id": "Seed #024",
+          "bbox_xyxy_src": [
+            267.4,
+            254.4,
+            306.6,
+            324.0
+          ],
+          "bbox_xyxy_model": [
+            267.4,
+            254.4,
+            306.6,
+            324.0
+          ],
+          "confidence": 0.7101,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 3139.0,
+          "area_px_cross": 3256.0,
+          "area_diff_pct": 3.73,
+          "perimeter_px": 232.0,
+          "length_px": 73.0,
+          "width_px": 43.0,
+          "aspect_ratio": 1.698,
+          "circularity": 0.733,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.981,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 25,
+          "seed_id": "Seed #025",
+          "bbox_xyxy_src": [
+            399.3,
+            270.5,
+            433.2,
+            316.4
+          ],
+          "bbox_xyxy_model": [
+            399.3,
+            270.5,
+            433.2,
+            316.4
+          ],
+          "confidence": 0.8746,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1813.0,
+          "area_px_cross": 1900.0,
+          "area_diff_pct": 4.8,
+          "perimeter_px": 172.0,
+          "length_px": 49.0,
+          "width_px": 37.0,
+          "aspect_ratio": 1.324,
+          "circularity": 0.77,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 92%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.923,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 26,
+          "seed_id": "Seed #026",
+          "bbox_xyxy_src": [
+            305.4,
+            278.7,
+            351.4,
+            309.9
+          ],
+          "bbox_xyxy_model": [
+            305.4,
+            278.7,
+            351.4,
+            309.9
+          ],
+          "confidence": 0.522,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1378.5,
+          "area_px_cross": 1490.0,
+          "area_diff_pct": 8.09,
+          "perimeter_px": 231.36,
+          "length_px": 49.0,
+          "width_px": 34.0,
+          "aspect_ratio": 1.441,
+          "circularity": 0.324,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.738,
+          "bbox_white_ratio": 0.794,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 27,
+          "seed_id": "Seed #027",
+          "bbox_xyxy_src": [
+            207.0,
+            286.2,
+            251.7,
+            330.5
+          ],
+          "bbox_xyxy_model": [
+            207.0,
+            286.2,
+            251.7,
+            330.5
+          ],
+          "confidence": 0.8734,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 2056.5,
+          "area_px_cross": 2143.0,
+          "area_diff_pct": 4.21,
+          "perimeter_px": 178.87,
+          "length_px": 48.0,
+          "width_px": 47.0,
+          "aspect_ratio": 1.021,
+          "circularity": 0.808,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.865,
+          "bbox_white_ratio": 0.873,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 28,
+          "seed_id": "Seed #028",
+          "bbox_xyxy_src": [
+            349.9,
+            287.3,
+            401.4,
+            329.1
+          ],
+          "bbox_xyxy_model": [
+            349.9,
+            287.3,
+            401.4,
+            329.1
+          ],
+          "confidence": 0.8692,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 2404.0,
+          "area_px_cross": 2506.0,
+          "area_diff_pct": 4.24,
+          "perimeter_px": 204.49,
+          "length_px": 54.0,
+          "width_px": 45.0,
+          "aspect_ratio": 1.2,
+          "circularity": 0.722,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.965,
+          "bbox_white_ratio": 0.828,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 29,
+          "seed_id": "Seed #029",
+          "bbox_xyxy_src": [
+            259.7,
+            291.5,
+            304.5,
+            324.9
+          ],
+          "bbox_xyxy_model": [
+            259.7,
+            291.5,
+            304.5,
+            324.9
+          ],
+          "confidence": 0.842,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1692.0,
+          "area_px_cross": 1776.0,
+          "area_diff_pct": 4.96,
+          "perimeter_px": 166.0,
+          "length_px": 47.0,
+          "width_px": 36.0,
+          "aspect_ratio": 1.306,
+          "circularity": 0.772,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.977,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 30,
+          "seed_id": "Seed #030",
+          "bbox_xyxy_src": [
+            305.0,
+            309.7,
+            353.5,
+            344.1
+          ],
+          "bbox_xyxy_model": [
+            305.0,
+            309.7,
+            353.5,
+            344.1
+          ],
+          "confidence": 0.8662,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1924.0,
+          "area_px_cross": 2014.0,
+          "area_diff_pct": 4.68,
+          "perimeter_px": 178.0,
+          "length_px": 52.0,
+          "width_px": 37.0,
+          "aspect_ratio": 1.405,
+          "circularity": 0.763,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 93%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.931,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 31,
+          "seed_id": "Seed #031",
+          "bbox_xyxy_src": [
+            97.6,
+            314.1,
+            140.9,
+            350.7
+          ],
+          "bbox_xyxy_model": [
+            97.6,
+            314.1,
+            140.9,
+            350.7
+          ],
+          "confidence": 0.8796,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1680.0,
+          "area_px_cross": 1757.0,
+          "area_diff_pct": 4.58,
+          "perimeter_px": 160.28,
+          "length_px": 46.0,
+          "width_px": 40.0,
+          "aspect_ratio": 1.15,
+          "circularity": 0.822,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.882,
+          "bbox_white_ratio": 0.796,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 32,
+          "seed_id": "Seed #032",
+          "bbox_xyxy_src": [
+            234.5,
+            324.1,
+            276.3,
+            363.4
+          ],
+          "bbox_xyxy_model": [
+            234.5,
+            324.1,
+            276.3,
+            363.4
+          ],
+          "confidence": 0.8923,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1890.0,
+          "area_px_cross": 1978.0,
+          "area_diff_pct": 4.66,
+          "perimeter_px": 174.0,
+          "length_px": 45.0,
+          "width_px": 42.0,
+          "aspect_ratio": 1.071,
+          "circularity": 0.784,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 93%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 1.0,
+          "bbox_white_ratio": 0.93,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 33,
+          "seed_id": "Seed #033",
+          "bbox_xyxy_src": [
+            277.1,
+            325.0,
+            314.3,
+            371.8
+          ],
+          "bbox_xyxy_model": [
+            277.1,
+            325.0,
+            314.3,
+            371.8
+          ],
+          "confidence": 0.9133,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1800.5,
+          "area_px_cross": 1918.0,
+          "area_diff_pct": 6.53,
+          "perimeter_px": 240.87,
+          "length_px": 50.0,
+          "width_px": 40.0,
+          "aspect_ratio": 1.25,
+          "circularity": 0.39,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.777,
+          "bbox_white_ratio": 0.878,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 34,
+          "seed_id": "Seed #034",
+          "bbox_xyxy_src": [
+            185.5,
+            335.8,
+            224.0,
+            375.8
+          ],
+          "bbox_xyxy_model": [
+            185.5,
+            335.8,
+            224.0,
+            375.8
+          ],
+          "confidence": 0.8995,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1599.5,
+          "area_px_cross": 1673.0,
+          "area_diff_pct": 4.6,
+          "perimeter_px": 154.53,
+          "length_px": 43.0,
+          "width_px": 41.0,
+          "aspect_ratio": 1.049,
+          "circularity": 0.842,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.89,
+          "bbox_white_ratio": 0.857,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 35,
+          "seed_id": "Seed #035",
+          "bbox_xyxy_src": [
+            320.1,
+            353.6,
+            360.4,
+            389.3
+          ],
+          "bbox_xyxy_model": [
+            320.1,
+            353.6,
+            360.4,
+            389.3
+          ],
+          "confidence": 0.844,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1564.5,
+          "area_px_cross": 1641.0,
+          "area_diff_pct": 4.89,
+          "perimeter_px": 155.56,
+          "length_px": 43.0,
+          "width_px": 38.0,
+          "aspect_ratio": 1.132,
+          "circularity": 0.812,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.954,
+          "bbox_white_ratio": 0.789,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 36,
+          "seed_id": "Seed #036",
+          "bbox_xyxy_src": [
+            234.4,
+            361.6,
+            280.1,
+            398.0
+          ],
+          "bbox_xyxy_model": [
+            234.4,
+            361.6,
+            280.1,
+            398.0
+          ],
+          "confidence": 0.9155,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1839.0,
+          "area_px_cross": 1922.0,
+          "area_diff_pct": 4.51,
+          "perimeter_px": 168.97,
+          "length_px": 49.0,
+          "width_px": 39.0,
+          "aspect_ratio": 1.256,
+          "circularity": 0.809,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.951,
+          "bbox_white_ratio": 0.868,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 6,
+          "id": 37,
+          "seed_id": "Seed #037",
+          "bbox_xyxy_src": [
+            115.1,
+            378.0,
+            162.6,
+            414.7
+          ],
+          "bbox_xyxy_model": [
+            115.1,
+            378.0,
+            162.6,
+            414.7
+          ],
+          "confidence": 0.8852,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 1863.5,
+          "area_px_cross": 1945.0,
+          "area_diff_pct": 4.37,
+          "perimeter_px": 169.7,
+          "length_px": 51.0,
+          "width_px": 40.0,
+          "aspect_ratio": 1.275,
+          "circularity": 0.813,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.87,
+          "bbox_white_ratio": 0.779,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 7,
+      "seed_count": 5,
+      "letterbox": {
+        "src": [
+          640,
+          480
+        ],
+        "dst": [
+          640,
+          480
+        ],
+        "scale": 1.0,
+        "pad": [
+          0,
+          0
+        ]
+      },
+      "objects": [
+        {
+          "frame_id": 7,
+          "id": 1,
+          "seed_id": "Seed #001",
+          "bbox_xyxy_src": [
+            200.4,
+            93.7,
+            380.5,
+            202.5
+          ],
+          "bbox_xyxy_model": [
+            200.4,
+            93.7,
+            380.5,
+            202.5
+          ],
+          "confidence": 0.9099,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 14407.0,
+          "area_px_cross": 14625.0,
+          "area_diff_pct": 1.51,
+          "perimeter_px": 495.3,
+          "length_px": 183.0,
+          "width_px": 108.0,
+          "aspect_ratio": 1.694,
+          "circularity": 0.738,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.226,
+          "bbox_white_ratio": 0.523,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 7,
+          "id": 2,
+          "seed_id": "Seed #002",
+          "bbox_xyxy_src": [
+            432.4,
+            114.5,
+            555.5,
+            272.3
+          ],
+          "bbox_xyxy_model": [
+            432.4,
+            114.5,
+            555.5,
+            272.3
+          ],
+          "confidence": 0.9,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 14697.0,
+          "area_px_cross": 14916.0,
+          "area_diff_pct": 1.49,
+          "perimeter_px": 498.13,
+          "length_px": 184.62,
+          "width_px": 108.59,
+          "aspect_ratio": 1.7,
+          "circularity": 0.744,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.317,
+          "bbox_white_ratio": 0.325,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 7,
+          "id": 3,
+          "seed_id": "Seed #003",
+          "bbox_xyxy_src": [
+            98.2,
+            142.7,
+            207.8,
+            279.3
+          ],
+          "bbox_xyxy_model": [
+            98.2,
+            142.7,
+            207.8,
+            279.3
+          ],
+          "confidence": 0.9085,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 11378.5,
+          "area_px_cross": 11570.0,
+          "area_diff_pct": 1.68,
+          "perimeter_px": 432.78,
+          "length_px": 139.0,
+          "width_px": 113.0,
+          "aspect_ratio": 1.23,
+          "circularity": 0.763,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.381,
+          "bbox_white_ratio": 0.577,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 7,
+          "id": 4,
+          "seed_id": "Seed #004",
+          "bbox_xyxy_src": [
+            331.7,
+            271.7,
+            503.7,
+            387.8
+          ],
+          "bbox_xyxy_model": [
+            331.7,
+            271.7,
+            503.7,
+            387.8
+          ],
+          "confidence": 0.9048,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 14730.5,
+          "area_px_cross": 14947.0,
+          "area_diff_pct": 1.47,
+          "perimeter_px": 498.52,
+          "length_px": 182.53,
+          "width_px": 111.55,
+          "aspect_ratio": 1.636,
+          "circularity": 0.745,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.176,
+          "bbox_white_ratio": 0.54,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 7,
+          "id": 5,
+          "seed_id": "Seed #005",
+          "bbox_xyxy_src": [
+            121.1,
+            307.5,
+            281.3,
+            421.4
+          ],
+          "bbox_xyxy_model": [
+            121.1,
+            307.5,
+            281.3,
+            421.4
+          ],
+          "confidence": 0.9107,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 14500.0,
+          "area_px_cross": 14711.0,
+          "area_diff_pct": 1.46,
+          "perimeter_px": 477.16,
+          "length_px": 163.0,
+          "width_px": 116.0,
+          "aspect_ratio": 1.405,
+          "circularity": 0.8,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.436,
+          "bbox_white_ratio": 0.359,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 8,
+      "seed_count": 11,
+      "letterbox": {
+        "src": [
+          640,
+          480
+        ],
+        "dst": [
+          640,
+          480
+        ],
+        "scale": 1.0,
+        "pad": [
+          0,
+          0
+        ]
+      },
+      "objects": [
+        {
+          "frame_id": 8,
+          "id": 1,
+          "seed_id": "Seed #001",
+          "bbox_xyxy_src": [
+            311.4,
+            56.9,
+            398.2,
+            190.5
+          ],
+          "bbox_xyxy_model": [
+            311.4,
+            56.9,
+            398.2,
+            190.5
+          ],
+          "confidence": 0.9006,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 10487.0,
+          "area_px_cross": 10679.0,
+          "area_diff_pct": 1.83,
+          "perimeter_px": 415.14,
+          "length_px": 136.0,
+          "width_px": 90.0,
+          "aspect_ratio": 1.511,
+          "circularity": 0.765,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.626,
+          "bbox_white_ratio": 0.878,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 2,
+          "seed_id": "Seed #002",
+          "bbox_xyxy_src": [
+            170.2,
+            60.2,
+            299.7,
+            148.1
+          ],
+          "bbox_xyxy_model": [
+            170.2,
+            60.2,
+            299.7,
+            148.1
+          ],
+          "confidence": 0.9018,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 10108.0,
+          "area_px_cross": 10292.0,
+          "area_diff_pct": 1.82,
+          "perimeter_px": 399.97,
+          "length_px": 133.0,
+          "width_px": 91.0,
+          "aspect_ratio": 1.462,
+          "circularity": 0.794,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.544,
+          "bbox_white_ratio": 0.848,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 3,
+          "seed_id": "Seed #003",
+          "bbox_xyxy_src": [
+            407.7,
+            128.4,
+            505.4,
+            201.5
+          ],
+          "bbox_xyxy_model": [
+            407.7,
+            128.4,
+            505.4,
+            201.5
+          ],
+          "confidence": 0.9208,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 6558.0,
+          "area_px_cross": 6735.0,
+          "area_diff_pct": 2.7,
+          "perimeter_px": 380.17,
+          "length_px": 100.0,
+          "width_px": 77.0,
+          "aspect_ratio": 1.299,
+          "circularity": 0.57,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.716,
+          "bbox_white_ratio": 0.855,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 4,
+          "seed_id": "Seed #004",
+          "bbox_xyxy_src": [
+            172.7,
+            158.8,
+            272.0,
+            234.8
+          ],
+          "bbox_xyxy_model": [
+            172.7,
+            158.8,
+            272.0,
+            234.8
+          ],
+          "confidence": 0.902,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 6861.0,
+          "area_px_cross": 7072.0,
+          "area_diff_pct": 3.08,
+          "perimeter_px": 448.99,
+          "length_px": 102.0,
+          "width_px": 79.0,
+          "aspect_ratio": 1.291,
+          "circularity": 0.428,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.671,
+          "bbox_white_ratio": 0.86,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 5,
+          "seed_id": "Seed #005",
+          "bbox_xyxy_src": [
+            85.8,
+            181.9,
+            167.6,
+            295.4
+          ],
+          "bbox_xyxy_model": [
+            85.8,
+            181.9,
+            167.6,
+            295.4
+          ],
+          "confidence": 0.9225,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 7976.5,
+          "area_px_cross": 8137.0,
+          "area_diff_pct": 2.01,
+          "perimeter_px": 355.87,
+          "length_px": 116.0,
+          "width_px": 85.0,
+          "aspect_ratio": 1.365,
+          "circularity": 0.792,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.577,
+          "bbox_white_ratio": 0.819,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 6,
+          "seed_id": "Seed #006",
+          "bbox_xyxy_src": [
+            465.4,
+            201.1,
+            560.1,
+            309.6
+          ],
+          "bbox_xyxy_model": [
+            465.4,
+            201.1,
+            560.1,
+            309.6
+          ],
+          "confidence": 0.9016,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 9369.5,
+          "area_px_cross": 9542.0,
+          "area_diff_pct": 1.84,
+          "perimeter_px": 375.72,
+          "length_px": 112.0,
+          "width_px": 98.0,
+          "aspect_ratio": 1.143,
+          "circularity": 0.834,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 2,
+          "region_mode": "external",
+          "border_contact_ratio": 0.659,
+          "bbox_white_ratio": 0.865,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 7,
+          "seed_id": "Seed #007",
+          "bbox_xyxy_src": [
+            296.5,
+            206.3,
+            413.4,
+            291.2
+          ],
+          "bbox_xyxy_model": [
+            296.5,
+            206.3,
+            413.4,
+            291.2
+          ],
+          "confidence": 0.9298,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 9328.5,
+          "area_px_cross": 9509.0,
+          "area_diff_pct": 1.93,
+          "perimeter_px": 385.1,
+          "length_px": 120.0,
+          "width_px": 88.0,
+          "aspect_ratio": 1.364,
+          "circularity": 0.79,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 2,
+          "region_mode": "external",
+          "border_contact_ratio": 0.671,
+          "bbox_white_ratio": 0.88,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 8,
+          "seed_id": "Seed #008",
+          "bbox_xyxy_src": [
+            158.6,
+            263.1,
+            287.2,
+            347.3
+          ],
+          "bbox_xyxy_model": [
+            158.6,
+            263.1,
+            287.2,
+            347.3
+          ],
+          "confidence": 0.9047,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 9789.5,
+          "area_px_cross": 9979.0,
+          "area_diff_pct": 1.94,
+          "perimeter_px": 401.44,
+          "length_px": 131.0,
+          "width_px": 87.0,
+          "aspect_ratio": 1.506,
+          "circularity": 0.763,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 2,
+          "region_mode": "external",
+          "border_contact_ratio": 0.671,
+          "bbox_white_ratio": 0.853,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 9,
+          "seed_id": "Seed #009",
+          "bbox_xyxy_src": [
+            398.5,
+            286.6,
+            469.2,
+            393.2
+          ],
+          "bbox_xyxy_model": [
+            398.5,
+            286.6,
+            469.2,
+            393.2
+          ],
+          "confidence": 0.9054,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 6768.0,
+          "area_px_cross": 6927.0,
+          "area_diff_pct": 2.35,
+          "perimeter_px": 344.99,
+          "length_px": 109.0,
+          "width_px": 74.0,
+          "aspect_ratio": 1.473,
+          "circularity": 0.715,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 2,
+          "region_mode": "external",
+          "border_contact_ratio": 0.642,
+          "bbox_white_ratio": 0.867,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 10,
+          "seed_id": "Seed #010",
+          "bbox_xyxy_src": [
+            297.8,
+            317.7,
+            370.0,
+            423.3
+          ],
+          "bbox_xyxy_model": [
+            297.8,
+            317.7,
+            370.0,
+            423.3
+          ],
+          "confidence": 0.9249,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 6750.0,
+          "area_px_cross": 6903.0,
+          "area_diff_pct": 2.27,
+          "perimeter_px": 330.51,
+          "length_px": 108.0,
+          "width_px": 75.0,
+          "aspect_ratio": 1.44,
+          "circularity": 0.777,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.651,
+          "bbox_white_ratio": 0.832,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 8,
+          "id": 11,
+          "seed_id": "Seed #011",
+          "bbox_xyxy_src": [
+            433.0,
+            374.3,
+            465.1,
+            393.8
+          ],
+          "bbox_xyxy_model": [
+            433.0,
+            374.3,
+            465.1,
+            393.8
+          ],
+          "confidence": 0.3902,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 783.5,
+          "area_px_cross": 844.0,
+          "area_diff_pct": 7.72,
+          "perimeter_px": 121.07,
+          "length_px": 35.0,
+          "width_px": 23.0,
+          "aspect_ratio": 1.522,
+          "circularity": 0.672,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.958,
+          "bbox_white_ratio": 0.977,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 9,
+      "seed_count": 6,
+      "letterbox": {
+        "src": [
+          640,
+          480
+        ],
+        "dst": [
+          640,
+          480
+        ],
+        "scale": 1.0,
+        "pad": [
+          0,
+          0
+        ]
+      },
+      "objects": [
+        {
+          "frame_id": 9,
+          "id": 1,
+          "seed_id": "Seed #001",
+          "bbox_xyxy_src": [
+            343.6,
+            119.3,
+            436.6,
+            187.3
+          ],
+          "bbox_xyxy_model": [
+            343.6,
+            119.3,
+            436.6,
+            187.3
+          ],
+          "confidence": 0.9163,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 6048.0,
+          "area_px_cross": 6205.0,
+          "area_diff_pct": 2.6,
+          "perimeter_px": 331.05,
+          "length_px": 96.0,
+          "width_px": 71.0,
+          "aspect_ratio": 1.352,
+          "circularity": 0.693,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.67,
+          "bbox_white_ratio": 0.72,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 9,
+          "id": 2,
+          "seed_id": "Seed #002",
+          "bbox_xyxy_src": [
+            226.3,
+            174.7,
+            301.3,
+            240.1
+          ],
+          "bbox_xyxy_model": [
+            226.3,
+            174.7,
+            301.3,
+            240.1
+          ],
+          "confidence": 0.9047,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4759.0,
+          "area_px_cross": 4919.0,
+          "area_diff_pct": 3.36,
+          "perimeter_px": 337.05,
+          "length_px": 78.0,
+          "width_px": 68.0,
+          "aspect_ratio": 1.147,
+          "circularity": 0.526,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 91%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.764,
+          "bbox_white_ratio": 0.912,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 9,
+          "id": 3,
+          "seed_id": "Seed #003",
+          "bbox_xyxy_src": [
+            277.6,
+            215.8,
+            391.8,
+            271.6
+          ],
+          "bbox_xyxy_model": [
+            277.6,
+            215.8,
+            391.8,
+            271.6
+          ],
+          "confidence": 0.8802,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 6268.5,
+          "area_px_cross": 6444.0,
+          "area_diff_pct": 2.8,
+          "perimeter_px": 367.64,
+          "length_px": 117.0,
+          "width_px": 59.0,
+          "aspect_ratio": 1.983,
+          "circularity": 0.583,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.771,
+          "bbox_white_ratio": 0.807,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 9,
+          "id": 4,
+          "seed_id": "Seed #004",
+          "bbox_xyxy_src": [
+            125.9,
+            224.6,
+            191.8,
+            297.5
+          ],
+          "bbox_xyxy_model": [
+            125.9,
+            224.6,
+            191.8,
+            297.5
+          ],
+          "confidence": 0.9339,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4379.5,
+          "area_px_cross": 4510.0,
+          "area_diff_pct": 2.98,
+          "perimeter_px": 285.92,
+          "length_px": 76.0,
+          "width_px": 69.0,
+          "aspect_ratio": 1.101,
+          "circularity": 0.673,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.571,
+          "bbox_white_ratio": 0.886,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 9,
+          "id": 5,
+          "seed_id": "Seed #005",
+          "bbox_xyxy_src": [
+            207.7,
+            240.6,
+            278.7,
+            304.5
+          ],
+          "bbox_xyxy_model": [
+            207.7,
+            240.6,
+            278.7,
+            304.5
+          ],
+          "confidence": 0.9189,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4343.0,
+          "area_px_cross": 4468.0,
+          "area_diff_pct": 2.88,
+          "perimeter_px": 264.57,
+          "length_px": 74.0,
+          "width_px": 66.0,
+          "aspect_ratio": 1.121,
+          "circularity": 0.78,
+          "status": "BROKEN_CONTOUR",
+          "status_reason": "板端二值结果在 bbox 内饱和（白色占比 92%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.73,
+          "bbox_white_ratio": 0.92,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        },
+        {
+          "frame_id": 9,
+          "id": 6,
+          "seed_id": "Seed #006",
+          "bbox_xyxy_src": [
+            360.1,
+            313.7,
+            437.2,
+            377.1
+          ],
+          "bbox_xyxy_model": [
+            360.1,
+            313.7,
+            437.2,
+            377.1
+          ],
+          "confidence": 0.901,
+          "class_name": "seed",
+          "truncated_by_image": false,
+          "area_px": 4532.0,
+          "area_px_cross": 4670.0,
+          "area_diff_pct": 3.05,
+          "perimeter_px": 296.37,
+          "length_px": 80.0,
+          "width_px": 66.0,
+          "aspect_ratio": 1.212,
+          "circularity": 0.648,
+          "status": "OK",
+          "status_reason": "",
+          "region_count": 1,
+          "region_mode": "external",
+          "border_contact_ratio": 0.62,
+          "bbox_white_ratio": 0.897,
+          "unit": {
+            "length": "px",
+            "area": "px^2"
+          }
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "frame_id": 5,
+      "id": 1,
+      "seed_id": "Seed #001",
+      "bbox_xyxy_src": [
+        242.1,
+        55.9,
+        304.6,
+        132.8
+      ],
+      "bbox_xyxy_model": [
+        242.1,
+        55.9,
+        304.6,
+        132.8
+      ],
+      "confidence": 0.9095,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3369.5,
+      "area_px_cross": 3478.0,
+      "area_diff_pct": 3.22,
+      "perimeter_px": 246.89,
+      "length_px": 94.75,
+      "width_px": 53.03,
+      "aspect_ratio": 1.787,
+      "circularity": 0.695,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.465,
+      "bbox_white_ratio": 0.592,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 2,
+      "seed_id": "Seed #002",
+      "bbox_xyxy_src": [
+        304.1,
+        116.6,
+        372.8,
+        206.8
+      ],
+      "bbox_xyxy_model": [
+        304.1,
+        116.6,
+        372.8,
+        206.8
+      ],
+      "confidence": 0.8905,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4286.5,
+      "area_px_cross": 4417.0,
+      "area_diff_pct": 3.04,
+      "perimeter_px": 294.21,
+      "length_px": 104.02,
+      "width_px": 61.52,
+      "aspect_ratio": 1.691,
+      "circularity": 0.622,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 3,
+      "region_mode": "external",
+      "border_contact_ratio": 0.552,
+      "bbox_white_ratio": 0.582,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 3,
+      "seed_id": "Seed #003",
+      "bbox_xyxy_src": [
+        379.0,
+        122.5,
+        457.2,
+        199.2
+      ],
+      "bbox_xyxy_model": [
+        379.0,
+        122.5,
+        457.2,
+        199.2
+      ],
+      "confidence": 0.9124,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4337.5,
+      "area_px_cross": 4479.0,
+      "area_diff_pct": 3.26,
+      "perimeter_px": 322.84,
+      "length_px": 81.0,
+      "width_px": 80.0,
+      "aspect_ratio": 1.012,
+      "circularity": 0.523,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.473,
+      "bbox_white_ratio": 0.627,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 4,
+      "seed_id": "Seed #004",
+      "bbox_xyxy_src": [
+        157.8,
+        130.2,
+        209.7,
+        221.6
+      ],
+      "bbox_xyxy_model": [
+        157.8,
+        130.2,
+        209.7,
+        221.6
+      ],
+      "confidence": 0.8432,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3722.0,
+      "area_px_cross": 3849.0,
+      "area_diff_pct": 3.41,
+      "perimeter_px": 279.34,
+      "length_px": 95.0,
+      "width_px": 55.0,
+      "aspect_ratio": 1.727,
+      "circularity": 0.599,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.5,
+      "bbox_white_ratio": 0.664,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 5,
+      "seed_id": "Seed #005",
+      "bbox_xyxy_src": [
+        221.8,
+        138.1,
+        313.7,
+        185.2
+      ],
+      "bbox_xyxy_model": [
+        221.8,
+        138.1,
+        313.7,
+        185.2
+      ],
+      "confidence": 0.8847,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3611.5,
+      "area_px_cross": 3739.0,
+      "area_diff_pct": 3.53,
+      "perimeter_px": 272.47,
+      "length_px": 95.0,
+      "width_px": 50.0,
+      "aspect_ratio": 1.9,
+      "circularity": 0.611,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.684,
+      "bbox_white_ratio": 0.645,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 6,
+      "seed_id": "Seed #006",
+      "bbox_xyxy_src": [
+        381.8,
+        184.0,
+        444.5,
+        273.6
+      ],
+      "bbox_xyxy_model": [
+        381.8,
+        184.0,
+        444.5,
+        273.6
+      ],
+      "confidence": 0.9286,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4599.0,
+      "area_px_cross": 4773.0,
+      "area_diff_pct": 3.78,
+      "perimeter_px": 385.76,
+      "length_px": 93.0,
+      "width_px": 65.0,
+      "aspect_ratio": 1.431,
+      "circularity": 0.388,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.5,
+      "bbox_white_ratio": 0.722,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 7,
+      "seed_id": "Seed #007",
+      "bbox_xyxy_src": [
+        311.3,
+        202.1,
+        374.6,
+        287.8
+      ],
+      "bbox_xyxy_model": [
+        311.3,
+        202.1,
+        374.6,
+        287.8
+      ],
+      "confidence": 0.8924,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3746.5,
+      "area_px_cross": 3872.0,
+      "area_diff_pct": 3.35,
+      "perimeter_px": 282.55,
+      "length_px": 89.0,
+      "width_px": 67.0,
+      "aspect_ratio": 1.328,
+      "circularity": 0.59,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 3,
+      "region_mode": "external",
+      "border_contact_ratio": 0.454,
+      "bbox_white_ratio": 0.645,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 8,
+      "seed_id": "Seed #008",
+      "bbox_xyxy_src": [
+        222.7,
+        207.4,
+        310.3,
+        257.0
+      ],
+      "bbox_xyxy_model": [
+        222.7,
+        207.4,
+        310.3,
+        257.0
+      ],
+      "confidence": 0.9222,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3611.0,
+      "area_px_cross": 3747.0,
+      "area_diff_pct": 3.77,
+      "perimeter_px": 294.02,
+      "length_px": 90.0,
+      "width_px": 53.0,
+      "aspect_ratio": 1.698,
+      "circularity": 0.525,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 2,
+      "region_mode": "external",
+      "border_contact_ratio": 0.648,
+      "bbox_white_ratio": 0.768,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 9,
+      "seed_id": "Seed #009",
+      "bbox_xyxy_src": [
+        390.5,
+        281.1,
+        472.4,
+        350.7
+      ],
+      "bbox_xyxy_model": [
+        390.5,
+        281.1,
+        472.4,
+        350.7
+      ],
+      "confidence": 0.8077,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3593.0,
+      "area_px_cross": 3719.0,
+      "area_diff_pct": 3.51,
+      "perimeter_px": 284.79,
+      "length_px": 95.55,
+      "width_px": 63.94,
+      "aspect_ratio": 1.494,
+      "circularity": 0.557,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.46,
+      "bbox_white_ratio": 0.557,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 10,
+      "seed_id": "Seed #010",
+      "bbox_xyxy_src": [
+        274.5,
+        284.6,
+        329.3,
+        372.9
+      ],
+      "bbox_xyxy_model": [
+        274.5,
+        284.6,
+        329.3,
+        372.9
+      ],
+      "confidence": 0.9043,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4114.0,
+      "area_px_cross": 4261.0,
+      "area_diff_pct": 3.57,
+      "perimeter_px": 327.62,
+      "length_px": 91.0,
+      "width_px": 58.0,
+      "aspect_ratio": 1.569,
+      "circularity": 0.482,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.514,
+      "bbox_white_ratio": 0.754,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 11,
+      "seed_id": "Seed #011",
+      "bbox_xyxy_src": [
+        167.6,
+        287.3,
+        254.8,
+        334.4
+      ],
+      "bbox_xyxy_model": [
+        167.6,
+        287.3,
+        254.8,
+        334.4
+      ],
+      "confidence": 0.9032,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3456.0,
+      "area_px_cross": 3571.0,
+      "area_diff_pct": 3.33,
+      "perimeter_px": 249.54,
+      "length_px": 90.0,
+      "width_px": 50.0,
+      "aspect_ratio": 1.8,
+      "circularity": 0.697,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.601,
+      "bbox_white_ratio": 0.653,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 12,
+      "seed_id": "Seed #012",
+      "bbox_xyxy_src": [
+        334.2,
+        294.2,
+        387.4,
+        381.3
+      ],
+      "bbox_xyxy_model": [
+        334.2,
+        294.2,
+        387.4,
+        381.3
+      ],
+      "confidence": 0.8878,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3447.0,
+      "area_px_cross": 3562.0,
+      "area_diff_pct": 3.34,
+      "perimeter_px": 255.34,
+      "length_px": 90.0,
+      "width_px": 56.0,
+      "aspect_ratio": 1.607,
+      "circularity": 0.664,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 2,
+      "region_mode": "external",
+      "border_contact_ratio": 0.526,
+      "bbox_white_ratio": 0.676,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 13,
+      "seed_id": "Seed #013",
+      "bbox_xyxy_src": [
+        234.2,
+        347.1,
+        301.7,
+        427.0
+      ],
+      "bbox_xyxy_model": [
+        234.2,
+        347.1,
+        301.7,
+        427.0
+      ],
+      "confidence": 0.9152,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3278.5,
+      "area_px_cross": 3388.0,
+      "area_diff_pct": 3.34,
+      "perimeter_px": 254.69,
+      "length_px": 95.67,
+      "width_px": 52.17,
+      "aspect_ratio": 1.834,
+      "circularity": 0.635,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.364,
+      "bbox_white_ratio": 0.547,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 5,
+      "id": 14,
+      "seed_id": "Seed #014",
+      "bbox_xyxy_src": [
+        367.5,
+        364.3,
+        416.0,
+        459.2
+      ],
+      "bbox_xyxy_model": [
+        367.5,
+        364.3,
+        416.0,
+        459.2
+      ],
+      "confidence": 0.9143,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3665.0,
+      "area_px_cross": 3786.0,
+      "area_diff_pct": 3.3,
+      "perimeter_px": 265.68,
+      "length_px": 98.0,
+      "width_px": 51.0,
+      "aspect_ratio": 1.922,
+      "circularity": 0.652,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 2,
+      "region_mode": "external",
+      "border_contact_ratio": 0.487,
+      "bbox_white_ratio": 0.684,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 1,
+      "seed_id": "Seed #001",
+      "bbox_xyxy_src": [
+        427.7,
+        56.6,
+        471.7,
+        98.7
+      ],
+      "bbox_xyxy_model": [
+        427.7,
+        56.6,
+        471.7,
+        98.7
+      ],
+      "confidence": 0.8777,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1903.0,
+      "area_px_cross": 1985.0,
+      "area_diff_pct": 4.31,
+      "perimeter_px": 171.11,
+      "length_px": 47.0,
+      "width_px": 45.0,
+      "aspect_ratio": 1.044,
+      "circularity": 0.817,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.864,
+      "bbox_white_ratio": 0.771,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 2,
+      "seed_id": "Seed #002",
+      "bbox_xyxy_src": [
+        389.7,
+        110.4,
+        431.7,
+        156.8
+      ],
+      "bbox_xyxy_model": [
+        389.7,
+        110.4,
+        431.7,
+        156.8
+      ],
+      "confidence": 0.8765,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1983.5,
+      "area_px_cross": 2067.0,
+      "area_diff_pct": 4.21,
+      "perimeter_px": 175.36,
+      "length_px": 50.0,
+      "width_px": 45.0,
+      "aspect_ratio": 1.111,
+      "circularity": 0.811,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.848,
+      "bbox_white_ratio": 0.794,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 3,
+      "seed_id": "Seed #003",
+      "bbox_xyxy_src": [
+        196.0,
+        113.1,
+        238.3,
+        156.6
+      ],
+      "bbox_xyxy_model": [
+        196.0,
+        113.1,
+        238.3,
+        156.6
+      ],
+      "confidence": 0.8775,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1813.0,
+      "area_px_cross": 1890.0,
+      "area_diff_pct": 4.25,
+      "perimeter_px": 165.25,
+      "length_px": 47.0,
+      "width_px": 45.0,
+      "aspect_ratio": 1.044,
+      "circularity": 0.834,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.789,
+      "bbox_white_ratio": 0.747,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 4,
+      "seed_id": "Seed #004",
+      "bbox_xyxy_src": [
+        263.7,
+        134.9,
+        302.7,
+        190.1
+      ],
+      "bbox_xyxy_model": [
+        263.7,
+        134.9,
+        302.7,
+        190.1
+      ],
+      "confidence": 0.9106,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 2329.5,
+      "area_px_cross": 2424.0,
+      "area_diff_pct": 4.06,
+      "perimeter_px": 192.38,
+      "length_px": 58.0,
+      "width_px": 42.0,
+      "aspect_ratio": 1.381,
+      "circularity": 0.791,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.914,
+      "bbox_white_ratio": 0.842,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 5,
+      "seed_id": "Seed #005",
+      "bbox_xyxy_src": [
+        304.2,
+        144.4,
+        337.5,
+        191.6
+      ],
+      "bbox_xyxy_model": [
+        304.2,
+        144.4,
+        337.5,
+        191.6
+      ],
+      "confidence": 0.902,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1849.5,
+      "area_px_cross": 1938.0,
+      "area_diff_pct": 4.79,
+      "perimeter_px": 177.9,
+      "length_px": 51.0,
+      "width_px": 37.0,
+      "aspect_ratio": 1.378,
+      "circularity": 0.734,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.971,
+      "bbox_white_ratio": 0.86,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 6,
+      "seed_id": "Seed #006",
+      "bbox_xyxy_src": [
+        338.2,
+        149.4,
+        380.1,
+        190.7
+      ],
+      "bbox_xyxy_model": [
+        338.2,
+        149.4,
+        380.1,
+        190.7
+      ],
+      "confidence": 0.8876,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1929.5,
+      "area_px_cross": 2016.0,
+      "area_diff_pct": 4.48,
+      "perimeter_px": 174.73,
+      "length_px": 45.0,
+      "width_px": 45.0,
+      "aspect_ratio": 1.0,
+      "circularity": 0.794,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.924,
+      "bbox_white_ratio": 0.873,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 7,
+      "seed_id": "Seed #007",
+      "bbox_xyxy_src": [
+        435.8,
+        166.4,
+        471.3,
+        221.1
+      ],
+      "bbox_xyxy_model": [
+        435.8,
+        166.4,
+        471.3,
+        221.1
+      ],
+      "confidence": 0.879,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 2072.0,
+      "area_px_cross": 2162.0,
+      "area_diff_pct": 4.34,
+      "perimeter_px": 184.63,
+      "length_px": 58.0,
+      "width_px": 38.0,
+      "aspect_ratio": 1.526,
+      "circularity": 0.764,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.91,
+      "bbox_white_ratio": 0.85,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 8,
+      "seed_id": "Seed #008",
+      "bbox_xyxy_src": [
+        393.1,
+        169.6,
+        436.0,
+        208.9
+      ],
+      "bbox_xyxy_model": [
+        393.1,
+        169.6,
+        436.0,
+        208.9
+      ],
+      "confidence": 0.8782,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1785.0,
+      "area_px_cross": 1871.0,
+      "area_diff_pct": 4.82,
+      "perimeter_px": 179.11,
+      "length_px": 46.0,
+      "width_px": 42.0,
+      "aspect_ratio": 1.095,
+      "circularity": 0.699,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.876,
+      "bbox_white_ratio": 0.806,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 9,
+      "seed_id": "Seed #009",
+      "bbox_xyxy_src": [
+        206.7,
+        175.4,
+        242.7,
+        219.6
+      ],
+      "bbox_xyxy_model": [
+        206.7,
+        175.4,
+        242.7,
+        219.6
+      ],
+      "confidence": 0.9105,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1758.0,
+      "area_px_cross": 1843.0,
+      "area_diff_pct": 4.84,
+      "perimeter_px": 174.63,
+      "length_px": 48.0,
+      "width_px": 39.0,
+      "aspect_ratio": 1.231,
+      "circularity": 0.724,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.881,
+      "bbox_white_ratio": 0.854,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 10,
+      "seed_id": "Seed #010",
+      "bbox_xyxy_src": [
+        241.8,
+        178.2,
+        284.4,
+        218.4
+      ],
+      "bbox_xyxy_model": [
+        241.8,
+        178.2,
+        284.4,
+        218.4
+      ],
+      "confidence": 0.8435,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1917.0,
+      "area_px_cross": 2007.0,
+      "area_diff_pct": 4.69,
+      "perimeter_px": 179.66,
+      "length_px": 45.0,
+      "width_px": 43.0,
+      "aspect_ratio": 1.047,
+      "circularity": 0.746,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.983,
+      "bbox_white_ratio": 0.882,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 11,
+      "seed_id": "Seed #011",
+      "bbox_xyxy_src": [
+        286.4,
+        183.1,
+        320.3,
+        219.5
+      ],
+      "bbox_xyxy_model": [
+        286.4,
+        183.1,
+        320.3,
+        219.5
+      ],
+      "confidence": 0.8628,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1468.0,
+      "area_px_cross": 1547.0,
+      "area_diff_pct": 5.38,
+      "perimeter_px": 157.66,
+      "length_px": 40.0,
+      "width_px": 37.0,
+      "aspect_ratio": 1.081,
+      "circularity": 0.742,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 96%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.981,
+      "bbox_white_ratio": 0.96,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 12,
+      "seed_id": "Seed #012",
+      "bbox_xyxy_src": [
+        323.6,
+        185.6,
+        361.2,
+        227.8
+      ],
+      "bbox_xyxy_model": [
+        323.6,
+        185.6,
+        361.2,
+        227.8
+      ],
+      "confidence": 0.8698,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1800.0,
+      "area_px_cross": 1886.0,
+      "area_diff_pct": 4.78,
+      "perimeter_px": 170.0,
+      "length_px": 45.0,
+      "width_px": 40.0,
+      "aspect_ratio": 1.125,
+      "circularity": 0.783,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.984,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 13,
+      "seed_id": "Seed #013",
+      "bbox_xyxy_src": [
+        381.9,
+        210.6,
+        418.4,
+        252.5
+      ],
+      "bbox_xyxy_model": [
+        381.9,
+        210.6,
+        418.4,
+        252.5
+      ],
+      "confidence": 0.8471,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1669.0,
+      "area_px_cross": 1750.0,
+      "area_diff_pct": 4.85,
+      "perimeter_px": 162.49,
+      "length_px": 44.0,
+      "width_px": 39.0,
+      "aspect_ratio": 1.128,
+      "circularity": 0.794,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.963,
+      "bbox_white_ratio": 0.899,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 14,
+      "seed_id": "Seed #014",
+      "bbox_xyxy_src": [
+        225.2,
+        211.1,
+        266.4,
+        253.9
+      ],
+      "bbox_xyxy_model": [
+        225.2,
+        211.1,
+        266.4,
+        253.9
+      ],
+      "confidence": 0.8686,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1959.5,
+      "area_px_cross": 2049.0,
+      "area_diff_pct": 4.57,
+      "perimeter_px": 181.56,
+      "length_px": 46.0,
+      "width_px": 44.0,
+      "aspect_ratio": 1.045,
+      "circularity": 0.747,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 96%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.932,
+      "bbox_white_ratio": 0.956,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 15,
+      "seed_id": "Seed #015",
+      "bbox_xyxy_src": [
+        265.8,
+        214.1,
+        301.7,
+        251.7
+      ],
+      "bbox_xyxy_model": [
+        265.8,
+        214.1,
+        301.7,
+        251.7
+      ],
+      "confidence": 0.8998,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1599.0,
+      "area_px_cross": 1680.0,
+      "area_diff_pct": 5.07,
+      "perimeter_px": 160.0,
+      "length_px": 41.0,
+      "width_px": 39.0,
+      "aspect_ratio": 1.051,
+      "circularity": 0.785,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 97%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.969,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 16,
+      "seed_id": "Seed #016",
+      "bbox_xyxy_src": [
+        304.0,
+        215.3,
+        332.7,
+        257.4
+      ],
+      "bbox_xyxy_model": [
+        304.0,
+        215.3,
+        332.7,
+        257.4
+      ],
+      "confidence": 0.5301,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1440.0,
+      "area_px_cross": 1518.0,
+      "area_diff_pct": 5.42,
+      "perimeter_px": 154.0,
+      "length_px": 45.0,
+      "width_px": 32.0,
+      "aspect_ratio": 1.406,
+      "circularity": 0.763,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 100%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 1.0,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 17,
+      "seed_id": "Seed #017",
+      "bbox_xyxy_src": [
+        168.1,
+        217.7,
+        210.4,
+        260.4
+      ],
+      "bbox_xyxy_model": [
+        168.1,
+        217.7,
+        210.4,
+        260.4
+      ],
+      "confidence": 0.8984,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1822.5,
+      "area_px_cross": 1902.0,
+      "area_diff_pct": 4.36,
+      "perimeter_px": 166.53,
+      "length_px": 45.0,
+      "width_px": 45.0,
+      "aspect_ratio": 1.0,
+      "circularity": 0.826,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.879,
+      "bbox_white_ratio": 0.878,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 18,
+      "seed_id": "Seed #018",
+      "bbox_xyxy_src": [
+        337.5,
+        219.1,
+        377.0,
+        267.1
+      ],
+      "bbox_xyxy_model": [
+        337.5,
+        219.1,
+        377.0,
+        267.1
+      ],
+      "confidence": 0.922,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 2130.0,
+      "area_px_cross": 2225.0,
+      "area_diff_pct": 4.46,
+      "perimeter_px": 189.66,
+      "length_px": 51.0,
+      "width_px": 42.0,
+      "aspect_ratio": 1.214,
+      "circularity": 0.744,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.984,
+      "bbox_white_ratio": 0.981,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 19,
+      "seed_id": "Seed #019",
+      "bbox_xyxy_src": [
+        199.4,
+        240.1,
+        238.1,
+        285.1
+      ],
+      "bbox_xyxy_model": [
+        199.4,
+        240.1,
+        238.1,
+        285.1
+      ],
+      "confidence": 0.897,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1892.5,
+      "area_px_cross": 1977.0,
+      "area_diff_pct": 4.46,
+      "perimeter_px": 172.38,
+      "length_px": 48.0,
+      "width_px": 42.0,
+      "aspect_ratio": 1.143,
+      "circularity": 0.8,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.928,
+      "bbox_white_ratio": 0.844,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 20,
+      "seed_id": "Seed #020",
+      "bbox_xyxy_src": [
+        305.4,
+        247.2,
+        349.8,
+        288.5
+      ],
+      "bbox_xyxy_model": [
+        305.4,
+        247.2,
+        349.8,
+        288.5
+      ],
+      "confidence": 0.7471,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 2112.0,
+      "area_px_cross": 2205.0,
+      "area_diff_pct": 4.4,
+      "perimeter_px": 184.0,
+      "length_px": 48.0,
+      "width_px": 44.0,
+      "aspect_ratio": 1.091,
+      "circularity": 0.784,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 91%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.908,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 21,
+      "seed_id": "Seed #021",
+      "bbox_xyxy_src": [
+        436.2,
+        247.3,
+        469.0,
+        292.9
+      ],
+      "bbox_xyxy_model": [
+        436.2,
+        247.3,
+        469.0,
+        292.9
+      ],
+      "confidence": 0.8619,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1729.0,
+      "area_px_cross": 1812.0,
+      "area_diff_pct": 4.8,
+      "perimeter_px": 166.49,
+      "length_px": 49.0,
+      "width_px": 36.0,
+      "aspect_ratio": 1.361,
+      "circularity": 0.784,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.976,
+      "bbox_white_ratio": 0.842,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 22,
+      "seed_id": "Seed #022",
+      "bbox_xyxy_src": [
+        363.8,
+        248.6,
+        403.8,
+        286.8
+      ],
+      "bbox_xyxy_model": [
+        363.8,
+        248.6,
+        403.8,
+        286.8
+      ],
+      "confidence": 0.8826,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1763.0,
+      "area_px_cross": 1848.0,
+      "area_diff_pct": 4.82,
+      "perimeter_px": 168.0,
+      "length_px": 43.0,
+      "width_px": 41.0,
+      "aspect_ratio": 1.049,
+      "circularity": 0.785,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.823,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 23,
+      "seed_id": "Seed #023",
+      "bbox_xyxy_src": [
+        239.9,
+        254.2,
+        277.3,
+        300.5
+      ],
+      "bbox_xyxy_model": [
+        239.9,
+        254.2,
+        277.3,
+        300.5
+      ],
+      "confidence": 0.8891,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1960.0,
+      "area_px_cross": 2050.0,
+      "area_diff_pct": 4.59,
+      "perimeter_px": 178.0,
+      "length_px": 49.0,
+      "width_px": 40.0,
+      "aspect_ratio": 1.225,
+      "circularity": 0.777,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.981,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 24,
+      "seed_id": "Seed #024",
+      "bbox_xyxy_src": [
+        267.4,
+        254.4,
+        306.6,
+        324.0
+      ],
+      "bbox_xyxy_model": [
+        267.4,
+        254.4,
+        306.6,
+        324.0
+      ],
+      "confidence": 0.7101,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 3139.0,
+      "area_px_cross": 3256.0,
+      "area_diff_pct": 3.73,
+      "perimeter_px": 232.0,
+      "length_px": 73.0,
+      "width_px": 43.0,
+      "aspect_ratio": 1.698,
+      "circularity": 0.733,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.981,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 25,
+      "seed_id": "Seed #025",
+      "bbox_xyxy_src": [
+        399.3,
+        270.5,
+        433.2,
+        316.4
+      ],
+      "bbox_xyxy_model": [
+        399.3,
+        270.5,
+        433.2,
+        316.4
+      ],
+      "confidence": 0.8746,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1813.0,
+      "area_px_cross": 1900.0,
+      "area_diff_pct": 4.8,
+      "perimeter_px": 172.0,
+      "length_px": 49.0,
+      "width_px": 37.0,
+      "aspect_ratio": 1.324,
+      "circularity": 0.77,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 92%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.923,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 26,
+      "seed_id": "Seed #026",
+      "bbox_xyxy_src": [
+        305.4,
+        278.7,
+        351.4,
+        309.9
+      ],
+      "bbox_xyxy_model": [
+        305.4,
+        278.7,
+        351.4,
+        309.9
+      ],
+      "confidence": 0.522,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1378.5,
+      "area_px_cross": 1490.0,
+      "area_diff_pct": 8.09,
+      "perimeter_px": 231.36,
+      "length_px": 49.0,
+      "width_px": 34.0,
+      "aspect_ratio": 1.441,
+      "circularity": 0.324,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.738,
+      "bbox_white_ratio": 0.794,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 27,
+      "seed_id": "Seed #027",
+      "bbox_xyxy_src": [
+        207.0,
+        286.2,
+        251.7,
+        330.5
+      ],
+      "bbox_xyxy_model": [
+        207.0,
+        286.2,
+        251.7,
+        330.5
+      ],
+      "confidence": 0.8734,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 2056.5,
+      "area_px_cross": 2143.0,
+      "area_diff_pct": 4.21,
+      "perimeter_px": 178.87,
+      "length_px": 48.0,
+      "width_px": 47.0,
+      "aspect_ratio": 1.021,
+      "circularity": 0.808,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.865,
+      "bbox_white_ratio": 0.873,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 28,
+      "seed_id": "Seed #028",
+      "bbox_xyxy_src": [
+        349.9,
+        287.3,
+        401.4,
+        329.1
+      ],
+      "bbox_xyxy_model": [
+        349.9,
+        287.3,
+        401.4,
+        329.1
+      ],
+      "confidence": 0.8692,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 2404.0,
+      "area_px_cross": 2506.0,
+      "area_diff_pct": 4.24,
+      "perimeter_px": 204.49,
+      "length_px": 54.0,
+      "width_px": 45.0,
+      "aspect_ratio": 1.2,
+      "circularity": 0.722,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.965,
+      "bbox_white_ratio": 0.828,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 29,
+      "seed_id": "Seed #029",
+      "bbox_xyxy_src": [
+        259.7,
+        291.5,
+        304.5,
+        324.9
+      ],
+      "bbox_xyxy_model": [
+        259.7,
+        291.5,
+        304.5,
+        324.9
+      ],
+      "confidence": 0.842,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1692.0,
+      "area_px_cross": 1776.0,
+      "area_diff_pct": 4.96,
+      "perimeter_px": 166.0,
+      "length_px": 47.0,
+      "width_px": 36.0,
+      "aspect_ratio": 1.306,
+      "circularity": 0.772,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.977,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 30,
+      "seed_id": "Seed #030",
+      "bbox_xyxy_src": [
+        305.0,
+        309.7,
+        353.5,
+        344.1
+      ],
+      "bbox_xyxy_model": [
+        305.0,
+        309.7,
+        353.5,
+        344.1
+      ],
+      "confidence": 0.8662,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1924.0,
+      "area_px_cross": 2014.0,
+      "area_diff_pct": 4.68,
+      "perimeter_px": 178.0,
+      "length_px": 52.0,
+      "width_px": 37.0,
+      "aspect_ratio": 1.405,
+      "circularity": 0.763,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 93%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.931,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 31,
+      "seed_id": "Seed #031",
+      "bbox_xyxy_src": [
+        97.6,
+        314.1,
+        140.9,
+        350.7
+      ],
+      "bbox_xyxy_model": [
+        97.6,
+        314.1,
+        140.9,
+        350.7
+      ],
+      "confidence": 0.8796,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1680.0,
+      "area_px_cross": 1757.0,
+      "area_diff_pct": 4.58,
+      "perimeter_px": 160.28,
+      "length_px": 46.0,
+      "width_px": 40.0,
+      "aspect_ratio": 1.15,
+      "circularity": 0.822,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.882,
+      "bbox_white_ratio": 0.796,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 32,
+      "seed_id": "Seed #032",
+      "bbox_xyxy_src": [
+        234.5,
+        324.1,
+        276.3,
+        363.4
+      ],
+      "bbox_xyxy_model": [
+        234.5,
+        324.1,
+        276.3,
+        363.4
+      ],
+      "confidence": 0.8923,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1890.0,
+      "area_px_cross": 1978.0,
+      "area_diff_pct": 4.66,
+      "perimeter_px": 174.0,
+      "length_px": 45.0,
+      "width_px": 42.0,
+      "aspect_ratio": 1.071,
+      "circularity": 0.784,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 93%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 1.0,
+      "bbox_white_ratio": 0.93,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 33,
+      "seed_id": "Seed #033",
+      "bbox_xyxy_src": [
+        277.1,
+        325.0,
+        314.3,
+        371.8
+      ],
+      "bbox_xyxy_model": [
+        277.1,
+        325.0,
+        314.3,
+        371.8
+      ],
+      "confidence": 0.9133,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1800.5,
+      "area_px_cross": 1918.0,
+      "area_diff_pct": 6.53,
+      "perimeter_px": 240.87,
+      "length_px": 50.0,
+      "width_px": 40.0,
+      "aspect_ratio": 1.25,
+      "circularity": 0.39,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.777,
+      "bbox_white_ratio": 0.878,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 34,
+      "seed_id": "Seed #034",
+      "bbox_xyxy_src": [
+        185.5,
+        335.8,
+        224.0,
+        375.8
+      ],
+      "bbox_xyxy_model": [
+        185.5,
+        335.8,
+        224.0,
+        375.8
+      ],
+      "confidence": 0.8995,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1599.5,
+      "area_px_cross": 1673.0,
+      "area_diff_pct": 4.6,
+      "perimeter_px": 154.53,
+      "length_px": 43.0,
+      "width_px": 41.0,
+      "aspect_ratio": 1.049,
+      "circularity": 0.842,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.89,
+      "bbox_white_ratio": 0.857,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 35,
+      "seed_id": "Seed #035",
+      "bbox_xyxy_src": [
+        320.1,
+        353.6,
+        360.4,
+        389.3
+      ],
+      "bbox_xyxy_model": [
+        320.1,
+        353.6,
+        360.4,
+        389.3
+      ],
+      "confidence": 0.844,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1564.5,
+      "area_px_cross": 1641.0,
+      "area_diff_pct": 4.89,
+      "perimeter_px": 155.56,
+      "length_px": 43.0,
+      "width_px": 38.0,
+      "aspect_ratio": 1.132,
+      "circularity": 0.812,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.954,
+      "bbox_white_ratio": 0.789,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 36,
+      "seed_id": "Seed #036",
+      "bbox_xyxy_src": [
+        234.4,
+        361.6,
+        280.1,
+        398.0
+      ],
+      "bbox_xyxy_model": [
+        234.4,
+        361.6,
+        280.1,
+        398.0
+      ],
+      "confidence": 0.9155,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1839.0,
+      "area_px_cross": 1922.0,
+      "area_diff_pct": 4.51,
+      "perimeter_px": 168.97,
+      "length_px": 49.0,
+      "width_px": 39.0,
+      "aspect_ratio": 1.256,
+      "circularity": 0.809,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.951,
+      "bbox_white_ratio": 0.868,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 6,
+      "id": 37,
+      "seed_id": "Seed #037",
+      "bbox_xyxy_src": [
+        115.1,
+        378.0,
+        162.6,
+        414.7
+      ],
+      "bbox_xyxy_model": [
+        115.1,
+        378.0,
+        162.6,
+        414.7
+      ],
+      "confidence": 0.8852,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 1863.5,
+      "area_px_cross": 1945.0,
+      "area_diff_pct": 4.37,
+      "perimeter_px": 169.7,
+      "length_px": 51.0,
+      "width_px": 40.0,
+      "aspect_ratio": 1.275,
+      "circularity": 0.813,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.87,
+      "bbox_white_ratio": 0.779,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 7,
+      "id": 1,
+      "seed_id": "Seed #001",
+      "bbox_xyxy_src": [
+        200.4,
+        93.7,
+        380.5,
+        202.5
+      ],
+      "bbox_xyxy_model": [
+        200.4,
+        93.7,
+        380.5,
+        202.5
+      ],
+      "confidence": 0.9099,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 14407.0,
+      "area_px_cross": 14625.0,
+      "area_diff_pct": 1.51,
+      "perimeter_px": 495.3,
+      "length_px": 183.0,
+      "width_px": 108.0,
+      "aspect_ratio": 1.694,
+      "circularity": 0.738,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.226,
+      "bbox_white_ratio": 0.523,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 7,
+      "id": 2,
+      "seed_id": "Seed #002",
+      "bbox_xyxy_src": [
+        432.4,
+        114.5,
+        555.5,
+        272.3
+      ],
+      "bbox_xyxy_model": [
+        432.4,
+        114.5,
+        555.5,
+        272.3
+      ],
+      "confidence": 0.9,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 14697.0,
+      "area_px_cross": 14916.0,
+      "area_diff_pct": 1.49,
+      "perimeter_px": 498.13,
+      "length_px": 184.62,
+      "width_px": 108.59,
+      "aspect_ratio": 1.7,
+      "circularity": 0.744,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.317,
+      "bbox_white_ratio": 0.325,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 7,
+      "id": 3,
+      "seed_id": "Seed #003",
+      "bbox_xyxy_src": [
+        98.2,
+        142.7,
+        207.8,
+        279.3
+      ],
+      "bbox_xyxy_model": [
+        98.2,
+        142.7,
+        207.8,
+        279.3
+      ],
+      "confidence": 0.9085,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 11378.5,
+      "area_px_cross": 11570.0,
+      "area_diff_pct": 1.68,
+      "perimeter_px": 432.78,
+      "length_px": 139.0,
+      "width_px": 113.0,
+      "aspect_ratio": 1.23,
+      "circularity": 0.763,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.381,
+      "bbox_white_ratio": 0.577,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 7,
+      "id": 4,
+      "seed_id": "Seed #004",
+      "bbox_xyxy_src": [
+        331.7,
+        271.7,
+        503.7,
+        387.8
+      ],
+      "bbox_xyxy_model": [
+        331.7,
+        271.7,
+        503.7,
+        387.8
+      ],
+      "confidence": 0.9048,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 14730.5,
+      "area_px_cross": 14947.0,
+      "area_diff_pct": 1.47,
+      "perimeter_px": 498.52,
+      "length_px": 182.53,
+      "width_px": 111.55,
+      "aspect_ratio": 1.636,
+      "circularity": 0.745,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.176,
+      "bbox_white_ratio": 0.54,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 7,
+      "id": 5,
+      "seed_id": "Seed #005",
+      "bbox_xyxy_src": [
+        121.1,
+        307.5,
+        281.3,
+        421.4
+      ],
+      "bbox_xyxy_model": [
+        121.1,
+        307.5,
+        281.3,
+        421.4
+      ],
+      "confidence": 0.9107,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 14500.0,
+      "area_px_cross": 14711.0,
+      "area_diff_pct": 1.46,
+      "perimeter_px": 477.16,
+      "length_px": 163.0,
+      "width_px": 116.0,
+      "aspect_ratio": 1.405,
+      "circularity": 0.8,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.436,
+      "bbox_white_ratio": 0.359,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 1,
+      "seed_id": "Seed #001",
+      "bbox_xyxy_src": [
+        311.4,
+        56.9,
+        398.2,
+        190.5
+      ],
+      "bbox_xyxy_model": [
+        311.4,
+        56.9,
+        398.2,
+        190.5
+      ],
+      "confidence": 0.9006,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 10487.0,
+      "area_px_cross": 10679.0,
+      "area_diff_pct": 1.83,
+      "perimeter_px": 415.14,
+      "length_px": 136.0,
+      "width_px": 90.0,
+      "aspect_ratio": 1.511,
+      "circularity": 0.765,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.626,
+      "bbox_white_ratio": 0.878,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 2,
+      "seed_id": "Seed #002",
+      "bbox_xyxy_src": [
+        170.2,
+        60.2,
+        299.7,
+        148.1
+      ],
+      "bbox_xyxy_model": [
+        170.2,
+        60.2,
+        299.7,
+        148.1
+      ],
+      "confidence": 0.9018,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 10108.0,
+      "area_px_cross": 10292.0,
+      "area_diff_pct": 1.82,
+      "perimeter_px": 399.97,
+      "length_px": 133.0,
+      "width_px": 91.0,
+      "aspect_ratio": 1.462,
+      "circularity": 0.794,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.544,
+      "bbox_white_ratio": 0.848,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 3,
+      "seed_id": "Seed #003",
+      "bbox_xyxy_src": [
+        407.7,
+        128.4,
+        505.4,
+        201.5
+      ],
+      "bbox_xyxy_model": [
+        407.7,
+        128.4,
+        505.4,
+        201.5
+      ],
+      "confidence": 0.9208,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 6558.0,
+      "area_px_cross": 6735.0,
+      "area_diff_pct": 2.7,
+      "perimeter_px": 380.17,
+      "length_px": 100.0,
+      "width_px": 77.0,
+      "aspect_ratio": 1.299,
+      "circularity": 0.57,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.716,
+      "bbox_white_ratio": 0.855,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 4,
+      "seed_id": "Seed #004",
+      "bbox_xyxy_src": [
+        172.7,
+        158.8,
+        272.0,
+        234.8
+      ],
+      "bbox_xyxy_model": [
+        172.7,
+        158.8,
+        272.0,
+        234.8
+      ],
+      "confidence": 0.902,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 6861.0,
+      "area_px_cross": 7072.0,
+      "area_diff_pct": 3.08,
+      "perimeter_px": 448.99,
+      "length_px": 102.0,
+      "width_px": 79.0,
+      "aspect_ratio": 1.291,
+      "circularity": 0.428,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.671,
+      "bbox_white_ratio": 0.86,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 5,
+      "seed_id": "Seed #005",
+      "bbox_xyxy_src": [
+        85.8,
+        181.9,
+        167.6,
+        295.4
+      ],
+      "bbox_xyxy_model": [
+        85.8,
+        181.9,
+        167.6,
+        295.4
+      ],
+      "confidence": 0.9225,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 7976.5,
+      "area_px_cross": 8137.0,
+      "area_diff_pct": 2.01,
+      "perimeter_px": 355.87,
+      "length_px": 116.0,
+      "width_px": 85.0,
+      "aspect_ratio": 1.365,
+      "circularity": 0.792,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.577,
+      "bbox_white_ratio": 0.819,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 6,
+      "seed_id": "Seed #006",
+      "bbox_xyxy_src": [
+        465.4,
+        201.1,
+        560.1,
+        309.6
+      ],
+      "bbox_xyxy_model": [
+        465.4,
+        201.1,
+        560.1,
+        309.6
+      ],
+      "confidence": 0.9016,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 9369.5,
+      "area_px_cross": 9542.0,
+      "area_diff_pct": 1.84,
+      "perimeter_px": 375.72,
+      "length_px": 112.0,
+      "width_px": 98.0,
+      "aspect_ratio": 1.143,
+      "circularity": 0.834,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 2,
+      "region_mode": "external",
+      "border_contact_ratio": 0.659,
+      "bbox_white_ratio": 0.865,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 7,
+      "seed_id": "Seed #007",
+      "bbox_xyxy_src": [
+        296.5,
+        206.3,
+        413.4,
+        291.2
+      ],
+      "bbox_xyxy_model": [
+        296.5,
+        206.3,
+        413.4,
+        291.2
+      ],
+      "confidence": 0.9298,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 9328.5,
+      "area_px_cross": 9509.0,
+      "area_diff_pct": 1.93,
+      "perimeter_px": 385.1,
+      "length_px": 120.0,
+      "width_px": 88.0,
+      "aspect_ratio": 1.364,
+      "circularity": 0.79,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 2,
+      "region_mode": "external",
+      "border_contact_ratio": 0.671,
+      "bbox_white_ratio": 0.88,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 8,
+      "seed_id": "Seed #008",
+      "bbox_xyxy_src": [
+        158.6,
+        263.1,
+        287.2,
+        347.3
+      ],
+      "bbox_xyxy_model": [
+        158.6,
+        263.1,
+        287.2,
+        347.3
+      ],
+      "confidence": 0.9047,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 9789.5,
+      "area_px_cross": 9979.0,
+      "area_diff_pct": 1.94,
+      "perimeter_px": 401.44,
+      "length_px": 131.0,
+      "width_px": 87.0,
+      "aspect_ratio": 1.506,
+      "circularity": 0.763,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 2,
+      "region_mode": "external",
+      "border_contact_ratio": 0.671,
+      "bbox_white_ratio": 0.853,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 9,
+      "seed_id": "Seed #009",
+      "bbox_xyxy_src": [
+        398.5,
+        286.6,
+        469.2,
+        393.2
+      ],
+      "bbox_xyxy_model": [
+        398.5,
+        286.6,
+        469.2,
+        393.2
+      ],
+      "confidence": 0.9054,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 6768.0,
+      "area_px_cross": 6927.0,
+      "area_diff_pct": 2.35,
+      "perimeter_px": 344.99,
+      "length_px": 109.0,
+      "width_px": 74.0,
+      "aspect_ratio": 1.473,
+      "circularity": 0.715,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 2,
+      "region_mode": "external",
+      "border_contact_ratio": 0.642,
+      "bbox_white_ratio": 0.867,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 10,
+      "seed_id": "Seed #010",
+      "bbox_xyxy_src": [
+        297.8,
+        317.7,
+        370.0,
+        423.3
+      ],
+      "bbox_xyxy_model": [
+        297.8,
+        317.7,
+        370.0,
+        423.3
+      ],
+      "confidence": 0.9249,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 6750.0,
+      "area_px_cross": 6903.0,
+      "area_diff_pct": 2.27,
+      "perimeter_px": 330.51,
+      "length_px": 108.0,
+      "width_px": 75.0,
+      "aspect_ratio": 1.44,
+      "circularity": 0.777,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.651,
+      "bbox_white_ratio": 0.832,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 8,
+      "id": 11,
+      "seed_id": "Seed #011",
+      "bbox_xyxy_src": [
+        433.0,
+        374.3,
+        465.1,
+        393.8
+      ],
+      "bbox_xyxy_model": [
+        433.0,
+        374.3,
+        465.1,
+        393.8
+      ],
+      "confidence": 0.3902,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 783.5,
+      "area_px_cross": 844.0,
+      "area_diff_pct": 7.72,
+      "perimeter_px": 121.07,
+      "length_px": 35.0,
+      "width_px": 23.0,
+      "aspect_ratio": 1.522,
+      "circularity": 0.672,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 98%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.958,
+      "bbox_white_ratio": 0.977,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 9,
+      "id": 1,
+      "seed_id": "Seed #001",
+      "bbox_xyxy_src": [
+        343.6,
+        119.3,
+        436.6,
+        187.3
+      ],
+      "bbox_xyxy_model": [
+        343.6,
+        119.3,
+        436.6,
+        187.3
+      ],
+      "confidence": 0.9163,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 6048.0,
+      "area_px_cross": 6205.0,
+      "area_diff_pct": 2.6,
+      "perimeter_px": 331.05,
+      "length_px": 96.0,
+      "width_px": 71.0,
+      "aspect_ratio": 1.352,
+      "circularity": 0.693,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.67,
+      "bbox_white_ratio": 0.72,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 9,
+      "id": 2,
+      "seed_id": "Seed #002",
+      "bbox_xyxy_src": [
+        226.3,
+        174.7,
+        301.3,
+        240.1
+      ],
+      "bbox_xyxy_model": [
+        226.3,
+        174.7,
+        301.3,
+        240.1
+      ],
+      "confidence": 0.9047,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4759.0,
+      "area_px_cross": 4919.0,
+      "area_diff_pct": 3.36,
+      "perimeter_px": 337.05,
+      "length_px": 78.0,
+      "width_px": 68.0,
+      "aspect_ratio": 1.147,
+      "circularity": 0.526,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 91%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.764,
+      "bbox_white_ratio": 0.912,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 9,
+      "id": 3,
+      "seed_id": "Seed #003",
+      "bbox_xyxy_src": [
+        277.6,
+        215.8,
+        391.8,
+        271.6
+      ],
+      "bbox_xyxy_model": [
+        277.6,
+        215.8,
+        391.8,
+        271.6
+      ],
+      "confidence": 0.8802,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 6268.5,
+      "area_px_cross": 6444.0,
+      "area_diff_pct": 2.8,
+      "perimeter_px": 367.64,
+      "length_px": 117.0,
+      "width_px": 59.0,
+      "aspect_ratio": 1.983,
+      "circularity": 0.583,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.771,
+      "bbox_white_ratio": 0.807,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 9,
+      "id": 4,
+      "seed_id": "Seed #004",
+      "bbox_xyxy_src": [
+        125.9,
+        224.6,
+        191.8,
+        297.5
+      ],
+      "bbox_xyxy_model": [
+        125.9,
+        224.6,
+        191.8,
+        297.5
+      ],
+      "confidence": 0.9339,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4379.5,
+      "area_px_cross": 4510.0,
+      "area_diff_pct": 2.98,
+      "perimeter_px": 285.92,
+      "length_px": 76.0,
+      "width_px": 69.0,
+      "aspect_ratio": 1.101,
+      "circularity": 0.673,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.571,
+      "bbox_white_ratio": 0.886,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 9,
+      "id": 5,
+      "seed_id": "Seed #005",
+      "bbox_xyxy_src": [
+        207.7,
+        240.6,
+        278.7,
+        304.5
+      ],
+      "bbox_xyxy_model": [
+        207.7,
+        240.6,
+        278.7,
+        304.5
+      ],
+      "confidence": 0.9189,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4343.0,
+      "area_px_cross": 4468.0,
+      "area_diff_pct": 2.88,
+      "perimeter_px": 264.57,
+      "length_px": 74.0,
+      "width_px": 66.0,
+      "aspect_ratio": 1.121,
+      "circularity": 0.78,
+      "status": "BROKEN_CONTOUR",
+      "status_reason": "板端二值结果在 bbox 内饱和（白色占比 92%），轮廓糊成一块，面积/长宽等于 bbox 尺寸",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.73,
+      "bbox_white_ratio": 0.92,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    },
+    {
+      "frame_id": 9,
+      "id": 6,
+      "seed_id": "Seed #006",
+      "bbox_xyxy_src": [
+        360.1,
+        313.7,
+        437.2,
+        377.1
+      ],
+      "bbox_xyxy_model": [
+        360.1,
+        313.7,
+        437.2,
+        377.1
+      ],
+      "confidence": 0.901,
+      "class_name": "seed",
+      "truncated_by_image": false,
+      "area_px": 4532.0,
+      "area_px_cross": 4670.0,
+      "area_diff_pct": 3.05,
+      "perimeter_px": 296.37,
+      "length_px": 80.0,
+      "width_px": 66.0,
+      "aspect_ratio": 1.212,
+      "circularity": 0.648,
+      "status": "OK",
+      "status_reason": "",
+      "region_count": 1,
+      "region_mode": "external",
+      "border_contact_ratio": 0.62,
+      "bbox_white_ratio": 0.897,
+      "unit": {
+        "length": "px",
+        "area": "px^2"
+      }
+    }
+  ]
+}

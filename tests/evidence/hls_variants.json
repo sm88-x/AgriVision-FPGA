@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-31",
+  "tool": "Vitis 2026.1",
+  "frames": {
+    "baseline": 5,
+    "pipelined": 6,
+    "parameterized": 40,
+    "edge_morphology": 116,
+    "configurable_pipeline": 67,
+    "integrated_pipeline": 72
+  },
+  "total": 306,
+  "all_passed": true,
+  "baseline_inputs": "five retained 256x256 image/Golden pairs; absent original references excluded"
+}

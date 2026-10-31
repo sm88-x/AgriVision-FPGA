@@ -1,0 +1,142 @@
+frame_id,image_id,image_path,species,gt_count,contact_type,lighting,capture_notes,scene_id,checked_by,reviewed_by,split,prior_ok
+
+1,soybean_sparse_001,data/datasets/seeds/raw/soybean_sparse_001.png,soybean,40,sparse,fixed_led,two touching pairs,soybean_sparse_001,a,b,dev,no
+
+2,soybean_sparse_002,data/datasets/seeds/raw/soybean_sparse_002.png,soybean,40,sparse,fixed_led,one touching pair,soybean_sparse_002,a,b,dev,no
+
+3,soybean_sparse_003,data/datasets/seeds/raw/soybean_sparse_003.png,soybean,40,sparse,fixed_led,one touching pair,soybean_sparse_003,a,b,dev,no
+
+4,soybean_sparse_004,data/datasets/seeds/raw/soybean_sparse_004.png,soybean,40,sparse,fixed_led,all seeds isolated,soybean_sparse_004,a,b,dev,yes
+
+5,soybean_sparse_005,data/datasets/seeds/raw/soybean_sparse_005.png,soybean,40,sparse,fixed_led,all seeds isolated,soybean_sparse_005,a,b,dev,yes
+
+6,soybean_sparse_006,data/datasets/seeds/raw/soybean_sparse_006.png,soybean,40,sparse,fixed_led,all seeds isolated,soybean_sparse_006,a,b,dev,yes
+
+7,soybean_sparse_007,data/datasets/seeds/raw/soybean_sparse_007.png,soybean,40,sparse,fixed_led,no additional notes recorded,soybean_sparse_007,a,b,test,no
+
+8,soybean_sparse_008,data/datasets/seeds/raw/soybean_sparse_008.png,soybean,40,sparse,fixed_led,no additional notes recorded,soybean_sparse_008,a,b,test,no
+
+9,soybean_sparse_009,data/datasets/seeds/raw/soybean_sparse_009.png,soybean,40,sparse,fixed_led,no additional notes recorded,soybean_sparse_009,a,b,test,no
+
+10,soybean_sparse_010,data/datasets/seeds/raw/soybean_sparse_010.png,soybean,40,sparse,fixed_led,no additional notes recorded,soybean_sparse_010,a,b,test,no
+
+11,soybean_pair_001,data/datasets/seeds/raw/soybean_pair_001.png,soybean,40,pair,fixed_led,five touching pairs,soybean_pair_001,a,b,dev,no
+
+12,soybean_pair_002,data/datasets/seeds/raw/soybean_pair_002.png,soybean,40,pair,fixed_led,four touching pairs,soybean_pair_002,a,b,dev,no
+
+13,soybean_pair_003,data/datasets/seeds/raw/soybean_pair_003.png,soybean,40,pair,fixed_led,three touching pairs,soybean_pair_003,a,b,dev,no
+
+14,soybean_pair_004,data/datasets/seeds/raw/soybean_pair_004.png,soybean,40,pair,fixed_led,five touching pairs,soybean_pair_004,a,b,dev,no
+
+15,soybean_pair_005,data/datasets/seeds/raw/soybean_pair_005.png,soybean,40,pair,fixed_led,five touching pairs,soybean_pair_005,a,b,dev,no
+
+16,soybean_pair_006,data/datasets/seeds/raw/soybean_pair_006.png,soybean,40,pair,fixed_led,four touching pairs,soybean_pair_006,a,b,dev,no
+
+17,soybean_pair_007,data/datasets/seeds/raw/soybean_pair_007.png,soybean,40,pair,fixed_led,no additional notes recorded,soybean_pair_007,a,b,test,no
+
+18,soybean_pair_008,data/datasets/seeds/raw/soybean_pair_008.png,soybean,40,pair,fixed_led,no additional notes recorded,soybean_pair_008,a,b,test,no
+
+19,soybean_pair_009,data/datasets/seeds/raw/soybean_pair_009.png,soybean,40,pair,fixed_led,no additional notes recorded,soybean_pair_009,a,b,test,no
+
+20,soybean_pair_010,data/datasets/seeds/raw/soybean_pair_010.png,soybean,40,pair,fixed_led,no additional notes recorded,soybean_pair_010,a,b,test,no
+
+21,soybean_multi_001,data/datasets/seeds/raw/soybean_multi_001.png,soybean,40,multi,fixed_led,fifteen touching groups,soybean_multi_001,a,b,dev,no
+
+22,soybean_multi_002,data/datasets/seeds/raw/soybean_multi_002.png,soybean,40,multi,fixed_led,eleven touching groups,soybean_multi_002,a,b,dev,no
+
+23,soybean_multi_003,data/datasets/seeds/raw/soybean_multi_003.png,soybean,40,multi,fixed_led,eleven touching groups,soybean_multi_003,a,b,dev,no
+
+24,soybean_multi_004,data/datasets/seeds/raw/soybean_multi_004.png,soybean,40,multi,fixed_led,ten touching groups,soybean_multi_004,a,b,dev,no
+
+25,soybean_multi_005,data/datasets/seeds/raw/soybean_multi_005.png,soybean,40,multi,fixed_led,eight touching groups,soybean_multi_005,a,b,dev,no
+
+26,soybean_multi_006,data/datasets/seeds/raw/soybean_multi_006.png,soybean,40,multi,fixed_led,seven touching groups,soybean_multi_006,a,b,dev,no
+
+27,soybean_multi_007,data/datasets/seeds/raw/soybean_multi_007.png,soybean,40,multi,fixed_led,no additional notes recorded,soybean_multi_007,a,b,test,no
+
+28,soybean_multi_008,data/datasets/seeds/raw/soybean_multi_008.png,soybean,40,multi,fixed_led,no additional notes recorded,soybean_multi_008,a,b,test,no
+
+29,soybean_multi_009,data/datasets/seeds/raw/soybean_multi_009.png,soybean,40,multi,fixed_led,no additional notes recorded,soybean_multi_009,a,b,test,no
+
+30,soybean_multi_010,data/datasets/seeds/raw/soybean_multi_010.png,soybean,40,multi,fixed_led,no additional notes recorded,soybean_multi_010,a,b,test,no
+
+31,mungbean_sparse_001,data/datasets/seeds/raw/mungbean_sparse_001.png,mungbean,50,sparse,fixed_led,one touching pair,mungbean_sparse_001,a,b,dev,no
+
+32,mungbean_sparse_002,data/datasets/seeds/raw/mungbean_sparse_002.png,mungbean,50,sparse,fixed_led,all seeds isolated,mungbean_sparse_002,a,b,dev,yes
+
+33,mungbean_sparse_003,data/datasets/seeds/raw/mungbean_sparse_003.png,mungbean,50,sparse,fixed_led,two touching pairs,mungbean_sparse_003,a,b,dev,no
+
+34,mungbean_sparse_004,data/datasets/seeds/raw/mungbean_sparse_004.png,mungbean,50,sparse,fixed_led,all seeds isolated,mungbean_sparse_004,a,b,test,no
+
+35,mungbean_sparse_005,data/datasets/seeds/raw/mungbean_sparse_005.png,mungbean,50,sparse,fixed_led,all seeds isolated,mungbean_sparse_005,a,b,test,no
+
+36,mungbean_touch_001,data/datasets/seeds/raw/mungbean_touch_001.png,mungbean,50,touch,fixed_led,34 touching groups,mungbean_touch_001,a,b,dev,no
+
+37,mungbean_touch_002,data/datasets/seeds/raw/mungbean_touch_002.png,mungbean,50,touch,fixed_led,28 touching groups,mungbean_touch_002,a,b,dev,no
+
+38,mungbean_touch_003,data/datasets/seeds/raw/mungbean_touch_003.png,mungbean,50,touch,fixed_led,35 touching groups,mungbean_touch_003,a,b,dev,no
+
+39,mungbean_touch_004,data/datasets/seeds/raw/mungbean_touch_004.png,mungbean,50,touch,fixed_led,41 touching groups,mungbean_touch_004,a,b,dev,no
+
+40,mungbean_touch_005,data/datasets/seeds/raw/mungbean_touch_005.png,mungbean,50,touch,fixed_led,28 touching groups,mungbean_touch_005,a,b,dev,no
+
+41,mungbean_touch_006,data/datasets/seeds/raw/mungbean_touch_006.png,mungbean,50,touch,fixed_led,26 touching groups,mungbean_touch_006,a,b,dev,no
+
+42,mungbean_touch_007,data/datasets/seeds/raw/mungbean_touch_007.png,mungbean,50,touch,fixed_led,33 touching groups,mungbean_touch_007,a,b,dev,no
+
+43,mungbean_touch_008,data/datasets/seeds/raw/mungbean_touch_008.png,mungbean,50,touch,fixed_led,17 touching groups,mungbean_touch_008,a,b,dev,no
+
+44,mungbean_touch_009,data/datasets/seeds/raw/mungbean_touch_009.png,mungbean,50,touch,fixed_led,no additional notes recorded,mungbean_touch_009,a,b,test,no
+
+45,mungbean_touch_010,data/datasets/seeds/raw/mungbean_touch_010.png,mungbean,50,touch,fixed_led,no additional notes recorded,mungbean_touch_010,a,b,test,no
+
+46,mungbean_touch_011,data/datasets/seeds/raw/mungbean_touch_011.png,mungbean,50,touch,fixed_led,no additional notes recorded,mungbean_touch_011,a,b,test,no
+
+47,mungbean_touch_012,data/datasets/seeds/raw/mungbean_touch_012.png,mungbean,50,touch,fixed_led,no additional notes recorded,mungbean_touch_012,a,b,test,no
+
+48,mungbean_touch_013,data/datasets/seeds/raw/mungbean_touch_013.png,mungbean,50,touch,fixed_led,no additional notes recorded,mungbean_touch_013,a,b,test,no
+
+49,mungbean_touch_014,data/datasets/seeds/raw/mungbean_touch_014.png,mungbean,50,touch,fixed_led,no additional notes recorded,mungbean_touch_014,a,b,test,no
+
+50,mungbean_touch_015,data/datasets/seeds/raw/mungbean_touch_015.png,mungbean,50,touch,fixed_led,no additional notes recorded,mungbean_touch_015,a,b,test,no
+
+51,redbean_sparse_001,data/datasets/seeds/raw/redbean_sparse_001.png,redbean,40,sparse,fixed_led,all seeds isolated,redbean_sparse_001,a,b,dev,yes
+
+52,redbean_sparse_002,data/datasets/seeds/raw/redbean_sparse_002.png,redbean,40,sparse,fixed_led,all seeds isolated,redbean_sparse_002,a,b,dev,yes
+
+53,redbean_sparse_003,data/datasets/seeds/raw/redbean_sparse_003.png,redbean,40,sparse,fixed_led,all seeds isolated,redbean_sparse_003,a,b,dev,yes
+
+54,redbean_sparse_004,data/datasets/seeds/raw/redbean_sparse_004.png,redbean,40,sparse,fixed_led,no additional notes recorded,redbean_sparse_004,a,b,test,no
+
+55,redbean_sparse_005,data/datasets/seeds/raw/redbean_sparse_005.png,redbean,40,sparse,fixed_led,no additional notes recorded,redbean_sparse_005,a,b,test,no
+
+56,redbean_touch_001,data/datasets/seeds/raw/redbean_touch_001.png,redbean,40,touch,fixed_led,12 touching groups,redbean_touch_001,a,b,dev,no
+
+57,redbean_touch_002,data/datasets/seeds/raw/redbean_touch_002.png,redbean,40,touch,fixed_led,15 touching groups,redbean_touch_002,a,b,dev,no
+
+58,redbean_touch_003,data/datasets/seeds/raw/redbean_touch_003.png,redbean,40,touch,fixed_led,20 touching groups,redbean_touch_003,a,b,dev,no
+
+59,redbean_touch_004,data/datasets/seeds/raw/redbean_touch_004.png,redbean,40,touch,fixed_led,17 touching groups,redbean_touch_004,a,b,dev,no
+
+60,redbean_touch_005,data/datasets/seeds/raw/redbean_touch_005.png,redbean,40,touch,fixed_led,15 touching groups,redbean_touch_005,a,b,dev,no
+
+61,redbean_touch_006,data/datasets/seeds/raw/redbean_touch_006.png,redbean,40,touch,fixed_led,23 touching groups,redbean_touch_006,a,b,dev,no
+
+62,redbean_touch_007,data/datasets/seeds/raw/redbean_touch_007.png,redbean,40,touch,fixed_led,20 touching groups,redbean_touch_007,a,b,dev,no
+
+63,redbean_touch_008,data/datasets/seeds/raw/redbean_touch_008.png,redbean,40,touch,fixed_led,16 touching groups,redbean_touch_008,a,b,dev,no
+
+64,redbean_touch_009,data/datasets/seeds/raw/redbean_touch_009.png,redbean,40,touch,fixed_led,no additional notes recorded,redbean_touch_009,a,b,test,no
+
+65,redbean_touch_010,data/datasets/seeds/raw/redbean_touch_010.png,redbean,40,touch,fixed_led,no additional notes recorded,redbean_touch_010,a,b,test,no
+
+66,redbean_touch_011,data/datasets/seeds/raw/redbean_touch_011.png,redbean,40,touch,fixed_led,no additional notes recorded,redbean_touch_011,a,b,test,no
+
+67,redbean_touch_012,data/datasets/seeds/raw/redbean_touch_012.png,redbean,40,touch,fixed_led,no additional notes recorded,redbean_touch_012,a,b,test,no
+
+68,redbean_touch_013,data/datasets/seeds/raw/redbean_touch_013.png,redbean,40,touch,fixed_led,no additional notes recorded,redbean_touch_013,a,b,test,no
+
+69,redbean_touch_014,data/datasets/seeds/raw/redbean_touch_014.png,redbean,40,touch,fixed_led,no additional notes recorded,redbean_touch_014,a,b,test,no
+
+70,redbean_touch_015,data/datasets/seeds/raw/redbean_touch_015.png,redbean,40,touch,fixed_led,no additional notes recorded,redbean_touch_015,a,b,test,no
+

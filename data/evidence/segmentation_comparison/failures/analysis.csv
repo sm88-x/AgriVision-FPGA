@@ -1,0 +1,14 @@
+image_id,species,split,gt_count,adaptive_count,absolute_error,automatic_category,unresolved_reasons,manual_instance_review,observed_limitation
+
+soybean_pair_005,soybean,dev,40,38,2,UNDER_COUNT,,PENDING,计数与GT不一致；具体实例边界需人工复核
+
+soybean_multi_002,soybean,dev,40,42,2,OVER_COUNT,UNRESOLVED: no candidate passes child geometry/area checks,PENDING,计数与GT不一致；具体实例边界需人工复核
+
+mungbean_touch_003,mungbean,dev,50,46,4,UNDER_COUNT,UNRESOLVED: no candidate passes child geometry/area checks,PENDING,小目标平面密集接触；用户确认绿豆示例无上下叠压
+
+mungbean_touch_004,mungbean,dev,50,39,11,UNDER_COUNT,UNRESOLVED: no candidate passes child geometry/area checks,PENDING,小目标平面密集接触；用户确认绿豆示例无上下叠压
+
+redbean_touch_006,redbean,dev,40,36,4,UNDER_COUNT,UNRESOLVED: no candidate passes child geometry/area checks,PENDING,计数与GT不一致；具体实例边界需人工复核
+
+redbean_touch_005,redbean,dev,40,40,0,COUNT_CORRECT_INSTANCE_FAILURE,现有proposed_v1已标UNRESOLVED；用户另确认两粒未分开,FAIL_USER_CONFIRMED,用户确认：baseline_0重复框、baseline_1过分割、proposed_v1欠分割；数量正确不代表实例正确
+

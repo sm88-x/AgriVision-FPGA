@@ -1,0 +1,13 @@
+{
+  "archive_bytes": 145680010,
+  "archive_mb_decimal": 145.68,
+  "files": 1160,
+  "rar_integrity": "PASS",
+  "exact_extraction_set_and_hashes": "PASS",
+  "sha256": "b1d67ae68ec29c0dd26afc57d346f1ab546050c40b176e6caf3476158b06be0e",
+  "code_only": true,
+  "independent_submission_materials": false,
+  "no_git_or_outputs": true,
+  "final_source_manifest_hashes": "PASS",
+  "report_and_video_files_in_archive": 0
+}

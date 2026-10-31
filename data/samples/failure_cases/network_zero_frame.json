@@ -1,0 +1,13 @@
+{
+  "schema": "agrivision.network.failure.v1",
+  "observed": "2026-10-22",
+  "source": "net",
+  "listen_port": 9100,
+  "state": "DISCONNECTED",
+  "peer": "10.68.164.113:31857",
+  "frames_received": 0,
+  "processed": 0,
+  "last_error": "对端关闭连接",
+  "root_cause": "Test-NetConnection only opened and closed the TCP port; it did not send JPEG frames",
+  "resolution": "Run capture_sender.py or run_sender.bat and keep the sender process running"
+}

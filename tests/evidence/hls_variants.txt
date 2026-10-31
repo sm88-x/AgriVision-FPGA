@@ -1,0 +1,2969 @@
+RUN: D:/vivado/2026.1/Vitis/bin/vitis-run.bat --mode hls --csim --config hls_config.cfg --work_dir <project_root>\outputs\hls_baseline
+
+****** vitis-run v2026.1 (64-bit)
+  **** SW Build 6497934 on 2026-06-16-17:22:25
+  **** Start of session at: Sat Oct 31 13:13:34 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2026.1 6493734
+
+INFO: [HLS 200-2005] Using work_dir <project_root>/outputs/hls_baseline 
+
+INFO: [HLS 200-2006] Changing directory to <project_root>/outputs
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_baseline/vitis-comp.json
+
+INFO: [HLS 200-10] Creating and opening component '<project_root>/outputs/hls_baseline'.
+
+INFO: [HLS 200-2174] Applying component config ini file ../hardware/hls/baseline/hls_config.cfg
+
+INFO: [HLS 200-1465] Applying config ini 'syn.file=src/sobel_axis.cpp' from ../hardware/hls/baseline/hls_config.cfg(6)
+
+INFO: [HLS 200-10] Adding design file '<project_root>/hardware/hls/baseline/src/sobel_axis.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb/sobel_axis_testbench.cpp' from ../hardware/hls/baseline/hls_config.cfg(7)
+
+INFO: [HLS 200-10] Adding test bench file '<project_root>/hardware/hls/baseline/tb/sobel_axis_testbench.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'syn.top=sobel_axis' from ../hardware/hls/baseline/hls_config.cfg(5)
+
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from ../hardware/hls/baseline/hls_config.cfg(1)
+
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+
+INFO: [HLS 200-1465] Applying config ini 'clock=10' from ../hardware/hls/baseline/hls_config.cfg(4)
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from ../hardware/hls/baseline/hls_config.cfg(8)
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_baseline/vitis-comp.json
+
+INFO: [SIM 211-2] *************** CSIM start ***************
+
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+
+mingw32-make: 'csim.exe' is up to date.
+
+
+
+========== airfield_gray_256x256 ==========
+
+  [open] ../../../../../data/fixtures/images/airfield_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/airfield_gray_256x256_edge_hw.bin
+
+  total_pixels     = 65536
+
+  different_pixels = 0
+
+  max_error        = 0
+
+  mean_error       = 0.00000000
+
+  protocol_errors  = 0
+
+  TLAST_count      = 1
+
+  airfield_gray_256x256: PASS
+
+
+
+========== clock_gray_256x256 ==========
+
+  [open] ../../../../../data/fixtures/images/clock_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/clock_gray_256x256_edge_hw.bin
+
+  total_pixels     = 65536
+
+  different_pixels = 0
+
+  max_error        = 0
+
+  mean_error       = 0.00000000
+
+  protocol_errors  = 0
+
+  TLAST_count      = 1
+
+  clock_gray_256x256: PASS
+
+
+
+========== plane_gray_256x256 ==========
+
+  [open] ../../../../../data/fixtures/images/plane_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plane_gray_256x256_edge_hw.bin
+
+  total_pixels     = 65536
+
+  different_pixels = 0
+
+  max_error        = 0
+
+  mean_error       = 0.00000000
+
+  protocol_errors  = 0
+
+  TLAST_count      = 1
+
+  plane_gray_256x256: PASS
+
+
+
+========== plant_a_256x256 ==========
+
+  [open] ../../../../../data/fixtures/images/plant_a_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plant_a_256x256_edge_hw.bin
+
+  total_pixels     = 65536
+
+  different_pixels = 0
+
+  max_error        = 0
+
+  mean_error       = 0.00000000
+
+  protocol_errors  = 0
+
+  TLAST_count      = 1
+
+  plant_a_256x256: PASS
+
+
+
+========== plant_b_256x256 ==========
+
+  [open] ../../../../../data/fixtures/images/plant_b_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plant_b_256x256_edge_hw.bin
+
+  total_pixels     = 65536
+
+  different_pixels = 0
+
+  max_error        = 0
+
+  mean_error       = 0.00000000
+
+  protocol_errors  = 0
+
+  TLAST_count      = 1
+
+  plant_b_256x256: PASS
+
+
+
+ALL PASS: 5 frames, pixels and AXIS sidebands verified
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 65536
+
+INFO: [SIM 211-1] CSim done with 0 errors.
+
+INFO: [SIM 211-3] *************** CSIM finish ***************
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 2.468 seconds; peak allocated memory: 168.098 MB.
+
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 6s
+RUN: D:/vivado/2026.1/Vitis/bin/vitis-run.bat --mode hls --csim --config hls_config.cfg --work_dir <project_root>\outputs\hls_pipelined
+
+****** vitis-run v2026.1 (64-bit)
+  **** SW Build 6497934 on 2026-06-16-17:22:25
+  **** Start of session at: Sat Oct 31 13:13:50 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2026.1 6493734
+
+INFO: [HLS 200-2005] Using work_dir <project_root>/outputs/hls_pipelined 
+
+INFO: [HLS 200-2006] Changing directory to <project_root>/outputs
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_pipelined/vitis-comp.json
+
+INFO: [HLS 200-10] Creating and opening component '<project_root>/outputs/hls_pipelined'.
+
+INFO: [HLS 200-2174] Applying component config ini file ../hardware/hls/pipelined/hls_config.cfg
+
+INFO: [HLS 200-1465] Applying config ini 'syn.file=src/sobel_pipelined.cpp' from ../hardware/hls/pipelined/hls_config.cfg(6)
+
+INFO: [HLS 200-10] Adding design file '<project_root>/hardware/hls/pipelined/src/sobel_pipelined.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb/sobel_pipelined_testbench.cpp' from ../hardware/hls/pipelined/hls_config.cfg(7)
+
+INFO: [HLS 200-10] Adding test bench file '<project_root>/hardware/hls/pipelined/tb/sobel_pipelined_testbench.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'syn.top=sobel_v3' from ../hardware/hls/pipelined/hls_config.cfg(5)
+
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from ../hardware/hls/pipelined/hls_config.cfg(1)
+
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+
+INFO: [HLS 200-1465] Applying config ini 'clock=10' from ../hardware/hls/pipelined/hls_config.cfg(4)
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from ../hardware/hls/pipelined/hls_config.cfg(8)
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_pipelined/vitis-comp.json
+
+INFO: [SIM 211-2] *************** CSIM start ***************
+
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+
+mingw32-make: 'csim.exe' is up to date.
+
+
+
+========== Round 1/2 ==========
+
+
+
+[Frame 1] airfield_gray_256x256
+
+  [open] ../../../../../data/fixtures/images/airfield_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/airfield_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256: PASS
+
+
+
+[Frame 2] clock_gray_256x256
+
+  [open] ../../../../../data/fixtures/images/clock_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/clock_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256: PASS
+
+
+
+[Frame 3] plane_gray_256x256
+
+  [open] ../../../../../data/fixtures/images/plane_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plane_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256: PASS
+
+
+
+========== Round 2/2 ==========
+
+
+
+[Frame 4] airfield_gray_256x256
+
+  [open] ../../../../../data/fixtures/images/airfield_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/airfield_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256: PASS
+
+
+
+[Frame 5] clock_gray_256x256
+
+  [open] ../../../../../data/fixtures/images/clock_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/clock_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256: PASS
+
+
+
+[Frame 6] plane_gray_256x256
+
+  [open] ../../../../../data/fixtures/images/plane_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plane_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256: PASS
+
+
+
+ALL PASS: 6 frames, 65536 pixels per frame
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 65536
+
+INFO: [SIM 211-1] CSim done with 0 errors.
+
+INFO: [SIM 211-3] *************** CSIM finish ***************
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 2.514 seconds; peak allocated memory: 168.938 MB.
+
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 6s
+RUN: D:/vivado/2026.1/Vitis/bin/vitis-run.bat --mode hls --csim --config hls_config.cfg --work_dir <project_root>\outputs\hls_parameterized
+
+****** vitis-run v2026.1 (64-bit)
+  **** SW Build 6497934 on 2026-06-16-17:22:25
+  **** Start of session at: Sat Oct 31 13:14:02 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2026.1 6493734
+
+INFO: [HLS 200-2005] Using work_dir <project_root>/outputs/hls_parameterized 
+
+INFO: [HLS 200-2006] Changing directory to <project_root>/outputs
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_parameterized/vitis-comp.json
+
+INFO: [HLS 200-10] Creating and opening component '<project_root>/outputs/hls_parameterized'.
+
+INFO: [HLS 200-2174] Applying component config ini file ../hardware/hls/parameterized/hls_config.cfg
+
+INFO: [HLS 200-1465] Applying config ini 'syn.file=src/sobel_pipelined.cpp' from ../hardware/hls/parameterized/hls_config.cfg(6)
+
+INFO: [HLS 200-10] Adding design file '<project_root>/hardware/hls/parameterized/src/sobel_pipelined.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb/sobel_pipelined_testbench.cpp' from ../hardware/hls/parameterized/hls_config.cfg(7)
+
+INFO: [HLS 200-10] Adding test bench file '<project_root>/hardware/hls/parameterized/tb/sobel_pipelined_testbench.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'syn.top=sobel_v3' from ../hardware/hls/parameterized/hls_config.cfg(5)
+
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from ../hardware/hls/parameterized/hls_config.cfg(1)
+
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+
+INFO: [HLS 200-1465] Applying config ini 'clock=10' from ../hardware/hls/parameterized/hls_config.cfg(4)
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from ../hardware/hls/parameterized/hls_config.cfg(8)
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_parameterized/vitis-comp.json
+
+INFO: [SIM 211-2] *************** CSIM start ***************
+
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+
+mingw32-make: 'csim.exe' is up to date.
+
+
+
+========== Round 1/2 ==========
+
+  [open] ../../../../../data/fixtures/images/airfield_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/airfield_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 1] airfield_gray_256x256_m0_t0 (256x256, mode=0, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 2] airfield_gray_256x256_m0_t80 (256x256, mode=0, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 3] airfield_gray_256x256_m1_t0 (256x256, mode=1, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 4] airfield_gray_256x256_m1_t80 (256x256, mode=1, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/clock_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/clock_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 5] clock_gray_256x256_m0_t0 (256x256, mode=0, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 6] clock_gray_256x256_m0_t80 (256x256, mode=0, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 7] clock_gray_256x256_m1_t0 (256x256, mode=1, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 8] clock_gray_256x256_m1_t80 (256x256, mode=1, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/plane_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plane_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 9] plane_gray_256x256_m0_t0 (256x256, mode=0, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 10] plane_gray_256x256_m0_t80 (256x256, mode=0, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 11] plane_gray_256x256_m1_t0 (256x256, mode=1, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 12] plane_gray_256x256_m1_t80 (256x256, mode=1, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t80: PASS
+
+
+
+[Frame 13] synth_320x240_s1001_m0_t0 (320x240, mode=0, thr=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s1001_m0_t0: PASS
+
+
+
+[Frame 14] synth_320x240_s1001_m1_t0 (320x240, mode=1, thr=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s1001_m1_t0: PASS
+
+
+
+[Frame 15] synth_320x240_s1001_m1_t120 (320x240, mode=1, thr=120)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s1001_m1_t120: PASS
+
+
+
+[Frame 16] synth_640x480_s2002_m0_t0 (640x480, mode=0, thr=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s2002_m0_t0: PASS
+
+
+
+[Frame 17] synth_640x480_s2002_m0_t500 (640x480, mode=0, thr=500)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s2002_m0_t500: PASS
+
+
+
+[Frame 18] synth_255x255_s3003_m0_t0 (255x255, mode=0, thr=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s3003_m0_t0: PASS
+
+
+
+[Frame 19] synth_255x255_s3003_m1_t0 (255x255, mode=1, thr=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s3003_m1_t0: PASS
+
+
+
+[Frame 20] synth_255x255_s3003_m0_t255 (255x255, mode=0, thr=255)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s3003_m0_t255: PASS
+
+
+
+========== Round 2/2 ==========
+
+  [open] ../../../../../data/fixtures/images/airfield_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/airfield_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 21] airfield_gray_256x256_m0_t0 (256x256, mode=0, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 22] airfield_gray_256x256_m0_t80 (256x256, mode=0, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 23] airfield_gray_256x256_m1_t0 (256x256, mode=1, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 24] airfield_gray_256x256_m1_t80 (256x256, mode=1, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/clock_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/clock_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 25] clock_gray_256x256_m0_t0 (256x256, mode=0, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 26] clock_gray_256x256_m0_t80 (256x256, mode=0, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 27] clock_gray_256x256_m1_t0 (256x256, mode=1, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 28] clock_gray_256x256_m1_t80 (256x256, mode=1, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/plane_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plane_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 29] plane_gray_256x256_m0_t0 (256x256, mode=0, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 30] plane_gray_256x256_m0_t80 (256x256, mode=0, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 31] plane_gray_256x256_m1_t0 (256x256, mode=1, thr=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 32] plane_gray_256x256_m1_t80 (256x256, mode=1, thr=80)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t80: PASS
+
+
+
+[Frame 33] synth_320x240_s2002_m0_t0 (320x240, mode=0, thr=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s2002_m0_t0: PASS
+
+
+
+[Frame 34] synth_320x240_s2002_m1_t0 (320x240, mode=1, thr=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s2002_m1_t0: PASS
+
+
+
+[Frame 35] synth_320x240_s2002_m1_t120 (320x240, mode=1, thr=120)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s2002_m1_t120: PASS
+
+
+
+[Frame 36] synth_640x480_s4004_m0_t0 (640x480, mode=0, thr=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s4004_m0_t0: PASS
+
+
+
+[Frame 37] synth_640x480_s4004_m0_t500 (640x480, mode=0, thr=500)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s4004_m0_t500: PASS
+
+
+
+[Frame 38] synth_255x255_s6006_m0_t0 (255x255, mode=0, thr=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s6006_m0_t0: PASS
+
+
+
+[Frame 39] synth_255x255_s6006_m1_t0 (255x255, mode=1, thr=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s6006_m1_t0: PASS
+
+
+
+[Frame 40] synth_255x255_s6006_m0_t255 (255x255, mode=0, thr=255)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s6006_m0_t255: PASS
+
+
+
+ALL PASS: 40 frames across 2 rounds
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 307200
+
+INFO: [SIM 211-1] CSim done with 0 errors.
+
+INFO: [SIM 211-3] *************** CSIM finish ***************
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 6.158 seconds; peak allocated memory: 168.254 MB.
+
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 9s
+RUN: D:/vivado/2026.1/Vitis/bin/vitis-run.bat --mode hls --csim --config hls_config.cfg --work_dir <project_root>\outputs\hls_edge_morphology
+
+****** vitis-run v2026.1 (64-bit)
+  **** SW Build 6497934 on 2026-06-16-17:22:25
+  **** Start of session at: Sat Oct 31 13:14:21 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2026.1 6493734
+
+INFO: [HLS 200-2005] Using work_dir <project_root>/outputs/hls_edge_morphology 
+
+INFO: [HLS 200-2006] Changing directory to <project_root>/outputs
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_edge_morphology/vitis-comp.json
+
+INFO: [HLS 200-10] Creating and opening component '<project_root>/outputs/hls_edge_morphology'.
+
+INFO: [HLS 200-2174] Applying component config ini file ../hardware/hls/legacy/edge_morphology/hls_config.cfg
+
+INFO: [HLS 200-1465] Applying config ini 'syn.file=src/sobel_morph.cpp' from ../hardware/hls/legacy/edge_morphology/hls_config.cfg(6)
+
+INFO: [HLS 200-10] Adding design file '<project_root>/hardware/hls/legacy/edge_morphology/src/sobel_morph.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb/sobel_morph_testbench.cpp' from ../hardware/hls/legacy/edge_morphology/hls_config.cfg(7)
+
+INFO: [HLS 200-10] Adding test bench file '<project_root>/hardware/hls/legacy/edge_morphology/tb/sobel_morph_testbench.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'syn.top=sobel_v4' from ../hardware/hls/legacy/edge_morphology/hls_config.cfg(5)
+
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from ../hardware/hls/legacy/edge_morphology/hls_config.cfg(1)
+
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+
+INFO: [HLS 200-1465] Applying config ini 'clock=10' from ../hardware/hls/legacy/edge_morphology/hls_config.cfg(4)
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from ../hardware/hls/legacy/edge_morphology/hls_config.cfg(8)
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_edge_morphology/vitis-comp.json
+
+INFO: [SIM 211-2] *************** CSIM start ***************
+
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+
+   Compiling ../../../../../hardware/hls/legacy/edge_morphology/tb/sobel_morph_testbench.cpp in debug mode
+   Generating csim.exe
+In file included from ../../../../../hardware/hls/legacy/edge_morphology/tb/sobel_morph_testbench.cpp:87:
+In file included from D:/vivado/2026.1/Vitis/include\ap_axi_sdata.h:15:
+In file included from D:/vivado/2026.1/Vitis/include/ap_int.h:10:
+In file included from D:/vivado/2026.1/Vitis/include\etc/ap_common.h:668:
+In file included from D:/vivado/2026.1/Vitis/include\etc/ap_private.h:68:
+In file included from D:/vivado/2026.1/Vitis/include\hls_half.h:26:
+In file included from D:/vivado/2026.1/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from D:/vivado/2026.1/Vitis/include\hls_fpo.h:140:
+In file included from D:/vivado/2026.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+D:/vivado/2026.1/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+D:/vivado/2026.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+
+
+========== Round 1/2 ==========
+
+  [open] ../../../../../data/fixtures/images/airfield_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/airfield_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 1] airfield_gray_256x256_m0_t0 (256x256, mode=0, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 2] airfield_gray_256x256_m0_t80 (256x256, mode=0, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 3] airfield_gray_256x256_m1_t0 (256x256, mode=1, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 4] airfield_gray_256x256_m1_t80 (256x256, mode=1, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/clock_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/clock_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 5] clock_gray_256x256_m0_t0 (256x256, mode=0, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 6] clock_gray_256x256_m0_t80 (256x256, mode=0, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 7] clock_gray_256x256_m1_t0 (256x256, mode=1, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 8] clock_gray_256x256_m1_t80 (256x256, mode=1, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/plane_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plane_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 9] plane_gray_256x256_m0_t0 (256x256, mode=0, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 10] plane_gray_256x256_m0_t80 (256x256, mode=0, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 11] plane_gray_256x256_m1_t0 (256x256, mode=1, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 12] plane_gray_256x256_m1_t80 (256x256, mode=1, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t80: PASS
+
+
+
+[Frame 13] synth_320x240_s1001_m0_t0 (320x240, mode=0, thr=0, morph=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s1001_m0_t0: PASS
+
+
+
+[Frame 14] synth_320x240_s1001_m1_t0 (320x240, mode=1, thr=0, morph=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s1001_m1_t0: PASS
+
+
+
+[Frame 15] synth_320x240_s1001_m1_t120 (320x240, mode=1, thr=120, morph=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s1001_m1_t120: PASS
+
+
+
+[Frame 16] synth_640x480_s2002_m0_t0 (640x480, mode=0, thr=0, morph=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s2002_m0_t0: PASS
+
+
+
+[Frame 17] synth_640x480_s2002_m0_t500 (640x480, mode=0, thr=500, morph=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s2002_m0_t500: PASS
+
+
+
+[Frame 18] synth_255x255_s3003_m0_t0 (255x255, mode=0, thr=0, morph=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s3003_m0_t0: PASS
+
+
+
+[Frame 19] synth_255x255_s3003_m1_t0 (255x255, mode=1, thr=0, morph=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s3003_m1_t0: PASS
+
+
+
+[Frame 20] synth_255x255_s3003_m0_t255 (255x255, mode=0, thr=255, morph=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s3003_m0_t255: PASS
+
+
+
+[Frame 21] morph_all0_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_256x256_m1: PASS
+
+
+
+[Frame 22] morph_all0_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_256x256_m2: PASS
+
+
+
+[Frame 23] morph_all0_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_320x240_m1: PASS
+
+
+
+[Frame 24] morph_all0_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_320x240_m2: PASS
+
+
+
+[Frame 25] morph_all0_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_640x480_m1: PASS
+
+
+
+[Frame 26] morph_all0_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_640x480_m2: PASS
+
+
+
+[Frame 27] morph_all255_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_256x256_m1: PASS
+
+
+
+[Frame 28] morph_all255_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_256x256_m2: PASS
+
+
+
+[Frame 29] morph_all255_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_320x240_m1: PASS
+
+
+
+[Frame 30] morph_all255_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_320x240_m2: PASS
+
+
+
+[Frame 31] morph_all255_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_640x480_m1: PASS
+
+
+
+[Frame 32] morph_all255_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_640x480_m2: PASS
+
+
+
+[Frame 33] morph_center_dot_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_256x256_m1: PASS
+
+
+
+[Frame 34] morph_center_dot_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_256x256_m2: PASS
+
+
+
+[Frame 35] morph_center_dot_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_320x240_m1: PASS
+
+
+
+[Frame 36] morph_center_dot_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_320x240_m2: PASS
+
+
+
+[Frame 37] morph_center_dot_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_640x480_m1: PASS
+
+
+
+[Frame 38] morph_center_dot_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_640x480_m2: PASS
+
+
+
+[Frame 39] morph_center_3x3_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_256x256_m1: PASS
+
+
+
+[Frame 40] morph_center_3x3_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_256x256_m2: PASS
+
+
+
+[Frame 41] morph_center_3x3_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_320x240_m1: PASS
+
+
+
+[Frame 42] morph_center_3x3_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_320x240_m2: PASS
+
+
+
+[Frame 43] morph_center_3x3_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_640x480_m1: PASS
+
+
+
+[Frame 44] morph_center_3x3_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_640x480_m2: PASS
+
+
+
+[Frame 45] morph_border_blob_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_256x256_m1: PASS
+
+
+
+[Frame 46] morph_border_blob_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_256x256_m2: PASS
+
+
+
+[Frame 47] morph_border_blob_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_320x240_m1: PASS
+
+
+
+[Frame 48] morph_border_blob_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_320x240_m2: PASS
+
+
+
+[Frame 49] morph_border_blob_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_640x480_m1: PASS
+
+
+
+[Frame 50] morph_border_blob_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_640x480_m2: PASS
+
+
+
+[Frame 51] morph_rand_bin_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_256x256_m1: PASS
+
+
+
+[Frame 52] morph_rand_bin_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_256x256_m2: PASS
+
+
+
+[Frame 53] morph_rand_bin_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_320x240_m1: PASS
+
+
+
+[Frame 54] morph_rand_bin_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_320x240_m2: PASS
+
+
+
+[Frame 55] morph_rand_bin_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_640x480_m1: PASS
+
+
+
+[Frame 56] morph_rand_bin_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_640x480_m2: PASS
+
+
+
+[Frame 57] morph_randgray_320x240_m1 (320x240, mode=0, thr=0, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_randgray_320x240_m1: PASS
+
+
+
+[Frame 58] morph_randgray_320x240_m2 (320x240, mode=0, thr=0, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_randgray_320x240_m2: PASS
+
+
+
+========== Round 2/2 ==========
+
+  [open] ../../../../../data/fixtures/images/airfield_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/airfield_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 59] airfield_gray_256x256_m0_t0 (256x256, mode=0, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 60] airfield_gray_256x256_m0_t80 (256x256, mode=0, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 61] airfield_gray_256x256_m1_t0 (256x256, mode=1, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 62] airfield_gray_256x256_m1_t80 (256x256, mode=1, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  airfield_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/clock_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/clock_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 63] clock_gray_256x256_m0_t0 (256x256, mode=0, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 64] clock_gray_256x256_m0_t80 (256x256, mode=0, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 65] clock_gray_256x256_m1_t0 (256x256, mode=1, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 66] clock_gray_256x256_m1_t80 (256x256, mode=1, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  clock_gray_256x256_m1_t80: PASS
+
+  [open] ../../../../../data/fixtures/images/plane_gray_256x256.bin
+
+  [open] ../../../../../data/fixtures/golden/plane_gray_256x256_edge_hw.bin
+
+  Golden: 254x254 padded to 256x256
+
+
+
+[Frame 67] plane_gray_256x256_m0_t0 (256x256, mode=0, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t0: PASS
+
+
+
+[Frame 68] plane_gray_256x256_m0_t80 (256x256, mode=0, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m0_t80: PASS
+
+
+
+[Frame 69] plane_gray_256x256_m1_t0 (256x256, mode=1, thr=0, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t0: PASS
+
+
+
+[Frame 70] plane_gray_256x256_m1_t80 (256x256, mode=1, thr=80, morph=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  plane_gray_256x256_m1_t80: PASS
+
+
+
+[Frame 71] synth_320x240_s2002_m0_t0 (320x240, mode=0, thr=0, morph=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s2002_m0_t0: PASS
+
+
+
+[Frame 72] synth_320x240_s2002_m1_t0 (320x240, mode=1, thr=0, morph=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s2002_m1_t0: PASS
+
+
+
+[Frame 73] synth_320x240_s2002_m1_t120 (320x240, mode=1, thr=120, morph=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_320x240_s2002_m1_t120: PASS
+
+
+
+[Frame 74] synth_640x480_s4004_m0_t0 (640x480, mode=0, thr=0, morph=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s4004_m0_t0: PASS
+
+
+
+[Frame 75] synth_640x480_s4004_m0_t500 (640x480, mode=0, thr=500, morph=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_640x480_s4004_m0_t500: PASS
+
+
+
+[Frame 76] synth_255x255_s6006_m0_t0 (255x255, mode=0, thr=0, morph=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s6006_m0_t0: PASS
+
+
+
+[Frame 77] synth_255x255_s6006_m1_t0 (255x255, mode=1, thr=0, morph=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s6006_m1_t0: PASS
+
+
+
+[Frame 78] synth_255x255_s6006_m0_t255 (255x255, mode=0, thr=255, morph=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  synth_255x255_s6006_m0_t255: PASS
+
+
+
+[Frame 79] morph_all0_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_256x256_m1: PASS
+
+
+
+[Frame 80] morph_all0_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_256x256_m2: PASS
+
+
+
+[Frame 81] morph_all0_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_320x240_m1: PASS
+
+
+
+[Frame 82] morph_all0_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_320x240_m2: PASS
+
+
+
+[Frame 83] morph_all0_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_640x480_m1: PASS
+
+
+
+[Frame 84] morph_all0_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all0_640x480_m2: PASS
+
+
+
+[Frame 85] morph_all255_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_256x256_m1: PASS
+
+
+
+[Frame 86] morph_all255_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_256x256_m2: PASS
+
+
+
+[Frame 87] morph_all255_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_320x240_m1: PASS
+
+
+
+[Frame 88] morph_all255_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_320x240_m2: PASS
+
+
+
+[Frame 89] morph_all255_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_640x480_m1: PASS
+
+
+
+[Frame 90] morph_all255_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_all255_640x480_m2: PASS
+
+
+
+[Frame 91] morph_center_dot_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_256x256_m1: PASS
+
+
+
+[Frame 92] morph_center_dot_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_256x256_m2: PASS
+
+
+
+[Frame 93] morph_center_dot_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_320x240_m1: PASS
+
+
+
+[Frame 94] morph_center_dot_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_320x240_m2: PASS
+
+
+
+[Frame 95] morph_center_dot_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_640x480_m1: PASS
+
+
+
+[Frame 96] morph_center_dot_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_dot_640x480_m2: PASS
+
+
+
+[Frame 97] morph_center_3x3_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_256x256_m1: PASS
+
+
+
+[Frame 98] morph_center_3x3_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_256x256_m2: PASS
+
+
+
+[Frame 99] morph_center_3x3_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_320x240_m1: PASS
+
+
+
+[Frame 100] morph_center_3x3_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_320x240_m2: PASS
+
+
+
+[Frame 101] morph_center_3x3_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_640x480_m1: PASS
+
+
+
+[Frame 102] morph_center_3x3_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_center_3x3_640x480_m2: PASS
+
+
+
+[Frame 103] morph_border_blob_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_256x256_m1: PASS
+
+
+
+[Frame 104] morph_border_blob_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_256x256_m2: PASS
+
+
+
+[Frame 105] morph_border_blob_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_320x240_m1: PASS
+
+
+
+[Frame 106] morph_border_blob_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_320x240_m2: PASS
+
+
+
+[Frame 107] morph_border_blob_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_640x480_m1: PASS
+
+
+
+[Frame 108] morph_border_blob_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_border_blob_640x480_m2: PASS
+
+
+
+[Frame 109] morph_rand_bin_256x256_m1 (256x256, mode=0, thr=80, morph=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_256x256_m1: PASS
+
+
+
+[Frame 110] morph_rand_bin_256x256_m2 (256x256, mode=0, thr=80, morph=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_256x256_m2: PASS
+
+
+
+[Frame 111] morph_rand_bin_320x240_m1 (320x240, mode=0, thr=80, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_320x240_m1: PASS
+
+
+
+[Frame 112] morph_rand_bin_320x240_m2 (320x240, mode=0, thr=80, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_320x240_m2: PASS
+
+
+
+[Frame 113] morph_rand_bin_640x480_m1 (640x480, mode=0, thr=80, morph=1)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_640x480_m1: PASS
+
+
+
+[Frame 114] morph_rand_bin_640x480_m2 (640x480, mode=0, thr=80, morph=2)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_rand_bin_640x480_m2: PASS
+
+
+
+[Frame 115] morph_randgray_320x240_m1 (320x240, mode=0, thr=0, morph=1)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_randgray_320x240_m1: PASS
+
+
+
+[Frame 116] morph_randgray_320x240_m2 (320x240, mode=0, thr=0, morph=2)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  morph_randgray_320x240_m2: PASS
+
+
+
+ALL PASS: 116 frames across 2 rounds
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 307200
+
+INFO: [SIM 211-1] CSim done with 0 errors.
+
+INFO: [SIM 211-3] *************** CSIM finish ***************
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 18.073 seconds; peak allocated memory: 167.586 MB.
+
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 21s
+RUN: D:/vivado/2026.1/Vitis/bin/vitis-run.bat --mode hls --csim --config hls_config.cfg --work_dir <project_root>\outputs\hls_configurable_pipeline
+
+****** vitis-run v2026.1 (64-bit)
+  **** SW Build 6497934 on 2026-06-16-17:22:25
+  **** Start of session at: Sat Oct 31 13:14:48 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2026.1 6493734
+
+INFO: [HLS 200-2005] Using work_dir <project_root>/outputs/hls_configurable_pipeline 
+
+INFO: [HLS 200-2006] Changing directory to <project_root>/outputs
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_configurable_pipeline/vitis-comp.json
+
+INFO: [HLS 200-10] Creating and opening component '<project_root>/outputs/hls_configurable_pipeline'.
+
+INFO: [HLS 200-2174] Applying component config ini file ../hardware/hls/legacy/configurable_pipeline/hls_config.cfg
+
+INFO: [HLS 200-1465] Applying config ini 'syn.file=src/sobel_v4_pipeline.cpp' from ../hardware/hls/legacy/configurable_pipeline/hls_config.cfg(6)
+
+INFO: [HLS 200-10] Adding design file '<project_root>/hardware/hls/legacy/configurable_pipeline/src/sobel_v4_pipeline.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=tb/sobel_v4_pipeline_testbench.cpp' from ../hardware/hls/legacy/configurable_pipeline/hls_config.cfg(7)
+
+INFO: [HLS 200-10] Adding test bench file '<project_root>/hardware/hls/legacy/configurable_pipeline/tb/sobel_v4_pipeline_testbench.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'syn.top=sobel_v4_pipeline' from ../hardware/hls/legacy/configurable_pipeline/hls_config.cfg(5)
+
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from ../hardware/hls/legacy/configurable_pipeline/hls_config.cfg(1)
+
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+
+INFO: [HLS 200-1465] Applying config ini 'clock=10' from ../hardware/hls/legacy/configurable_pipeline/hls_config.cfg(4)
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from ../hardware/hls/legacy/configurable_pipeline/hls_config.cfg(8)
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_configurable_pipeline/vitis-comp.json
+
+INFO: [SIM 211-2] *************** CSIM start ***************
+
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+
+   Compiling ../../../../../hardware/hls/legacy/configurable_pipeline/tb/sobel_v4_pipeline_testbench.cpp in debug mode
+   Compiling ../../../../../hardware/hls/legacy/configurable_pipeline/src/sobel_v4_pipeline.cpp in debug mode
+   Generating csim.exe
+In file included from ../../../../../hardware/hls/legacy/configurable_pipeline/tb/sobel_v4_pipeline_testbench.cpp:75:
+In file included from D:/vivado/2026.1/Vitis/include\ap_axi_sdata.h:15:
+In file included from D:/vivado/2026.1/Vitis/include/ap_int.h:10:
+In file included from D:/vivado/2026.1/Vitis/include\etc/ap_common.h:668:
+In file included from D:/vivado/2026.1/Vitis/include\etc/ap_private.h:68:
+In file included from D:/vivado/2026.1/Vitis/include\hls_half.h:26:
+In file included from D:/vivado/2026.1/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from D:/vivado/2026.1/Vitis/include\hls_fpo.h:140:
+In file included from D:/vivado/2026.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+D:/vivado/2026.1/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+D:/vivado/2026.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../../hardware/hls/legacy/configurable_pipeline/src/sobel_v4_pipeline.cpp:97:
+In file included from D:/vivado/2026.1/Vitis/include\ap_axi_sdata.h:15:
+In file included from D:/vivado/2026.1/Vitis/include/ap_int.h:10:
+In file included from D:/vivado/2026.1/Vitis/include\etc/ap_common.h:668:
+In file included from D:/vivado/2026.1/Vitis/include\etc/ap_private.h:68:
+In file included from D:/vivado/2026.1/Vitis/include\hls_half.h:26:
+In file included from D:/vivado/2026.1/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from D:/vivado/2026.1/Vitis/include\hls_fpo.h:140:
+In file included from D:/vivado/2026.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+D:/vivado/2026.1/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+D:/vivado/2026.1/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+
+
+[Frame 1] v4regress_synth_320x240_m0_t0 (320x240, mode=0, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_320x240_m0_t0: PASS
+
+
+
+[Frame 2] v4regress_synth_320x240_m1_t0 (320x240, mode=1, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_320x240_m1_t0: PASS
+
+
+
+[Frame 3] v4regress_synth_320x240_m1_t120 (320x240, mode=1, thr=120, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_320x240_m1_t120: PASS
+
+
+
+[Frame 4] v4regress_synth_640x480_m0_t0 (640x480, mode=0, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_640x480_m0_t0: PASS
+
+
+
+[Frame 5] v4regress_synth_640x480_m0_t500 (640x480, mode=0, thr=500, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_640x480_m0_t500: PASS
+
+
+
+[Frame 6] v4regress_synth_255x255_m0_t0 (255x255, mode=0, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_255x255_m0_t0: PASS
+
+
+
+[Frame 7] v4regress_synth_255x255_m1_t0 (255x255, mode=1, thr=0, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_255x255_m1_t0: PASS
+
+
+
+[Frame 8] v4regress_synth_255x255_m0_t255 (255x255, mode=0, thr=255, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=65025, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_synth_255x255_m0_t255: PASS
+
+
+
+[Frame 9] v4regress_morph_all0_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_256x256_m1: PASS
+
+
+
+[Frame 10] v4regress_morph_all0_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_256x256_m2: PASS
+
+
+
+[Frame 11] v4regress_morph_all0_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_640x480_m1: PASS
+
+
+
+[Frame 12] v4regress_morph_all0_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all0_640x480_m2: PASS
+
+
+
+[Frame 13] v4regress_morph_all255_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_256x256_m1: PASS
+
+
+
+[Frame 14] v4regress_morph_all255_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_256x256_m2: PASS
+
+
+
+[Frame 15] v4regress_morph_all255_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_640x480_m1: PASS
+
+
+
+[Frame 16] v4regress_morph_all255_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_all255_640x480_m2: PASS
+
+
+
+[Frame 17] v4regress_morph_center_dot_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_256x256_m1: PASS
+
+
+
+[Frame 18] v4regress_morph_center_dot_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_256x256_m2: PASS
+
+
+
+[Frame 19] v4regress_morph_center_dot_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_640x480_m1: PASS
+
+
+
+[Frame 20] v4regress_morph_center_dot_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_dot_640x480_m2: PASS
+
+
+
+[Frame 21] v4regress_morph_center_3x3_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_256x256_m1: PASS
+
+
+
+[Frame 22] v4regress_morph_center_3x3_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_256x256_m2: PASS
+
+
+
+[Frame 23] v4regress_morph_center_3x3_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_640x480_m1: PASS
+
+
+
+[Frame 24] v4regress_morph_center_3x3_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_center_3x3_640x480_m2: PASS
+
+
+
+[Frame 25] v4regress_morph_border_blob_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_256x256_m1: PASS
+
+
+
+[Frame 26] v4regress_morph_border_blob_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_256x256_m2: PASS
+
+
+
+[Frame 27] v4regress_morph_border_blob_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_640x480_m1: PASS
+
+
+
+[Frame 28] v4regress_morph_border_blob_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_border_blob_640x480_m2: PASS
+
+
+
+[Frame 29] v4regress_morph_rand_bin_256x256_m1 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_256x256_m1: PASS
+
+
+
+[Frame 30] v4regress_morph_rand_bin_256x256_m2 (256x256, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_256x256_m2: PASS
+
+
+
+[Frame 31] v4regress_morph_rand_bin_640x480_m1 (640x480, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_640x480_m1: PASS
+
+
+
+[Frame 32] v4regress_morph_rand_bin_640x480_m2 (640x480, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_rand_bin_640x480_m2: PASS
+
+
+
+[Frame 33] v4regress_morph_randgray_320x240_m1 (320x240, mode=0, thr=0, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_randgray_320x240_m1: PASS
+
+
+
+[Frame 34] v4regress_morph_randgray_320x240_m2 (320x240, mode=0, thr=0, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  v4regress_morph_randgray_320x240_m2: PASS
+
+
+
+[Frame 35] rgb_solid_200_100_50_thr0 (256x256, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_solid_200_100_50_thr0: PASS
+
+
+
+[Frame 36] rgb_solid_200_100_50_thr80 (64x64, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_solid_200_100_50_thr80: PASS
+
+
+
+[Frame 37] rgb_primary_red_out1 (64x64, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=1)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_primary_red_out1: PASS
+
+
+
+[Frame 38] rgb_primary_green_out1 (64x64, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=1)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_primary_green_out1: PASS
+
+
+
+[Frame 39] rgb_primary_blue_out1 (64x64, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=1)
+
+  Output=4096, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_primary_blue_out1: PASS
+
+
+
+[Frame 40] rgb_checker_256_thr80 (256x256, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_checker_256_thr80: PASS
+
+
+
+[Frame 41] rgb_border_blob_128_thr80 (128x128, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=16384, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_border_blob_128_thr80: PASS
+
+
+
+[Frame 42] rgb_center_dot_128_thr0 (128x128, mode=0, thr=0, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=16384, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_center_dot_128_thr0: PASS
+
+
+
+[Frame 43] rgb_noise_320x240_m1 (320x240, mode=0, thr=0, morph=1, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_noise_320x240_m1: PASS
+
+
+
+[Frame 44] rgb_noise_320x240_m2 (320x240, mode=0, thr=0, morph=2, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_noise_320x240_m2: PASS
+
+
+
+[Frame 45] rgb_rand_256x256_thr80 (256x256, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_rand_256x256_thr80: PASS
+
+
+
+[Frame 46] rgb_rand_320x240_thr80 (320x240, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_rand_320x240_thr80: PASS
+
+
+
+[Frame 47] rgb_rand_640x480_thr80 (640x480, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=307200, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  rgb_rand_640x480_thr80: PASS
+
+
+
+[Frame 48] combo_g1_s1_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s1_m0_320x240: PASS
+
+
+
+[Frame 49] combo_g1_s1_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s1_m1_320x240: PASS
+
+
+
+[Frame 50] combo_g1_s1_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=1, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s1_m2_320x240: PASS
+
+
+
+[Frame 51] combo_g1_s0_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=1, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s0_m0_320x240: PASS
+
+
+
+[Frame 52] combo_g1_s0_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=1, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s0_m1_320x240: PASS
+
+
+
+[Frame 53] combo_g1_s0_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=1, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g1_s0_m2_320x240: PASS
+
+
+
+[Frame 54] combo_g0_s1_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=0, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s1_m0_320x240: PASS
+
+
+
+[Frame 55] combo_g0_s1_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=0, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s1_m1_320x240: PASS
+
+
+
+[Frame 56] combo_g0_s1_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=0, gauss=1, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s1_m2_320x240: PASS
+
+
+
+[Frame 57] combo_g0_s0_m0_320x240 (320x240, mode=0, thr=80, morph=0, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s0_m0_320x240: PASS
+
+
+
+[Frame 58] combo_g0_s0_m1_320x240 (320x240, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s0_m1_320x240: PASS
+
+
+
+[Frame 59] combo_g0_s0_m2_320x240 (320x240, mode=0, thr=80, morph=2, gray=0, gauss=0, out_sel=0)
+
+  Output=76800, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  combo_g0_s0_m2_320x240: PASS
+
+
+
+[Frame 60] export_g1_s1_out0_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s1_out0_256: PASS
+
+
+
+[Frame 61] export_g1_s1_out1_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=1, out_sel=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s1_out1_256: PASS
+
+
+
+[Frame 62] export_g1_s0_out2_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=0, out_sel=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s0_out2_256: PASS
+
+
+
+[Frame 63] export_g1_s0_out3_256 (256x256, mode=0, thr=80, morph=1, gray=1, gauss=0, out_sel=3)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g1_s0_out3_256: PASS
+
+
+
+[Frame 64] export_g0_s1_out0_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=1, out_sel=0)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s1_out0_256: PASS
+
+
+
+[Frame 65] export_g0_s1_out1_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=1, out_sel=1)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s1_out1_256: PASS
+
+
+
+[Frame 66] export_g0_s0_out2_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=2)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s0_out2_256: PASS
+
+
+
+[Frame 67] export_g0_s0_out3_256 (256x256, mode=0, thr=80, morph=1, gray=0, gauss=0, out_sel=3)
+
+  Output=65536, pixel_errors=0, protocol_errors=0, border_errors=0
+
+  Max error=0, mean error=0.000000
+
+  export_g0_s0_out3_256: PASS
+
+
+
+ALL PASS: 67 frames
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 307200
+
+INFO: [SIM 211-1] CSim done with 0 errors.
+
+INFO: [SIM 211-3] *************** CSIM finish ***************
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 12.061 seconds; peak allocated memory: 169.383 MB.
+
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 15s
+RUN: D:/vivado/2026.1/Vitis/bin/vitis-run.bat --mode hls --csim --config hls_config.cfg --work_dir <project_root>\outputs\hls_integrated_pipeline
+
+****** vitis-run v2026.1 (64-bit)
+  **** SW Build 6497934 on 2026-06-16-17:22:25
+  **** Start of session at: Sat Oct 31 13:15:09 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+  **** HLS Build v2026.1 6493734
+
+INFO: [HLS 200-2005] Using work_dir <project_root>/outputs/hls_integrated_pipeline 
+
+INFO: [HLS 200-2006] Changing directory to <project_root>/outputs
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_integrated_pipeline/vitis-comp.json
+
+INFO: [HLS 200-10] Creating and opening component '<project_root>/outputs/hls_integrated_pipeline'.
+
+INFO: [HLS 200-2174] Applying component config ini file ../hardware/hls/integrated_pipeline/hls_config.cfg
+
+INFO: [HLS 200-1465] Applying config ini 'syn.file=sobel_v4_pipeline.cpp' from ../hardware/hls/integrated_pipeline/hls_config.cfg(11)
+
+INFO: [HLS 200-10] Adding design file '<project_root>/hardware/hls/integrated_pipeline/sobel_v4_pipeline.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=baseline_reference.cpp' from ../hardware/hls/integrated_pipeline/hls_config.cfg(13)
+
+INFO: [HLS 200-10] Adding test bench file '<project_root>/hardware/hls/integrated_pipeline/baseline_reference.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'tb.file=testbench.cpp' from ../hardware/hls/integrated_pipeline/hls_config.cfg(15)
+
+INFO: [HLS 200-10] Adding test bench file '<project_root>/hardware/hls/integrated_pipeline/testbench.cpp' to the project
+
+INFO: [HLS 200-1465] Applying config ini 'syn.top=sobel_v4_pipeline' from ../hardware/hls/integrated_pipeline/hls_config.cfg(9)
+
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from ../hardware/hls/integrated_pipeline/hls_config.cfg(5)
+
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2026.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+
+WARNING: [HLS 200-2149] The 'flow_target' option is deprecated and will be removed in a future release. For 'vivado' value you may simply remove the option for equivalent behavior.
+
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from ../hardware/hls/integrated_pipeline/hls_config.cfg(1)
+
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+
+INFO: [HLS 200-1465] Applying config ini 'clock=10' from ../hardware/hls/integrated_pipeline/hls_config.cfg(7)
+
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from ../hardware/hls/integrated_pipeline/hls_config.cfg(17)
+
+INFO: [HLS 200-2176] Writing Vitis IDE component file <project_root>/outputs/hls_integrated_pipeline/vitis-comp.json
+
+INFO: [SIM 211-2] *************** CSIM start ***************
+
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+
+mingw32-make: 'csim.exe' is up to date.
+
+PASS: 72 frame tests
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 307200
+
+INFO: [SIM 211-1] CSim done with 0 errors.
+
+INFO: [SIM 211-3] *************** CSIM finish ***************
+
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 20.703 seconds; peak allocated memory: 168.477 MB.
+
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 24s

@@ -1,0 +1,113 @@
+{
+  "devices": [
+    {
+      "index": 0,
+      "backend": "dshow",
+      "opened": true,
+      "native_width": 640,
+      "native_height": 480,
+      "native_fps": -1.0,
+      "first_read": true,
+      "frame_shape": [
+        480,
+        640,
+        3
+      ]
+    },
+    {
+      "index": 0,
+      "backend": "msmf",
+      "opened": false
+    },
+    {
+      "index": 0,
+      "backend": "any",
+      "opened": true,
+      "native_width": 640,
+      "native_height": 480,
+      "native_fps": -1.0,
+      "first_read": true,
+      "frame_shape": [
+        480,
+        640,
+        3
+      ]
+    },
+    {
+      "index": 1,
+      "backend": "dshow",
+      "opened": false
+    },
+    {
+      "index": 1,
+      "backend": "msmf",
+      "opened": false
+    },
+    {
+      "index": 1,
+      "backend": "any",
+      "opened": false
+    },
+    {
+      "index": 2,
+      "backend": "dshow",
+      "opened": false
+    },
+    {
+      "index": 2,
+      "backend": "msmf",
+      "opened": false
+    },
+    {
+      "index": 2,
+      "backend": "any",
+      "opened": false
+    }
+  ],
+  "modes": [
+    {
+      "requested": "640x480",
+      "negotiated": "640x480",
+      "frames": 31,
+      "fps": 15.05,
+      "median_interval_ms": 64.32,
+      "max_interval_ms": 81.46
+    },
+    {
+      "requested": "320x240",
+      "negotiated": "640x360",
+      "frames": 30,
+      "fps": 15.0,
+      "median_interval_ms": 64.84,
+      "max_interval_ms": 81.18
+    },
+    {
+      "requested": "256x256",
+      "negotiated": "640x360",
+      "frames": 31,
+      "fps": 15.17,
+      "median_interval_ms": 64.03,
+      "max_interval_ms": 84.08
+    },
+    {
+      "requested": "1280x720",
+      "negotiated": "1280x720",
+      "frames": 32,
+      "fps": 15.66,
+      "median_interval_ms": 64.72,
+      "max_interval_ms": 80.94
+    },
+    {
+      "requested": "800x600",
+      "negotiated": "640x480",
+      "frames": 31,
+      "fps": 15.02,
+      "median_interval_ms": 64.07,
+      "max_interval_ms": 82.65
+    }
+  ],
+  "chosen": {
+    "index": 0,
+    "backend": "dshow"
+  }
+}

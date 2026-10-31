@@ -1,0 +1,9 @@
+{
+  "mode": "live",
+  "requested": 300,
+  "attempted": 300,
+  "passed": 300,
+  "pass_rate_of_requested": 1.0,
+  "completed": true,
+  "note": "PC RTT excludes local Golden and image saving; PL timing must come from board CSV"
+}

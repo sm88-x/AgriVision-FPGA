@@ -1,0 +1,16 @@
+{
+  "frozen_sha256": "c5891e251727fc3547a2f6b16f5744f9b1c972ad1a01c8c94c24b921c8180221",
+  "split": "test",
+  "evaluation_protocol": "repeated_evaluation_not_new_independent_test",
+  "n_images": 30,
+  "environment": {
+    "python": "3.14.3",
+    "numpy": "2.4.4",
+    "opencv": "5.0.0",
+    "scipy": "1.17.1",
+    "scikit_image": "0.26.0",
+    "torch": "2.14.1",
+    "ultralytics": "8.4.178"
+  },
+  "timing_scope": "Warm model. Detector call + per-mode postprocessing. Excludes model loading, image I/O, drawing and file saving."
+}

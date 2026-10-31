@@ -1,0 +1,26 @@
+file,kind,true_objects,counted_by,sys_auto,sys_manual_40_100,verdict,resolution,threshold,edge_mode,morph_mode,note
+
+leaf_01_dense_640x480.png,leaf,9,人工确认,9,9,OK-可做展示,640x480,40,Sobel,bypass,叶片分开摆放
+
+leaf_02_640x480.png,leaf,9,人工确认,9,9,OK-可做展示,640x480,40,Sobel,bypass,叶片分开摆放
+
+leaf_03_640x480.png,leaf,6,人工确认,6,6,OK-可做展示,640x480,40,Sobel,bypass,叶片分开摆放
+
+leaf_04_640x480.png,leaf,8,人工确认,3,4,FAIL-边界案例,640x480,40,Sobel,bypass,两组一个叶柄连两片叶，系统把整体又数一遍
+
+leaf_05_640x480.png,leaf,5,人工确认,1,1,FAIL-边界案例,640x480,40,Sobel,bypass,5 片叶子覆盖式叠放，系统只能数出 1
+
+seed_01_dense_640x480.png,seed,14,人工确认,7,9,FAIL-边界案例,640x480,40,Sobel,bypass,目标密集、有接触
+
+seed_02_640x480.png,seed,37,人工确认,1,6,FAIL-边界案例,640x480,40,Sobel,bypass,目标高度粘连，系统最多数出 6
+
+seed_03_640x480.png,seed,5,人工确认,5,5,OK-可做展示,640x480,40,Sobel,bypass,种子分开摆放（seed_06/07 都由它受控制造）
+
+seed_04_640x480.png,seed,10,人工确认,8,5,FAIL-边界案例,640x480,40,Sobel,bypass,目标密集，两种参数都不对
+
+seed_05_sparse_640x480.png,seed,6,人工确认,10,3,FAIL-边界案例,640x480,40,Sobel,bypass,自动参数多检、手动参数少检
+
+seed_06_noisy_640x480.png,seed,5,人工确认,5,6,部分OK-选对参数可用,640x480,40,Sobel,bypass,★噪点案例：背景跳变>5占16%，是干净图的16倍；自动参数数对5，手动40/100多检1个假目标
+
+seed_07_partial_640x480.png,seed,5,人工确认,4,4,FAIL-边界案例,640x480,40,Sobel,bypass,★轮廓不完整案例：最右一颗被画面边缘切断，系统贴边丢弃整颗丢掉 -> 漏检1；由 seed_03 受控平移85px 制造
+

@@ -1,0 +1,6 @@
+# Verified on Python 3.14.3 (Windows); see environment.json.
+numpy==2.4.4
+opencv-python==5.0.0
+Pillow
+scipy==1.17.1
+scikit-image==0.26.0

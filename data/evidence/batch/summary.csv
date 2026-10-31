@@ -1,0 +1,8 @@
+species,objects,grade_A,grade_B,grade_C,uncertain,A_ratio,B_ratio,C_ratio
+
+mungbean,234,68,64,102,36,0.2906,0.2735,0.4359
+
+redbean,196,50,59,87,20,0.2551,0.301,0.4439
+
+soybean,199,65,75,59,0,0.3266,0.3769,0.2965
+

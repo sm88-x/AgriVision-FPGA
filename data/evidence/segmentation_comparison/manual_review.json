@@ -1,0 +1,29 @@
+{
+  "flat_contact_confirmed_by_user": {
+    "image_id": "mungbean_touch_004",
+    "date": "2026-10-17",
+    "statement": "都是平铺接触，无上下叠压"
+  },
+  "redbean_touch_005_instance_review": {
+    "reviewer": "user",
+    "date": "2026-10-17",
+    "image_id": "redbean_touch_005",
+    "status": "FAIL",
+    "observations": {
+      "baseline_0": {
+        "category": "DUPLICATE_DETECTIONS",
+        "observation": "同一粒出现多个检测框；不是像素分割"
+      },
+      "baseline_1": {
+        "category": "OVER_SEGMENTATION",
+        "observation": "一粒被拆成多粒"
+      },
+      "proposed_v1": {
+        "category": "UNDER_SEGMENTATION",
+        "observation": "接触的两粒仍被算作一粒"
+      }
+    },
+    "note": "仅记录用户确认的图级问题，未臆测具体实例ID，不改GT或预测计数。"
+  },
+  "note": "人工标注未被算法补写或伪造；OK表示算法接受，不表示人工验收"
+}

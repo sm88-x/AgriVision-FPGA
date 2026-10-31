@@ -1,0 +1,167 @@
+
+
+================================================================
+== Synthesis Summary Report of 'sobel_axis'
+================================================================
++ General Information: 
+    * Date:           Fri Oct  2 16:10:41 2026
+    * Version:        2026.1 (Build 6493734 on Jun 16 2026)
+    * Project:        sobel_kernel
+    * Solution:       hls
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
+* Performance & Resource Estimates: 
++----------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+--------+----+-----------+-----------+-----+
+|              Modules             | Issue|               | Iteration|         | Trip |          |       Latency       |      |        |    |           |           |     |
+|              & Loops             | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack|  BRAM  | DSP|     FF    |    LUT    | URAM|
++----------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+--------+----+-----------+-----------+-----+
+|+ sobel_axis                      |     -|              -|         -|   584726|     -|        no|   584725|  5.847e+06|  0.31|  3 (1%)|   -|  218 (~0%)|   977 (1%)|    -|
+| + sobel_axis_Outline_PREFILL     |     -|              -|         -|      517|     -|        no|      517|  5.170e+03|  2.22|       -|   -|   17 (~0%)|  107 (~0%)|    -|
+|  o PREFILL                       |     -|              -|       258|        -|     2|        no|      516|  5.160e+03|  7.30|       -|   -|          -|          -|    -|
+|   o PREFILL_COL                  |     -|              -|         1|        -|   256|        no|      256|  2.560e+03|  7.30|       -|   -|          -|          -|    -|
+| + sobel_axis_Outline_TOP_BORDER  |     -|              -|         -|      258|     -|        no|      258|  2.580e+03|  3.89|       -|   -|   12 (~0%)|   67 (~0%)|    -|
+|  o TOP_BORDER                    |     -|              -|         1|        -|   256|        no|      256|  2.560e+03|  7.30|       -|   -|          -|          -|    -|
+| o ROWS                           |     -|              -|      2298|        -|   254|        no|   583692|  5.837e+06|  7.30|       -|   -|          -|          -|    -|
+|  o LOAD                          |     -|              -|         1|        -|   256|        no|      256|  2.560e+03|  7.30|       -|   -|          -|          -|    -|
+|  o COMPUTE                       |     -|              -|         6|        -|   254|        no|     1524|  1.524e+04|  7.30|       -|   -|          -|          -|    -|
+|  o SHIFT                         |     -|              -|         2|        -|   256|        no|      512|  5.120e+03|  7.30|       -|   -|          -|          -|    -|
+| o BOTTOM_BORDER                  |     -|              -|         2|        -|   256|        no|      512|  5.120e+03|  7.30|       -|   -|          -|          -|    -|
++----------------------------------+------+---------------+----------+---------+------+----------+---------+-----------+------+--------+----+-----------+-----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface | Direction | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++-----------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+| dst       | out       | both          | 8     | 1     | 1     | 1      | 1     | 1      |
+| src       | in        | both          | 8     | 1     | 1     | 1      | 1     | 1      |
++-----------+-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-----------------------------------------------------------------------------+
+| Argument | Direction | Datatype                                                                    |
++----------+-----------+-----------------------------------------------------------------------------+
+| src      | in        | stream<hls::axis<ap_uint<8>, 0UL, 0UL, 0UL, (unsigned char)'8', false>, 0>& |
+| dst      | out       | stream<hls::axis<ap_uint<8>, 0UL, 0UL, 0UL, (unsigned char)'8', false>, 0>& |
++----------+-----------+-----------------------------------------------------------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| src      | src          | interface |
+| dst      | dst          | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++----------------------------------+-----+--------+------------+--------+----------+---------+
+| Name                             | DSP | Pragma | Variable   | Op     | Impl     | Latency |
++----------------------------------+-----+--------+------------+--------+----------+---------+
+| + sobel_axis                     | 0   |        |            |        |          |         |
+|   icmp_ln112_fu_346_p2           |     |        | icmp_ln112 | seteq  | auto     | 0       |
+|   icmp_ln118_fu_357_p2           |     |        | icmp_ln118 | seteq  | auto     | 0       |
+|   add_ln118_fu_363_p2            |     |        | add_ln118  | add    | fabric   | 0       |
+|   icmp_ln128_fu_379_p2           |     |        | icmp_ln128 | seteq  | auto     | 0       |
+|   add_ln133_fu_385_p2            |     |        | add_ln133  | add    | fabric   | 0       |
+|   add_ln134_fu_404_p2            |     |        | add_ln134  | add    | fabric   | 0       |
+|   tmp_fu_435_p2                  |     |        | tmp        | sub    | fabric   | 0       |
+|   sub_ln135_fu_441_p2            |     |        | sub_ln135  | sub    | fabric   | 0       |
+|   sub_ln136_fu_451_p2            |     |        | sub_ln136  | sub    | fabric   | 0       |
+|   tmp3_fu_465_p2                 |     |        | tmp3       | sub    | fabric   | 0       |
+|   add_ln143_fu_471_p2            |     |        | add_ln143  | add    | fabric   | 0       |
+|   sub_ln145_fu_481_p2            |     |        | sub_ln145  | sub    | fabric   | 0       |
+|   sub_ln149_fu_567_p2            |     |        | sub_ln149  | sub    | fabric   | 0       |
+|   abs_gx_fu_573_p3               |     |        | abs_gx     | select | auto_sel | 0       |
+|   sub_ln152_fu_589_p2            |     |        | sub_ln152  | sub    | fabric   | 0       |
+|   abs_gy_fu_595_p3               |     |        | abs_gy     | select | auto_sel | 0       |
+|   add_ln154_fu_609_p2            |     |        | add_ln154  | add    | fabric   | 0       |
+|   magnitude_fu_613_p2            |     |        | magnitude  | add    | fabric   | 0       |
+|   icmp_ln157_fu_629_p2           |     |        | icmp_ln157 | setne  | auto     | 0       |
+|   edge_fu_639_p3                 |     |        | edge       | select | auto_sel | 0       |
+|   icmp_ln167_fu_648_p2           |     |        | icmp_ln167 | seteq  | auto     | 0       |
+|   add_ln167_fu_654_p2            |     |        | add_ln167  | add    | fabric   | 0       |
+|   r_3_fu_666_p2                  |     |        | r_3        | add    | fabric   | 0       |
+|   icmp_ln177_fu_679_p2           |     |        | icmp_ln177 | seteq  | auto     | 0       |
+|   c_4_fu_685_p2                  |     |        | c_4        | add    | fabric   | 0       |
+|   icmp_ln179_fu_691_p2           |     |        | icmp_ln179 | seteq  | auto     | 0       |
+|  + sobel_axis_Outline_PREFILL    | 0   |        |            |        |          |         |
+|    icmp_ln92_fu_123_p2           |     |        | icmp_ln92  | seteq  | auto     | 0       |
+|    add_ln92_fu_129_p2            |     |        | add_ln92   | add    | fabric   | 0       |
+|    icmp_ln98_fu_135_p2           |     |        | icmp_ln98  | seteq  | auto     | 0       |
+|    icmp_ln96_fu_141_p2           |     |        | icmp_ln96  | seteq  | auto     | 0       |
+|    add_ln96_fu_147_p2            |     |        | add_ln96   | add    | fabric   | 0       |
+|  + sobel_axis_Outline_TOP_BORDER | 0   |        |            |        |          |         |
+|    icmp_ln105_fu_84_p2           |     |        | icmp_ln105 | seteq  | auto     | 0       |
+|    c_2_fu_90_p2                  |     |        | c_2        | add    | fabric   | 0       |
++----------------------------------+-----+--------+------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++--------------+---------------+------+------+------+--------+--------+----------+------+---------+------------------+
+| Name         | Usage         | Type | BRAM | URAM | CE_REG | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|              |               |      |      |      |        |        |          |      |         | Banks            |
++--------------+---------------+------+------+------+--------+--------+----------+------+---------+------------------+
+| + sobel_axis |               |      | 3    | 0    |        |        |          |      |         |                  |
+|   lbuf_U     | ram_t2p array |      | 1    |      | N      |        | lbuf     | auto | 1       | 8, 256, 1        |
+|   lbuf_1_U   | ram_1p array  |      | 1    |      | N      |        | lbuf_1   | auto | 1       | 8, 256, 1        |
+|   lbuf_2_U   | ram_2p array  |      | 1    |      | N      |        | lbuf_2   | auto | 1       | 8, 256, 1        |
++--------------+---------------+------+------+------+--------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Implemented Pragmas
++-----------------+-----------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Type            | Options                           | Location                                                                                                    |
++-----------------+-----------------------------------+-------------------------------------------------------------------------------------------------------------+
+| INLINE          |                                   | in _zl10read_pixelrn3hls6streamins_4axisi7ap_uintili8eelm0elm0elm0elh56elb0eeeli0eeei (sobel_axis.cpp:38)   |
+| INLINE          |                                   | in _zl11write_pixelrn3hls6streamins_4axisi7ap_uintili8eelm0elm0elm0elh56elb0eeeli0eeehb (sobel_axis.cpp:60) |
+| ARRAY_PARTITION | dim=1 type=complete variable=lbuf | in sobel_axis (sobel_axis.cpp:85)                                                                           |
++-----------------+-----------------------------------+-------------------------------------------------------------------------------------------------------------+
+
+* Valid Pragma Syntax
++-----------------+-------------------------------+------------------------------------+
+| Type            | Options                       | Location                           |
++-----------------+-------------------------------+------------------------------------+
+| INLINE          |                               | in read_pixel (sobel_axis.cpp:38)  |
+| INLINE          |                               | in write_pixel (sobel_axis.cpp:60) |
+| INTERFACE       | mode=axis port=src            | in sobel_axis (sobel_axis.cpp:76)  |
+| INTERFACE       | mode=axis port=dst            | in sobel_axis (sobel_axis.cpp:77)  |
+| INTERFACE       | mode=ap_ctrl_none port=return | in sobel_axis (sobel_axis.cpp:82)  |
+| ARRAY_PARTITION | variable=lbuf complete dim=1  | in sobel_axis (sobel_axis.cpp:85)  |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:93)  |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:97)  |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:106) |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:113) |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:119) |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:129) |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:168) |
+| PIPELINE        | off                           | in sobel_axis (sobel_axis.cpp:178) |
++-----------------+-------------------------------+------------------------------------+
+
+

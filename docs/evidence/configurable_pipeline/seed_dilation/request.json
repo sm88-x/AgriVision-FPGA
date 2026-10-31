@@ -1,0 +1,14 @@
+{
+  "config": {
+    "edge_mode": "Sobel",
+    "enable_gauss": true,
+    "enable_gray": true,
+    "morph_mode": 2,
+    "threshold": 40
+  },
+  "height": 256,
+  "image_file": "original.png",
+  "schema_version": 2,
+  "source_name": "seed_01_dense_640x480.png",
+  "width": 256
+}

@@ -1,0 +1,205 @@
+
+
+================================================================
+== Synthesis Summary Report of 'sobel_kernel'
+================================================================
++ General Information: 
+    * Date:           Wed Sep 30 15:21:08 2026
+    * Version:        2026.1 (Build 6493734 on Jun 16 2026)
+    * Project:        proj
+    * Solution:       hls
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
+* Performance & Resource Estimates: 
++----------------+------+---------------+----------+---------+------+----------+---------+-----------+------+--------+----+-----------+-----------+-----+
+|     Modules    | Issue|               | Iteration|         | Trip |          |       Latency       |      |        |    |           |           |     |
+|     & Loops    | Type | Violation Type|  Latency | Interval| Count| Pipelined| (cycles)|    (ns)   | Slack|  BRAM  | DSP|     FF    |    LUT    | URAM|
++----------------+------+---------------+----------+---------+------+----------+---------+-----------+------+--------+----+-----------+-----------+-----+
+|+ sobel_kernel  |     -|              -|         -|   716320|     -|        no|   716319|  7.163e+06|  0.00|  5 (1%)|   -|  1597 (1%)|  2154 (4%)|    -|
+| o INIT         |     -|              -|        12|        -|   256|        no|     3072|  3.072e+04|  7.30|       -|   -|          -|          -|    -|
+| o ROWS         |     -|              -|      2808|        -|   254|        no|   713232|  7.132e+06|  7.30|       -|   -|          -|          -|    -|
+|  o LOAD        |     -|              -|         3|        -|   256|        no|      768|  7.680e+03|  7.30|       -|   -|          -|          -|    -|
+|  o COMPUTE     |     -|              -|         6|        -|   254|        no|     1524|  1.524e+04|  7.30|       -|   -|          -|          -|    -|
+|  o SHIFT       |     -|              -|         2|        -|   256|        no|      512|  5.120e+03|  7.30|       -|   -|          -|          -|    -|
++----------------+------+---------------+----------+---------+------+----------+---------+-----------+------+--------+----+-----------+-----------+-----+
+    Name Prefix: '+' for module, 'o' for loop, '*' for dataflow
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| Interface  | Read/Write | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   | Resource Estimate |
+|            |            | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |                   |
++------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| m_axi_gmem | READ_WRITE | 8 -> 8     | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          | BRAM=2            |
++------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL     | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER     | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER   | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR   | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | src_1    | 0x10   | 32    | W      | Data signal of src               |                                                                      |
+| s_axi_control | src_2    | 0x14   | 32    | W      | Data signal of src               |                                                                      |
+| s_axi_control | dst_1    | 0x1c   | 32    | W      | Data signal of dst               |                                                                      |
+| s_axi_control | dst_2    | 0x20   | 32    | W      | Data signal of dst               |                                                                      |
++---------------+----------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-----------------------+
+| Argument | Direction | Datatype              |
++----------+-----------+-----------------------+
+| src      | inout     | unsigned char const * |
+| dst      | inout     | unsigned char*        |
++----------+-----------+-----------------------+
+
+* SW-to-HW Mapping
++----------+---------------+-----------+----------+---------------------------------+
+| Argument | HW Interface  | HW Type   | HW Usage | HW Info                         |
++----------+---------------+-----------+----------+---------------------------------+
+| src      | m_axi_gmem    | interface |          | channel=0                       |
+| src      | s_axi_control | register  | offset   | name=src_1 offset=0x10 range=32 |
+| src      | s_axi_control | register  | offset   | name=src_2 offset=0x14 range=32 |
+| dst      | m_axi_gmem    | interface |          | channel=0                       |
+| dst      | s_axi_control | register  | offset   | name=dst_1 offset=0x1c range=32 |
+| dst      | s_axi_control | register  | offset   | name=dst_2 offset=0x20 range=32 |
++----------+---------------+-----------+----------+---------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+* Inferred Burst Summary
++--------------+-----------+--------+-------+------+---------------------------+
+| HW Interface | Direction | Length | Width | Loop | Loop Location             |
++--------------+-----------+--------+-------+------+---------------------------+
+| m_axi_gmem   | write     | 64516  | 8     | ROWS | src/sobel_kernel.cpp:47:5 |
+| m_axi_gmem   | read      | 65024  | 8     | ROWS | src/sobel_kernel.cpp:47:5 |
++--------------+-----------+--------+-------+------+---------------------------+
+
+* All M_AXI Variable Accesses
++--------------+----------+----------------------------+-----------+--------------+--------+---------+---------------------------+------------+------------------------------------------------------------------------------------------------------+
+| HW Interface | Variable | Access Location            | Direction | Burst Status | Length | Loop    | Loop Location             | Resolution | Problem                                                                                              |
++--------------+----------+----------------------------+-----------+--------------+--------+---------+---------------------------+------------+------------------------------------------------------------------------------------------------------+
+| m_axi_gmem   |          | src/sobel_kernel.cpp:39:5  | read      | Fail         |        |         |                           | 214-224    | Could not burst due to multiple potential reads to the same bundle in the same region.               |
+| m_axi_gmem   | src      | src/sobel_kernel.cpp:41:22 | read      | Widen Fail   |        | INIT    | src/sobel_kernel.cpp:39:5 | 214-353    | Could not widen since type i8 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | src      | src/sobel_kernel.cpp:41:22 | read      | Inferred     | 256    | INIT    | src/sobel_kernel.cpp:39:5 |            |                                                                                                      |
+| m_axi_gmem   | src      | src/sobel_kernel.cpp:42:22 | read      | Widen Fail   |        | INIT    | src/sobel_kernel.cpp:39:5 | 214-353    | Could not widen since type i8 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | src      | src/sobel_kernel.cpp:42:22 | read      | Inferred     | 256    | INIT    | src/sobel_kernel.cpp:39:5 |            |                                                                                                      |
+| m_axi_gmem   | src      | src/sobel_kernel.cpp:52:26 | read      | Widen Fail   |        | LOAD    | src/sobel_kernel.cpp:50:9 | 214-353    | Could not widen since type i8 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | src      | src/sobel_kernel.cpp:52:26 | read      | Inferred     | 65024  | ROWS    | src/sobel_kernel.cpp:47:5 |            |                                                                                                      |
+| m_axi_gmem   | dst      | src/sobel_kernel.cpp:65:29 | write     | Widen Fail   |        | COMPUTE | src/sobel_kernel.cpp:56:9 | 214-353    | Could not widen since type i8 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | dst      | src/sobel_kernel.cpp:65:29 | write     | Inferred     | 64516  | ROWS    | src/sobel_kernel.cpp:47:5 |            |                                                                                                      |
++--------------+----------+----------------------------+-----------+--------------+--------+---------+---------------------------+------------+------------------------------------------------------------------------------------------------------+
+
+    * Resolution URL: docs.amd.com/access/sources/dita/topic?Doc_Version=2026.1%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------+-----+--------+-------------+--------+----------+---------+
+| Name                    | DSP | Pragma | Variable    | Op     | Impl     | Latency |
++-------------------------+-----+--------+-------------+--------+----------+---------+
+| + sobel_kernel          | 0   |        |             |        |          |         |
+|   icmp_ln39_fu_371_p2   |     |        | icmp_ln39   | seteq  | auto     | 0       |
+|   add_ln39_fu_377_p2    |     |        | add_ln39    | add    | fabric   | 0       |
+|   add_ln41_fu_387_p2    |     |        | add_ln41    | add    | fabric   | 0       |
+|   add_ln42_fu_414_p2    |     |        | add_ln42    | add    | fabric   | 0       |
+|   add_ln47_fu_430_p2    |     |        | add_ln47    | add    | fabric   | 0       |
+|   icmp_ln47_fu_454_p2   |     |        | icmp_ln47   | seteq  | auto     | 0       |
+|   add_ln47_1_fu_460_p2  |     |        | add_ln47_1  | add    | fabric   | 0       |
+|   icmp_ln50_fu_466_p2   |     |        | icmp_ln50   | seteq  | auto     | 0       |
+|   add_ln50_fu_472_p2    |     |        | add_ln50    | add    | fabric   | 0       |
+|   icmp_ln56_fu_483_p2   |     |        | icmp_ln56   | seteq  | auto     | 0       |
+|   add_ln61_fu_489_p2    |     |        | add_ln61    | add    | fabric   | 0       |
+|   add_ln58_fu_502_p2    |     |        | add_ln58    | add    | fabric   | 0       |
+|   tmp_fu_535_p2         |     |        | tmp         | sub    | fabric   | 0       |
+|   sub_ln59_fu_541_p2    |     |        | sub_ln59    | sub    | fabric   | 0       |
+|   sub_ln59_1_fu_551_p2  |     |        | sub_ln59_1  | sub    | fabric   | 0       |
+|   tmp3_fu_623_p2        |     |        | tmp3        | sub    | fabric   | 0       |
+|   add_ln61_1_fu_562_p2  |     |        | add_ln61_1  | add    | fabric   | 0       |
+|   sub_ln62_fu_572_p2    |     |        | sub_ln62    | sub    | fabric   | 0       |
+|   sub_ln63_fu_637_p2    |     |        | sub_ln63    | sub    | fabric   | 0       |
+|   select_ln63_fu_643_p3 |     |        | select_ln63 | select | auto_sel | 0       |
+|   sub_ln64_fu_692_p2    |     |        | sub_ln64    | sub    | fabric   | 0       |
+|   select_ln64_fu_698_p3 |     |        | select_ln64 | select | auto_sel | 0       |
+|   add_ln64_fu_712_p2    |     |        | add_ln64    | add    | fabric   | 0       |
+|   mag_fu_716_p2         |     |        | mag         | add    | fabric   | 0       |
+|   icmp_ln65_fu_732_p2   |     |        | icmp_ln65   | setne  | auto     | 0       |
+|   select_ln65_fu_742_p3 |     |        | select_ln65 | select | auto_sel | 0       |
+|   icmp_ln69_fu_750_p2   |     |        | icmp_ln69   | seteq  | auto     | 0       |
+|   add_ln69_fu_756_p2    |     |        | add_ln69    | add    | fabric   | 0       |
++-------------------------+-----+--------+-------------+--------+----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-------------------+--------------+-----------+------+------+--------+--------+----------+------+---------+------------------+
+| Name              | Usage        | Type      | BRAM | URAM | CE_REG | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                   |              |           |      |      |        |        |          |      |         | Banks            |
++-------------------+--------------+-----------+------+------+--------+--------+----------+------+---------+------------------+
+| + sobel_kernel    |              |           | 5    | 0    |        |        |          |      |         |                  |
+|   control_s_axi_U | interface    | s_axilite |      |      |        |        |          |      |         |                  |
+|   gmem_m_axi_U    | interface    | m_axi     | 2    |      |        |        |          |      |         |                  |
+|   lbuf_U          | ram_2p array |           | 1    |      | N      |        | lbuf     | auto | 1       | 8, 256, 1        |
+|   lbuf_1_U        | ram_2p array |           | 1    |      | N      |        | lbuf_1   | auto | 1       | 8, 256, 1        |
+|   lbuf_2_U        | ram_2p array |           | 1    |      | N      |        | lbuf_2   | auto | 1       | 8, 256, 1        |
++-------------------+--------------+-----------+------+------+--------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Implemented Pragmas
++-----------------+-----------------------------------+-------------------------------------------+
+| Type            | Options                           | Location                                  |
++-----------------+-----------------------------------+-------------------------------------------+
+| ARRAY_PARTITION | dim=1 type=complete variable=lbuf | in sobel_kernel (src/sobel_kernel.cpp:35) |
++-----------------+-----------------------------------+-------------------------------------------+
+
+* Valid Pragma Syntax
++-----------------+----------------------------------------------------------+-------------------------------------------+
+| Type            | Options                                                  | Location                                  |
++-----------------+----------------------------------------------------------+-------------------------------------------+
+| INTERFACE       | mode=m_axi port=src depth=65536 offset=slave bundle=gmem | in sobel_kernel (src/sobel_kernel.cpp:24) |
+| INTERFACE       | mode=m_axi port=dst depth=64516 offset=slave bundle=gmem | in sobel_kernel (src/sobel_kernel.cpp:25) |
+| INTERFACE       | mode=s_axilite port=return                               | in sobel_kernel (src/sobel_kernel.cpp:26) |
+| ARRAY_PARTITION | variable=lbuf complete dim=1                             | in sobel_kernel (src/sobel_kernel.cpp:35) |
+| PIPELINE        | off                                                      | in sobel_kernel (src/sobel_kernel.cpp:40) |
+| PIPELINE        | off                                                      | in sobel_kernel (src/sobel_kernel.cpp:51) |
+| PIPELINE        | off                                                      | in sobel_kernel (src/sobel_kernel.cpp:57) |
+| PIPELINE        | off                                                      | in sobel_kernel (src/sobel_kernel.cpp:70) |
++-----------------+----------------------------------------------------------+-------------------------------------------+
+
+

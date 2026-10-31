@@ -1,0 +1,46 @@
+== tb 图型 38 组（独立生成，非原始缺失脚本的逐字节图型）==
+P0_256x256_E                 diff=     0  PASS
+P0_256x256_D                 diff=     0  PASS
+P0_320x240_E                 diff=     0  PASS
+P0_320x240_D                 diff=     0  PASS
+P0_640x480_E                 diff=     0  PASS
+P0_640x480_D                 diff=     0  PASS
+P1_256x256_E                 diff=     0  PASS
+P1_256x256_D                 diff=     0  PASS
+P1_320x240_E                 diff=     0  PASS
+P1_320x240_D                 diff=     0  PASS
+P1_640x480_E                 diff=     0  PASS
+P1_640x480_D                 diff=     0  PASS
+P2_256x256_E                 diff=     0  PASS
+P2_256x256_D                 diff=     0  PASS
+P2_320x240_E                 diff=     0  PASS
+P2_320x240_D                 diff=     0  PASS
+P2_640x480_E                 diff=     0  PASS
+P2_640x480_D                 diff=     0  PASS
+P3_256x256_E                 diff=     0  PASS
+P3_256x256_D                 diff=     0  PASS
+P3_320x240_E                 diff=     0  PASS
+P3_320x240_D                 diff=     0  PASS
+P3_640x480_E                 diff=     0  PASS
+P3_640x480_D                 diff=     0  PASS
+P4_256x256_E                 diff=     0  PASS
+P4_256x256_D                 diff=     0  PASS
+P4_320x240_E                 diff=     0  PASS
+P4_320x240_D                 diff=     0  PASS
+P4_640x480_E                 diff=     0  PASS
+P4_640x480_D                 diff=     0  PASS
+P5_256x256_E                 diff=     0  PASS
+P5_256x256_D                 diff=     0  PASS
+P5_320x240_E                 diff=     0  PASS
+P5_320x240_D                 diff=     0  PASS
+P5_640x480_E                 diff=     0  PASS
+P5_640x480_D                 diff=     0  PASS
+P6_320x240_E                 diff=     0  PASS
+P6_320x240_D                 diff=     0  PASS
+
+== 公式图（板测 T4~T6 同源）==
+formula_320x240_E            diff=     0  PASS
+formula_320x240_D            diff=     0  PASS
+
+总结论：ALL PASS
+

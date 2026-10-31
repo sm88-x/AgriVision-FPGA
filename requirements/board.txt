@@ -1,0 +1,7 @@
+# Use the PYNQ image's native environment; do not install these PC pins on PYNQ.
+# pynq is supplied by the board image. Verify packages on the actual board before use.
+numpy
+opencv-python
+Pillow
+ipywidgets
+IPython

@@ -1,0 +1,3 @@
+# 功能演示与图像证据
+
+segmentation_examples保存分离输入与结果示例；analysis_interface和network_interface保存界面证据；scene_validation与pipeline_outputs保存参数切换及PL输出。各目录按验证功能分类，原始数据不由截图替代。

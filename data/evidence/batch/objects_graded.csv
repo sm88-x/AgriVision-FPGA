@@ -1,0 +1,1260 @@
+source,image_id,frame_id,species,object_id,seed_id,status,area_px,length_px,width_px,circularity,concavity,grade,grade_reason,uncertain
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,1,Seed #001,OK,61.0,9.0,8.0,0.8920684402740993,0.02400000000000002,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,2,Seed #002,OK,44.0,8.0,7.0,0.8628811819610296,0.03296703296703296,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,3,Seed #003,OK,56.0,8.0,8.0,0.9432711611657616,0.0,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,4,Seed #004,OK,63.5,10.0,8.0,0.8451177246423403,0.037878787878787845,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,5,Seed #005,OK,84.0,11.0,10.0,0.8631453219500808,0.03448275862068961,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,6,Seed #006,OK,73.0,11.0,8.0,0.8879392942343574,0.013513513513513487,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,7,Seed #007,OK,86.0,11.0,10.0,0.8836963950193588,0.02824858757062143,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,8,Seed #008,OK,55.0,9.192388534545898,7.77817440032959,0.8726869017249659,0.026548672566371723,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,9,Seed #009,OK,76.0,11.31370735168457,8.485280990600586,0.8785586328825262,0.01935483870967747,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,10,Seed #010,OK,61.5,10.60660171508789,7.0710673332214355,0.8370914418216024,0.023809523809523836,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,11,Seed #011,OK,59.0,10.0,7.0,0.8628203017089593,0.01666666666666672,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,12,Seed #012,OK,50.5,9.192387580871582,7.071067810058594,0.8357144121911948,0.03809523809523807,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,13,Seed #013,OK,72.5,12.0,8.0,0.8090930440882006,0.05228758169934644,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,14,Seed #014,OK,68.5,11.0,8.0,0.864424246302517,0.021428571428571463,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,15,Seed #015,OK,64.0,9.0,9.0,0.8852008303637063,0.030303030303030276,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,16,Seed #016,OK,101.0,13.0,10.0,0.8357144084994726,0.042654028436018954,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,17,Seed #017,OK,72.0,11.0,8.0,0.875775735762361,0.020408163265306145,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,18,Seed #018,OK,77.0,11.31370735168457,8.485280990600586,0.8901186148941385,0.012820512820512775,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,19,Seed #019,OK,83.0,10.0,10.0,0.8947600791254524,0.017751479289940808,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,20,Seed #020,OK,76.5,11.31370735168457,8.485280990600586,0.8537326663795455,0.02547770700636942,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,21,Seed #021,OK,55.5,10.0,7.0,0.8450733885992592,0.034782608695652195,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,22,Seed #022,OK,107.5,12.0,11.0,0.8633480903865143,0.0358744394618834,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,23,Seed #023,OK,97.5,12.020814895629883,9.899494171142578,0.8466350565634672,0.034653465346534684,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,24,Seed #024,OK,95.5,12.020814895629883,9.899494171142578,0.9065125575211701,0.00520833333333337,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,25,Seed #025,OK,82.5,12.0,8.0,0.8596194268339203,0.017857142857142905,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,26,Seed #026,OK,94.5,13.0,9.0,0.8419279785611757,0.03076923076923077,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,27,Seed #027,OK,104.5,12.727922439575195,10.60660171508789,0.8540071816596628,0.03240740740740744,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,28,Seed #028,OK,112.5,12.0,12.0,0.866816221092813,0.021739130434782594,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,29,Seed #029,OK,94.0,11.627553939819336,10.28591251373291,0.8642225656364902,0.03589743589743588,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,30,Seed #030,OK,103.5,11.180339813232422,11.180338859558105,0.8458348589890934,0.04166666666666663,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,31,Seed #031,OK,104.0,12.0,10.0,0.8983244070805926,0.014218009478673022,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,32,Seed #032,OK,100.0,11.0,10.0,0.902553676600567,0.00497512437810943,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,33,Seed #033,OK,72.5,10.60660171508789,8.485280990600586,0.8686925203926996,0.02684563758389258,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,34,Seed #034,OK,78.5,12.020814895629883,8.485280990600586,0.8343477996026407,0.036809815950920255,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,35,Seed #035,OK,92.5,12.020814895629883,9.899494171142578,0.8780357347605015,0.02631578947368418,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,36,Seed #036,OK,67.0,9.899494171142578,8.485280990600586,0.8777816237826166,0.02898550724637683,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,37,Seed #037,OK,105.0,12.0,11.0,0.8688120088360854,0.03669724770642202,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,38,Seed #038,OK,88.0,12.727920532226562,8.485280990600586,0.8628811850953022,0.011235955056179803,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,39,Seed #039,OK,103.0,12.0,11.0,0.8522632190959264,0.03738317757009346,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,40,Seed #040,OK,89.0,11.0,10.0,0.8561941456495549,0.03260869565217395,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,41,Seed #041,OK,78.0,10.60660171508789,9.192388534545898,0.9016785903854816,0.018867924528301883,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,42,Seed #042,OK,99.0,14.0,9.0,0.8191656133427516,0.03883495145631066,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,43,Seed #043,OK,82.0,10.0,10.0,0.8839798372082781,0.0060606060606061,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,44,Seed #044,OK,93.5,13.0,9.0,0.8330186930709945,0.03608247422680411,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,45,Seed #045,OK,88.5,11.31370735168457,9.192388534545898,0.8968959630094953,0.011173184357541888,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,46,Seed #046,OK,93.5,14.0,9.0,0.7974499942563695,0.050761421319796995,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,47,Seed #047,OK,85.5,12.020814895629883,8.485280990600586,0.8664927217596737,0.017241379310344862,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,48,Seed #048,OK,108.5,14.0,10.0,0.8359960887872907,0.03125,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,49,Seed #049,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_001\proposed_v1.json,mungbean_sparse_001,31,mungbean,50,Seed #050,OK,124.0,13.435027122497559,12.020814895629883,0.857538297454371,0.03125,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,1,Seed #001,OK,55.5,9.192388534545898,7.0710673332214355,0.9184584213447811,0.0,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,2,Seed #002,OK,50.5,8.0,8.0,0.8883228976853265,0.01941747572815533,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,3,Seed #003,OK,50.5,9.0,7.0,0.8883229056093501,0.009803921568627416,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,4,Seed #004,OK,73.5,9.899495124816895,9.192387580871582,0.8806744861912197,0.026490066225165587,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,5,Seed #005,OK,63.0,9.192388534545898,9.192387580871582,0.7829315250104758,0.06666666666666665,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,6,Seed #006,OK,48.5,8.0,7.0,0.9085922293732758,0.010204081632653073,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,7,Seed #007,OK,78.5,11.0,9.0,0.8179409091692454,0.048484848484848464,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,8,Seed #008,OK,57.0,9.899494171142578,7.071067810058594,0.9044209785408042,0.0,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,9,Seed #009,OK,73.5,10.0,9.0,0.8623038881937193,0.039215686274509776,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,10,Seed #010,OK,79.5,10.0,10.0,0.8872123850902496,0.01851851851851849,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,11,Seed #011,OK,81.5,12.074766159057617,8.9442720413208,0.8100897816266633,0.05232558139534882,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,12,Seed #012,OK,83.5,11.31370735168457,9.192388534545898,0.8462238861629563,0.04022988505747127,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,13,Seed #013,OK,74.5,10.60660171508789,8.485280990600586,0.8926564519897396,0.00666666666666671,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,14,Seed #014,OK,82.0,12.0,9.0,0.8425942371114816,0.046511627906976716,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,15,Seed #015,OK,68.5,9.899494171142578,7.77817440032959,0.8835350099907002,0.014388489208633115,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,16,Seed #016,OK,90.0,13.0,9.0,0.8274471373115332,0.04255319148936165,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,17,Seed #017,OK,50.5,9.899494171142578,6.363960266113281,0.8883229056093501,0.0,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,18,Seed #018,OK,61.5,9.192387580871582,8.485280990600586,0.8846743121621712,0.023809523809523836,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,19,Seed #019,OK,75.0,11.31370735168457,8.485280990600586,0.8669986446014246,0.019607843137254943,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,20,Seed #020,OK,103.0,12.0,11.0,0.8522632086677789,0.041860465116279055,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,21,Seed #021,OK,72.0,10.0,9.0,0.8757757422585443,0.020408163265306145,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,22,Seed #022,OK,65.5,10.0,8.0,0.8717356057334376,0.02238805970149249,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,23,Seed #023,OK,73.5,12.0,8.0,0.8202529539725045,0.039215686274509776,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,24,Seed #024,OK,87.5,11.0,10.0,0.8697283048211658,0.022346368715083775,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,25,Seed #025,OK,105.0,12.0,10.0,0.9069621417640598,0.009433962264150941,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,26,Seed #026,OK,97.5,11.31370735168457,10.606600761413574,0.884749620555577,0.02010050251256279,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,27,Seed #027,OK,103.0,12.0,11.0,0.8522632086677789,0.04629629629629628,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,28,Seed #028,OK,98.5,13.0,9.0,0.8775651472459138,0.015000000000000013,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,29,Seed #029,OK,89.5,11.0,10.0,0.8896077970010597,0.02717391304347827,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,30,Seed #030,OK,70.0,11.0,8.0,0.851448638306918,0.02777777777777779,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,31,Seed #031,OK,89.0,13.0,9.0,0.818253280230294,0.043010752688172005,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,32,Seed #032,OK,94.0,11.0,11.0,0.8267559707440127,0.04081632653061229,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,33,Seed #033,OK,64.0,10.60660171508789,7.77817440032959,0.83847796898638,0.03759398496240607,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,34,Seed #034,OK,97.0,13.435027122497559,9.192387580871582,0.853141799597545,0.02020202020202022,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,35,Seed #035,OK,82.0,11.0,10.0,0.8425942313669323,0.046511627906976716,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,36,Seed #036,OK,105.5,12.0,11.0,0.8997965064056146,0.018604651162790753,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,37,Seed #037,OK,97.0,12.0,10.0,0.891804148382477,0.02020202020202022,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,38,Seed #038,OK,106.5,12.727922439575195,10.60660171508789,0.8347106933249332,0.049107142857142905,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,39,Seed #039,OK,75.0,11.0,8.0,0.8492296914899695,0.019607843137254943,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,40,Seed #040,OK,92.0,11.0,10.0,0.8850546224692026,0.02645502645502651,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,41,Seed #041,OK,104.5,11.0,11.0,0.8755435858298303,0.018779342723004744,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,42,Seed #042,OK,78.5,12.0,8.0,0.8179409091692454,0.024844720496894457,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,43,Seed #043,OK,67.0,11.0,8.0,0.8149579763344192,0.05633802816901412,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,44,Seed #044,OK,86.5,12.806248664855957,9.05807876586914,0.8210820547181279,0.04419889502762431,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,45,Seed #045,OK,106.0,12.0,11.0,0.8770864089202386,0.03196347031963476,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,46,Seed #046,OK,98.0,11.0,11.0,0.9009979997718716,0.015075376884422065,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,47,Seed #047,OK,97.0,13.0,9.0,0.8378602590590312,0.02020202020202022,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,48,Seed #048,OK,117.5,15.0,9.0,0.80876842836698,0.02083333333333337,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,49,Seed #049,OK,108.5,12.0,11.0,0.8713792354133656,0.022522522522522515,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_sparse_002\proposed_v1.json,mungbean_sparse_002,32,mungbean,50,Seed #050,OK,134.0,14.0,12.0,0.877781623699805,0.021897810218978075,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,1,Seed #001,OK,41.0,8.0,7.0,0.8040483816730251,0.046511627906976716,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,2,Seed #002,OK,68.0,12.165525436401367,7.726752281188965,0.7330564452488205,0.09333333333333338,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,3,Seed #003,OK,94.5,11.0,11.0,0.7589432050374475,0.0643564356435643,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,4,Seed #004,OK,41.5,8.0,7.0,0.7774552137340204,0.05681818181818177,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,5,Seed #005,OK,88.0,12.020814895629883,9.192387580871582,0.8242898749525761,0.04347826086956519,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,6,Seed #006,OK,101.0,12.0,10.0,0.8211891798752264,0.03349282296650713,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,7,Seed #007,OK,58.0,10.0,7.0,0.7842552705474976,0.04132231404958675,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,8,Seed #008,OK,111.0,15.0,10.0,0.7554239828409522,0.05531914893617018,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,9,Seed #009,OK,81.5,12.159200668334961,9.41357421875,0.7261071984416488,0.0842696629213483,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,10,Seed #010,OK,73.5,12.0,8.0,0.8202529481445897,0.045454545454545414,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,11,Seed #011,OK,65.5,10.0,9.0,0.7162501283938985,0.08391608391608396,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,12,Seed #012,OK,84.5,11.0,10.0,0.839909037392062,0.03977272727272729,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,13,Seed #013,OK,153.5,15.55634880065918,14.142135620117188,0.6689508236782411,0.13276836158192096,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,14,Seed #014,OK,85.0,12.0,9.0,0.8177135098900242,0.03409090909090906,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,15,Seed #015,OK,89.5,12.0,9.0,0.8337583396809103,0.037634408602150504,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,16,Seed #016,OK,93.5,13.0,9.0,0.8330186877827506,0.03608247422680411,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,17,Seed #017,OK,94.0,11.0,10.0,0.848400456004533,0.030927835051546393,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,18,Seed #018,OK,85.0,12.0,9.0,0.8177135098900242,0.039548022598870025,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,19,Seed #019,OK,106.5,11.0,11.0,0.8406683148505877,0.022935779816513735,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,20,Seed #020,OK,86.5,12.74754810333252,9.021342277526855,0.7706536523337745,0.06486486486486487,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,21,Seed #021,OK,58.5,9.0,8.0,0.8223146621636024,0.025000000000000022,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,22,Seed #022,OK,91.0,12.0,9.0,0.8754344693042926,0.01621621621621616,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,23,Seed #023,OK,63.0,9.0,9.0,0.7502001588268801,0.06666666666666665,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,24,Seed #024,OK,76.0,12.0,9.0,0.7311320794310805,0.10059171597633132,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,25,Seed #025,OK,84.5,13.0,8.0,0.8399090430239654,0.023121387283236983,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,26,Seed #026,OK,140.0,15.0,11.0,0.7590793939516012,0.05405405405405406,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,27,Seed #027,OK,86.0,12.0,9.0,0.8836964010441303,0.011494252873563204,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,28,Seed #028,OK,62.0,10.0,8.0,0.7945707069961786,0.05343511450381677,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,29,Seed #029,OK,104.0,14.75127124786377,9.544940948486328,0.7077846325717031,0.09565217391304348,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,30,Seed #030,OK,78.5,13.0,8.0,0.7802705258612647,0.048484848484848464,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,31,Seed #031,OK,70.5,12.0,7.0,0.827107817149959,0.007042253521126751,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,32,Seed #032,OK,194.0,17.708755493164062,15.495161056518555,0.6976699775723564,0.10185185185185186,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,33,Seed #033,OK,72.0,11.0,8.0,0.8152605096650034,0.040000000000000036,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,34,Seed #034,OK,38.0,8.0,6.0,0.7254151973851836,0.06172839506172845,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,35,Seed #035,OK,85.5,11.0,10.0,0.8498487950124146,0.04469273743016755,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,36,Seed #036,OK,86.0,13.0,9.0,0.7906717140855201,0.05494505494505497,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,37,Seed #037,OK,96.5,12.727922439575195,9.192387580871582,0.8379516253375934,0.03500000000000003,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,38,Seed #038,OK,112.0,13.435027122497559,10.60660171508789,0.8885539308252304,0.01754385964912286,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,39,Seed #039,OK,84.0,11.0,9.0,0.7929645161370098,0.0561797752808989,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,40,Seed #040,OK,96.0,11.31370735168457,11.31370735168457,0.8443465286387823,0.025380710659898442,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,41,Seed #041,OK,101.0,11.0,11.0,0.787644591570849,0.047169811320754707,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,42,Seed #042,OK,121.5,14.0,11.0,0.8498971197707896,0.028000000000000025,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,43,Seed #043,OK,123.5,16.0,10.0,0.7591826525933236,0.050000000000000044,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,44,Seed #044,OK,105.5,12.727922439575195,10.74802303314209,0.767692959969644,0.08260869565217388,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,45,Seed #045,OK,85.0,11.0,9.0,0.8565291326653014,0.02857142857142858,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,46,Seed #046,OK,103.5,13.435027122497559,9.899494171142578,0.845834864131819,0.037209302325581395,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,47,Seed #047,OK,69.5,10.60660171508789,8.485280990600586,0.832746610735683,0.021126760563380254,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_001\proposed_v1.json,mungbean_touch_001,36,mungbean,48,Seed #048,OK,96.5,12.0,10.0,0.8085163306480334,0.049261083743842415,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,1,Seed #001,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,2,Seed #002,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,3,Seed #003,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,4,Seed #004,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,5,Seed #005,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,6,Seed #006,OK,77.0,10.60660171508789,9.192387580871582,0.8901186084574627,0.025316455696202556,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,7,Seed #007,OK,80.0,13.0,9.0,0.7355085664991405,0.07514450867052025,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,8,Seed #008,OK,89.0,12.727920532226562,8.485280990600586,0.872686641483694,0.005586592178770999,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,9,Seed #009,OK,54.5,10.0,7.0,0.7660880185968603,0.05217391304347829,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,10,Seed #010,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,11,Seed #011,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,12,Seed #012,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,13,Seed #013,OK,163.0,16.812110900878906,14.100480079650879,0.6204818123499064,0.12600536193029488,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,14,Seed #014,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,15,Seed #015,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,16,Seed #016,OK,89.0,11.0,10.0,0.8561941512976049,0.03260869565217395,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,17,Seed #017,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,18,Seed #018,OK,81.5,11.64171028137207,9.216353416442871,0.8100897816266633,0.05232558139534882,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,19,Seed #019,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,20,Seed #020,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,21,Seed #021,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,22,Seed #022,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,23,Seed #023,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,24,Seed #024,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,25,Seed #025,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,26,Seed #026,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,27,Seed #027,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,28,Seed #028,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,29,Seed #029,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,30,Seed #030,OK,81.5,12.0,8.0,0.8491998032477871,0.01807228915662651,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,31,Seed #031,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,32,Seed #032,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,33,Seed #033,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,34,Seed #034,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,35,Seed #035,OK,93.0,11.0,11.0,0.8550287140692251,0.03626943005181349,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,36,Seed #036,OK,73.5,10.0,9.0,0.8623038881937193,0.03289473684210531,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,37,Seed #037,OK,98.0,12.0,9.0,0.831470055955076,0.015075376884422065,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,38,Seed #038,OK,90.5,13.0,9.0,0.806290815447475,0.05235602094240843,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_004\proposed_v1.json,mungbean_touch_004,39,mungbean,39,Seed #039,OK,92.0,11.0,10.0,0.7805637211630047,0.05154639175257736,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,1,Seed #001,OK,54.5,9.192388534545898,7.071067810058594,0.9019096131568339,0.009090909090909038,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,2,Seed #002,OK,66.5,10.0,8.0,0.8212282868657106,0.043165467625899234,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,3,Seed #003,OK,56.0,9.0,8.0,0.8189480763172059,0.05882352941176472,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,4,Seed #004,OK,59.0,10.0,7.0,0.8628202946913419,0.024793388429752095,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,5,Seed #005,OK,93.0,11.0,10.0,0.8946747814090853,0.021052631578947323,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,6,Seed #006,OK,79.5,10.0,10.0,0.8872123850902496,0.012422360248447228,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,7,Seed #007,OK,74.0,10.0,9.0,0.9001028462101706,0.019867549668874163,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,8,Seed #008,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,9,Seed #009,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,10,Seed #010,OK,81.0,12.20000171661377,9.0,0.8323186976345124,0.04705882352941182,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,11,Seed #011,OK,64.0,10.0,8.0,0.8852008233619355,0.022900763358778664,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,12,Seed #012,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,13,Seed #013,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,14,Seed #014,OK,65.0,11.180339813232422,7.602630615234375,0.7513988253212347,0.08450704225352113,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,15,Seed #015,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,16,Seed #016,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,17,Seed #017,OK,71.5,11.0,9.0,0.7979331457011438,0.052980132450331174,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,18,Seed #018,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,19,Seed #019,OK,91.5,13.0,9.0,0.8152001062259002,0.051813471502590636,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,20,Seed #020,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,21,Seed #021,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,22,Seed #022,OK,103.0,12.521980285644531,11.180338859558105,0.8171522854600453,0.0636363636363636,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,23,Seed #023,OK,107.0,12.0,11.0,0.8344353643429506,0.027272727272727226,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,24,Seed #024,OK,72.5,10.60660171508789,8.485280990600586,0.868692526788064,0.033333333333333326,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,25,Seed #025,OK,86.5,11.31370735168457,9.192388534545898,0.8766271454934254,0.028089887640449396,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,26,Seed #026,OK,78.5,10.0,9.0,0.8020132542570876,0.04268292682926833,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,27,Seed #027,OK,92.5,12.020814895629883,9.899494171142578,0.8780357347605015,0.02631578947368418,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,28,Seed #028,OK,59.0,10.0,7.0,0.8628202946913419,0.024793388429752095,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,29,Seed #029,OK,92.5,11.0,9.0,0.9019343424646752,0.0,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,30,Seed #030,OK,90.5,11.62755298614502,9.838699340820312,0.8590511727041416,0.037234042553191515,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,31,Seed #031,OK,71.0,9.899494171142578,8.485280990600586,0.8823513813555227,0.006993006993006978,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,32,Seed #032,OK,93.5,12.0,9.0,0.7696812665312,0.05555555555555558,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,33,Seed #033,OK,103.5,12.0,11.0,0.8827387636955533,0.028169014084507005,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,34,Seed #034,OK,111.0,13.57645034790039,12.303659439086914,0.6018415165096449,0.155893536121673,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,35,Seed #035,OK,99.5,12.0,10.0,0.8336515533624801,0.02450980392156865,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,36,Seed #036,OK,138.0,13.0,13.0,0.7482353989038828,0.05154639175257736,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,37,Seed #037,OK,97.0,12.727920532226562,9.899494171142578,0.8531417942163203,0.025125628140703515,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,38,Seed #038,OK,90.0,14.0,8.0,0.7317527301045554,0.0625,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,39,Seed #039,OK,119.5,13.743291854858398,10.932164192199707,0.8496081596342635,0.04400000000000004,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,40,Seed #040,OK,93.5,12.0,10.0,0.8330186930709945,0.050761421319796995,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,41,Seed #041,OK,71.0,10.0,9.0,0.8636121902827312,0.03401360544217691,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,42,Seed #042,OK,201.0,19.79924964904785,12.488758087158203,0.7651340171770296,0.06074766355140182,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,43,Seed #043,OK,78.0,11.31370735168457,8.485280990600586,0.9016785838652129,0.012658227848101222,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,44,Seed #044,OK,78.5,12.0,8.0,0.8179409091692454,0.04268292682926833,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,45,Seed #045,OK,106.0,12.0,11.0,0.8770864142861785,0.03196347031963476,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,46,Seed #046,OK,89.0,11.0,9.0,0.896836385967198,0.005586592178770999,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\mungbean_touch_006\proposed_v1.json,mungbean_touch_006,41,mungbean,47,Seed #047,OK,89.0,11.0,10.0,0.9145230134502668,0.005586592178770999,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,1,Seed #001,OK,112.0,13.435027122497559,10.60660171508789,0.8526866706986215,0.03862660944206009,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,2,Seed #002,OK,94.0,11.0,11.0,0.8642225712097545,0.030927835051546393,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,3,Seed #003,OK,109.5,13.0,10.0,0.8794103804402169,0.017937219730941756,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,4,Seed #004,OK,105.0,13.0,10.0,0.8688120141514032,0.02777777777777779,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,5,Seed #005,OK,169.5,15.0,14.0,0.8794604220612727,0.014534883720930258,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,6,Seed #006,OK,114.5,12.0,12.0,0.882226297662328,0.025531914893617058,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,7,Seed #007,OK,161.0,14.0,14.0,0.8855198655841844,0.027190332326283984,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,8,Seed #008,OK,153.0,14.0,14.0,0.8843386237731068,0.03164556962025311,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,9,Seed #009,OK,107.5,13.435027122497559,9.899494171142578,0.878524123560237,0.0182648401826484,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,10,Seed #010,OK,117.0,15.0,10.0,0.8415194621732985,0.02904564315352698,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,11,Seed #011,OK,186.0,15.0,14.0,0.8996714900172956,0.01326259946949604,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,12,Seed #012,OK,143.0,16.0,11.0,0.8567105380095229,0.01379310344827589,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,13,Seed #013,OK,151.0,14.0,12.0,0.8912333621935835,0.013071895424836555,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,14,Seed #014,OK,116.5,14.142135620117188,10.606600761413574,0.8619122463203882,0.025104602510460206,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,15,Seed #015,OK,136.0,13.0,13.0,0.8908828322649894,0.02508960573476704,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,16,Seed #016,OK,80.5,10.0,10.0,0.8983722829222668,0.024242424242424288,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,17,Seed #017,OK,121.0,12.0,12.0,0.9058397764240502,0.016260162601625994,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,18,Seed #018,OK,150.5,14.0,13.0,0.8790132851888299,0.02588996763754048,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,19,Seed #019,OK,136.5,14.849241256713867,11.31370735168457,0.8843328129604577,0.014440433212996373,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,20,Seed #020,OK,134.0,14.0,12.0,0.877781623699805,0.025454545454545507,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,21,Seed #021,OK,170.5,19.160314559936523,11.884245872497559,0.7911019691133387,0.05277777777777781,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,22,Seed #022,OK,125.5,14.0,11.0,0.877877276800156,0.01953125,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,23,Seed #023,OK,148.5,14.0,13.0,0.8673320410604441,0.0357142857142857,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,24,Seed #024,OK,149.5,15.55634880065918,12.020814895629883,0.8862365822954577,0.009933774834437137,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,25,Seed #025,OK,115.0,13.0,12.0,0.8271345093840414,0.04958677685950408,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,26,Seed #026,OK,116.5,15.0,9.0,0.8018852928064101,0.025104602510460206,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,27,Seed #027,OK,130.0,13.0,12.0,0.8847307907146287,0.02621722846441943,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,28,Seed #028,OK,114.0,15.0,9.0,0.8066435016779822,0.03389830508474578,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,29,Seed #029,OK,161.0,18.0,11.0,0.8158206215240628,0.033033033033033066,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,30,Seed #030,OK,203.0,18.384775161743164,14.142135620117188,0.8398516122515473,0.033333333333333326,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,31,Seed #031,OK,163.0,17.47305679321289,12.480754852294922,0.8374564665445332,0.035502958579881616,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,32,Seed #032,OK,161.0,17.441329956054688,12.074766159057617,0.8271809270777292,0.03880597014925369,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,33,Seed #033,OK,135.5,17.0,10.0,0.791403987661704,0.028673835125448077,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,34,Seed #034,OK,173.5,16.0,13.0,0.8588368669922306,0.016997167138810165,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,35,Seed #035,OK,178.0,19.0,12.0,0.8076175814423957,0.03260869565217395,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,36,Seed #036,OK,226.5,17.0,16.0,0.8695319563239472,0.027896995708154515,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,37,Seed #037,OK,138.0,18.0,9.0,0.7860269439328208,0.017793594306049876,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,38,Seed #038,OK,223.5,18.0,16.0,0.8336969036897586,0.04893617021276597,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,39,Seed #039,OK,169.5,20.0,11.0,0.6507093420870825,0.08378378378378382,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_001\proposed_v1.json,redbean_sparse_001,51,redbean,40,Seed #040,OK,192.0,18.0,14.0,0.8085181416708176,0.03759398496240607,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,1,Seed #001,OK,113.0,13.435027122497559,10.60660171508789,0.8602999445441448,0.03418803418803418,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,2,Seed #002,OK,82.0,12.0,9.0,0.8425942371114816,0.040935672514619936,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,3,Seed #003,OK,87.5,11.0,10.0,0.8697282931574606,0.02777777777777779,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,4,Seed #004,OK,130.0,13.0,12.0,0.8847307907146287,0.018867924528301883,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,5,Seed #005,OK,104.0,12.0,11.0,0.860537614016628,0.023474178403755874,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,6,Seed #006,OK,104.0,12.020814895629883,10.60660171508789,0.8758946602040312,0.028037383177570097,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,7,Seed #007,OK,109.5,12.727922439575195,10.606600761413574,0.8948687692988812,0.013513513513513487,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,8,Seed #008,OK,177.5,15.0,13.0,0.9082588103199936,0.0056022408963585235,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,9,Seed #009,OK,55.0,10.0,7.0,0.8726869091183199,0.017857142857142905,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,10,Seed #010,OK,160.0,14.0,14.0,0.8800197421954628,0.027355623100303927,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,11,Seed #011,OK,121.5,14.142135620117188,10.60660171508789,0.8989041778222208,0.012195121951219523,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,12,Seed #012,OK,138.0,16.0,11.0,0.8267556240931061,0.04166666666666663,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,13,Seed #013,OK,136.0,13.0,13.0,0.8908828468134772,0.02508960573476704,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,14,Seed #014,OK,129.5,16.0,10.0,0.8260599562274226,0.029962546816479363,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,15,Seed #015,OK,128.5,13.0,11.0,0.8844829195332505,0.01532567049808431,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,16,Seed #016,OK,134.5,13.0,12.0,0.8909005240006781,0.021818181818181848,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,17,Seed #017,OK,114.0,12.727920532226562,11.31370735168457,0.9044209815582401,0.017241379310344862,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,18,Seed #018,OK,155.5,16.0,12.0,0.8766239494845978,0.015822784810126556,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,19,Seed #019,OK,133.0,13.0,12.0,0.9051476551157356,0.014814814814814836,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,20,Seed #020,OK,120.5,12.0,12.0,0.8768436177852332,0.02429149797570851,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,21,Seed #021,OK,113.0,13.435027122497559,10.60660171508789,0.8602999495927428,0.03829787234042559,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,22,Seed #022,OK,152.0,14.0,13.0,0.8657687990209258,0.031847133757961776,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,23,Seed #023,OK,153.5,15.55634880065918,12.020814895629883,0.8780662287372938,0.01602564102564108,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,24,Seed #024,OK,151.0,15.0,13.0,0.8727786283747417,0.02580645161290318,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,25,Seed #025,OK,161.0,14.0,14.0,0.8855198700011059,0.021276595744680882,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,26,Seed #026,OK,148.5,15.55634880065918,12.020814895629883,0.8803085829590298,0.013289036544850474,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,27,Seed #027,OK,160.0,14.0,14.0,0.8800197421954628,0.033232628398791486,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,28,Seed #028,OK,132.5,14.0,12.0,0.8451964757698287,0.03284671532846717,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,29,Seed #029,OK,216.5,20.0,14.0,0.8412022736161756,0.02257336343115124,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,30,Seed #030,OK,137.0,17.0,10.0,0.8207646498552313,0.02491103202846978,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,31,Seed #031,OK,148.5,17.0,10.0,0.8251241766992091,0.010000000000000009,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,32,Seed #032,OK,204.0,21.0,12.0,0.767360675702127,0.04225352112676062,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,33,Seed #033,OK,226.5,18.08388900756836,16.604297637939453,0.82127604629464,0.04831932773109249,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,34,Seed #034,OK,142.5,17.0,11.0,0.8033370517036464,0.043624161073825496,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,35,Seed #035,OK,144.0,15.55634880065918,11.31370735168457,0.8757757301733071,0.006896551724137945,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,36,Seed #036,OK,152.0,17.0,11.0,0.8360187592557023,0.028753993610223683,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,37,Seed #037,OK,219.0,16.0,16.0,0.8838962919880929,0.020134228187919434,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,38,Seed #038,OK,218.5,17.220027923583984,16.492422103881836,0.8150459662470347,0.05818965517241381,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,39,Seed #039,OK,188.0,20.124608993530273,12.521980285644531,0.8267559678698,0.028423772609819098,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_sparse_002\proposed_v1.json,redbean_sparse_002,52,redbean,40,Seed #040,OK,173.0,17.0,13.0,0.8481729839900672,0.028089887640449396,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,1,Seed #001,OK,134.0,16.0,11.0,0.8454952512611636,0.02898550724637683,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,2,Seed #002,OK,105.0,12.0,11.0,0.8688120194667212,0.014084507042253502,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,3,Seed #003,OK,107.5,13.0,10.0,0.8633480903865143,0.02714932126696834,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,4,Seed #004,OK,176.5,16.970561981201172,13.435027122497559,0.8570972929200691,0.030219780219780223,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,5,Seed #005,OK,99.5,12.0,11.0,0.7990989253552829,0.06572769953051638,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,6,Seed #006,OK,142.0,15.0,12.0,0.8507195596548819,0.030716723549488067,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,7,Seed #007,OK,150.5,15.55634880065918,12.020814895629883,0.8921645908103298,0.016339869281045805,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,8,Seed #008,OK,142.5,16.0,11.0,0.8759799837615273,0.017241379310344862,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,9,Seed #009,OK,154.5,15.0,13.0,0.8709864920349175,0.025236593059936863,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,10,Seed #010,OK,147.5,19.0,11.0,0.7401827998578768,0.057507987220447254,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,11,Seed #011,OK,152.5,15.49317455291748,13.335897445678711,0.7652737385798667,0.0757575757575758,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,12,Seed #012,OK,123.5,13.0,12.0,0.8638872006758507,0.03891050583657585,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,13,Seed #013,OK,118.5,13.435027122497559,11.31370735168457,0.8424984679218429,0.03265306122448974,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,14,Seed #014,OK,150.5,16.994115829467773,11.627553939819336,0.8194281759142812,0.03833865814696491,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,15,Seed #015,OK,150.5,15.55634880065918,12.020814895629883,0.8921645908103298,0.019543973941368087,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,16,Seed #016,OK,136.0,15.55634880065918,11.31370735168457,0.8271215402946617,0.03546099290780147,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,17,Seed #017,OK,139.5,16.099689483642578,12.074767112731934,0.7595364193178423,0.07920792079207917,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,18,Seed #018,OK,118.0,14.285496711730957,11.126204490661621,0.7729718775863954,0.078125,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,19,Seed #019,OK,156.5,14.849241256713867,13.435027122497559,0.7599757866401745,0.09275362318840574,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,20,Seed #020,OK,139.0,15.55634880065918,11.31370735168457,0.8453668595213986,0.03806228373702425,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,21,Seed #021,OK,202.5,19.0,15.0,0.7058784825048043,0.09799554565701563,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,22,Seed #022,OK,145.0,15.0,12.0,0.8686925126205003,0.016949152542372836,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,23,Seed #023,OK,168.0,15.0,14.0,0.8512910914807713,0.042735042735042694,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,24,Seed #024,OK,119.0,16.0,9.0,0.8098689545772371,0.024590163934426257,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,25,Seed #025,OK,168.5,18.0,12.0,0.8073203410098001,0.03988603988603989,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,26,Seed #026,OK,146.0,17.0,11.0,0.8030180187587668,0.0363036303630363,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,27,Seed #027,OK,135.5,14.849241256713867,11.31370735168457,0.8778542128075691,0.018115942028985477,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,28,Seed #028,OK,163.0,19.0,10.0,0.7884217859509116,0.0239520958083832,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,29,Seed #029,OK,145.5,15.0,13.0,0.8202494065447622,0.042763157894736836,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,30,Seed #030,OK,177.5,16.0,14.0,0.8504413008605597,0.04054054054054057,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,31,Seed #031,OK,173.5,15.0,14.0,0.8588368710562096,0.036111111111111094,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,32,Seed #032,OK,161.0,16.970561981201172,12.727920532226562,0.8001500407153584,0.05014749262536877,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,33,Seed #033,OK,228.5,19.091880798339844,15.55634880065918,0.8382718074076284,0.03586497890295359,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,34,Seed #034,OK,147.0,14.310833930969238,13.416406631469727,0.8496586733982545,0.039215686274509776,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,35,Seed #035,OK,202.5,20.714271545410156,12.494322776794434,0.810239436921004,0.03341288782816232,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,36,Seed #036,OK,90.5,11.0,10.0,0.8995475549546611,0.016304347826086918,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,37,Seed #037,OK,154.5,15.0,13.0,0.8709864920349175,0.028301886792452824,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,38,Seed #038,OK,153.5,16.0,12.0,0.8239498410618648,0.03154574132492116,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,39,Seed #039,OK,200.0,18.384775161743164,14.142135620117188,0.8528876962629763,0.024390243902439046,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_001\proposed_v1.json,redbean_touch_001,56,redbean,40,Seed #040,OK,228.5,17.0,16.0,0.8772099463487585,0.02765957446808509,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,1,Seed #001,OK,120.0,14.0,11.0,0.8630968842803062,0.024390243902439046,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,2,Seed #002,OK,221.0,21.022754669189453,14.03844928741455,0.5244483644297869,0.16603773584905657,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,3,Seed #003,OK,137.0,13.0,13.0,0.8974334413257614,0.014388489208633115,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,4,Seed #004,OK,132.0,14.849241256713867,10.60660171508789,0.8458333412850608,0.018587360594795488,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,5,Seed #005,OK,160.5,16.26345443725586,12.727920532226562,0.8738752307923066,0.024316109422492405,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,6,Seed #006,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,7,Seed #007,OK,154.0,16.26345443725586,12.020814895629883,0.8593126231182635,0.025316455696202556,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,8,Seed #008,OK,106.0,13.0,10.0,0.7804181687616539,0.0535714285714286,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,9,Seed #009,OK,155.5,15.0,13.0,0.8068206310064114,0.054711246200607855,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,10,Seed #010,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,11,Seed #011,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,12,Seed #012,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,13,Seed #013,OK,172.5,15.0,14.0,0.7899303152628823,0.05737704918032782,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,14,Seed #014,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,15,Seed #015,OK,39.5,7.0,7.0,0.7896984775035412,0.059523809523809534,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,16,Seed #016,OK,86.0,14.0,8.0,0.6992303907848462,0.05494505494505497,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,17,Seed #017,OK,88.5,12.965337753295898,11.700427055358887,0.5558987455046582,0.16901408450704225,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,18,Seed #018,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,19,Seed #019,OK,168.0,16.26345443725586,13.435027122497559,0.8349391689615813,0.05084745762711862,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,20,Seed #020,OK,69.5,10.323759078979492,8.626703262329102,0.8153757913747822,0.060810810810810856,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,21,Seed #021,OK,228.5,18.0,16.0,0.8878278000714402,0.023504273504273532,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,22,Seed #022,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,23,Seed #023,OK,120.0,13.0,12.0,0.8630968793572605,0.028340080971659964,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,24,Seed #024,OK,143.5,14.0,13.0,0.8821272070661091,0.020477815699658675,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,25,Seed #025,OK,202.0,17.0,15.0,0.8883229056093501,0.021791767554479424,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,26,Seed #026,OK,143.0,16.0,11.0,0.814506172763108,0.03703703703703709,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,27,Seed #027,OK,152.0,16.0,12.0,0.7964953919549047,0.04100946372239744,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,28,Seed #028,OK,158.5,16.26345443725586,12.727920532226562,0.8629858283822666,0.030581039755351647,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,29,Seed #029,OK,234.5,17.0,17.0,0.8747289696568901,0.02898550724637683,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,30,Seed #030,OK,178.0,17.0,13.0,0.8336567877754799,0.02732240437158473,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,31,Seed #031,OK,161.5,16.970561981201172,12.020814895629883,0.8497607968060334,0.024169184290030232,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,32,Seed #032,OK,121.0,14.142135620117188,12.020814895629883,0.7249089167772886,0.11029411764705888,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,33,Seed #033,OK,174.0,15.0,14.0,0.8816943405267251,0.027932960893854775,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,34,Seed #034,OK,145.0,16.76007080078125,11.384199142456055,0.7975178913646381,0.055374592833876246,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,35,Seed #035,OK,142.0,16.0,11.0,0.8507195685121669,0.0273972602739726,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,36,Seed #036,OK,209.0,21.0,12.0,0.8190353666534952,0.021077283372365363,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,37,Seed #037,OK,173.0,16.0,13.0,0.8766271274761668,0.02259887005649719,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,38,Seed #038,OK,182.5,16.0,14.0,0.8743974019839083,0.024064171122994638,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,39,Seed #039,OK,171.0,17.0,12.0,0.8664927181143565,0.014409221902017322,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_005\proposed_v1.json,redbean_touch_005,60,redbean,40,Seed #040,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,1,Seed #001,OK,120.0,12.727920532226562,11.31370735168457,0.9135928668241515,0.012345679012345734,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,2,Seed #002,OK,106.5,15.0,9.0,0.8205860274790026,0.03181818181818186,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,3,Seed #003,OK,145.0,14.142135620117188,13.435027122497559,0.7705759898693402,0.07348242811501593,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,4,Seed #004,OK,72.5,13.301034927368164,8.833512306213379,0.6074345414534283,0.1853932584269663,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,5,Seed #005,OK,213.5,20.0,16.0,0.6242782852718798,0.1477045908183633,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,6,Seed #006,OK,215.0,21.0190372467041,13.86362075805664,0.5102099489675732,0.17307692307692313,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,7,Seed #007,OK,362.0,24.0,20.0,0.6914180997912822,0.09838107098381066,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,8,Seed #008,OK,103.5,13.0,9.0,0.8671651783099275,0.009569377990430672,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,9,Seed #009,OK,128.5,13.0,12.0,0.8988623909866139,0.02281368821292773,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,10,Seed #010,OK,121.0,14.0,11.0,0.7803484239247169,0.0546875,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,11,Seed #011,OK,148.5,16.994115829467773,11.627553939819336,0.8085387649386762,0.045016077170418,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,12,Seed #012,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,13,Seed #013,OK,171.0,14.757325172424316,14.033039093017578,0.7560111337898252,0.0681198910081744,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,14,Seed #014,OK,123.0,14.0,11.0,0.8370914358008475,0.023809523809523836,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,15,Seed #015,OK,160.5,14.0,14.0,0.9048112056030544,0.012307692307692353,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,16,Seed #016,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,17,Seed #017,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,18,Seed #018,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,19,Seed #019,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,20,Seed #020,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,21,Seed #021,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,22,Seed #022,OK,222.0,19.798988342285156,14.142135620117188,0.8806204227436577,0.013333333333333308,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,23,Seed #023,OK,162.0,18.609542846679688,11.352991104125977,0.7942429098635311,0.04424778761061943,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,24,Seed #024,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,25,Seed #025,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,26,Seed #026,OK,167.0,15.0,14.0,0.8874909719939577,0.023391812865497075,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,27,Seed #027,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,28,Seed #028,OK,149.5,15.55634880065918,12.020814895629883,0.825737292655279,0.03548387096774197,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,29,Seed #029,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,30,Seed #030,OK,124.0,14.0,11.0,0.857538297454371,0.015873015873015928,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,31,Seed #031,UNRESOLVED,,,,,,C,missing_area,True
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,32,Seed #032,OK,194.0,21.0,11.0,0.7829948887931051,0.027568922305764465,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,33,Seed #033,OK,139.5,15.0,12.0,0.8575382953708865,0.03125,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,34,Seed #034,OK,176.5,18.0,12.0,0.8082475399646303,0.02216066481994461,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,35,Seed #035,OK,194.5,18.0,13.0,0.7687865074781944,0.04656862745098034,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\redbean_touch_006\proposed_v1.json,redbean_touch_006,61,redbean,36,Seed #036,OK,183.0,18.0,12.0,0.8570741172197018,0.013477088948787075,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,1,Seed #001,OK,147.5,15.45350456237793,12.329923629760742,0.8315243208747595,0.048387096774193505,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,2,Seed #002,OK,169.0,15.17893123626709,14.23024845123291,0.8020974982493358,0.05586592178770955,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,3,Seed #003,OK,232.5,19.991968154907227,15.976487159729004,0.7123740075774168,0.09533073929961089,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,4,Seed #004,OK,197.5,17.0,14.0,0.8391165324725388,0.031862745098039214,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,5,Seed #005,OK,244.5,19.0,16.0,0.7894624701260475,0.044921875,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,6,Seed #006,OK,221.0,19.40322494506836,14.42803955078125,0.8079800282952543,0.04741379310344829,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,7,Seed #007,OK,224.5,19.0,16.0,0.6952932539347966,0.07991803278688525,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,8,Seed #008,OK,193.0,16.0,15.0,0.8379515982979939,0.02278481012658229,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,9,Seed #009,OK,418.0,28.36273765563965,17.557884216308594,0.7541758920008036,0.06172839506172845,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,10,Seed #010,OK,274.5,19.349597930908203,18.27000617980957,0.7635597517051884,0.07106598984771573,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,11,Seed #011,OK,240.0,17.0,17.0,0.8433996535011306,0.03420523138832998,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,12,Seed #012,OK,316.5,20.0,19.0,0.8385378945581922,0.03358778625954195,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,13,Seed #013,OK,298.5,23.730052947998047,16.473758697509766,0.8184578344791913,0.03864734299516903,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,14,Seed #014,OK,231.0,19.0,15.0,0.8793331278672551,0.019108280254777066,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,15,Seed #015,OK,212.0,18.0,15.0,0.8662656524364634,0.036363636363636376,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,16,Seed #016,OK,265.0,20.50609588623047,16.26345443725586,0.8916467354353916,0.020332717190388205,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,17,Seed #017,OK,305.0,21.21320343017578,18.384775161743164,0.8814486220114485,0.025559105431309903,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,18,Seed #018,OK,313.5,21.0,19.0,0.838928785868057,0.02941176470588236,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,19,Seed #019,OK,262.5,19.0,18.0,0.8665431324682176,0.03314917127071826,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,20,Seed #020,OK,253.0,19.0,17.0,0.8512702894543136,0.028790786948176605,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,21,Seed #021,OK,269.0,18.0,18.0,0.8618529039595647,0.03237410071942448,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,22,Seed #022,OK,320.0,20.698566436767578,19.909212112426758,0.8418682928165353,0.03903903903903905,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,23,Seed #023,OK,328.5,22.0,19.0,0.8299186217916595,0.040875912408759096,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,24,Seed #024,OK,333.5,21.736419677734375,19.787639617919922,0.796722968711687,0.06451612903225812,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,25,Seed #025,OK,347.5,22.452171325683594,19.922348022460938,0.7362845695576541,0.08432147562582348,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,26,Seed #026,OK,304.5,20.0,20.0,0.8645745300675786,0.030254777070063743,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,27,Seed #027,OK,310.5,22.749473571777344,19.023265838623047,0.7024982195142108,0.11031518624641834,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,28,Seed #028,OK,385.0,24.0,21.0,0.8389122602398901,0.04347826086956519,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,29,Seed #029,OK,270.5,19.0,17.0,0.8506708337225091,0.026978417266187105,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,30,Seed #030,OK,353.5,22.0,20.0,0.8930783312376969,0.022130013831258677,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,31,Seed #031,OK,358.5,22.0,20.0,0.9057102706262341,0.01375515818431916,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,32,Seed #032,OK,366.0,23.0,19.0,0.8802445488059645,0.021390374331550777,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,33,Seed #033,OK,373.0,24.0,20.0,0.8384344972305247,0.02990897269180759,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,34,Seed #034,OK,326.5,23.0,18.0,0.8248658420059635,0.038291605301914555,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,35,Seed #035,OK,337.5,24.18613624572754,18.051973342895508,0.7808480478264205,0.06896551724137934,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,36,Seed #036,OK,345.0,24.53666114807129,18.928281784057617,0.7517525472504322,0.07999999999999996,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,37,Seed #037,OK,391.5,24.6957950592041,20.922828674316406,0.8295119631569141,0.048602673147023046,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,38,Seed #038,OK,447.0,24.0,23.0,0.905316918193503,0.01650165016501648,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_001\proposed_v1.json,soybean_multi_001,21,soybean,39,Seed #039,OK,400.5,23.0,21.0,0.9061208802421076,0.01597051597051602,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,1,Seed #001,OK,159.5,15.55634880065918,13.435027122497559,0.8392374555681849,0.05059523809523814,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,2,Seed #002,OK,212.0,18.0,14.0,0.8556438990934963,0.029748283752860427,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,3,Seed #003,OK,270.5,22.0,16.0,0.8377586868123049,0.026978417266187105,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,4,Seed #004,OK,245.5,18.0,18.0,0.8421012972482875,0.03913894324853229,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,5,Seed #005,OK,310.5,22.0,18.0,0.8513606649942402,0.0357142857142857,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,6,Seed #006,OK,204.5,19.0,14.0,0.8535566534178359,0.01918465227817745,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,7,Seed #007,OK,265.5,19.0,18.0,0.8764464791667572,0.029250457038391242,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,8,Seed #008,OK,300.0,21.0,17.0,0.8799019331382542,0.013157894736842146,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,9,Seed #009,OK,299.5,21.0,17.0,0.8331007156535487,0.02917341977309562,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,10,Seed #010,OK,293.0,21.0,18.0,0.8684525724724123,0.02657807308970095,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,11,Seed #011,OK,289.0,22.0,17.0,0.8565965677936286,0.02857142857142858,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,12,Seed #012,OK,308.5,22.0,18.0,0.8759318466509511,0.022187004754358197,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,13,Seed #013,OK,257.5,19.798988342285156,16.26345443725586,0.9079469784053761,0.015296367112810683,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,14,Seed #014,OK,290.0,20.0,18.0,0.881857514975803,0.023569023569023573,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,15,Seed #015,OK,312.5,22.0,18.0,0.8568444635644576,0.029503105590062084,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,16,Seed #016,OK,330.0,22.0,19.0,0.8681766799620073,0.032258064516129004,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,17,Seed #017,OK,289.0,19.0,19.0,0.9117467449823292,0.015332197614991494,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,18,Seed #018,OK,316.0,21.466251373291016,19.230182647705078,0.8602634730849467,0.03658536585365857,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,19,Seed #019,OK,302.5,21.0190372467041,19.677398681640625,0.8094926909346847,0.060559006211180155,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,20,Seed #020,OK,274.0,21.290884017944336,16.895347595214844,0.7836812652167698,0.07744107744107742,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,21,Seed #021,OK,285.0,19.52374267578125,19.089879989624023,0.7758705347115281,0.0625,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,22,Seed #022,OK,341.5,23.0,19.0,0.8236098064831079,0.0339462517680339,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,23,Seed #023,OK,258.0,19.0,17.0,0.8921164547944507,0.020872865275142316,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,24,Seed #024,OK,379.0,24.324474334716797,20.36467742919922,0.8519213792235089,0.03684879288437104,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,25,Seed #025,OK,278.5,21.0190372467041,17.441329956054688,0.8193565423890922,0.05432937181663833,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,26,Seed #026,OK,375.5,23.0,21.0,0.8769126957315497,0.019582245430809442,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,27,Seed #027,OK,323.5,20.50609588623047,19.798988342285156,0.8960662189244702,0.0226586102719033,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,28,Seed #028,OK,264.5,21.0,15.0,0.8018057424016714,0.034671532846715314,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,29,Seed #029,OK,334.5,24.0,17.0,0.7916036105654473,0.0429184549356223,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,30,Seed #030,OK,310.0,20.0,20.0,0.8648925674426856,0.026687598116169498,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,31,Seed #031,OK,434.0,25.0,21.0,0.8289377121030657,0.03448275862068961,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,32,Seed #032,OK,390.0,25.0,19.0,0.8241811499371173,0.03345724907063197,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,33,Seed #033,OK,372.5,24.807769775390625,19.709564208984375,0.7218618036146851,0.08251231527093594,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,34,Seed #034,OK,314.5,21.503490447998047,19.922348022460938,0.7687950247790917,0.046969696969696995,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,35,Seed #035,OK,396.0,25.0,19.0,0.7950833528660605,0.042321644498186206,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,36,Seed #036,OK,401.0,25.223705291748047,20.372989654541016,0.8550199083170508,0.03605769230769229,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,37,Seed #037,OK,350.5,25.0,18.0,0.8373355365860053,0.0277392510402219,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,38,Seed #038,OK,360.5,23.400854110717773,20.55480194091797,0.6844520436561082,0.10323383084577109,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,39,Seed #039,OK,431.0,27.0,19.0,0.8653558766432272,0.01710376282782211,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_multi_004\proposed_v1.json,soybean_multi_004,24,soybean,40,Seed #040,OK,460.5,24.349536895751953,22.76839828491211,0.8165500419071985,0.04855371900826444,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,1,Seed #001,OK,151.0,15.55634880065918,13.435027122497559,0.77580323348373,0.05919003115264798,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,2,Seed #002,OK,170.0,15.0,14.0,0.9034339280161695,0.017341040462427793,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,3,Seed #003,OK,149.5,15.0,13.0,0.8427992269205189,0.047770700636942665,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,4,Seed #004,OK,212.0,17.0,16.0,0.8070070197434367,0.06194690265486724,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,5,Seed #005,OK,228.0,18.0,16.0,0.8434162779695777,0.03389830508474578,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,6,Seed #006,OK,207.0,16.970561981201172,15.55634880065918,0.882738754001114,0.02358490566037741,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,7,Seed #007,OK,201.0,17.0,15.0,0.8839252635203712,0.0266343825665859,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,8,Seed #008,OK,255.0,19.0,17.0,0.881743007645678,0.0248565965583174,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,9,Seed #009,OK,250.5,19.0,17.0,0.849591533481417,0.04022988505747127,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,10,Seed #010,OK,276.5,20.85424041748047,17.841960906982422,0.7325615337674031,0.09344262295081962,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,11,Seed #011,OK,282.0,21.0,17.0,0.8575304111144015,0.032590051457976,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,12,Seed #012,OK,221.0,17.0,16.0,0.9030410810776339,0.02212389380530977,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,13,Seed #013,OK,261.5,19.0,18.0,0.8632420091015287,0.03327171903881698,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,14,Seed #014,OK,241.5,18.0,15.0,0.8556001845665763,0.020283975659229236,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,15,Seed #015,OK,313.0,22.0,18.0,0.873262498616986,0.026438569206842955,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,16,Seed #016,OK,273.0,20.0,18.0,0.8612694132868144,0.0267379679144385,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,17,Seed #017,OK,311.5,21.0,19.0,0.8541025642890053,0.038580246913580196,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,18,Seed #018,OK,273.0,20.0,17.0,0.8843328265276136,0.023255813953488413,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,19,Seed #019,OK,316.5,22.0,18.0,0.867812078810554,0.026153846153846194,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,20,Seed #020,OK,281.5,22.0,16.0,0.8406199663416285,0.03595890410958902,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,21,Seed #021,OK,338.0,22.352407455444336,19.767436981201172,0.7945860664905553,0.061111111111111116,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,22,Seed #022,OK,316.5,21.0,18.0,0.8590810910266499,0.032110091743119296,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,23,Seed #023,OK,322.5,21.0,18.0,0.8753669884868707,0.022727272727272707,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,24,Seed #024,OK,285.5,20.0,18.0,0.8842148062288837,0.027257240204429323,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,25,Seed #025,OK,320.5,23.0,18.0,0.8576608480724475,0.0273141122913505,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,26,Seed #026,OK,262.0,20.57182502746582,16.54690170288086,0.8265662469915959,0.050724637681159424,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,27,Seed #027,OK,323.5,23.0,18.0,0.8656888777433736,0.025602409638554202,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,28,Seed #028,OK,336.5,22.0,20.0,0.8501297269066055,0.03857142857142859,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,29,Seed #029,OK,347.5,24.0,18.0,0.8779199973294738,0.021126760563380254,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,30,Seed #030,OK,413.0,25.0,21.0,0.8543318113021819,0.032786885245901676,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,31,Seed #031,OK,271.0,21.76626968383789,16.51675796508789,0.7273303267704939,0.05902777777777779,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,32,Seed #032,OK,412.5,25.951311111450195,20.615528106689453,0.8480093633782241,0.03395784543325531,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,33,Seed #033,OK,427.0,28.0,20.0,0.8469029703912282,0.026225769669327215,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,34,Seed #034,OK,362.5,25.0,18.0,0.8660032268605294,0.021592442645074206,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,35,Seed #035,OK,373.0,23.0,21.0,0.8201595187038173,0.039897039897039854,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,36,Seed #036,OK,373.0,24.748737335205078,19.091880798339844,0.8851549260202535,0.019710906701708275,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,37,Seed #037,OK,437.0,24.0,22.0,0.8774025888951222,0.02564102564102566,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,38,Seed #038,OK,486.5,25.0,24.0,0.8798849110339675,0.02407221664994985,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,39,Seed #039,OK,440.0,26.0,21.0,0.8652109979636612,0.026548672566371723,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_pair_003\proposed_v1.json,soybean_pair_003,13,soybean,40,Seed #040,OK,527.0,29.0,22.0,0.8563207160704012,0.025878003696857665,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,1,Seed #001,OK,183.5,16.0,15.0,0.8514205943243266,0.04427083333333337,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,2,Seed #002,OK,217.5,17.0,16.0,0.8702571655845356,0.029017857142857095,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,3,Seed #003,OK,233.0,17.0,17.0,0.8869464053820735,0.029166666666666674,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,4,Seed #004,OK,294.0,21.0,18.0,0.8003717151092113,0.03448275862068961,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,5,Seed #005,OK,281.5,20.0,18.0,0.8718265077177961,0.02595155709342556,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,6,Seed #006,OK,212.0,18.0,15.0,0.8662656524364634,0.029748283752860427,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,7,Seed #007,OK,274.5,20.0,17.0,0.872699056514975,0.021390374331550777,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,8,Seed #008,OK,263.5,20.0,17.0,0.8698442491633346,0.03125,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,9,Seed #009,OK,291.5,20.0,18.0,0.9027972506164139,0.01851851851851849,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,10,Seed #010,OK,226.5,18.0,16.0,0.8800568784077952,0.027896995708154515,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,11,Seed #011,OK,279.5,20.0,18.0,0.8656323519822602,0.02951388888888884,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,12,Seed #012,OK,285.5,20.0,18.0,0.884214802919335,0.022260273972602773,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,13,Seed #013,OK,285.0,20.0,18.0,0.8991273992854416,0.018932874354561147,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,14,Seed #014,OK,286.5,21.21320343017578,17.677669525146484,0.8646746721221855,0.028813559322033888,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,15,Seed #015,OK,266.5,20.50609588623047,16.970561981201172,0.8565902419536002,0.03266787658802173,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,16,Seed #016,OK,253.0,20.055097579956055,16.526885986328125,0.8512702861332582,0.03619047619047622,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,17,Seed #017,OK,230.5,17.0,17.0,0.895598725489739,0.02123142250530785,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,18,Seed #018,OK,286.0,20.0,17.0,0.8925502035213108,0.018867924528301883,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,19,Seed #019,OK,347.0,23.084625244140625,19.606117248535156,0.8425290641944615,0.03744798890429957,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,20,Seed #020,OK,283.0,20.0,18.0,0.892817740071075,0.02076124567474047,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,21,Seed #021,OK,313.0,20.0,19.0,0.8952271387330254,0.020344287949921713,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,22,Seed #022,OK,324.5,21.0,20.0,0.8683648805966016,0.034226190476190466,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,23,Seed #023,OK,330.5,23.0,18.0,0.8549380774228609,0.02507374631268433,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,24,Seed #024,OK,290.0,22.360679626464844,16.54690170288086,0.8380986897813771,0.030100334448160515,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,25,Seed #025,OK,360.0,22.360679626464844,21.0190372467041,0.8543050280304221,0.032258064516129004,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,26,Seed #026,OK,321.5,22.62741470336914,17.677669525146484,0.8690182196233127,0.0301659125188537,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,27,Seed #027,OK,372.5,23.0,20.0,0.8898929739751412,0.021024967148488782,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,28,Seed #028,OK,328.5,22.62741470336914,19.091880798339844,0.8581939558659883,0.0338235294117647,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,29,Seed #029,OK,363.5,21.0,21.0,0.8885754896890297,0.021534320323014833,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,30,Seed #030,OK,386.0,24.041629791259766,21.21320343017578,0.8487441587785464,0.027707808564231717,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,31,Seed #031,OK,282.0,19.0,19.0,0.8896629070672901,0.025906735751295318,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,32,Seed #032,OK,318.5,24.01102638244629,17.46256446838379,0.832069324395936,0.039215686274509776,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,33,Seed #033,OK,288.5,22.540685653686523,18.073162078857422,0.6957874893140394,0.0998439937597504,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,34,Seed #034,OK,377.5,22.0,21.0,0.9018378401797911,0.01692708333333337,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,35,Seed #035,OK,419.5,25.0,21.0,0.8809702578029431,0.022144522144522116,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,36,Seed #036,OK,394.0,25.0,20.0,0.8585231961935497,0.023543990086741018,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,37,Seed #037,OK,400.5,23.0,22.0,0.8863073229890334,0.027912621359223344,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,38,Seed #038,OK,489.5,25.0,25.0,0.8679722980446675,0.03165182987141446,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,39,Seed #039,OK,427.5,26.0,22.0,0.7795827381270363,0.043624161073825496,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_003\proposed_v1.json,soybean_sparse_003,3,soybean,40,Seed #040,OK,433.0,26.0,21.0,0.8769624786371378,0.020361990950226283,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,1,Seed #001,OK,200.5,17.0,14.0,0.8897857340419425,0.01715686274509809,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,2,Seed #002,OK,221.5,17.0,16.0,0.8606295706406314,0.02207505518763797,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,3,Seed #003,OK,226.5,18.0,16.0,0.8800568747182982,0.02580645161290318,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,4,Seed #004,OK,238.5,19.0,16.0,0.8647873600056144,0.032454361054766734,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,5,Seed #005,OK,229.5,18.0,17.0,0.6751968659399702,0.103515625,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,6,Seed #006,OK,221.0,18.0,15.0,0.9030410810776339,0.015590200445434244,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,7,Seed #007,OK,208.5,18.0,15.0,0.8702521380812653,0.03023255813953485,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,8,Seed #008,OK,193.0,16.0,15.0,0.8756752467669823,0.02278481012658229,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,9,Seed #009,OK,187.0,16.0,14.0,0.8758079736742402,0.02604166666666663,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,10,Seed #010,OK,258.5,20.0,17.0,0.8533386590927158,0.035447761194029814,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,11,Seed #011,OK,271.0,19.0,18.0,0.8778541977618434,0.026929982046678624,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,12,Seed #012,OK,233.0,18.0,16.0,0.8869463980211337,0.025104602510460206,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,13,Seed #013,OK,271.0,19.0,18.0,0.8778542011221901,0.030411449016100156,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,14,Seed #014,OK,275.0,19.0,18.0,0.8908114518834375,0.023090586145648295,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,15,Seed #015,OK,281.5,19.0,18.0,0.894953670476226,0.019163763066202044,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,16,Seed #016,OK,258.0,20.0,16.0,0.8921164512662145,0.013384321223709361,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,17,Seed #017,OK,318.5,22.0,19.0,0.8523088273344147,0.036308623298033305,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,18,Seed #018,OK,329.0,20.0,20.0,0.8866748945916939,0.019374068554396384,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,19,Seed #019,OK,308.0,22.0,18.0,0.8593126153946683,0.03448275862068961,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,20,Seed #020,OK,266.0,22.0,15.0,0.8301341022539577,0.030965391621129323,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,21,Seed #021,OK,257.0,18.384775161743164,18.384775161743164,0.864729101512791,0.030188679245283012,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,22,Seed #022,OK,328.5,22.0,19.0,0.8581939499656672,0.02954209748892167,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,23,Seed #023,OK,365.5,22.0,20.0,0.8934644912278149,0.020107238605898137,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,24,Seed #024,OK,311.5,21.0,18.0,0.8753959406791745,0.026562500000000044,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,25,Seed #025,OK,335.5,22.135942459106445,19.606117248535156,0.8476033441472439,0.04415954415954415,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,26,Seed #026,OK,364.5,24.0,19.0,0.8707811785609099,0.02409638554216864,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,27,Seed #027,OK,345.0,22.0,20.0,0.8573036061294814,0.03765690376569042,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,28,Seed #028,OK,335.5,21.0,20.0,0.8678720906400578,0.02753623188405796,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,29,Seed #029,OK,364.0,23.33452033996582,20.50609588623047,0.863797311779855,0.030625832223701743,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,30,Seed #030,OK,275.0,19.0,19.0,0.8675790793182195,0.03508771929824561,B,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,31,Seed #031,OK,267.5,21.35595703125,16.641006469726562,0.7674157525040515,0.05477031802120136,C,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,32,Seed #032,OK,356.0,23.0,19.0,0.8846379269719872,0.016574585635359074,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,33,Seed #033,OK,415.5,25.0,20.0,0.89156399655686,0.0154028436018957,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,34,Seed #034,OK,363.0,26.0,18.0,0.8343425355030343,0.03328894806924099,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,35,Seed #035,OK,348.0,21.0,20.0,0.8852640427475077,0.025210084033613467,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,36,Seed #036,OK,405.5,26.0,20.0,0.8515695896119295,0.027577937649880147,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,37,Seed #037,OK,442.0,24.0,22.0,0.8691437726349744,0.02535832414553474,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,38,Seed #038,OK,431.0,27.0,20.0,0.8475135002780408,0.029279279279279313,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,39,Seed #039,OK,399.0,27.0,18.0,0.8432007149356663,0.02444987775061125,A,area_tertile,False
+
+<user_home>\Desktop\pynq_sobel_accelerator\results\segmentation\handoff\samples\soybean_sparse_005\proposed_v1.json,soybean_sparse_005,5,soybean,40,Seed #040,OK,530.5,26.0,25.0,0.8736074939816106,0.023919043238270432,A,area_tertile,False
+

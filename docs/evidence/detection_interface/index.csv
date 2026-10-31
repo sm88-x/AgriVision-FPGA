@@ -1,0 +1,14 @@
+state,mode,source,conf,detect,size,exit,png_kb,green_pixels,seed_count,model_state,infer_ms
+
+ui_01_live_mock_detect_on,Live,mock,0.25,1,640x480,0,64.3,19348,7,MOCK,4.547
+
+ui_02_live_mock_conf_high,Live,mock,0.60,1,640x480,0,64.3,19348,5,MOCK,3.245
+
+ui_03_live_detect_off,Live,mock,0.25,0,640x480,0,56.7,8821,0,MOCK,0.001
+
+ui_04_live_low_conf_many,Live,mock,0.05,1,640x480,0,64.1,19348,7,MOCK,2.633
+
+ui_05_live_size_320x240,Live,mock,0.25,1,320x240,0,71.5,18755,6,MOCK,1.438
+
+ui_06_image_mode,Image,mock,0.25,1,640x480,0,127.6,48278,9,MOCK,4.347
+

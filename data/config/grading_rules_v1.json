@@ -1,0 +1,41 @@
+{
+  "schema": "agrivision.grading.rules.v1",
+  "version": "1.0",
+  "status": "provisional_data_driven",
+  "requires_task_owner_review": true,
+  "method": "area_tertiles_from_dev_ok_objects",
+  "grading_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "description": "A/B/C 分别表示当前冻结采集条件下的大/中/小面积档；非 OK 实例仍给面积档，但标记 uncertain=true，不隐藏。",
+  "source": {
+    "dataset": "data/evidence/segmentation_comparison/dev/json/*_proposed_v1.json",
+    "split": "dev",
+    "scope": "same frozen 640x480 acquisition",
+    "warning": "阈值使用像素面积，换机位、缩放或分辨率后必须重标；本文件不是任务书官方阈值。"
+  },
+  "species": {
+    "soybean": {
+      "sample_count_ok": 691,
+      "B_min_area_px": 269.0,
+      "A_min_area_px": 334.5
+    },
+    "mungbean": {
+      "sample_count_ok": 424,
+      "B_min_area_px": 77.0,
+      "A_min_area_px": 93.5
+    },
+    "redbean": {
+      "sample_count_ok": 372,
+      "B_min_area_px": 137.5,
+      "A_min_area_px": 163.5
+    }
+  },
+  "policy": {
+    "status_not_ok": "keep_grade_but_mark_uncertain",
+    "missing_area": "grade_C_mark_uncertain",
+    "unknown_species": "grade_C_mark_uncertain"
+  }
+}

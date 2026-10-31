@@ -1,0 +1,15 @@
+backend,resolution,algorithm,image,runs,mean,median,min,max,fps,source,speedup
+ps,256x256,sobel,plant_a_256x256,20,40.32635,39.56515,39.3984,47.0925,25.274768325154838,data/evidence/board/board_benchmark/r1_256_sobel.csv,1.0
+v0,256x256,sobel,plant_a_256x256,20,6.307555,6.29485,6.2692,6.394,158.86002049294262,data/evidence/board/board_benchmark/r1_256_sobel.csv,6.285320539806349
+v3,256x256,sobel,plant_a_256x256,20,1.08095,1.07905,1.0737,1.1182,926.7411148695611,data/evidence/board/board_benchmark/r1_256_sobel.csv,36.66665122098142
+v3p,256x256,sobel,plant_a_256x256,20,1.27401,1.20865,1.2024,2.4734,827.369379059281,data/evidence/board/board_benchmark/r1_256_sobel.csv,32.73499358788732
+ps,256x256,prewitt,plant_a_256x256,20,34.19242,33.93185,33.7784,36.7933,29.470836397072368,data/evidence/board/board_benchmark/r2_256_prewitt.csv,1.0
+v3p,256x256,prewitt,plant_a_256x256,20,1.2385599999999999,1.2144499999999998,1.2073,1.495,823.4180081518384,data/evidence/board/board_benchmark/r2_256_prewitt.csv,27.940096339906955
+ps,320x240,sobel,plant_b_320x240,20,47.396565,47.0606,46.8389,51.5974,21.249197842781435,data/evidence/board/board_benchmark/r3_320_sobel.csv,1.0
+v3p,320x240,sobel,plant_b_320x240,20,1.45239,1.4488500000000002,1.2592,1.5726,690.2025744556026,data/evidence/board/board_benchmark/r3_320_sobel.csv,32.481347275425335
+ps,640x480,sobel,plant_a_640x480,20,216.93967,216.30759999999998,215.8413,227.2196,4.623046069578693,data/evidence/board/board_benchmark/r4_640_sobel.csv,1.0
+v3p,640x480,sobel,plant_a_640x480,20,3.620725,3.6065500000000004,3.5862,3.8243,277.27329442264767,data/evidence/board/board_benchmark/r4_640_sobel.csv,59.976320860656294
+ps,320x240,prewitt,plant_b_320x240,20,37.449535,36.9306,36.752,46.3446,27.077816228276824,data/evidence/board/board_benchmark/r5_320_prewitt.csv,1.0
+v3p,320x240,prewitt,plant_b_320x240,20,1.4456,1.4476,1.241,1.4892,690.7985631389887,data/evidence/board/board_benchmark/r5_320_prewitt.csv,25.511605415860735
+ps,640x480,prewitt,plant_a_640x480,20,182.307695,179.19,178.7613,220.4768,5.580668564093979,data/evidence/board/board_benchmark/r6_640_prewitt.csv,1.0
+v3p,640x480,prewitt,plant_a_640x480,20,3.602645,3.5903,3.5771,3.7349,278.5282566916414,data/evidence/board/board_benchmark/r6_640_prewitt.csv,49.90947831657522
