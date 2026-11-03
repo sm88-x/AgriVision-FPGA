@@ -18,9 +18,7 @@ nohup python3 qt_fpga_server.py --bitfile edge_morphology_system.bit --token "$T
 
 Keep the printed token private.  On the Windows computer, copy
 
-`src/software/legacy/qt/agri_morph_gui/backend/board_config.example.json` to `board_config.json`
-
-and put the token in it. The config file is intentionally git-ignored.
+a client-specific configuration outside the source tree and put the token in it. This is an archived 8765 HTTP service interface; the current Qt entry uses the TCP 9000 / HTTP 9001 services documented in docs/reproduction.md. No board_config.example.json is shipped or required by the current GUI.
 
 Verify it from the Windows computer:
 

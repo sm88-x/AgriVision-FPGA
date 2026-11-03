@@ -18,9 +18,9 @@
 
 - **优化版** `sobel_kernel_pipelined.cpp`：同一四个循环应用 `#pragma HLS pipeline`。
 
-综合报告存档于 `hardware/build/reports/sobel_synth_*.rpt`（`reports/`，原引用文件缺失或已排除，见提交问题清单），对比图由
+综合报告存档于 `hardware/build/reports/sobel_synth_*.rpt`，对比图由
 
-`docs/evidence/charts/make_chart.py`（`charts/make_chart.py`，原引用文件缺失或已排除，见提交问题清单） 直接从报告解析生成。
+`docs/evidence/charts/make_charts.py` 直接从报告解析生成。
 
 ## 优化对比
 

@@ -12,5 +12,5 @@
 
 - 规则：`data/config/grading_rules_v1.json`
 
-- 命令：`python src/software/grading/batch_report.py --input <dir> --out-dir <dir>`
+- 命令：`python src/grading/batch_report.py --input <dir> --out-dir <dir>`
 

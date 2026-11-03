@@ -116,7 +116,7 @@ IOC 是**写 1 清除**：每帧开始前分别向 `0x04`、`0x34` 写 `0x1000`�
 
 ## 3. 场景分类与三类配置
 
-### 3.1 PS 侧特征（`src/software/fpga/scene_policy/scene_policy.py`）
+### 3.1 PS 侧特征（`src/fpga/scene_policy/scene_policy.py`）
 
 为控制 PS 开销，特征统一在 **≤160×120** 的降采样图上计算：
 

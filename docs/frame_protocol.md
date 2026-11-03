@@ -38,7 +38,7 @@
 
 - 接收端只保留最新帧，旧帧覆盖并计入 dropped，避免无界排队。
 
-协议常量与打包/解析代码位于 `src/software/app/timestamped_frame_protocol.py`。电脑1使用
+协议常量与打包/解析代码位于 `src/app/timestamped_frame_protocol.py`。电脑1使用
 
 `capture_sender.py`，电脑2独立接收可使用 `network_frame_receiver.py`，Qt主控使用
 
@@ -58,7 +58,7 @@
 
 ## 实测证据
 
-- 真实60秒板端联网日志：`data/evidence/scene_policy/configuration_smoke.log`
+- 当前 HTTP 真板图片转发证据：`tests/evidence/physical_board_validation.json`（含3帧AGF1图片经电脑后端转发到PYNQ的实际回执；非新增双PC摄像头实测）
 
 - `AGF1` 本地发送/接收逐帧验证：`data/evidence/network/timestamp_validation.csv`
 

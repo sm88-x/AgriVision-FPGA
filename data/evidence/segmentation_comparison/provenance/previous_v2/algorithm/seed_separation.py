@@ -3,9 +3,9 @@ from __future__ import annotations
 from pathlib import Path as _LayoutPath
 import sys as _layout_sys
 PROJECT_ROOT = next(p for p in _LayoutPath(__file__).resolve().parents
-                    if (p / "LICENSE").is_file() and (p / "src/software").is_dir())
-for _layout_rel in ("src/software", "src/software/app", "src/software/adapters",
-                    "src/software/algorithm", "hardware/board", "hardware/drivers"):
+                    if (p / "LICENSE").is_file() and (p / "src").is_dir())
+for _layout_rel in ("src", "src/app", "src/adapters",
+                    "src/algorithm", "hardware/board", "hardware/drivers"):
     _layout_sys.path.insert(0, str(PROJECT_ROOT / _layout_rel))
 
 import argparse
@@ -991,7 +991,7 @@ def freeze(args):
 
     frozen = {
         "source_sha256": sha256(Path(__file__)),
-        "adapter_sha256": sha256(ROOT / "src/software/ai/inference/infer_seed.py"),
+        "adapter_sha256": sha256(ROOT / "src/ai/inference/infer_seed.py"),
         "weights_sha256": sha256(weights),
         "manifest_sha256": sha256(manifest_path()),
         "environment": env,
@@ -1018,7 +1018,7 @@ def verify_frozen(path, weights):
     frozen = json.loads(path.read_text(encoding="utf-8"))
     checks = [
         (Path(__file__), frozen["source_sha256"]),
-        (ROOT / "src/software/ai/inference/infer_seed.py", frozen["adapter_sha256"]),
+        (ROOT / "src/ai/inference/infer_seed.py", frozen["adapter_sha256"]),
         (weights, frozen["weights_sha256"]),
         (manifest_path(), frozen["manifest_sha256"]),
     ]

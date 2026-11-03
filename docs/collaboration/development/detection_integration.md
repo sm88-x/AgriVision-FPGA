@@ -16,7 +16,7 @@ Image ≥20 张、Live 连续帧、Start/Stop 恢复；最后出截图、视频�
 
 | # | 大模型建议 | 人工判断 | 结果 |
 | --- | --- | --- | --- |
-| 1 | 沿用 live_stream 的架构（QProcess 拉起 Python 适配器 + 200ms 轮询 `live_status.json`），不重写界面框架 | 同意：SMX 的 gui_3 已经在用，重写会两套并行 | **采纳**，新建 `src/software/legacy/qt/detection_viewer`，只做增量 |
+| 1 | 沿用 live_stream 的架构（QProcess 拉起 Python 适配器 + 200ms 轮询 `live_status.json`），不重写界面框架 | 同意：SMX 的 gui_3 已经在用，重写会两套并行 | **采纳**，新建 `src/legacy/qt/detection_viewer`，只做增量 |
 | 2 | 先让后端产出**确定性 mock 检测**（阈值+连通域），把界面先跑通，再接真模型 | 同意：C1 上午本来就要求"先用模拟数据完成界面" | **采纳**，`MockDetector` |
 | 3 | 本机没有 Qt，用 `aqtinstall` 装 Qt 6.12 | 判断：**6.12.0 官方仓库缺元数据（`Updates.xml` 404）**，实际装 6.8.0 | **部分采纳**：装 6.8.0 + MinGW 13.1，版本差异写进文档 |
 | 4 | 给 GUI 加 `--capture <png>` 离屏截图开关，用脚本批量产出界面证据图 | 同意：比人工截屏可复现，也能在无显示器环境跑 | **采纳**，并用它产出 6 张状态图 |
@@ -71,7 +71,7 @@ DMA 错误 0、协议错误 0**，`pl_ms` mean 3.9392 / median 3.9278 / min 3.89
 
 **真链路对接时修掉的四个问题**（都写进 `docs/evidence/detection_interface/README.md` 第 3.3 节）：
 
-① `src/software/app/pc_client.py` 旧草稿遮蔽 SMX 链路版本导致 `read_gray_image` 缺失；
+① `src/app/pc_client.py` 旧草稿遮蔽 SMX 链路版本导致 `read_gray_image` 缺失；
 
 ② 界面传 `Live`、B 的后端只认小写；③ `frames=0` 语义不同（持续 vs 0 帧）；
 

@@ -1,6 +1,6 @@
 # 开发阶段 三档分级批量结果
 
-本目录由 `src/software/grading/batch_report.py` 使用 `data/config/grading_rules_v1.json` 生成。输入是
+本目录由 `src/grading/batch_report.py` 使用 `data/config/grading_rules_v1.json` 生成。输入是
 
 `data/evidence/segmentation_comparison/handoff/samples` 中15份真实 `proposed_v1.json`：
 

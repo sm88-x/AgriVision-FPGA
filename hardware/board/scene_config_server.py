@@ -8,9 +8,9 @@
 from pathlib import Path as _LayoutPath
 import sys as _layout_sys
 PROJECT_ROOT = next(p for p in _LayoutPath(__file__).resolve().parents
-                    if (p / "LICENSE").is_file() and (p / "src/software").is_dir())
-for _layout_rel in ("src/software", "src/software/app", "src/software/adapters",
-                    "src/software/algorithm", "hardware/board", "hardware/drivers"):
+                    if (p / "LICENSE").is_file() and (p / "src").is_dir())
+for _layout_rel in ("src", "src/app", "src/adapters",
+                    "src/algorithm", "hardware/board", "hardware/drivers"):
     _layout_sys.path.insert(0, str(PROJECT_ROOT / _layout_rel))
 
 import argparse
@@ -27,9 +27,9 @@ HERE = Path(__file__).resolve().parent
 # 同时支持工程目录结构及板端已有的平铺目录。
 for folder in (
     HERE,
-    HERE / "overlay",
-    HERE.parent / "src/software/app",
-    HERE.parent / "src/software/fpga/scene_policy",
+    PROJECT_ROOT / "hardware/drivers",
+    PROJECT_ROOT / "src/app",
+    PROJECT_ROOT / "src/fpga/scene_policy",
 ):
     if folder.is_dir():
         sys.path.insert(0, str(folder))
@@ -50,6 +50,7 @@ def receive_exact(stream, count):
 
 class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
+        self.connection.settimeout(15.0)
         try:
             if self.path != "/frame":
                 raise ValueError("接口路径必须为 /frame")

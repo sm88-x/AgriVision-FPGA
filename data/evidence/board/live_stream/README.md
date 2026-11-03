@@ -93,7 +93,7 @@ sudo python3 frame_server.py --bitfile configurable_pipeline.bit \
 
 2. 按第一节两条命令跑自测与服务；
 
-3. PC 端用 `src/software/app/pc_client.py`（或本目录记录的推帧脚本配置）连 `192.168.2.99:9000`，
+3. PC 端用 `src/app/pc_client.py`（或本目录记录的推帧脚本配置）连 `192.168.2.99:9000`，
 
    推 300 帧并逐帧与 `run_pipeline.software_pipeline` 比对；
 

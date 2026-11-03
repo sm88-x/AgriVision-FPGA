@@ -1,0 +1,1730 @@
+{
+  "date": "2026-11-02",
+  "scope": "Physical PYNQ-Z2, existing board-side day7 service and day5_v4 firmware; static images. No new camera/dual-PC/30-minute/rebuilt-bitstream acceptance claim.",
+  "physical_requests": 19,
+  "golden_frames": 13,
+  "golden_different_pixels": 0,
+  "single_seed_counts": [
+    40
+  ],
+  "batch_seed_counts": [
+    40,
+    40
+  ],
+  "network_forwarded_frames": 3,
+  "dma_ms": {
+    "min": 3.9179,
+    "median": 3.9749,
+    "max": 4.0996
+  },
+  "rtt_ms": {
+    "min": 211.6956999998365,
+    "median": 233.481600000232,
+    "max": 405.5435000009311
+  },
+  "all_hardware_true": true,
+  "all_registers_verified": true,
+  "server_firmware_hash": "Not obtained remotely; do not equate this with rebuilt firmware acceptance",
+  "client_sha256": "2ef741024ba029da16b7bc9b276784f5aa51de1dfb06a5a6179839304fa83e7e",
+  "records": [
+    {
+      "case": "manual_golden",
+      "frame_id": 0,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "97e40bd03a694fc984a828932ed66dca",
+        "frame_id": 0,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 0,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05368899996938126,
+        "fpga_dma_ms": 4.0112,
+        "board_service_ms": 9.8272,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 298.1257000028563
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 1,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "90446d0ec3f141dcb03afd2adbf9142c",
+        "frame_id": 1,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 1,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05542099995636818,
+        "fpga_dma_ms": 3.9749,
+        "board_service_ms": 10.1602,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 242.39329999909387
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 2,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "afe259022a1746e48c5976605fc7a22e",
+        "frame_id": 2,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 2,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05310500000632601,
+        "fpga_dma_ms": 3.9179,
+        "board_service_ms": 10.1644,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 245.47039999742992
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 3,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "3af5f7c2568e4dc7a4cc7e5704cf9bce",
+        "frame_id": 3,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 3,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.056619000019964005,
+        "fpga_dma_ms": 3.9876,
+        "board_service_ms": 10.1794,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 235.08450000008452
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 4,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "fc98cbf3be8e4efbbf8b5791bb00131c",
+        "frame_id": 4,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 4,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05462199999328732,
+        "fpga_dma_ms": 3.9701,
+        "board_service_ms": 10.1493,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 212.3076999996556
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 5,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "1ab29b8063544491937e14579d27c96e",
+        "frame_id": 5,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 5,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.056014999984199676,
+        "fpga_dma_ms": 3.9872,
+        "board_service_ms": 10.1713,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 225.04059999846504
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 6,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "af09552ea9a143c69d71e5cb4eb591ac",
+        "frame_id": 6,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 6,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05523400000129186,
+        "fpga_dma_ms": 3.9721,
+        "board_service_ms": 10.1608,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 232.17640000075335
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 7,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "3da4e7c119604d2d9820acb5e181697b",
+        "frame_id": 7,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 7,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05473499999197884,
+        "fpga_dma_ms": 3.9228,
+        "board_service_ms": 10.1821,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 211.6956999998365
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 8,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "109057a5a5384093b0df0ce507af7e44",
+        "frame_id": 8,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 8,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.053314000012960605,
+        "fpga_dma_ms": 3.9885,
+        "board_service_ms": 10.1777,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 230.95459999967716
+      }
+    },
+    {
+      "case": "manual_golden",
+      "frame_id": 9,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "b9b7073972584bb2ba65bf427f386550",
+        "frame_id": 9,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 9,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05458699996552241,
+        "fpga_dma_ms": 3.923,
+        "board_service_ms": 10.155,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 231.7417000012938
+      }
+    },
+    {
+      "case": "auto_golden",
+      "frame_id": 0,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "541702cba6414b96a07d7b9aca0cbcd9",
+        "frame_id": 0,
+        "width": 640,
+        "height": 480,
+        "mode": "auto",
+        "scene": "normal",
+        "config_id": 1,
+        "applied_config": {
+          "config_id": 1,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 80,
+          "morph_mode": 1,
+          "out_sel": 0,
+          "scene": "normal"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 80
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 1
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 0,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 179.18685200004347,
+        "fpga_dma_ms": 3.9298,
+        "board_service_ms": 9.6732,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "6e608f61095f67011fa63c88d89945174c381cb8f006fcd91c97dab5d966e22c",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 405.5435000009311
+      }
+    },
+    {
+      "case": "auto_golden",
+      "frame_id": 1,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "b34f00f5299f4549b54eafcdc348b2e9",
+        "frame_id": 1,
+        "width": 640,
+        "height": 480,
+        "mode": "auto",
+        "scene": "normal",
+        "config_id": 1,
+        "applied_config": {
+          "config_id": 1,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 80,
+          "morph_mode": 1,
+          "out_sel": 0,
+          "scene": "normal"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 80
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 1
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 1,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 129.48692600002687,
+        "fpga_dma_ms": 3.9934,
+        "board_service_ms": 9.712,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "6e608f61095f67011fa63c88d89945174c381cb8f006fcd91c97dab5d966e22c",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 347.30369999670074
+      }
+    },
+    {
+      "case": "auto_golden",
+      "frame_id": 2,
+      "different_pixels": 0,
+      "max_abs_diff": 0,
+      "passed": true,
+      "receipt": {
+        "request_id": "d5e5ae937a594b02b66b8b94eadfa34d",
+        "frame_id": 2,
+        "width": 640,
+        "height": 480,
+        "mode": "auto",
+        "scene": "normal",
+        "config_id": 1,
+        "applied_config": {
+          "config_id": 1,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 80,
+          "morph_mode": 1,
+          "out_sel": 0,
+          "scene": "normal"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 80
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 1
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 2,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 129.4667129999425,
+        "fpga_dma_ms": 3.918,
+        "board_service_ms": 9.6281,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "6e608f61095f67011fa63c88d89945174c381cb8f006fcd91c97dab5d966e22c",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 342.536399999517
+      }
+    },
+    {
+      "case": "single",
+      "frame_id": 0,
+      "seed_count": 40,
+      "receipt": {
+        "frame_id": 0,
+        "mode": "manual",
+        "setup_id": "camera_fixed",
+        "control_revision": "4767c2e9-1125-4773-8ed5-407184cbda7a",
+        "scene": "manual",
+        "config_id": 0,
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "applied_frame": 0,
+        "register_verified": true,
+        "ps_decision_ms": 0.0742029999969418,
+        "fpga_dma_ms": 4.0795,
+        "transport_rtt_ms": 233.481600000232,
+        "hardware": true,
+        "local_candidate_config": {
+          "config_id": 0,
+          "scene": "manual",
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0
+        },
+        "local_candidate_registers": [
+          {
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "request_id": "0c16bade2f514cba82350b3884b7f672",
+        "width": 640,
+        "height": 480,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "board_service_ms": 11.8557,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致"
+      },
+      "passed": true
+    },
+    {
+      "case": "batch",
+      "frame_id": 0,
+      "seed_count": 40,
+      "receipt": {
+        "frame_id": 0,
+        "mode": "manual",
+        "setup_id": "camera_fixed",
+        "control_revision": "4767c2e9-1125-4773-8ed5-407184cbda7a",
+        "scene": "manual",
+        "config_id": 0,
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "applied_frame": 0,
+        "register_verified": true,
+        "ps_decision_ms": 0.05272599997852012,
+        "fpga_dma_ms": 3.9821,
+        "transport_rtt_ms": 289.82580000229063,
+        "hardware": true,
+        "local_candidate_config": {
+          "config_id": 0,
+          "scene": "manual",
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0
+        },
+        "local_candidate_registers": [
+          {
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "request_id": "293f1316ff00463791e11f26f0a83016",
+        "width": 640,
+        "height": 480,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "board_service_ms": 10.1634,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "a066a88a6a61526a160b08e68e972b4661fbaf2e184e1521599d619c2d950565",
+        "output_sha256": "2871d5d6f4bc33255e8f7feb0251f814bdd0455b81aba67e4e9818293a8b2cb4",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致"
+      },
+      "passed": true
+    },
+    {
+      "case": "batch",
+      "frame_id": 1,
+      "seed_count": 40,
+      "receipt": {
+        "frame_id": 1,
+        "mode": "manual",
+        "setup_id": "camera_fixed",
+        "control_revision": "4767c2e9-1125-4773-8ed5-407184cbda7a",
+        "scene": "manual",
+        "config_id": 0,
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "applied_frame": 1,
+        "register_verified": true,
+        "ps_decision_ms": 0.05447399996683089,
+        "fpga_dma_ms": 3.9423,
+        "transport_rtt_ms": 228.27219999817316,
+        "hardware": true,
+        "local_candidate_config": {
+          "config_id": 0,
+          "scene": "manual",
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0
+        },
+        "local_candidate_registers": [
+          {
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "request_id": "c12c1541cecc43fa93925f7a2b141603",
+        "width": 640,
+        "height": 480,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "board_service_ms": 10.1171,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "5d8a42e91dfb3f303963c4d7a925379b3a38985019a68d169c2fd31c2dd155cf",
+        "output_sha256": "b0e903ad222f1b70524fc9c70a79a44fd797eb18c94373e55361bf2a43e4dc36",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致"
+      },
+      "passed": true
+    },
+    {
+      "case": "network_image_forwarding",
+      "frame_id": 0,
+      "receipt": {
+        "request_id": "e69fe2981ab848c3a07b5c13c6e39101",
+        "frame_id": 0,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 0,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.055342000052860385,
+        "fpga_dma_ms": 3.9229,
+        "board_service_ms": 10.1841,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "242eba46372c11689783bba4b6553c8239beb302059c3e99ba8cd9c894cabc12",
+        "output_sha256": "2e6e89b273764fd908c0c1b95246f2f7fe75275200aa4c2c3b92b614ce76383b",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 240.7911000009335
+      },
+      "passed": true
+    },
+    {
+      "case": "network_image_forwarding",
+      "frame_id": 1,
+      "receipt": {
+        "request_id": "0ef1818ddedb4ff9b8dbfbfcdcd13c62",
+        "frame_id": 1,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 1,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.053006000030109135,
+        "fpga_dma_ms": 3.9802,
+        "board_service_ms": 10.1597,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "242eba46372c11689783bba4b6553c8239beb302059c3e99ba8cd9c894cabc12",
+        "output_sha256": "2e6e89b273764fd908c0c1b95246f2f7fe75275200aa4c2c3b92b614ce76383b",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 211.7656000009447
+      },
+      "passed": true
+    },
+    {
+      "case": "network_image_forwarding",
+      "frame_id": 2,
+      "receipt": {
+        "request_id": "5a13b93ece4b45bcb075c622f6f78e8a",
+        "frame_id": 2,
+        "width": 640,
+        "height": 480,
+        "mode": "manual",
+        "scene": "manual",
+        "config_id": 0,
+        "applied_config": {
+          "config_id": 0,
+          "enable_gray": 1,
+          "enable_gauss": 1,
+          "edge_mode": 0,
+          "threshold": 40,
+          "morph_mode": 2,
+          "out_sel": 0,
+          "scene": "manual"
+        },
+        "actual_registers": [
+          {
+            "name": "width",
+            "offset": "0x10",
+            "value": 640
+          },
+          {
+            "name": "height",
+            "offset": "0x18",
+            "value": 480
+          },
+          {
+            "name": "mode",
+            "offset": "0x20",
+            "value": 0
+          },
+          {
+            "name": "threshold",
+            "offset": "0x28",
+            "value": 40
+          },
+          {
+            "name": "morph_mode",
+            "offset": "0x30",
+            "value": 2
+          },
+          {
+            "name": "enable_gray",
+            "offset": "0x38",
+            "value": 1
+          },
+          {
+            "name": "enable_gauss",
+            "offset": "0x40",
+            "value": 1
+          },
+          {
+            "name": "out_sel",
+            "offset": "0x48",
+            "value": 0
+          }
+        ],
+        "register_verified": true,
+        "applied_frame": 2,
+        "hardware": true,
+        "simulated": false,
+        "policy_version": "day7-a-v1",
+        "ps_decision_ms": 0.05511700004490194,
+        "fpga_dma_ms": 4.0996,
+        "board_service_ms": 10.7701,
+        "overlay": "/home/xilinx/jupyter_notebooks/day7/day5_v4.bit",
+        "input_sha256": "242eba46372c11689783bba4b6553c8239beb302059c3e99ba8cd9c894cabc12",
+        "output_sha256": "2e6e89b273764fd908c0c1b95246f2f7fe75275200aa4c2c3b92b614ce76383b",
+        "receipt_note": "真板处理完成，8 个参数寄存器读回一致",
+        "transport_rtt_ms": 226.74800000095274
+      },
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "retained_output_images": [
+    "data/evidence/board/http_acceptance/manual/fpga_000000.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000001.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000002.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000003.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000004.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000005.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000006.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000007.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000008.png",
+    "data/evidence/board/http_acceptance/manual/fpga_000009.png",
+    "data/evidence/board/http_acceptance/auto/fpga_000000.png",
+    "data/evidence/board/http_acceptance/auto/fpga_000001.png",
+    "data/evidence/board/http_acceptance/auto/fpga_000002.png",
+    "data/evidence/board/http_acceptance/network/cam_latest.png",
+    "data/evidence/board/http_acceptance/network/board_latest.png",
+    "data/evidence/board/http_acceptance/qt_board.png"
+  ],
+  "qt_export_validation": [
+    {
+      "frame_id": 0,
+      "objects": 40,
+      "receipt_preserved": true
+    },
+    {
+      "frame_id": 1,
+      "objects": 40,
+      "receipt_preserved": true
+    }
+  ]
+}

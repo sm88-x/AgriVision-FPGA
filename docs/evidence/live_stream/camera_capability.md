@@ -2,7 +2,7 @@
 
 > 测于 2026-10-11 凌晨，被测设备：**电脑内置的 HP 5MP Camera**
 
-> 脚本：`src/software/app/camera_capture.py --probe`，原始数据同目录 `camera_capability.json`
+> 脚本：`src/app/camera_capture.py --probe`，原始数据同目录 `camera_capability.json`
 
 ## 1. 结论（三句话）
 
@@ -56,7 +56,7 @@
 | 1280×720 | 1280×720 | 29.27 | 32.2 ms | 64.6 ms |
 | 800×600 | **640×480** | 29.53 | 32.2 ms | 48.7 ms |
 
-复现命令：`python src/software/app/camera_capture.py --probe`
+复现命令：`python src/app/camera_capture.py --probe`
 
 **结论**：凌晨测到的 15 FPS 是**暗光下自动曝光把曝光时间拉长**造成的，**不是这颗摄像头的
 
@@ -86,9 +86,9 @@
 
 ```
 
-python src/software/app/camera_capture.py --probe --json docs/evidence/live_stream/camera_capability.json
+python src/app/camera_capture.py --probe --json docs/evidence/live_stream/camera_capability.json
 
-python src/software/app/camera_capture.py --save 10 --out report/live_stream/golden_sample10
+python src/app/camera_capture.py --save 10 --out report/live_stream/golden_sample10
 
 ```
 

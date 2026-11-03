@@ -10,4 +10,4 @@ if a.qt_bin:env['PATH']=str(a.qt_bin.resolve())+os.pathsep+env['PATH']
 exe=next((p for p in [ROOT/'outputs/qt/release/agrivision_gui.exe',ROOT/'outputs/qt/agrivision_gui.exe'] if p.exists()),None)
 if exe is None:ap.error('Build GUI first: python tools/build.py qt')
 args=a.args[1:] if a.args[:1]==['--'] else a.args
-raise SystemExit(subprocess.call([str(exe),'--backend',str(ROOT/'src/software/app/network_backend.py'),'--python',sys.executable,*args],cwd=ROOT,env=env))
+raise SystemExit(subprocess.call([str(exe),'--backend',str(ROOT/'src/app/network_backend.py'),'--python',sys.executable,*args],cwd=ROOT,env=env))

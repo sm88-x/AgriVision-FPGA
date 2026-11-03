@@ -1,13 +1,24 @@
 {
-  "python_syntax_files": 71,
+  "python_syntax_files": 73,
   "markdown_before": 89,
   "markdown_after": 68,
   "markdown_links": "PASS",
   "filenames": "ASCII lower case except README/LICENSE",
-  "qt_export_frames": 15,
-  "board_and_camera_tests": "NOT_PERFORMED",
+  "qt_export_frames": 5,
+  "board_and_camera_tests": "Physical HTTP board tests PASS; no new camera test",
   "parameterized_full_build": "PASS",
   "parameterized_validate_without_bit": "PASS",
   "original_source_project": "untouched",
-  "independent_submission_materials_in_code": false
+  "independent_submission_materials_in_code": false,
+  "source_layout": "src contains functional modules directly",
+  "grading_default_rule_path": "PASS",
+  "model_frozen_check": "PASS",
+  "date": "2026-11-02",
+  "local_inference_export_frames": 2,
+  "qt_build": "PASS",
+  "http_board_protocol": "PASS in synthetic loopback; not physical board evidence",
+  "batch_json_and_image_identity": "PASS with real CPU inference",
+  "cpu_board_algorithm_consistency": "PASS in offline analysis; same frozen settings",
+  "code_package_location": "Independent Desktop RAR; no package/report/video directory in source",
+  "physical_http_board_retest": "PASS: 19 physical requests, including 13 zero-difference Golden frames; see physical_board_validation.json"
 }

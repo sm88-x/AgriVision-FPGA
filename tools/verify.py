@@ -27,10 +27,12 @@ def main():
     run('golden_invariants',['tests/unit/pipeline_golden.py'])
     run('morphology',['tests/simulation/verify_sobel_v4_morph.py'])
     run('frame_service_mock',['hardware/board/frame_service.py','--selftest','2','--mock'])
-    run('dataset_manifest',['src/software/algorithm/seed_separation.py','check'])
+    run('dataset_manifest',['src/algorithm/seed_separation.py','check'])
     run('runtime_regressions',['tests/unit/test_runtime.py'])
+    run('analysis_contract',['tests/unit/test_analysis_contract.py'])
+    run('board_http',['tests/unit/test_board_http.py'])
     run('build_paths',['tests/unit/test_build_paths.py'])
-    result={'date':'2026-10-31','scope':'OFFLINE ONLY; no board or camera','checks':checks,'passed':all(c['passed'] for c in checks)}
+    result={'date':time.strftime('%Y-%m-%d'),'scope':'OFFLINE ONLY; no board or camera','checks':checks,'passed':all(c['passed'] for c in checks)}
     (OUT/'validation_summary.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     (ROOT/'tests/evidence/validation_summary.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     return 0 if result['passed'] else 1

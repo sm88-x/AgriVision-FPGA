@@ -1,99 +1,62 @@
 {
-  "frames": 15,
+  "date": "2026-11-02",
+  "frames": 5,
   "csv_json_count_match": true,
   "source": "data/evidence/phenotyping/objects.json",
   "source_sha256": "34178e27d90a59fa3b6a1469e5d579ab3054036177e4274d4fffd0262c3e4915",
-  "gui_source_sha256": "b498cac302fc67a004bee14f8e845152adf3309aab7aaf79968d755889255d7c",
+  "gui_source_sha256": "940b02bb78dac693b9a1a4e4adc32bc55234ef4ee70afb57d4507a4dc50ac892",
   "rows": [
     {
-      "batch": "20261031_140148_batch_001",
+      "batch": "20261102_175251_batch_001",
       "objects": 14,
       "csv_rows": 14,
-      "images_nonempty": true
+      "images_valid": true,
+      "fpga_image": true
     },
     {
-      "batch": "20261031_140148_batch_002",
+      "batch": "20261102_175251_batch_002",
       "objects": 37,
       "csv_rows": 37,
-      "images_nonempty": true
+      "images_valid": true,
+      "fpga_image": true
     },
     {
-      "batch": "20261031_140148_batch_003",
+      "batch": "20261102_175251_batch_003",
       "objects": 5,
       "csv_rows": 5,
-      "images_nonempty": true
+      "images_valid": true,
+      "fpga_image": true
     },
     {
-      "batch": "20261031_140149_batch_004",
+      "batch": "20261102_175251_batch_004",
       "objects": 11,
       "csv_rows": 11,
-      "images_nonempty": true
+      "images_valid": true,
+      "fpga_image": true
     },
     {
-      "batch": "20261031_140149_batch_005",
+      "batch": "20261102_175251_batch_005",
       "objects": 6,
       "csv_rows": 6,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140540_batch_001",
-      "objects": 14,
-      "csv_rows": 14,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140540_batch_002",
-      "objects": 37,
-      "csv_rows": 37,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140540_batch_003",
-      "objects": 5,
-      "csv_rows": 5,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140540_batch_004",
-      "objects": 11,
-      "csv_rows": 11,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140540_batch_005",
-      "objects": 6,
-      "csv_rows": 6,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140925_batch_001",
-      "objects": 14,
-      "csv_rows": 14,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140925_batch_002",
-      "objects": 37,
-      "csv_rows": 37,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140925_batch_003",
-      "objects": 5,
-      "csv_rows": 5,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140925_batch_004",
-      "objects": 11,
-      "csv_rows": 11,
-      "images_nonempty": true
-    },
-    {
-      "batch": "20261031_140925_batch_005",
-      "objects": 6,
-      "csv_rows": 6,
-      "images_nonempty": true
+      "images_valid": true,
+      "fpga_image": true
     }
-  ]
+  ],
+  "local_inference_frames": [
+    {
+      "batch": "20261102_175251_batch_001",
+      "objects": 40,
+      "csv_rows": 40,
+      "images_valid": true,
+      "fpga_image": false
+    },
+    {
+      "batch": "20261102_175251_batch_002",
+      "objects": 40,
+      "csv_rows": 40,
+      "images_valid": true,
+      "fpga_image": false
+    }
+  ],
+  "scope": "Five archived frames and two real CPU-analysis frames; no physical board claim"
 }

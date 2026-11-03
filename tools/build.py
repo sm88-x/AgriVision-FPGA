@@ -22,7 +22,7 @@ def main():
         qmake=Path(shutil.which(a.qmake) or a.qmake).resolve();make=Path(shutil.which(a.make) or a.make).resolve()
         os.environ['PATH']=str(make.parent)+os.pathsep+str(qmake.parent)+os.pathsep+os.environ['PATH']
         dest=output/'qt';dest.mkdir(exist_ok=True)
-        run([qmake,ROOT/'src/software/ui/agri_morph_gui.pro'],dest);run([make,'-j4'],dest)
+        run([qmake,ROOT/'src/ui/agri_morph_gui.pro'],dest);run([make,'-j4'],dest)
         return
     for name in variants:
         src=ROOT/'hardware/hls'/VARIANTS[name];hls_out=output/('hls_'+name)

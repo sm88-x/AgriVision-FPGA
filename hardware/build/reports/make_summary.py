@@ -29,9 +29,9 @@ V3 参数化核用 DMA 完成标志轮询），跨批次比较时务必看 summa
 from pathlib import Path as _LayoutPath
 import sys as _layout_sys
 PROJECT_ROOT = next(p for p in _LayoutPath(__file__).resolve().parents
-                    if (p / "LICENSE").is_file() and (p / "src/software").is_dir())
-for _layout_rel in ("src/software", "src/software/app", "src/software/adapters",
-                    "src/software/algorithm", "hardware/board", "hardware/drivers"):
+                    if (p / "LICENSE").is_file() and (p / "src").is_dir())
+for _layout_rel in ("src", "src/app", "src/adapters",
+                    "src/algorithm", "hardware/board", "hardware/drivers"):
     _layout_sys.path.insert(0, str(PROJECT_ROOT / _layout_rel))
 
 import csv

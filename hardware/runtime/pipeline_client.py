@@ -3,9 +3,9 @@
 from pathlib import Path as _LayoutPath
 import sys as _layout_sys
 PROJECT_ROOT = next(p for p in _LayoutPath(__file__).resolve().parents
-                    if (p / "LICENSE").is_file() and (p / "src/software").is_dir())
-for _layout_rel in ("src/software", "src/software/app", "src/software/adapters",
-                    "src/software/algorithm", "hardware/board", "hardware/drivers"):
+                    if (p / "LICENSE").is_file() and (p / "src").is_dir())
+for _layout_rel in ("src", "src/app", "src/adapters",
+                    "src/algorithm", "hardware/board", "hardware/drivers"):
     _layout_sys.path.insert(0, str(PROJECT_ROOT / _layout_rel))
 
 import argparse
@@ -21,7 +21,7 @@ import cv2
 import numpy as np
 
 ROOT = PROJECT_ROOT
-sys.path.insert(0, str(ROOT / "src/software/adapters/live_chain"))
+sys.path.insert(0, str(ROOT / "src/adapters/live_chain"))
 sys.path.insert(0, str(ROOT / "hardware/drivers"))
 
 import frame_protocol as fp

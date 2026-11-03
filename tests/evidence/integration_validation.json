@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-02",
+  "upstream_project": "pynq_sobel_accelerator",
+  "target_project": "AgriVision-FPGA",
+  "upstream_modified_files_integrated": [
+    "qt/agri_morph_gui_7/main.cpp",
+    "qt/agri_morph_gui_7/agri_morph_gui.pro",
+    "qt/agri_morph_gui_6/day7_ui.h",
+    "app/python/day7_board_client.py"
+  ],
+  "offline_checks": [
+    {
+      "name": "python_syntax",
+      "passed": true,
+      "files": 73,
+      "errors": []
+    },
+    {
+      "name": "markdown_links",
+      "passed": true,
+      "broken": []
+    },
+    {
+      "name": "historical_evidence",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.54
+    },
+    {
+      "name": "golden_invariants",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.02
+    },
+    {
+      "name": "morphology",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 5.27
+    },
+    {
+      "name": "frame_service_mock",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.59
+    },
+    {
+      "name": "dataset_manifest",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 2.11
+    },
+    {
+      "name": "runtime_regressions",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 13.71
+    },
+    {
+      "name": "analysis_contract",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 10.4
+    },
+    {
+      "name": "board_http",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 12.48
+    },
+    {
+      "name": "build_paths",
+      "passed": true,
+      "returncode": 0,
+      "seconds": 0.33
+    }
+  ],
+  "qt_build": "PASS",
+  "archived_export_frames": 5,
+  "real_cpu_batch_export_frames": 2,
+  "physical_http_board_retest": "PASS: 19 physical requests, including 13 zero-difference Golden frames; see physical_board_validation.json",
+  "source_hashes": {
+    "src/ui/main.cpp": "940b02bb78dac693b9a1a4e4adc32bc55234ef4ee70afb57d4507a4dc50ac892",
+    "src/ui/scene_controls.h": "444fae74a6995a945709c9609582a26173f8644933246e12da70817f0352be1b",
+    "src/ui/agri_morph_gui.pro": "4707143494ec1d81ee647094064090c406b2f30aa29dca8651cf100fd0a88139",
+    "src/app/scene_board_client.py": "2ef741024ba029da16b7bc9b276784f5aa51de1dfb06a5a6179839304fa83e7e",
+    "src/app/scene_runtime.py": "b11913372bb7510205ae224fde6edd911739e7fa6d7b2ffd8e33f662cf2c993d",
+    "src/app/comparison_runtime.py": "4fe9152ab96ac03fef44ad8c150a08a469b006ded08fd4ce9b2f11b18fea925b",
+    "src/app/network_backend.py": "1caca7e6b00807a7ae706ec72067c5995a56bd541279f522208035db080f6096",
+    "src/app/timestamped_frame_sender.py": "c7f00619012de708fd66abe42afa1d5e24b107da986f3d48ab4a02bfa26ea6b3",
+    "hardware/board/scene_config_server.py": "cd29c6c0bd6640e7d4822235a0a29d8eeef879b06a5f7688330a5b97e4a4ddea",
+    "tests/unit/test_board_http.py": "b1d442539d17425067f4f7ca5eee3b4b14402cd4c040b76b42cb13b5b0c6021e",
+    "tests/unit/test_analysis_contract.py": "08c297cd1ef41d21ec732c9cc08c3c2349dea1ca5a9b21df942fdfcb5c3cef1e",
+    "tools/verify_board.py": "6e6ea7ecfe9ec06d160edf192908c5ee549ed9ee3d0f2459fbf3e70f2277beae"
+  },
+  "fixes": [
+    "Image/Batch HTTP board routing",
+    "network-frame FPGA forwarding",
+    "strict receipt and register checks",
+    "same-frame image binding",
+    "flat batch frames",
+    "local phenotyping without FPGA image",
+    "AGF1 sender compatibility",
+    "production HTTP service import paths",
+    "disconnect/error state invalidation",
+    "portable image references and receipts in exports",
+    "separate frozen parameters for baseline/adaptive modes"
+  ]
+}

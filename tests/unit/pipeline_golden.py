@@ -18,9 +18,9 @@
 from pathlib import Path as _LayoutPath
 import sys as _layout_sys
 PROJECT_ROOT = next(p for p in _LayoutPath(__file__).resolve().parents
-                    if (p / "LICENSE").is_file() and (p / "src/software").is_dir())
-for _layout_rel in ("src/software", "src/software/app", "src/software/adapters",
-                    "src/software/algorithm", "hardware/board", "hardware/drivers"):
+                    if (p / "LICENSE").is_file() and (p / "src").is_dir())
+for _layout_rel in ("src", "src/app", "src/adapters",
+                    "src/algorithm", "hardware/board", "hardware/drivers"):
     _layout_sys.path.insert(0, str(PROJECT_ROOT / _layout_rel))
 
 import csv
@@ -31,7 +31,7 @@ import numpy as np
 from PIL import Image
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE.parent / "src/software/app"))
+sys.path.insert(0, str(HERE.parent / "src/app"))
 from run_pipeline import (                                   # noqa: E402
     SEED_PRESET, MORPH_BYPASS, MORPH_ERODE, MORPH_DILATE,
     rgb2gray, gaussian3x3, edge_filter, morph, pipeline_stages,

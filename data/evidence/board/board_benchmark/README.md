@@ -175,7 +175,7 @@ HTML(card_to_html(card))     # 直接渲染成一块性能卡片
 | `speedup` | Speedup（`ps_ms / pl_ms`） |
 | `golden` | Golden Reference PASS |
 
-另有 `resolution` / `src/software/algorithm` / `backend` / `runs` / `batch` / `source`
+另有 `resolution` / `src/algorithm` / `backend` / `runs` / `batch` / `source`
 
 用于溯源——`source` 指向原始逐次 CSV，任何数字都能追到板上的测量记录。
 

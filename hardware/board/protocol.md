@@ -1,6 +1,6 @@
 # live_stream 帧传输协议（PC ↔ PYNQ-Z2）v1
 
-> 状态：**A 侧定稿**（2026-10-11）。字节布局与 B 组草案 `src/software/app/frame_protocol.py`
+> 状态：**A 侧定稿**（2026-10-11）。字节布局与 B 组草案 `src/app/frame_protocol.py`
 
 > 完全一致，即本文与那份实现**共用同一份定义**——板端 `hardware/board/frame_server.py` 直接
 
@@ -8,7 +8,7 @@
 
 >
 
-> 任何一方要改字段，必须先改 `src/software/app/frame_protocol.py` 并同步本文，再通知三人。
+> 任何一方要改字段，必须先改 `src/app/frame_protocol.py` 并同步本文，再通知三人。
 
 ## 一、传输层
 
@@ -193,6 +193,6 @@ python frame_server.py --mock --port 9000 --out .
 | --- | --- |
 | 协议版本 | v1（`version=1`，magic `AGV1`） |
 | 定稿人 | A（今日 A 角色） |
-| 单一定义源 | `src/software/app/frame_protocol.py` |
-| 相关实现 | `hardware/board/frame_service.py`、`hardware/board/frame_server.py`、`src/software/app/pc_client.py` |
+| 单一定义源 | `src/app/frame_protocol.py` |
+| 相关实现 | `hardware/board/frame_service.py`、`hardware/board/frame_server.py`、`src/app/pc_client.py` |
 

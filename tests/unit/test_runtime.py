@@ -2,7 +2,7 @@
 from pathlib import Path
 import sys,os,json,time,socket,subprocess,hashlib,unittest
 ROOT=Path(__file__).resolve().parents[2]
-for rel in ['src/software/app','src/software/ai/inference','hardware/board']:
+for rel in ['src/app','src/ai/inference','hardware/board']:
     sys.path.insert(0,str(ROOT/rel))
 OUT=ROOT/'outputs/tests';OUT.mkdir(parents=True,exist_ok=True)
 class RuntimeTests(unittest.TestCase):
@@ -10,7 +10,7 @@ class RuntimeTests(unittest.TestCase):
         dest=OUT/'unsupported_board';dest.mkdir(exist_ok=True)
         output=dest/'comparison.json'
         if output.exists():output.unlink()
-        cp=subprocess.run([sys.executable,'-B',str(ROOT/'src/software/app/comparison_runtime.py'),
+        cp=subprocess.run([sys.executable,'-B',str(ROOT/'src/app/comparison_runtime.py'),
             '--image','missing.png','--species','soybean','--board','127.0.0.1:9000',
             '--out',str(output)],capture_output=True,timeout=30)
         self.assertNotEqual(cp.returncode,0)
@@ -27,7 +27,7 @@ class RuntimeTests(unittest.TestCase):
              'timeout':0.2,'output_dir':str(dest)}
         path=dest/'request.json';path.write_text(json.dumps(req),encoding='utf-8')
         start=time.monotonic()
-        cp=subprocess.run([sys.executable,'-B',str(ROOT/'src/software/app/network_backend.py'),'--request',str(path)],capture_output=True,timeout=15)
+        cp=subprocess.run([sys.executable,'-B',str(ROOT/'src/app/network_backend.py'),'--request',str(path)],capture_output=True,timeout=15)
         self.assertNotEqual(cp.returncode,0,cp.stdout)
         status=json.loads((dest/'live_status.json').read_text(encoding='utf-8'))
         self.assertEqual(status['state'],'ERROR');self.assertFalse(status['running'])

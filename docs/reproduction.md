@@ -23,7 +23,7 @@ python tools/build.py qt
 python tools/run.py -- --source mock --detector mock
 ```
 
-qmake或make未在PATH时，使用 `--qmake <工具路径> --make <工具路径>`。运行库不在PATH时，使用 `python tools/run.py --qt-bin <Qt运行库目录> -- ...`。Windows入口为 `src/software/launchers/run_gui.bat`，可用环境变量AGRIVISION_PYTHON指定解释器。
+qmake或make未在PATH时，使用 `--qmake <工具路径> --make <工具路径>`。运行库不在PATH时，使用 `python tools/run.py --qt-bin <Qt运行库目录> -- ...`。Windows入口为 `src/launchers/run_gui.bat`，可用环境变量AGRIVISION_PYTHON指定解释器。
 
 载入固定表型示例：
 
@@ -34,10 +34,21 @@ python tools/run.py -- --load data/evidence/phenotyping/objects.json
 单张图片的完整软件分析：
 
 ```powershell
-python src/software/app/comparison_runtime.py --image data/datasets/seeds/raw/soybean_sparse_001.png --species soybean --out outputs/example/comparison.json --pheno-out outputs/example/objects.json
+python src/app/comparison_runtime.py --image data/datasets/seeds/raw/soybean_sparse_001.png --species soybean --out outputs/example/comparison.json --pheno-out outputs/example/objects.json
 ```
 
-Image/Batch执行本机软件分析，来源选本地；实时模式可连接板卡进行像素预处理，当前帧的检测/分离/表型仍在CPU执行。单图/批量分析入口不接受--board，界面会提示支持范围。载入结果用于复核已有文件；mock回放与真实板卡处理分别标识。真实检测默认CPU，记录权重、输入哈希和conf/iou/imgsz/device，不因环境差异静默改变口径。
+Image/Batch 的“本地回放”使用上述 CPU 入口；选择“板卡实时”时，Qt 改用 `src/app/scene_runtime.py --board <板卡IP>:9001`，逐张发送原图并接收 FPGA 输出和实际配置回执。检测、分离、表型仍在电脑上以原图运行，FPGA 输出独立展示。`comparison_runtime.py` 本身不接受 `--board`，不能把它与板端入口混用。实际检测使用冻结模型参数与 CPU，记录权重、输入哈希及推理设置。
+
+板端服务启动后，命令行验证单图：
+
+```powershell
+New-Item -ItemType Directory -Force outputs/example | Out-Null
+python src/app/scene_runtime.py --image data/datasets/seeds/raw/soybean_sparse_001.png --species soybean --board 192.168.2.99:9001 --out outputs/example/comparison.json --pheno-out outputs/example/phenotyping.json
+```
+
+批量时将 `--image <图片>` 改为 `--dir <目录>`。一批只选一个品种；带标准品种前缀的混合目录只分析所选品种，不给整批套用同一个 GT。启用检测的板端入口要求原始 640×480 分辨率，不静默缩放后沿用标定。板端入口的输出目录须预先建立。
+
+界面运行配置和新增标定写入 `outputs/config`；没有运行配置时读取随附样例。毫米结果还需用户确认机位一致，并逐目标通过尺寸、setup_id 和中心 ROI 检查。载入旧文件不代表重新实测。
 
 ## 硬件复现
 
@@ -59,11 +70,19 @@ python tools/build.py all --variant integrated_pipeline
 将完整工程结构复制到PYNQ-Z2，先使用已归档板测固件进行自测：
 
 ```bash
+mkdir -p outputs/board
 sudo python3 hardware/board/frame_service.py --selftest 10 --bitfile hardware/firmware/integrated_pipeline_validated.bit
+# 单图、批量和网络帧转发使用 HTTP 9001：
+sudo python3 hardware/board/scene_config_server.py --bitfile hardware/firmware/integrated_pipeline_validated.bit --port 9001 --log outputs/board/http_receipts.jsonl
+```
+
+直接相机实时链路使用 TCP 9000；先停止上面的 HTTP 服务，再启动：
+
+```bash
 sudo python3 hardware/board/frame_server.py --bitfile hardware/firmware/integrated_pipeline_validated.bit --port 9000 --out outputs/board --frames 0
 ```
 
-网络地址、端口和尺寸按实际连接配置。重新构建的位流需要重新完成寄存器核对、Golden对拍、ROI统计和连续运行验证，不能直接继承已归档固件的板测结果。连接拒绝或响应超时进入ERROR/OFFLINE并清空旧预览。
+同一 FPGA/DMA 不允许由两个独立服务进程同时占用；切换 HTTP/TCP 前在原终端 Ctrl+C 停止服务。双电脑相机链路见[双电脑运行手册](dual_pc_runbook.md)。网络地址、端口和尺寸按实际连接配置。重新构建的位流需要重新完成寄存器核对、Golden对拍、ROI统计和连续运行验证，不能直接继承已归档固件的板测结果。连接拒绝或响应超时进入ERROR/OFFLINE并清空旧预览。
 
 ## 结果核验
 
@@ -71,6 +90,8 @@ sudo python3 hardware/board/frame_server.py --bitfile hardware/firmware/integrat
 
 ## 解压后的最短核验路径
 
-RAR解压到新目录后，从包含LICENSE和src/software的根目录运行上述命令。先运行tools/verify.py，再载入data/evidence/phenotyping/objects.json查看历史结果；需要真实推理时运行单图命令。新机器推理数值若不同，先比较environment.json、模型权重SHA、输入SHA与推理参数，再判断算法差异。
+RAR解压到新目录后，从包含LICENSE和src的根目录运行上述命令。先运行tools/verify.py，再载入data/evidence/phenotyping/objects.json查看历史结果；需要真实推理时运行单图命令。新机器推理数值若不同，先比较environment.json、模型权重SHA、输入SHA与推理参数，再判断算法差异。
 
 参数化历史版本同样支持统一构建：python tools/build.py all --variant parameterized。仅校验BD可在HLS导出后运行python tools/build.py vivado --variant parameterized --stage validate。Vivado输出目录必须为空，重复构建通过--out指定新目录。其余保留版本支持C仿真和HLS综合，不宣称全部具备独立Vivado系统脚本。
+
+关闭检测时，单图/批量统一通过scene_runtime.py的--preprocess-only路径，只保存原图、可选FPGA图与回执，不加载模型；板卡来源仍使用HTTP 9001。本地查看不生成FPGA图或表型。

@@ -19,9 +19,9 @@
 from pathlib import Path as _LayoutPath
 import sys as _layout_sys
 PROJECT_ROOT = next(p for p in _LayoutPath(__file__).resolve().parents
-                    if (p / "LICENSE").is_file() and (p / "src/software").is_dir())
-for _layout_rel in ("src/software", "src/software/app", "src/software/adapters",
-                    "src/software/algorithm", "hardware/board", "hardware/drivers"):
+                    if (p / "LICENSE").is_file() and (p / "src").is_dir())
+for _layout_rel in ("src", "src/app", "src/adapters",
+                    "src/algorithm", "hardware/board", "hardware/drivers"):
     _layout_sys.path.insert(0, str(PROJECT_ROOT / _layout_rel))
 
 import argparse
@@ -37,7 +37,7 @@ from PIL import Image, ImageOps
 # 在仓库里跑时会自动去 app/python/ 找 run_pipeline.py。
 _HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(_HERE))
-sys.path.insert(0, str(_HERE.parents[1] / "src/software/app"))
+sys.path.insert(0, str(_HERE.parents[1] / "src/app"))
 
 from edge_morph_driver import (                     # noqa: E402
     SobelParamDriver, compare, edge_reference, morph_reference,

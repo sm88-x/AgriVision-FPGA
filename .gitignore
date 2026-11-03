@@ -16,7 +16,6 @@ NA/
 *.o
 *.obj
 *.user
-submission/*.rar
 
 # Independent competition deliverables stay outside the source project.
 docs/report/

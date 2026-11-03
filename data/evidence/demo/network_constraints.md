@@ -6,15 +6,15 @@
 
 | 项 | 结果 |
 | --- | --- |
-| 电脑1 发送端 `src/software/app/timestamped_frame_sender.py` | 摄像头/图片 → JPEG → TCP（4B 大端长度前缀）；断线自动重连 |
-| 电脑2 后端 `src/software/app/network_backend.py` | 监听端口 → 收帧 → 检测 → 写 `live_status.json` + 三张预览图 |
-| Qt 主控 `src/software/ui` | 数据源新增“网络摄像头”、端口设置、连接/断开按钮、网络状态行；编译通过 |
+| 电脑1 发送端 `src/app/timestamped_frame_sender.py` | 摄像头/图片 → JPEG → TCP（4B 大端长度前缀）；断线自动重连 |
+| 电脑2 后端 `src/app/network_backend.py` | 监听端口 → 收帧 → 检测 → 写 `live_status.json` + 三张预览图 |
+| Qt 主控 `src/ui` | 数据源新增“网络摄像头”、端口设置、连接/断开按钮、网络状态行；编译通过 |
 | 单机闭环（localhost 发送） | 25 帧到达 → 真模型（YOLO）检出 14 粒 → Qt 等够 5 帧自动截图并正常退出 |
 | 断线行为 | 发送端首次连接被拒（后端还在加载模型）后自动重试成功；修好为“先监听、后加载模型”后已能首连成功 |
 | 接收记录 | `network_frames.csv` 逐帧记录 frame_id / 收帧时间 / 字节数 / 解码耗时 / 检测耗时 / 粒数 / fps |
 | **最新帧优先** | 接收线程只留最新一帧，旧帧覆盖丢弃并计入 `network.dropped`；30 fps 发 60 帧 → 处理 54 帧、丢 6 帧，延迟不随时间增长 |
 | **检测器预热** | 真模型首帧约 2.2 s（torch 初始化），启动时预热一次；不预热时同样 60 帧只会处理 2 帧、丢 58 帧 |
-| **FPGA 模式切换** | Qt 新增 5 档 `preset` 下拉（Seed/Sobel×阈值/腐蚀膨胀/Prewitt），写进请求；状态行显示后端回报的 `src/software/fpga/dma/preset`（真实回执），网络源时自动禁用并提示“不经过 PYNQ” |
+| **FPGA 模式切换** | Qt 新增 5 档 `preset` 下拉（Seed/Sobel×阈值/腐蚀膨胀/Prewitt），写进请求；状态行显示后端回报的 `src/fpga/dma/preset`（真实回执），网络源时自动禁用并提示“不经过 PYNQ” |
 
 证据：`data/evidence/demo/network_interface/qt_net_real_detection.png`（真模型 14 粒）、
 
@@ -56,7 +56,7 @@
 
 7. **FPGA 模式回执只在板卡源验证过代码路径**：`preset` 已写进请求、状态行会显示
 
-   `src/software/fpga/dma/preset`，但当天没有接板，没能在真板上确认“换 preset 后输出确实变了”。
+   `src/fpga/dma/preset`，但当天没有接板，没能在真板上确认“换 preset 后输出确实变了”。
 
 ## 三、踩过的坑（后续别再踩）
 

@@ -3,6 +3,7 @@
 - build.py：Qt、HLS C仿真、综合与完整Vivado重建。
 - run.py：启动当前界面，自动指定后端与Python；Qt运行库路径可通过 --qt-bin 传入。
 - verify.py：无板测试，不连接摄像头或开发板。
-- package.py：使用RAR生成小于200 MB的代码包，验证完整性、解压文件集合与哈希。
 
 所有工具从自身位置定位仓库，可从任意当前目录调用。命令和依赖见根README与docs/reproduction.md。工具安装位置通过PATH或CLI传入，构建和运行产物统一写outputs。
+
+真板HTTP逐帧Golden对拍：`python tools/verify_board.py --host 192.168.2.99 --port 9001 --frames 10`。先按复现指南启动板端HTTP服务，结果写入outputs/board_validation；该入口无模拟回退。离线verify.py中的HTTP夹具不属于真板证据。
